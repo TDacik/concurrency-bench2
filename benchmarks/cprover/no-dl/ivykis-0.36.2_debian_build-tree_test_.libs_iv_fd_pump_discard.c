@@ -563,13 +563,13 @@ extern signed int __sigsetjmp(struct __jmp_buf_tag *, signed int);
 extern void abort(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // balance
 // file ../../../src/iv_avl.c line 192
 static signed int balance(struct iv_avl_node *an);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bits_to_poll_mask
 // file ../../../src/iv_fd_poll.c line 92
 static signed int bits_to_poll_mask(signed int bits);
@@ -1439,7 +1439,7 @@ static inline signed int timespec_gt(struct timespec *a, struct timespec *b);
 extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 // wait4
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 168
-extern signed int wait4(signed int, union anonymous_0, signed int, struct rusage *);
+extern signed int wait4(signed int, int *, signed int, struct rusage *);
 // write
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);

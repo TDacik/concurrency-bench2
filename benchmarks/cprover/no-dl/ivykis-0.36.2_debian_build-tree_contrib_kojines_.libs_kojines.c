@@ -1458,7 +1458,7 @@ static inline signed int timespec_gt(struct timespec *a, struct timespec *b);
 extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 // wait4
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 168
-extern signed int wait4(signed int, union anonymous_1, signed int, struct rusage *);
+extern signed int wait4(signed int, int *, signed int, struct rusage *);
 // write
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);

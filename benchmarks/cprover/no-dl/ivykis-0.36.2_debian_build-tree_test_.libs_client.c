@@ -596,7 +596,7 @@ extern signed int clock_gettime(signed int, struct timespec *);
 extern signed int close(signed int);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous, unsigned int);
+extern signed int connect(signed int, int *, unsigned int);
 // connect_done
 // file ../../../test/client.c line 64
 static void connect_done(void *c);

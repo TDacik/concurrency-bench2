@@ -1339,7 +1339,7 @@ static inline signed int timespec_gt(struct timespec *a, struct timespec *b);
 extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 // wait4
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 168
-extern signed int wait4(signed int, union anonymous, signed int, struct rusage *);
+extern signed int wait4(signed int, int *, signed int, struct rusage *);
 // work
 // file ../../../test/iv_work_test.c line 34
 static void work(void *cookie);
