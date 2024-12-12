@@ -465,9 +465,9 @@ void async_deinit_stream(struct bladerf_stream *stream);
 // async_init_stream
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/async.c line 27
 signed int async_init_stream(struct bladerf_stream **stream, struct bladerf *dev, void * (*callback)(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *), void ***buffers, unsigned long int num_buffers, enum anonymous_9 format, unsigned long int samples_per_buffer, unsigned long int num_transfers, void *user_data);
-// async_init_stream::callback_object
+
 //
-void * callback_object(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *);
+
 // async_run_stream
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/async.c line 138
 signed int async_run_stream(struct bladerf_stream *stream, enum anonymous_0 module);
@@ -711,9 +711,9 @@ void bladerf_init_devinfo(struct bladerf_devinfo *info);
 // bladerf_init_stream
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/bladerf.c line 1055
 signed int bladerf_init_stream(struct bladerf_stream **stream, struct bladerf *dev, void * (*callback)(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *), void ***buffers, unsigned long int num_buffers, enum anonymous_9 format, unsigned long int samples_per_buffer, unsigned long int num_transfers, void *data);
-// bladerf_init_stream::callback_object
+
 //
-void * callback_object(struct bladerf *, struct bladerf_stream *, struct bladerf_metadata *, void *, unsigned long int, void *);
+
 // bladerf_instance_matches
 // file /srv/jenkins-slave/workspace/sid-goto-cc-bladerf/bladerf-0.2016.01~rc1/host/libraries/libbladeRF/src/devinfo.h line 53
 _Bool bladerf_instance_matches(struct bladerf_devinfo *a, struct bladerf_devinfo *b);
@@ -1299,9 +1299,9 @@ void libusb_exit(struct libusb_context *);
 // libusb_fill_bulk_transfer
 // file /usr/include/libusb-1.0/libusb.h line 1545
 static inline void libusb_fill_bulk_transfer(struct libusb_transfer *transfer, struct libusb_device_handle *dev_handle, unsigned char endpoint, unsigned char *buffer, signed int length, void (*callback)(struct libusb_transfer *), void *user_data, unsigned int timeout);
-// libusb_fill_bulk_transfer::callback_object
+
 //
-void callback_object(struct libusb_transfer *);
+
 // libusb_free_config_descriptor
 // file /usr/include/libusb-1.0/libusb.h line 1329
 void libusb_free_config_descriptor(struct libusb_config_descriptor *);
