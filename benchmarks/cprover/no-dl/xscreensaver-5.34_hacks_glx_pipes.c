@@ -771,7 +771,7 @@ extern void XtVaSetValues(struct _WidgetRec *, ...);
 extern void __assert_fail(const char *, const char *, unsigned int, const char *);
 // __atomic_exchange_n
 // file thread_util.c line 993 function io_thread_return
-signed int __atomic_exchange_n(void);
+signed int __atomic_exchange_n();
 // __atomic_load_n
 // file thread_util.c line 1006 function io_thread_is_done
 signed int __atomic_load_n(void);
