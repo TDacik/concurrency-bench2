@@ -725,7 +725,7 @@ signed int __sync_val_compare_and_swap();
 extern void _exit(signed int);
 // accept4
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 251
-extern signed int accept4(signed int, union anonymous_48, unsigned int *, signed int);
+extern signed int accept4(signed int, struct sockaddr *, unsigned int *, signed int);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -1224,9 +1224,9 @@ unsigned int apr_hash_count(struct apr_hash_t *ht);
 // apr_hash_do
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_hash.c line 527
 signed int apr_hash_do(signed int (*comp)(void *, const void *, signed long int, const void *), void *rec, const struct apr_hash_t *ht);
-// apr_hash_do::comp_object
+
 //
-signed int comp_object(void *, const void *, signed long int, const void *);
+
 // apr_hash_first
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_hash.c line 140
 struct apr_hash_index_t * apr_hash_first(struct apr_pool_t *p, struct apr_hash_t *ht);
@@ -1239,9 +1239,9 @@ struct apr_hash_t * apr_hash_make(struct apr_pool_t *pool);
 // apr_hash_make_custom
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_hash.c line 114
 struct apr_hash_t * apr_hash_make_custom(struct apr_pool_t *pool, unsigned int (*hash_func)(const char *, signed long int *));
-// apr_hash_make_custom::hash_func_object
+
 //
-unsigned int hash_func_object(const char *, signed long int *);
+
 // apr_hash_merge
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_hash.c line 421
 struct apr_hash_t * apr_hash_merge(struct apr_pool_t *p, const struct apr_hash_t *overlay, const struct apr_hash_t *base, void * (*merger)(struct apr_pool_t *, const void *, signed long int, const void *, const void *, const void *), const void *data);
@@ -1485,9 +1485,9 @@ signed int apr_pollcb_create_ex(struct apr_pollcb_t **ret_pollcb, unsigned int s
 // apr_pollcb_poll
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollcb.c line 169
 signed int apr_pollcb_poll(struct apr_pollcb_t *pollcb, signed long int timeout, signed int (*func)(void *, struct apr_pollfd_t *), void *baton);
-// apr_pollcb_poll::func_object
+
 //
-signed int func_object(void *, struct apr_pollfd_t *);
+
 // apr_pollcb_remove
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/pollcb.c line 162
 signed int apr_pollcb_remove(struct apr_pollcb_t *pollcb, struct apr_pollfd_t *descriptor);
@@ -1524,48 +1524,48 @@ signed int (*apr_pool_abort_get(struct apr_pool_t *pool))(signed int);
 // apr_pool_abort_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2064
 void apr_pool_abort_set(signed int (*abort_fn)(signed int), struct apr_pool_t *pool);
-// apr_pool_abort_set::abort_fn_object
+
 //
-signed int abort_fn_object(signed int);
+
 // apr_pool_allocator_get
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2087
 struct apr_allocator_t * apr_pool_allocator_get(struct apr_pool_t *pool);
 // apr_pool_child_cleanup_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_pools.h line 679
 void apr_pool_child_cleanup_set(struct apr_pool_t *p, const void *data, signed int (*plain_cleanup_fn)(void *), signed int (*child_cleanup_fn)(void *));
-// apr_pool_child_cleanup_set::child_cleanup_fn_object
+
 //
-signed int child_cleanup_fn_object(void *);
-// apr_pool_child_cleanup_set::plain_cleanup_fn_object
+
+
 //
-signed int plain_cleanup_fn_object(void *);
+
 // apr_pool_cleanup_for_exec
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2378
 void apr_pool_cleanup_for_exec(void);
 // apr_pool_cleanup_kill
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_pools.h line 663
 void apr_pool_cleanup_kill(struct apr_pool_t *p, const void *data, signed int (*cleanup_fn)(void *));
-// apr_pool_cleanup_kill::cleanup_fn_object
+
 //
-signed int cleanup_fn_object(void *);
+
 // apr_pool_cleanup_null
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_pools.h line 707
 signed int apr_pool_cleanup_null(void *data);
 // apr_pool_cleanup_register
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_pools.h line 628
 void apr_pool_cleanup_register(struct apr_pool_t *p, const void *data, signed int (*plain_cleanup_fn)(void *), signed int (*child_cleanup_fn)(void *));
-// apr_pool_cleanup_register::child_cleanup_fn_object
+
 //
-signed int child_cleanup_fn_object(void *);
-// apr_pool_cleanup_register::plain_cleanup_fn_object
+
+
 //
-signed int plain_cleanup_fn_object(void *);
+
 // apr_pool_cleanup_run
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_pools.h line 696
 signed int apr_pool_cleanup_run(struct apr_pool_t *p, void *data, signed int (*cleanup_fn)(void *));
-// apr_pool_cleanup_run::cleanup_fn_object
+
 //
-signed int cleanup_fn_object(void *);
+
 // apr_pool_clear
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 757
 void apr_pool_clear(struct apr_pool_t *pool);
@@ -1575,39 +1575,39 @@ void apr_pool_clear_debug(struct apr_pool_t *pool, const char *file_line);
 // apr_pool_create_core_ex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 951
 signed int apr_pool_create_core_ex(struct apr_pool_t **newpool, signed int (*abort_fn)(signed int), struct apr_allocator_t *allocator);
-// apr_pool_create_core_ex::abort_fn_object
+
 //
-signed int abort_fn_object(signed int);
+
 // apr_pool_create_core_ex_debug
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2563
 signed int apr_pool_create_core_ex_debug(struct apr_pool_t **newpool, signed int (*abort_fn)(signed int), struct apr_allocator_t *allocator, const char *file_line);
-// apr_pool_create_core_ex_debug::abort_fn_object
+
 //
-signed int abort_fn_object(signed int);
+
 // apr_pool_create_ex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/test/../include/apr_pools.h line 196
 signed int apr_pool_create_ex(struct apr_pool_t **newpool, struct apr_pool_t *parent, signed int (*abort_fn)(signed int), struct apr_allocator_t *allocator);
-// apr_pool_create_ex::abort_fn_object
+
 //
-signed int abort_fn_object(signed int);
+
 // apr_pool_create_ex_debug
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2554
 signed int apr_pool_create_ex_debug(struct apr_pool_t **newpool, struct apr_pool_t *parent, signed int (*abort_fn)(signed int), struct apr_allocator_t *allocator, const char *file_line);
-// apr_pool_create_ex_debug::abort_fn_object
+
 //
-signed int abort_fn_object(signed int);
+
 // apr_pool_create_unmanaged_ex
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 958
 signed int apr_pool_create_unmanaged_ex(struct apr_pool_t **newpool, signed int (*abort_fn)(signed int), struct apr_allocator_t *allocator);
-// apr_pool_create_unmanaged_ex::abort_fn_object
+
 //
-signed int abort_fn_object(signed int);
+
 // apr_pool_create_unmanaged_ex_debug
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2571
 signed int apr_pool_create_unmanaged_ex_debug(struct apr_pool_t **newpool, signed int (*abort_fn)(signed int), struct apr_allocator_t *allocator, const char *file_line);
-// apr_pool_create_unmanaged_ex_debug::abort_fn_object
+
 //
-signed int abort_fn_object(signed int);
+
 // apr_pool_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 798
 void apr_pool_destroy(struct apr_pool_t *pool);
@@ -1629,9 +1629,9 @@ struct apr_pool_t * apr_pool_parent_get(struct apr_pool_t *pool);
 // apr_pool_pre_cleanup_register
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2228
 void apr_pool_pre_cleanup_register(struct apr_pool_t *p, const void *data, signed int (*plain_cleanup_fn)(void *));
-// apr_pool_pre_cleanup_register::plain_cleanup_fn_object
+
 //
-signed int plain_cleanup_fn_object(void *);
+
 // apr_pool_tag
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/memory/unix/apr_pools.c line 2118
 void apr_pool_tag(struct apr_pool_t *pool, const char *tag);
@@ -1713,7 +1713,7 @@ void apr_proc_other_child_refresh_all(signed int reason);
 // apr_proc_other_child_register
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/misc/unix/otherchild.c line 55
 void apr_proc_other_child_register(struct apr_proc_t *proc, void (*maintenance)(signed int, void *, signed int), void *data, struct apr_file_t *write_fd, struct apr_pool_t *p);
-// apr_proc_other_child_register::maintenance_object
+
 //
 void maintenance_object(signed int, void *, signed int);
 // apr_proc_other_child_unregister
@@ -1734,9 +1734,9 @@ signed int apr_procattr_child_err_set(struct apr_procattr_t *attr, struct apr_fi
 // apr_procattr_child_errfn_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/proc.c line 293
 signed int apr_procattr_child_errfn_set(struct apr_procattr_t *attr, void (*errfn)(struct apr_pool_t *, signed int, const char *));
-// apr_procattr_child_errfn_set::errfn_object
+
 //
-void errfn_object(struct apr_pool_t *, signed int, const char *);
+
 // apr_procattr_child_in_set
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/proc.c line 93
 signed int apr_procattr_child_in_set(struct apr_procattr_t *attr, struct apr_file_t *child_in, struct apr_file_t *parent_in);
@@ -1872,9 +1872,9 @@ unsigned long int apr_shm_size_get(const struct apr_shm_t *m);
 // apr_signal
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/include/apr_signal.h line 64
 void (*apr_signal(signed int signo, void (*func)(signed int)))(signed int);
-// apr_signal::func_object
+
 //
-void func_object(signed int);
+
 // apr_signal_block
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/signals.c line 435
 signed int apr_signal_block(signed int signum);
@@ -1887,9 +1887,9 @@ void apr_signal_init(struct apr_pool_t *pglobal);
 // apr_signal_thread
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/signals.c line 319
 signed int apr_signal_thread(signed int (*signal_handler)(signed int));
-// apr_signal_thread::1::sig_func_object
+
 //
-signed int sig_func_object(signed int);
+
 // apr_signal_thread::signal_handler_object
 //
 signed int signal_handler_object(signed int);
@@ -1899,9 +1899,9 @@ signed int apr_signal_unblock(signed int signum);
 // apr_skiplist_add_index
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 262
 void apr_skiplist_add_index(struct apr_skiplist *sl, signed int (*comp)(void *, void *), signed int (*compk)(void *, void *));
-// apr_skiplist_add_index::comp_object
+
 //
-signed int comp_object(void *, void *);
+
 // apr_skiplist_add_index::compk_object
 //
 signed int compk_object(void *, void *);
@@ -1920,9 +1920,9 @@ void * apr_skiplist_find(struct apr_skiplist *sl, void *data, struct apr_skiplis
 // apr_skiplist_find_compare
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 331
 void * apr_skiplist_find_compare(struct apr_skiplist *sli, void *data, struct apr_skiplistnode **iter, signed int (*comp)(void *, void *));
-// apr_skiplist_find_compare::comp_object
+
 //
-signed int comp_object(void *, void *);
+
 // apr_skiplist_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 132
 void apr_skiplist_free(struct apr_skiplist *sl, void *mem);
@@ -1938,9 +1938,9 @@ struct apr_skiplistnode * apr_skiplist_insert(struct apr_skiplist *sl, void *dat
 // apr_skiplist_insert_compare
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 404
 struct apr_skiplistnode * apr_skiplist_insert_compare(struct apr_skiplist *sl, void *data, signed int (*comp)(void *, void *));
-// apr_skiplist_insert_compare::comp_object
+
 //
-signed int comp_object(void *, void *);
+
 // apr_skiplist_merge
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 696
 struct apr_skiplist * apr_skiplist_merge(struct apr_skiplist *sl1, struct apr_skiplist *sl2);
@@ -1974,18 +1974,18 @@ void myfree_object(void *);
 // apr_skiplist_remove_compare
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 594
 signed int apr_skiplist_remove_compare(struct apr_skiplist *sli, void *data, void (*myfree)(void *), signed int (*comp)(void *, void *));
-// apr_skiplist_remove_compare::comp_object
+
 //
-signed int comp_object(void *, void *);
+
 // apr_skiplist_remove_compare::myfree_object
 //
 void myfree_object(void *);
 // apr_skiplist_set_compare
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 249
 void apr_skiplist_set_compare(struct apr_skiplist *sl, signed int (*comp)(void *, void *), signed int (*compk)(void *, void *));
-// apr_skiplist_set_compare::comp_object
+
 //
-signed int comp_object(void *, void *);
+
 // apr_skiplist_set_compare::compk_object
 //
 signed int compk_object(void *, void *);
@@ -2148,9 +2148,9 @@ struct apr_table_t * apr_table_copy(struct apr_pool_t *p, const struct apr_table
 // apr_table_do
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_tables.c line 918
 signed int apr_table_do(signed int (*comp)(void *, const char *, const char *), void *rec, const struct apr_table_t *t, ...);
-// apr_table_do::comp_object
+
 //
-signed int comp_object(void *, const char *, const char *);
+
 // apr_table_elts
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_tables.c line 390
 const struct apr_array_header_t * apr_table_elts(const struct apr_table_t *t);
@@ -2187,9 +2187,9 @@ void apr_table_unset(struct apr_table_t *t, const char *key);
 // apr_table_vdo
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_tables.c line 961
 signed int apr_table_vdo(signed int (*comp)(void *, const char *, const char *), void *rec, const struct apr_table_t *t, __builtin_va_list vp);
-// apr_table_vdo::comp_object
+
 //
-signed int comp_object(void *, const char *, const char *);
+
 // apr_temp_dir_get
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/file_io/unix/tempdir.c line 40
 signed int apr_temp_dir_get(const char **temp_dir, struct apr_pool_t *p);
@@ -2223,9 +2223,9 @@ signed int apr_thread_cond_wait(struct apr_thread_cond_t *cond, struct apr_threa
 // apr_thread_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 145
 signed int apr_thread_create(struct apr_thread_t **new, struct apr_threadattr_t *attr, void * (*func)(struct apr_thread_t *, void *), void *data, struct apr_pool_t *pool);
-// apr_thread_create::func_object
+
 //
-void * func_object(struct apr_thread_t *, void *);
+
 // apr_thread_data_get
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 266
 signed int apr_thread_data_get(void **data, const char *key, struct apr_thread_t *thread);
@@ -2265,9 +2265,9 @@ signed int apr_thread_mutex_unlock(struct apr_thread_mutex_t *mutex);
 // apr_thread_once
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 313
 signed int apr_thread_once(struct apr_thread_once_t *control, void (*func)(void));
-// apr_thread_once::func_object
+
 //
-void func_object(void);
+
 // apr_thread_once_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/thread.c line 303
 signed int apr_thread_once_init(struct apr_thread_once_t **control, struct apr_pool_t *p);
@@ -2412,9 +2412,9 @@ const char * apr_version_string(void);
 // apr_vformatter
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_snprintf.c line 683
 signed int apr_vformatter(signed int (*flush_func)(struct apr_vformatter_buff_t *), struct apr_vformatter_buff_t *vbuff, const char *fmt, __builtin_va_list ap);
-// apr_vformatter::flush_func_object
+
 //
-signed int flush_func_object(struct apr_vformatter_buff_t *);
+
 // apr_vsnprintf
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_snprintf.c line 1388
 signed int apr_vsnprintf(char *buf, unsigned long int len, const char *format, void **ap);
@@ -2426,7 +2426,7 @@ signed int apr_wait_for_io_or_timeout(struct apr_file_t *f, struct apr_socket_t 
 extern signed int atoi(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_48, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // c2x
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/encoding/apr_escape.c line 329
 static inline unsigned char * c2x(unsigned int what, unsigned char prefix, unsigned char *where);
@@ -2465,7 +2465,7 @@ static signed int compare_left(const char *a, const char *b);
 static signed int compare_right(const char *a, const char *b);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_48, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // conv_10
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/strings/apr_snprintf.c line 330
 static char * conv_10(signed int num, signed int is_unsigned, signed int *is_negative, char *buf_end, unsigned long int *len);
@@ -2708,7 +2708,7 @@ extern signed int getnameinfo(struct sockaddr *, unsigned int, char *, unsigned 
 extern char * getpass(const char *);
 // getpeername
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 141
-extern signed int getpeername(signed int, union anonymous_48, unsigned int *);
+extern signed int getpeername(signed int, struct sockaddr *, unsigned int *);
 // getpid
 // file /usr/include/unistd.h line 628
 extern signed int getpid(void);
@@ -2726,7 +2726,7 @@ extern signed int getpwuid_r(unsigned int, struct passwd *, char *, unsigned lon
 extern signed int getservbyname_r(const char *, const char *, struct servent *, char *, unsigned long int, struct servent ** restrict );
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous_48, unsigned int *);
+extern signed int getsockname(signed int, struct sockaddr *, unsigned int *);
 // getsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 219
 extern signed int getsockopt(signed int, signed int, signed int, void *, unsigned int *);
@@ -2772,12 +2772,12 @@ static signed int impl_pollcb_poll(struct apr_pollcb_t *pollcb, signed long int 
 // impl_pollcb_poll_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/poll.c line 391
 static signed int impl_pollcb_poll_link1(struct apr_pollcb_t *pollcb_link1, signed long int timeout_link1, signed int (*func_link1)(void *, struct apr_pollfd_t *), void *baton_link1);
-// impl_pollcb_poll::func_link1_object
+
 //
-signed int func_link1_object(void *, struct apr_pollfd_t *);
-// impl_pollcb_poll::func_object
+
+
 //
-signed int func_object(void *, struct apr_pollfd_t *);
+
 // impl_pollcb_remove
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/poll/unix/epoll.c line 410
 static signed int impl_pollcb_remove(struct apr_pollcb_t *pollcb, struct apr_pollfd_t *descriptor);
@@ -3227,7 +3227,7 @@ extern signed int readdir_r(struct __dirstream *, struct dirent *, struct dirent
 extern void * realloc(void *, unsigned long int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous_48, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // rekey
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/random/unix/apr_random.c line 197
 static void rekey(struct apr_random_t *g);
@@ -3290,7 +3290,7 @@ extern signed int semop(signed int, struct sembuf *, unsigned long int);
 extern signed long int sendfile(signed int, signed int, signed long int *, unsigned long int);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_48, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // serr
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/misc/unix/getopt.c line 181
 static signed int serr(struct apr_getopt_t *os, const char *err, const char *str, signed int status);
@@ -3390,9 +3390,9 @@ static void skiplisti_destroy(void *vsl);
 // skiplisti_find_compare
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 300
 static signed int skiplisti_find_compare(struct apr_skiplist *sl, void *data, struct apr_skiplistnode **ret, signed int (*comp)(void *, void *));
-// skiplisti_find_compare::comp_object
+
 //
-signed int comp_object(void *, void *);
+
 // skiplisti_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/tables/apr_skiplist.c line 208
 static signed int skiplisti_init(struct apr_skiplist **s, struct apr_pool_t *p);
