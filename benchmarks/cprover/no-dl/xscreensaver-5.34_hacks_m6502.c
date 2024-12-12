@@ -864,9 +864,9 @@ static void analogtv_thread_draw_lines(void *thread_raw);
 // apply
 // file asm6502.c line 1196
 static unsigned char apply(struct AsmLine *listp, unsigned char (*fn)(struct AsmLine *, void *), void *arg);
-// apply::fn_object
+
 //
-unsigned char fn_object(struct AsmLine *, void *);
+
 // assignOpCodes
 // file asm6502.c line 1005
 static void assignOpCodes(struct anonymous_61 *opcodes);
@@ -1647,9 +1647,9 @@ void threadpool_destroy(struct threadpool *self);
 // threadpool_run
 // file ./../utils/thread_util.h line 306
 void threadpool_run(struct threadpool *self, void (*func)(void *));
-// threadpool_run::func_object
+
 //
-void func_object(void *);
+
 // threadpool_wait
 // file ./../utils/thread_util.h line 307
 void threadpool_wait(struct threadpool *self);

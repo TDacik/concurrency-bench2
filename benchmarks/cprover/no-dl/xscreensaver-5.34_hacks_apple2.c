@@ -1518,9 +1518,9 @@ void threadpool_destroy(struct threadpool *self);
 // threadpool_run
 // file ./../utils/thread_util.h line 306
 void threadpool_run(struct threadpool *self, void (*func)(void *));
-// threadpool_run::func_object
+
 //
-void func_object(void *);
+
 // threadpool_wait
 // file ./../utils/thread_util.h line 307
 void threadpool_wait(struct threadpool *self);

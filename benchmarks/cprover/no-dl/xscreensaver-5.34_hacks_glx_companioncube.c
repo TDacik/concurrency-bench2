@@ -1503,9 +1503,9 @@ void threadpool_destroy(struct threadpool *self);
 // threadpool_run
 // file thread_util.c line 826
 void threadpool_run(struct threadpool *self, void (*func)(void *));
-// threadpool_run::func_object
+
 //
-void func_object(void *);
+
 // threadpool_wait
 // file thread_util.c line 858
 void threadpool_wait(struct threadpool *self);
