@@ -757,7 +757,7 @@ extern void __assert_fail(const char *, const char *, unsigned int, const char *
 signed int __atomic_exchange_n();
 // __atomic_load_n
 // file thread_util.c line 1006 function io_thread_is_done
-signed int __atomic_load_n(void);
+signed int __atomic_load_n();
 // __ctype_b_loc
 // file /usr/include/ctype.h line 79
 extern const unsigned short int ** __ctype_b_loc(void);

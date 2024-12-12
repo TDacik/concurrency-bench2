@@ -692,7 +692,7 @@ extern void __assert_fail(const char *, const char *, unsigned int, const char *
 signed int __atomic_exchange_n();
 // __atomic_load_n
 // file thread_util.c line 1006 function io_thread_is_done
-signed int __atomic_load_n(void);
+signed int __atomic_load_n();
 // __isoc99_sscanf
 // file /usr/include/stdio.h line 448
 extern signed int __isoc99_sscanf(const char *, const char *, ...);
