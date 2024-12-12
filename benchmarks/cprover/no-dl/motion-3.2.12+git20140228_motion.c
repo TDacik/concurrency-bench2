@@ -1287,7 +1287,7 @@ extern signed int _setjmp(struct __jmp_buf_tag *);
 extern signed int abs(signed int);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_7, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // acceptnonblocking
 // file webhttpd.c line 2359
 static signed int acceptnonblocking(signed int serverfd, signed int timeout);
@@ -1491,7 +1491,7 @@ void bayer2rgb24(unsigned char *dst, unsigned char *src, signed long int width, 
 static void become_daemon(void);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_7, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bzero
 // file /usr/include/string.h line 454
 extern void bzero(void *, unsigned long int);
@@ -1536,7 +1536,7 @@ static struct context ** config_thread(struct context **cnt, const char *str, si
 const char * config_type(struct anonymous *configparam);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_7, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // context_destroy
 // file motion.c line 270
 static void context_destroy(struct context *cnt);
@@ -1588,9 +1588,9 @@ static signed int dilate9(unsigned char *img, signed int width, signed int heigh
 // do_client_auth
 // file stream.c line 628
 static void do_client_auth(struct context *cnt, signed int sc);
-// do_client_auth::1::handle_func_object
+
 //
-void * handle_func_object(void *);
+
 // draw_text
 // file motion.h line 281
 signed int draw_text(unsigned char *image, unsigned int startx, unsigned int starty, unsigned int width, const char *text, unsigned int factor);
@@ -1854,7 +1854,7 @@ extern signed int getopt(signed int, char * const *, const char *);
 extern signed int getpid(void);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous_7, unsigned int *);
+extern signed int getsockname(signed int, struct sockaddr *, unsigned int *);
 // getsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 219
 extern signed int getsockopt(signed int, signed int, signed int, void *, unsigned int *);
@@ -1885,9 +1885,9 @@ signed int header_get(struct netcam_context *netcam, char **hdr, enum header_get
 // header_process
 // file netcam_wget.h line 91
 signed int header_process(const char *header, const char *name, signed int (*procfun)(const char *, void *), void *arg);
-// header_process::procfun_object
+
 //
-signed int procfun_object(const char *, void *);
+
 // header_strdup
 // file netcam_wget.c line 189
 signed int header_strdup(const char *header, void *closure);

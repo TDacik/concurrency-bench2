@@ -811,7 +811,7 @@ extern signed int base64_encode(const char *str, signed int length, char *b64sto
 extern char * basic_authentication_encode(const char *user, const char *passwd);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_26, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // checkOptions
 // file medusa.c line 98
 signed int checkOptions(signed int argc, char **argv, struct __sAudit *_psAudit);
@@ -826,7 +826,7 @@ static void clone_attributes(union pthread_attr_t *new_attr, union pthread_attr_
 extern signed int close(signed int);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_26, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // create_worker
 // file medusa-thread-pool.c line 77
 static signed int create_worker(struct thr_pool *pool);
@@ -1295,9 +1295,9 @@ void __cancel_routine_object(void *);
 // worker_thread::1::1::__cancel_routine_object
 //
 void __cancel_routine_object(void *);
-// worker_thread::1::func_object
+
 //
-void * func_object(void *);
+
 // writeError
 // file medusa-trace.h line 47
 void writeError(signed int iLevel, char *pMsg, ...);

@@ -440,21 +440,21 @@ static void * fbxine_keyboard_loop(void *dummy);
 // fbxine_register_abort
 // file callback.h line 32
 void fbxine_register_abort(struct fbxine_callback *callback, void (*func)(void));
-// fbxine_register_abort::func_object
+
 //
-void func_object(void);
+
 // fbxine_register_callback
 // file callback.c line 30
 static void fbxine_register_callback(struct fbxine_callback **top, struct fbxine_callback *callback, void (*func)(void));
-// fbxine_register_callback::func_object
+
 //
-void func_object(void);
+
 // fbxine_register_exit
 // file callback.h line 30
 void fbxine_register_exit(struct fbxine_callback *callback, void (*func)(void));
-// fbxine_register_exit::func_object
+
 //
-void func_object(void);
+
 // fclose
 // file /usr/include/stdio.h line 237
 extern signed int fclose(struct _IO_FILE *);

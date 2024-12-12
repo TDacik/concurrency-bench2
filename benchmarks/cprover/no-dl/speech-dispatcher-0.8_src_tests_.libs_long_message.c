@@ -214,7 +214,7 @@ extern signed int atoi(const char *);
 extern signed int close(signed int);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_1, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // escape_dot
 // file libspeechd.c line 1774
 static char * escape_dot(const char *text);

@@ -356,9 +356,9 @@ static inline char * SPF_data_str_link1(union SPF_data_union *data_link1);
 // SPF_data_str_link2
 // file ../../src/include/spf_internal.h line 114
 static inline char * SPF_data_str_link2(union SPF_data_union *data_link2);
-// SPF_debug_handler_object
+
 //
-void SPF_debug_handler_object(const char *, signed int, const char *);
+
 // SPF_debug_stdio
 // file ../../src/include/spf_log.h line 90
 void SPF_debug_stdio(const char *file, signed int line, const char *errmsg);
@@ -491,9 +491,9 @@ enum SPF_errcode_t SPF_error_code(struct SPF_error_struct *err);
 // SPF_error_errorp
 // file ../../src/include/spf_response.h line 222
 char SPF_error_errorp(struct SPF_error_struct *err);
-// SPF_error_handler_object
+
 //
-void SPF_error_handler_object(const char *, signed int, const char *);
+
 // SPF_error_message
 // file ../../src/include/spf_response.h line 221
 const char * SPF_error_message(struct SPF_error_struct *err);
@@ -542,9 +542,9 @@ static enum SPF_errcode_t SPF_i_set_received_spf(struct SPF_response_struct *spf
 // SPF_i_set_smtp_comment
 // file spf_interpret.c line 85
 static enum SPF_errcode_t SPF_i_set_smtp_comment(struct SPF_response_struct *spf_response);
-// SPF_info_handler_object
+
 //
-void SPF_info_handler_object(const char *, signed int, const char *);
+
 // SPF_info_stdio
 // file ../../src/include/spf_log.h line 89
 void SPF_info_stdio(const char *file, signed int line, const char *errmsg);
@@ -896,9 +896,9 @@ static inline struct anonymous * SPF_voidp2spfhook(void *hook);
 // SPF_voidp2spfhook_link1
 // file spf_dns_zone.c line 83
 static inline struct anonymous_16 * SPF_voidp2spfhook_link1(void *hook_link1);
-// SPF_warning_handler_object
+
 //
-void SPF_warning_handler_object(const char *, signed int, const char *);
+
 // SPF_warning_stdio
 // file ../../src/include/spf_log.h line 88
 void SPF_warning_stdio(const char *file, signed int line, const char *errmsg);
@@ -1009,13 +1009,13 @@ static inline unsigned long int _align_sz_link2(unsigned long int s_link2);
 extern void abort(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_8, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // atol
 // file /usr/include/stdlib.h line 150
 extern signed long int atol(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_8, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -1210,7 +1210,7 @@ extern signed int pthread_setspecific(unsigned int, const void *);
 extern void * realloc(void *, unsigned long int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous_8, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // request_check
 // file spfd.c line 249
 static const char * request_check(struct _request_t *req);
@@ -1237,7 +1237,7 @@ extern signed int select(signed int, struct anonymous_9 *, struct anonymous_9 *,
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_8, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // setsection
 // file __ns_initparse.c line 198
 static void setsection(struct __ns_msg *msg, enum __ns_sect sect);

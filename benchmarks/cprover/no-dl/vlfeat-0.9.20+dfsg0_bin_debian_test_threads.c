@@ -370,15 +370,15 @@ static unsigned long long int _vl_fisher_encode_f(float *enc, const float *means
 // _vl_gmm_apply_bounds_d
 // file vl/gmm.c line 1006
 static void _vl_gmm_apply_bounds_d(struct _VlGMM *self);
-// _vl_gmm_apply_bounds_d::_tmp::return_value_vl_get_printf_func_1_object
+
 //
-signed int return_value_vl_get_printf_func_1_object(const char *, ...);
+
 // _vl_gmm_apply_bounds_f
 // file vl/gmm.c line 1006
 static void _vl_gmm_apply_bounds_f(struct _VlGMM *self);
-// _vl_gmm_apply_bounds_f::_tmp::return_value_vl_get_printf_func_1_object
+
 //
-signed int return_value_vl_get_printf_func_1_object(const char *, ...);
+
 // _vl_gmm_compute_init_sigma_d
 // file vl/gmm.c line 1377
 static void _vl_gmm_compute_init_sigma_d(struct _VlGMM *self, const double *data, double *initSigma, unsigned long long int dimension, unsigned long long int numData);
@@ -388,45 +388,45 @@ static void _vl_gmm_compute_init_sigma_f(struct _VlGMM *self, const float *data,
 // _vl_gmm_em_d
 // file vl/gmm.c line 1221
 static double _vl_gmm_em_d(struct _VlGMM *self, const double *data, unsigned long long int numData);
-// _vl_gmm_em_d::_tmp::return_value_vl_get_printf_func_1_object
+
 //
-signed int return_value_vl_get_printf_func_1_object(const char *, ...);
-// _vl_gmm_em_d::_tmp::return_value_vl_get_printf_func_2_object
+
+
 //
-signed int return_value_vl_get_printf_func_2_object(const char *, ...);
-// _vl_gmm_em_d::_tmp::return_value_vl_get_printf_func_4_object
+
+
 //
-signed int return_value_vl_get_printf_func_4_object(const char *, ...);
-// _vl_gmm_em_d::_tmp::return_value_vl_get_printf_func_5_object
+
+
 //
-signed int return_value_vl_get_printf_func_5_object(const char *, ...);
-// _vl_gmm_em_d::_tmp::return_value_vl_get_printf_func_6_object
+
+
 //
-signed int return_value_vl_get_printf_func_6_object(const char *, ...);
-// _vl_gmm_em_d::_tmp::return_value_vl_get_printf_func_7_object
+
+
 //
-signed int return_value_vl_get_printf_func_7_object(const char *, ...);
+
 // _vl_gmm_em_f
 // file vl/gmm.c line 1221
 static double _vl_gmm_em_f(struct _VlGMM *self, const float *data, unsigned long long int numData);
-// _vl_gmm_em_f::_tmp::return_value_vl_get_printf_func_1_object
+
 //
-signed int return_value_vl_get_printf_func_1_object(const char *, ...);
-// _vl_gmm_em_f::_tmp::return_value_vl_get_printf_func_2_object
+
+
 //
-signed int return_value_vl_get_printf_func_2_object(const char *, ...);
-// _vl_gmm_em_f::_tmp::return_value_vl_get_printf_func_4_object
+
+
 //
-signed int return_value_vl_get_printf_func_4_object(const char *, ...);
-// _vl_gmm_em_f::_tmp::return_value_vl_get_printf_func_5_object
+
+
 //
-signed int return_value_vl_get_printf_func_5_object(const char *, ...);
-// _vl_gmm_em_f::_tmp::return_value_vl_get_printf_func_6_object
+
+
 //
-signed int return_value_vl_get_printf_func_6_object(const char *, ...);
-// _vl_gmm_em_f::_tmp::return_value_vl_get_printf_func_7_object
+
+
 //
-signed int return_value_vl_get_printf_func_7_object(const char *, ...);
+
 // _vl_gmm_init_with_kmeans_d
 // file vl/gmm.c line 1316
 static void _vl_gmm_init_with_kmeans_d(struct _VlGMM *self, const double *data, unsigned long long int numData, struct _VlKMeans *kmeansInit);
@@ -442,60 +442,60 @@ static void _vl_gmm_init_with_rand_data_f(struct _VlGMM *self, const float *data
 // _vl_gmm_maximization_d
 // file vl/gmm.c line 1037
 static void _vl_gmm_maximization_d(struct _VlGMM *self, double *posteriors, double *priors, double *covariances, double *means, const double *data, unsigned long long int numData);
-// _vl_gmm_maximization_d::_tmp::return_value_vl_get_printf_func_1_object
+
 //
-signed int return_value_vl_get_printf_func_1_object(const char *, ...);
-// _vl_gmm_maximization_d::_tmp::return_value_vl_get_printf_func_6_object
+
+
 //
-signed int return_value_vl_get_printf_func_6_object(const char *, ...);
+
 // _vl_gmm_maximization_f
 // file vl/gmm.c line 1037
 static void _vl_gmm_maximization_f(struct _VlGMM *self, float *posteriors, float *priors, float *covariances, float *means, const float *data, unsigned long long int numData);
-// _vl_gmm_maximization_f::_tmp::return_value_vl_get_printf_func_1_object
+
 //
-signed int return_value_vl_get_printf_func_1_object(const char *, ...);
-// _vl_gmm_maximization_f::_tmp::return_value_vl_get_printf_func_6_object
+
+
 //
-signed int return_value_vl_get_printf_func_6_object(const char *, ...);
+
 // _vl_gmm_prepare_for_data
 // file vl/gmm.c line 337
 static void _vl_gmm_prepare_for_data(struct _VlGMM *self, unsigned long long int numData);
 // _vl_gmm_restart_empty_modes_d
 // file vl/gmm.c line 815
 static unsigned long long int _vl_gmm_restart_empty_modes_d(struct _VlGMM *self, const double *data);
-// _vl_gmm_restart_empty_modes_d::_tmp::return_value_vl_get_printf_func_10_object
+
 //
-signed int return_value_vl_get_printf_func_10_object(const char *, ...);
-// _vl_gmm_restart_empty_modes_d::_tmp::return_value_vl_get_printf_func_2_object
+
+
 //
-signed int return_value_vl_get_printf_func_2_object(const char *, ...);
-// _vl_gmm_restart_empty_modes_d::_tmp::return_value_vl_get_printf_func_4_object
+
+
 //
-signed int return_value_vl_get_printf_func_4_object(const char *, ...);
-// _vl_gmm_restart_empty_modes_d::_tmp::return_value_vl_get_printf_func_8_object
+
+
 //
-signed int return_value_vl_get_printf_func_8_object(const char *, ...);
-// _vl_gmm_restart_empty_modes_d::_tmp::return_value_vl_get_printf_func_9_object
+
+
 //
-signed int return_value_vl_get_printf_func_9_object(const char *, ...);
+
 // _vl_gmm_restart_empty_modes_f
 // file vl/gmm.c line 815
 static unsigned long long int _vl_gmm_restart_empty_modes_f(struct _VlGMM *self, const float *data);
-// _vl_gmm_restart_empty_modes_f::_tmp::return_value_vl_get_printf_func_10_object
+
 //
-signed int return_value_vl_get_printf_func_10_object(const char *, ...);
-// _vl_gmm_restart_empty_modes_f::_tmp::return_value_vl_get_printf_func_2_object
+
+
 //
-signed int return_value_vl_get_printf_func_2_object(const char *, ...);
-// _vl_gmm_restart_empty_modes_f::_tmp::return_value_vl_get_printf_func_4_object
+
+
 //
-signed int return_value_vl_get_printf_func_4_object(const char *, ...);
-// _vl_gmm_restart_empty_modes_f::_tmp::return_value_vl_get_printf_func_8_object
+
+
 //
-signed int return_value_vl_get_printf_func_8_object(const char *, ...);
-// _vl_gmm_restart_empty_modes_f::_tmp::return_value_vl_get_printf_func_9_object
+
+
 //
-signed int return_value_vl_get_printf_func_9_object(const char *, ...);
+
 // _vl_harris_response
 // file vl/covdet.c line 1837
 static void _vl_harris_response(float *harris, const float *image, unsigned long long int width, unsigned long long int height, double step, double sigma, double sigmaI, double alpha);
@@ -604,111 +604,111 @@ float distFn_object(unsigned long long int, const float *, const float *);
 // _vl_kmeans_refine_centers_ann_d
 // file vl/kmeans.c line 1004
 static double _vl_kmeans_refine_centers_ann_d(struct _VlKMeans *self, const double *data, unsigned long long int numData);
-// _vl_kmeans_refine_centers_ann_d::_tmp::return_value_vl_get_printf_func_10_object
+
 //
-signed int return_value_vl_get_printf_func_10_object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_d::_tmp::return_value_vl_get_printf_func_11_object
+
+
 //
-signed int return_value_vl_get_printf_func_11_object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_d::_tmp::return_value_vl_get_printf_func_6_object
+
+
 //
-signed int return_value_vl_get_printf_func_6_object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_d::_tmp::return_value_vl_get_printf_func_7_object
+
+
 //
-signed int return_value_vl_get_printf_func_7_object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_d::_tmp::return_value_vl_get_printf_func_8_object
+
+
 //
-signed int return_value_vl_get_printf_func_8_object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_d::_tmp::return_value_vl_get_printf_func_9_object
+
+
 //
-signed int return_value_vl_get_printf_func_9_object(const char *, ...);
+
 // _vl_kmeans_refine_centers_ann_f
 // file vl/kmeans.c line 1004
 static double _vl_kmeans_refine_centers_ann_f(struct _VlKMeans *self, const float *data, unsigned long long int numData);
-// _vl_kmeans_refine_centers_ann_f::_tmp::return_value_vl_get_printf_func_10_object
+
 //
-signed int return_value_vl_get_printf_func_10_object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_f::_tmp::return_value_vl_get_printf_func_11_object
+
+
 //
-signed int return_value_vl_get_printf_func_11_object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_f::_tmp::return_value_vl_get_printf_func_6_object
+
+
 //
-signed int return_value_vl_get_printf_func_6_object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_f::_tmp::return_value_vl_get_printf_func_7_object
+
+
 //
-signed int return_value_vl_get_printf_func_7_object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_f::_tmp::return_value_vl_get_printf_func_8_object
+
+
 //
-signed int return_value_vl_get_printf_func_8_object(const char *, ...);
-// _vl_kmeans_refine_centers_ann_f::_tmp::return_value_vl_get_printf_func_9_object
+
+
 //
-signed int return_value_vl_get_printf_func_9_object(const char *, ...);
+
 // _vl_kmeans_refine_centers_d
 // file vl/kmeans.c line 1751
 static double _vl_kmeans_refine_centers_d(struct _VlKMeans *self, const double *data, unsigned long long int numData);
 // _vl_kmeans_refine_centers_elkan_d
 // file vl/kmeans.c line 1163
 static double _vl_kmeans_refine_centers_elkan_d(struct _VlKMeans *self, const double *data, unsigned long long int numData);
-// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_13_object
+
 //
-signed int return_value_vl_get_printf_func_13_object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_16_object
+
+
 //
-signed int return_value_vl_get_printf_func_16_object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_17_object
+
+
 //
-signed int return_value_vl_get_printf_func_17_object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_18_object
+
+
 //
-signed int return_value_vl_get_printf_func_18_object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_19_object
+
+
 //
-signed int return_value_vl_get_printf_func_19_object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_20_object
+
+
 //
-signed int return_value_vl_get_printf_func_20_object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_21_object
+
+
 //
-signed int return_value_vl_get_printf_func_21_object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_22_object
+
+
 //
-signed int return_value_vl_get_printf_func_22_object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_d::_tmp::return_value_vl_get_printf_func_23_object
+
+
 //
-signed int return_value_vl_get_printf_func_23_object(const char *, ...);
+
 // _vl_kmeans_refine_centers_elkan_d::1::distFn_object
 //
 double distFn_object(unsigned long long int, const double *, const double *);
 // _vl_kmeans_refine_centers_elkan_f
 // file vl/kmeans.c line 1163
 static double _vl_kmeans_refine_centers_elkan_f(struct _VlKMeans *self, const float *data, unsigned long long int numData);
-// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_13_object
+
 //
-signed int return_value_vl_get_printf_func_13_object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_16_object
+
+
 //
-signed int return_value_vl_get_printf_func_16_object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_17_object
+
+
 //
-signed int return_value_vl_get_printf_func_17_object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_18_object
+
+
 //
-signed int return_value_vl_get_printf_func_18_object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_19_object
+
+
 //
-signed int return_value_vl_get_printf_func_19_object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_20_object
+
+
 //
-signed int return_value_vl_get_printf_func_20_object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_21_object
+
+
 //
-signed int return_value_vl_get_printf_func_21_object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_22_object
+
+
 //
-signed int return_value_vl_get_printf_func_22_object(const char *, ...);
-// _vl_kmeans_refine_centers_elkan_f::_tmp::return_value_vl_get_printf_func_23_object
+
+
 //
-signed int return_value_vl_get_printf_func_23_object(const char *, ...);
+
 // _vl_kmeans_refine_centers_elkan_f::1::distFn_object
 //
 float distFn_object(unsigned long long int, const float *, const float *);
@@ -718,39 +718,39 @@ static double _vl_kmeans_refine_centers_f(struct _VlKMeans *self, const float *d
 // _vl_kmeans_refine_centers_lloyd_d
 // file vl/kmeans.c line 829
 static double _vl_kmeans_refine_centers_lloyd_d(struct _VlKMeans *self, const double *data, unsigned long long int numData);
-// _vl_kmeans_refine_centers_lloyd_d::_tmp::return_value_vl_get_printf_func_10_object
+
 //
-signed int return_value_vl_get_printf_func_10_object(const char *, ...);
-// _vl_kmeans_refine_centers_lloyd_d::_tmp::return_value_vl_get_printf_func_6_object
+
+
 //
-signed int return_value_vl_get_printf_func_6_object(const char *, ...);
-// _vl_kmeans_refine_centers_lloyd_d::_tmp::return_value_vl_get_printf_func_7_object
+
+
 //
-signed int return_value_vl_get_printf_func_7_object(const char *, ...);
-// _vl_kmeans_refine_centers_lloyd_d::_tmp::return_value_vl_get_printf_func_8_object
+
+
 //
-signed int return_value_vl_get_printf_func_8_object(const char *, ...);
-// _vl_kmeans_refine_centers_lloyd_d::_tmp::return_value_vl_get_printf_func_9_object
+
+
 //
-signed int return_value_vl_get_printf_func_9_object(const char *, ...);
+
 // _vl_kmeans_refine_centers_lloyd_f
 // file vl/kmeans.c line 829
 static double _vl_kmeans_refine_centers_lloyd_f(struct _VlKMeans *self, const float *data, unsigned long long int numData);
-// _vl_kmeans_refine_centers_lloyd_f::_tmp::return_value_vl_get_printf_func_10_object
+
 //
-signed int return_value_vl_get_printf_func_10_object(const char *, ...);
-// _vl_kmeans_refine_centers_lloyd_f::_tmp::return_value_vl_get_printf_func_6_object
+
+
 //
-signed int return_value_vl_get_printf_func_6_object(const char *, ...);
-// _vl_kmeans_refine_centers_lloyd_f::_tmp::return_value_vl_get_printf_func_7_object
+
+
 //
-signed int return_value_vl_get_printf_func_7_object(const char *, ...);
-// _vl_kmeans_refine_centers_lloyd_f::_tmp::return_value_vl_get_printf_func_8_object
+
+
 //
-signed int return_value_vl_get_printf_func_8_object(const char *, ...);
-// _vl_kmeans_refine_centers_lloyd_f::_tmp::return_value_vl_get_printf_func_9_object
+
+
 //
-signed int return_value_vl_get_printf_func_9_object(const char *, ...);
+
 // _vl_kmeans_set_centers_d
 // file vl/kmeans.c line 510
 static void _vl_kmeans_set_centers_d(struct _VlKMeans *self, const double *centers, unsigned long long int dimension, unsigned long long int numCenters);
@@ -1108,9 +1108,9 @@ void vl_aib_normalize_P(double *P, unsigned int nelem);
 // vl_aib_process
 // file vl/aib.c line 588
 extern void vl_aib_process(struct _VlAIB *aib);
-// vl_aib_process::_tmp::return_value_vl_get_printf_func_1_object
+
 //
-signed int return_value_vl_get_printf_func_1_object(const char *, ...);
+
 // vl_aib_update_beta
 // file vl/aib.c line 351
 void vl_aib_update_beta(struct _VlAIB *aib);
@@ -1429,18 +1429,18 @@ extern const char * vl_get_version_string(void);
 // vl_gmm_cluster
 // file vl/gmm.c line 1557
 extern double vl_gmm_cluster(struct _VlGMM *self, const void *data, unsigned long long int numData);
-// vl_gmm_cluster::_tmp::return_value_vl_get_printf_func_1_object
+
 //
-signed int return_value_vl_get_printf_func_1_object(const char *, ...);
-// vl_gmm_cluster::_tmp::return_value_vl_get_printf_func_2_object
+
+
 //
-signed int return_value_vl_get_printf_func_2_object(const char *, ...);
-// vl_gmm_cluster::_tmp::return_value_vl_get_printf_func_4_object
+
+
 //
-signed int return_value_vl_get_printf_func_4_object(const char *, ...);
-// vl_gmm_cluster::_tmp::return_value_vl_get_printf_func_6_object
+
+
 //
-signed int return_value_vl_get_printf_func_6_object(const char *, ...);
+
 // vl_gmm_delete
 // file vl/gmm.c line 414
 extern void vl_gmm_delete(struct _VlGMM *self);
@@ -1723,21 +1723,21 @@ extern void vl_ikm_set_verbosity(struct _VlIKMFilt *f, signed int verb);
 // vl_ikm_train
 // file vl/ikmeans.h line 66
 extern signed int vl_ikm_train(struct _VlIKMFilt *f, const unsigned char *data, unsigned long long int N);
-// vl_ikm_train::_tmp::return_value_vl_get_printf_func_1_object
+
 //
-signed int return_value_vl_get_printf_func_1_object(const char *, ...);
-// vl_ikm_train::_tmp::return_value_vl_get_printf_func_2_object
+
+
 //
-signed int return_value_vl_get_printf_func_2_object(const char *, ...);
+
 // vl_ikm_train_elkan
 // file vl/ikmeans_elkan.tc line 64
 static signed int vl_ikm_train_elkan(struct _VlIKMFilt *f, const unsigned char *data, unsigned long long int N);
-// vl_ikm_train_elkan::_tmp::return_value_vl_get_printf_func_16_object
+
 //
-signed int return_value_vl_get_printf_func_16_object(const char *, ...);
-// vl_ikm_train_elkan::_tmp::return_value_vl_get_printf_func_17_object
+
+
 //
-signed int return_value_vl_get_printf_func_17_object(const char *, ...);
+
 // vl_ikm_train_lloyd
 // file vl/ikmeans_lloyd.tc line 34
 static signed int vl_ikm_train_lloyd(struct _VlIKMFilt *f, const unsigned char *data, unsigned long long int N);
@@ -1846,9 +1846,9 @@ extern struct _VlKDForest * vl_kdforest_new(unsigned int dataType, unsigned long
 // vl_kdforest_new::_tmp::return_value_vl_get_vector_comparison_function_d_3_object
 //
 double return_value_vl_get_vector_comparison_function_d_3_object(unsigned long long int, const double *, const double *);
-// vl_kdforest_new::_tmp::return_value_vl_get_vector_comparison_function_f_2_object
+
 //
-float return_value_vl_get_vector_comparison_function_f_2_object(unsigned long long int, const float *, const float *);
+
 // vl_kdforest_new_searcher
 // file vl/kdtree.c line 388
 extern struct _VlKDForestSearcher * vl_kdforest_new_searcher(struct _VlKDForest *kdforest);
@@ -1921,15 +1921,15 @@ static inline void vl_kdtree_split_heap_update(struct _VlKDTreeSplitDimension *a
 // vl_kmeans_cluster
 // file vl/kmeans.h line 83
 extern double vl_kmeans_cluster(struct _VlKMeans *self, const void *data, unsigned long long int dimension, unsigned long long int numData, unsigned long long int numCenters);
-// vl_kmeans_cluster::_tmp::return_value_vl_get_printf_func_1_object
+
 //
-signed int return_value_vl_get_printf_func_1_object(const char *, ...);
-// vl_kmeans_cluster::_tmp::return_value_vl_get_printf_func_2_object
+
+
 //
-signed int return_value_vl_get_printf_func_2_object(const char *, ...);
-// vl_kmeans_cluster::_tmp::return_value_vl_get_printf_func_4_object
+
+
 //
-signed int return_value_vl_get_printf_func_4_object(const char *, ...);
+
 // vl_kmeans_delete
 // file vl/kmeans.h line 75
 extern void vl_kmeans_delete(struct _VlKMeans *self);
@@ -2197,18 +2197,18 @@ extern signed int vl_scalespacegeometry_is_equal(struct _VlScaleSpaceGeometry a,
 // vl_set_alloc_func
 // file vl/generic.c line 1289
 extern void vl_set_alloc_func(void * (*malloc_func)(unsigned long int), void * (*realloc_func)(void *, unsigned long int), void * (*calloc_func)(unsigned long int, unsigned long int), void (*free_func)(void *));
-// vl_set_alloc_func::calloc_func_object
+
 //
-void * calloc_func_object(unsigned long int, unsigned long int);
-// vl_set_alloc_func::free_func_object
+
+
 //
-void free_func_object(void *);
-// vl_set_alloc_func::malloc_func_object
+
+
 //
-void * malloc_func_object(unsigned long int);
-// vl_set_alloc_func::realloc_func_object
+
+
 //
-void * realloc_func_object(void *, unsigned long int);
+
 // vl_set_last_error
 // file vl/generic.h line 132
 extern signed int vl_set_last_error(signed int error, const char *errorMessage, ...);
@@ -2218,9 +2218,9 @@ extern void vl_set_num_threads(unsigned long long int numThreads);
 // vl_set_printf_func
 // file vl/generic.c line 1372
 extern void vl_set_printf_func(signed int (*printf_func)(const char *, ...));
-// vl_set_printf_func::printf_func_object
+
 //
-signed int printf_func_object(const char *, ...);
+
 // vl_set_simd_enabled
 // file vl/generic.c line 1072
 extern void vl_set_simd_enabled(signed int x);
@@ -2413,9 +2413,9 @@ extern void vl_svm_set_bias_multiplier(struct VlSvm_ *self, double b);
 // vl_svm_set_conjugate_loss_function
 // file vl/svm.c line 1529
 extern void vl_svm_set_conjugate_loss_function(struct VlSvm_ *self, double (*f)(double, double));
-// vl_svm_set_conjugate_loss_function::f_object
+
 //
-double f_object(double, double);
+
 // vl_svm_set_data_functions
 // file vl/svm.c line 1492
 extern void vl_svm_set_data_functions(struct VlSvm_ *self, double (*inner)(const void *, unsigned long long int, double *), void (*acc)(const void *, unsigned long long int, double *, double));
@@ -2428,18 +2428,18 @@ double inner_object(const void *, unsigned long long int, double *);
 // vl_svm_set_dca_update_function
 // file vl/svm.c line 1539
 extern void vl_svm_set_dca_update_function(struct VlSvm_ *self, double (*f)(double, double, double, double));
-// vl_svm_set_dca_update_function::f_object
+
 //
-double f_object(double, double, double, double);
+
 // vl_svm_set_diagnostic_frequency
 // file vl/svm.c line 1248
 extern void vl_svm_set_diagnostic_frequency(struct VlSvm_ *self, unsigned long long int f);
 // vl_svm_set_diagnostic_function
 // file vl/svm.c line 1479
 extern void vl_svm_set_diagnostic_function(struct VlSvm_ *self, void (*f)(struct VlSvm_ *, void *), void *data);
-// vl_svm_set_diagnostic_function::f_object
+
 //
-void f_object(struct VlSvm_ *, void *);
+
 // vl_svm_set_epsilon
 // file vl/svm.c line 1123
 extern void vl_svm_set_epsilon(struct VlSvm_ *self, double epsilon);
@@ -2455,15 +2455,15 @@ extern void vl_svm_set_loss(struct VlSvm_ *self, enum anonymous_9 loss);
 // vl_svm_set_loss_derivative_function
 // file vl/svm.c line 1519
 extern void vl_svm_set_loss_derivative_function(struct VlSvm_ *self, double (*f)(double, double));
-// vl_svm_set_loss_derivative_function::f_object
+
 //
-double f_object(double, double);
+
 // vl_svm_set_loss_function
 // file vl/svm.c line 1509
 extern void vl_svm_set_loss_function(struct VlSvm_ *self, double (*f)(double, double));
-// vl_svm_set_loss_function::f_object
+
 //
-double f_object(double, double);
+
 // vl_svm_set_max_num_iterations
 // file vl/svm.c line 1223
 extern void vl_svm_set_max_num_iterations(struct VlSvm_ *self, unsigned long long int n);
@@ -2542,9 +2542,9 @@ static inline double xlogx(double x);
 // xmeans
 // file vl/hikmeans.c line 104
 static struct _VlHIKMNode * xmeans(struct _VlHIKMTree *tree, const unsigned char *data, unsigned long long int N, unsigned long long int K, unsigned long long int height);
-// xmeans::_tmp::return_value_vl_get_printf_func_5_object
+
 //
-signed int return_value_vl_get_printf_func_5_object(const char *, ...);
+
 
 struct anonymous_2
 {

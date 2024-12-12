@@ -537,7 +537,7 @@ extern signed long int atol(const char *);
 extern signed long long int atoll(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_33, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -583,9 +583,9 @@ static void engine_configure(struct _server_t *server, const char *path, const c
 // engine_handle_socket
 // file src/zgossip_engine.inc line 221
 static void engine_handle_socket(struct _server_t *server, void *sock, signed int (*handler)(struct _zloop_t *, struct _zsock_t *, void *));
-// engine_handle_socket::handler_object
+
 //
-signed int handler_object(struct _zloop_t *, struct _zsock_t *, void *);
+
 // engine_send_event
 // file src/zgossip_engine.inc line 187
 static void engine_send_event(struct _client_t *client, enum anonymous_30 event);
@@ -849,7 +849,7 @@ extern signed int readdir_r(struct __dirstream *, struct dirent *, struct dirent
 extern void * realloc(void *, unsigned long int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous_33, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // relocate
 // file src/foreign/slre/slre.inc_c line 258
 static void relocate(struct slre *r, signed int begin, signed int shift);
@@ -1003,9 +1003,9 @@ static signed int s_compare(void *item1, void *item2);
 // s_config_execute
 // file src/zconfig.c line 365
 static signed int s_config_execute(struct _zconfig_t *self, signed int (*handler)(struct _zconfig_t *, void *, signed int), void *arg, signed int level);
-// s_config_execute::handler_object
+
 //
-signed int handler_object(struct _zconfig_t *, void *, signed int);
+
 // s_config_printf
 // file src/zconfig.c line 450
 static signed int s_config_printf(struct _zconfig_t *self, void *arg, char *format, ...);
@@ -1084,9 +1084,9 @@ static void s_poller_destroy(struct _s_poller_t **self_p);
 // s_poller_new
 // file src/zloop.c line 127
 static struct _s_poller_t * s_poller_new(struct zmq_pollitem_t *item, signed int (*handler)(struct _zloop_t *, struct zmq_pollitem_t *, void *), void *arg);
-// s_poller_new::handler_object
+
 //
-signed int handler_object(struct _zloop_t *, struct zmq_pollitem_t *, void *);
+
 // s_posix_populate_entry
 // file src/zdir.c line 73
 static void s_posix_populate_entry(struct _zdir_t *self, struct dirent *entry);
@@ -1105,9 +1105,9 @@ static void s_reader_destroy(struct _s_reader_t **self_p);
 // s_reader_new
 // file src/zloop.c line 103
 static struct _s_reader_t * s_reader_new(struct _zsock_t *sock, signed int (*handler)(struct _zloop_t *, struct _zsock_t *, void *), void *arg);
-// s_reader_new::handler_object
+
 //
-signed int handler_object(struct _zloop_t *, struct _zsock_t *, void *);
+
 // s_rebuild_poll_set
 // file src/zpoller.c line 166
 static signed int s_rebuild_poll_set(struct _zpoller_t *self);
@@ -1240,9 +1240,9 @@ static void s_ticket_destroy(struct _s_ticket_t **self_p);
 // s_ticket_new
 // file src/zloop.c line 190
 static struct _s_ticket_t * s_ticket_new(unsigned long int delay, signed int (*handler)(struct _zloop_t *, signed int, void *), void *arg);
-// s_ticket_new::handler_object
+
 //
-signed int handler_object(struct _zloop_t *, signed int, void *);
+
 // s_tickless
 // file src/zloop.c line 291
 static signed long int s_tickless(struct _zloop_t *self);
@@ -1261,9 +1261,9 @@ static signed int s_timer_event3(struct _zloop_t *loop, signed int timer_id, voi
 // s_timer_new
 // file src/zloop.c line 152
 static struct _s_timer_t * s_timer_new(signed int timer_id, unsigned long int delay, unsigned long int times, signed int (*handler)(struct _zloop_t *, signed int, void *), void *arg);
-// s_timer_new::handler_object
+
 //
-signed int handler_object(struct _zloop_t *, signed int, void *);
+
 // s_timer_remove
 // file src/zloop.c line 230
 static void s_timer_remove(struct _zloop_t *self, signed int timer_id);
@@ -1428,7 +1428,7 @@ static inline void * safe_malloc_link8(unsigned long int size_link8, const char 
 static inline void * safe_malloc_link9(unsigned long int size_link9, const char *file_link9, unsigned int line_link9);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_33, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // server_accept
 // file src/zgossip.c line 232
 static void server_accept(struct _server_t *self, const char *key, const char *value);
@@ -1942,9 +1942,9 @@ void zconfig_destroy(struct _zconfig_t **self_p);
 // zconfig_execute
 // file src/zconfig.c line 354
 signed int zconfig_execute(struct _zconfig_t *self, signed int (*handler)(struct _zconfig_t *, void *, signed int), void *arg);
-// zconfig_execute::handler_object
+
 //
-signed int handler_object(struct _zconfig_t *, void *, signed int);
+
 // zconfig_filename
 // file src/zconfig.c line 550
 const char * zconfig_filename(struct _zconfig_t *self);
@@ -2404,15 +2404,15 @@ void * zhash_first(struct _zhash_t *self);
 // zhash_foreach
 // file src/zhash.c line 791
 signed int zhash_foreach(struct _zhash_t *self, signed int (*callback)(const char *, void *, void *), void *argument);
-// zhash_foreach::callback_object
+
 //
-signed int callback_object(const char *, void *, void *);
+
 // zhash_freefn
 // file src/zhash.c line 357
 void * zhash_freefn(struct _zhash_t *self, const char *key, void (*free_fn)(void *));
-// zhash_freefn::free_fn_object
+
 //
-void free_fn_object(void *);
+
 // zhash_insert
 // file src/zhash.c line 156
 signed int zhash_insert(struct _zhash_t *self, const char *key, void *value);
@@ -2482,15 +2482,15 @@ void * zhashx_first(struct _zhashx_t *self);
 // zhashx_foreach
 // file src/zhashx.c line 1069
 signed int zhashx_foreach(struct _zhashx_t *self, signed int (*callback)(const char *, void *, void *), void *argument);
-// zhashx_foreach::callback_object
+
 //
-signed int callback_object(const char *, void *, void *);
+
 // zhashx_freefn
 // file src/../include/zhashx.h line 97
 void * zhashx_freefn(struct _zhashx_t *self, const void *key, void (*free_fn)(void *));
-// zhashx_freefn::free_fn_object
+
 //
-void free_fn_object(void *);
+
 // zhashx_insert
 // file src/../include/zhashx.h line 61
 signed int zhashx_insert(struct _zhashx_t *self, const void *key, void *value);
@@ -2617,9 +2617,9 @@ void zlist_autofree(struct _zlist_t *self);
 // zlist_comparefn
 // file src/zlist.c line 430
 void zlist_comparefn(struct _zlist_t *self, signed int (*fn)(void *, void *));
-// zlist_comparefn::fn_object
+
 //
-signed int fn_object(void *, void *);
+
 // zlist_destroy
 // file src/zlist.c line 66
 void zlist_destroy(struct _zlist_t **self_p);
@@ -2635,9 +2635,9 @@ void * zlist_first(struct _zlist_t *self);
 // zlist_freefn
 // file src/zlist.c line 445
 void * zlist_freefn(struct _zlist_t *self, void *item, void (*fn)(void *), _Bool at_tail);
-// zlist_freefn::fn_object
+
 //
-void fn_object(void *);
+
 // zlist_head
 // file src/zlist.c line 134
 void * zlist_head(struct _zlist_t *self);
@@ -2671,9 +2671,9 @@ unsigned long int zlist_size(struct _zlist_t *self);
 // zlist_sort
 // file src/zlist.c line 388
 void zlist_sort(struct _zlist_t *self, signed int (*compare)(void *, void *));
-// zlist_sort::compare_object
+
 //
-signed int compare_object(void *, void *);
+
 // zlist_tail
 // file src/zlist.c line 146
 void * zlist_tail(struct _zlist_t *self);
@@ -2782,9 +2782,9 @@ struct _zloop_t * zloop_new(void);
 // zloop_poller
 // file src/zloop.c line 467
 signed int zloop_poller(struct _zloop_t *self, struct zmq_pollitem_t *item, signed int (*handler)(struct _zloop_t *, struct zmq_pollitem_t *, void *), void *arg);
-// zloop_poller::handler_object
+
 //
-signed int handler_object(struct _zloop_t *, struct zmq_pollitem_t *, void *);
+
 // zloop_poller_end
 // file src/zloop.c line 500
 void zloop_poller_end(struct _zloop_t *self, struct zmq_pollitem_t *item);
@@ -2794,9 +2794,9 @@ void zloop_poller_set_tolerant(struct _zloop_t *self, struct zmq_pollitem_t *ite
 // zloop_reader
 // file src/../include/zloop.h line 49
 signed int zloop_reader(struct _zloop_t *self, struct _zsock_t *sock, signed int (*handler)(struct _zloop_t *, struct _zsock_t *, void *), void *arg);
-// zloop_reader::handler_object
+
 //
-signed int handler_object(struct _zloop_t *, struct _zsock_t *, void *);
+
 // zloop_reader_end
 // file src/../include/zloop.h line 54
 void zloop_reader_end(struct _zloop_t *self, struct _zsock_t *sock);
@@ -2821,9 +2821,9 @@ void zloop_test(_Bool verbose);
 // zloop_ticket
 // file src/../include/zloop.h line 102
 void * zloop_ticket(struct _zloop_t *self, signed int (*handler)(struct _zloop_t *, signed int, void *), void *arg);
-// zloop_ticket::handler_object
+
 //
-signed int handler_object(struct _zloop_t *, signed int, void *);
+
 // zloop_ticket_delete
 // file src/../include/zloop.h line 113
 void zloop_ticket_delete(struct _zloop_t *self, void *handle);
@@ -2833,9 +2833,9 @@ void zloop_ticket_reset(struct _zloop_t *self, void *handle);
 // zloop_timer
 // file src/../include/zloop.h line 85
 signed int zloop_timer(struct _zloop_t *self, unsigned long int delay, unsigned long int times, signed int (*handler)(struct _zloop_t *, signed int, void *), void *arg);
-// zloop_timer::handler_object
+
 //
-signed int handler_object(struct _zloop_t *, signed int, void *);
+
 // zloop_timer_end
 // file src/../include/zloop.h line 90
 signed int zloop_timer_end(struct _zloop_t *self, signed int timer_id);
@@ -4012,9 +4012,9 @@ void zsys_handler_reset(void);
 // zsys_handler_set
 // file src/zsys.c line 416
 void zsys_handler_set(void (*handler_fn)(signed int));
-// zsys_handler_set::handler_fn_object
+
 //
-void handler_fn_object(signed int);
+
 // zsys_has_curve
 // file src/../include/zsys.h line 205
 _Bool zsys_has_curve(void);
@@ -4120,15 +4120,15 @@ void zsys_warning(const char *format, ...);
 // zthread_fork
 // file src/../include/zthread.h line 39
 void * zthread_fork(struct _zctx_t *ctx, void (*thread_fn)(void *, struct _zctx_t *, void *), void *args);
-// zthread_fork::thread_fn_object
+
 //
-void thread_fn_object(void *, struct _zctx_t *, void *);
+
 // zthread_new
 // file src/zthread.c line 147
 signed int zthread_new(void * (*thread_fn)(void *), void *args);
-// zthread_new::thread_fn_object
+
 //
-void * thread_fn_object(void *);
+
 // zthread_test
 // file src/zthread.c line 237
 void zthread_test(_Bool verbose);

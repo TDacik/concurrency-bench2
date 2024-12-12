@@ -380,9 +380,9 @@ struct vzt_rd_trace * vzt_rd_init_smp(const char *name, unsigned int num_cpus);
 // vzt_rd_iter_blocks
 // file vzt_read.h line 281
 signed int vzt_rd_iter_blocks(struct vzt_rd_trace *lt, void (*value_change_callback)(struct vzt_rd_trace **, unsigned long int *, unsigned int *, char **), void *user_callback_data_pointer);
-// vzt_rd_iter_blocks::value_change_callback_object
+
 //
-void value_change_callback_object(struct vzt_rd_trace **, unsigned long int *, unsigned int *, char **);
+
 // vzt_rd_limit_time_range
 // file vzt_read.c line 1571
 unsigned int vzt_rd_limit_time_range(struct vzt_rd_trace *lt, unsigned long int strt_time, unsigned long int end_time);

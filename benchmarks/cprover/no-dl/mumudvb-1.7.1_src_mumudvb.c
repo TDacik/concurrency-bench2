@@ -671,7 +671,7 @@ static inline char * __strtok_r_1c(char *__s, char __sep, char **__nextp);
 extern signed int abs(signed int);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_42, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // add_ts_packet_data
 // file ts.c line 198
 void add_ts_packet_data(unsigned char *buf, struct anonymous_6 *pkt, signed int data_left, signed int start_flag, signed int pid, signed int cc);
@@ -1007,7 +1007,7 @@ extern signed int getopt_long(signed int, char * const *, const char *, struct o
 extern signed int getpid(void);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous_42, unsigned int *);
+extern signed int getsockname(signed int, struct sockaddr *, unsigned int *);
 // getsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 219
 extern signed int getsockopt(signed int, signed int, signed int, void *, unsigned int *);
@@ -1382,7 +1382,7 @@ static inline struct section_ext * section_ext_decode(struct section *section, s
 static inline unsigned long int section_length(struct section *section);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // sendudp
 // file network.h line 49
 signed int sendudp(signed int fd, struct sockaddr_in *sSockAddr, unsigned char *data, signed int len);

@@ -900,9 +900,9 @@ extern void * memset(void *, signed int, unsigned long int);
 // merge_options
 // file screenhack.c line 182
 static void merge_options(void);
-// old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous_9 *);
+
 // open
 // file /usr/include/fcntl.h line 156
 extern signed int open(const char *, signed int, ...);
@@ -978,12 +978,12 @@ extern void rotate_colors(struct anonymous_6 *screen, unsigned long int cmap, st
 // run_screenhack_table
 // file screenhack.c line 536
 static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window, unsigned long int window2, struct xscreensaver_function_table *ft);
-// run_screenhack_table::1::fps_cb_object
+
 //
-void fps_cb_object(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
-// run_screenhack_table::1::init_cb_object
+
+
 //
-void * init_cb_object(struct _XDisplay *, unsigned long int, void *);
+
 // screen_number
 // file visual.c line 475
 extern signed int screen_number(struct anonymous_6 *screen);
@@ -1122,9 +1122,9 @@ static signed int xdbe_ehandler(struct _XDisplay *dpy, struct anonymous_9 *error
 // xdbe_get_backbuffer
 // file ./../utils/xdbe.h line 23
 extern unsigned long int xdbe_get_backbuffer(struct _XDisplay *dpy, unsigned long int window, unsigned char action);
-// xdbe_get_backbuffer::1::old_handler_object
+
 //
-signed int xdbe_get_backbuffer__1__old_handler_object(struct _XDisplay *, struct anonymous_9 *);
+
 // ya_rand_init
 // file ./../utils/yarandom.h line 37
 extern void ya_rand_init(unsigned int seed);

@@ -522,9 +522,9 @@ void init_timestamp(void);
 // install_signal_handler
 // file src/common.c line 187
 void install_signal_handler(signed int sig, void (*handler)(signed int), const char *descr);
-// install_signal_handler::handler_object
+
 //
-void handler_object(signed int);
+
 // interact
 // file src/replay.c line 829
 static void interact(void);

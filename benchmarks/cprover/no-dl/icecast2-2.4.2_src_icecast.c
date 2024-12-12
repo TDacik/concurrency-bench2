@@ -1057,7 +1057,7 @@ static void _unregister_listener(struct _event_listener_tag *listener);
 extern void abort(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // accept_ip_address
 // file connection.c line 384
 static signed int accept_ip_address(char *ip);
@@ -1172,9 +1172,9 @@ static enum anonymous_19 auth_url_listuser(struct auth_tag *auth, struct _xmlNod
 // avl_delete
 // file avl/avl.h line 119
 signed int avl_delete(struct _avl_tree *tree, void *key, signed int (*free_key_fun)(void *));
-// avl_delete::free_key_fun_object
+
 //
-signed int free_key_fun_object(void *);
+
 // avl_get_by_index
 // file avl.c line 299
 signed int avl_get_by_index(struct _avl_tree *tree, unsigned long int index, void **value_address);
@@ -1211,21 +1211,21 @@ signed int avl_insert(struct _avl_tree *ob, void *key);
 // avl_iterate_index_range
 // file avl.c line 728
 signed int avl_iterate_index_range(struct _avl_tree *tree, signed int (*iter_fun)(unsigned long int, void *, void *), unsigned long int low, unsigned long int high, void *iter_arg);
-// avl_iterate_index_range::iter_fun_object
+
 //
-signed int iter_fun_object(unsigned long int, void *, void *);
+
 // avl_iterate_inorder
 // file avl.c line 652
 signed int avl_iterate_inorder(struct _avl_tree *tree, signed int (*iter_fun)(void *, void *), void *iter_arg);
-// avl_iterate_inorder::iter_fun_object
+
 //
-signed int iter_fun_object(void *, void *);
+
 // avl_iterate_inorder_helper
 // file avl.c line 627
 static signed int avl_iterate_inorder_helper(struct avl_node_tag *node, signed int (*iter_fun)(void *, void *), void *iter_arg);
-// avl_iterate_inorder_helper::iter_fun_object
+
 //
-signed int iter_fun_object(void *, void *);
+
 // avl_node_new
 // file avl.c line 42
 struct avl_node_tag * avl_node_new(void *key, struct avl_node_tag *parent);
@@ -1238,21 +1238,21 @@ signed int key_printer_object(char *, void *);
 // avl_tree_free
 // file avl/avl.h line 109
 void avl_tree_free(struct _avl_tree *tree, signed int (*free_key_fun)(void *));
-// avl_tree_free::free_key_fun_object
+
 //
-signed int free_key_fun_object(void *);
+
 // avl_tree_free_helper
 // file avl.c line 90
 static void avl_tree_free_helper(struct avl_node_tag *node, signed int (*free_key_fun)(void *));
-// avl_tree_free_helper::free_key_fun_object
+
 //
-signed int free_key_fun_object(void *);
+
 // avl_tree_new
 // file avl/avl.h line 106
 struct _avl_tree * avl_tree_new(signed int (*compare_fun)(void *, void *, void *), void *compare_arg);
-// avl_tree_new::compare_fun_object
+
 //
-signed int compare_fun_object(void *, void *, void *);
+
 // avl_tree_rlock
 // file avl/avl.h line 194
 void avl_tree_rlock(struct _avl_tree *tree);
@@ -1276,7 +1276,7 @@ static void avl_verify_parent(struct avl_node_tag *node, struct avl_node_tag *pa
 static signed long int avl_verify_rank(struct avl_node_tag *node);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // build_event
 // file stats.c line 100
 static struct _stats_event_tag * build_event(const char *source, const char *name, const char *value);
@@ -1447,7 +1447,7 @@ void config_set_config(struct ice_config_tag *config);
 void config_shutdown(void);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // connection_accept_loop
 // file connection.h line 57
 void connection_accept_loop(void);
@@ -1727,9 +1727,9 @@ signed int fserve_add_client(struct _client_tag *client, struct _IO_FILE *file);
 // fserve_add_client_callback
 // file fserve.h line 36
 void fserve_add_client_callback(struct _client_tag *client, void (*callback)(struct _client_tag *, void *), void *arg);
-// fserve_add_client_callback::callback_object
+
 //
-void callback_object(struct _client_tag *, void *);
+
 // fserve_add_pending
 // file fserve.c line 639
 static void fserve_add_pending(struct _fserve_t *fclient);

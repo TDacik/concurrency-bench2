@@ -659,7 +659,7 @@ signed int coproc_close(signed int pid, signed int *to, signed int *from, signed
 // coproc_open
 // file libslack/coproc.c line 216
 signed int coproc_open(signed int *to, signed int *from, signed int *err, const char *cmd, char * const *argv, char * const *envv, void (*action)(void *), void *data);
-// coproc_open::action_object
+
 //
 void action_object(void *);
 // coproc_pty_close
@@ -668,7 +668,7 @@ signed int coproc_pty_close(signed int pid, signed int *masterfd, const char *sl
 // coproc_pty_open
 // file libslack/coproc.c line 405
 signed int coproc_pty_open(signed int *masterfd, char *slavename, unsigned long int slavenamesize, struct termios *slave_termios, struct winsize *slave_winsize, const char *cmd, char * const *argv, char * const *envv, void (*action)(void *), void *data);
-// coproc_pty_open::action_object
+
 //
 void action_object(void *);
 // cstr
@@ -1325,24 +1325,24 @@ void * list_destroy(struct List **list);
 // list_disown
 // file libslack/list.c line 703
 void (*list_disown(struct List *list))(void *);
-// list_disown::_tmp::return_value_set_errnullf_1_object
+
 //
-void return_value_set_errnullf_1_object();
-// list_disown::_tmp::return_value_set_errnullf_2_object
+
+
 //
-void return_value_set_errnullf_2_object();
-// list_disown::_tmp::return_value_set_errnullf_5_object
+
+
 //
-void return_value_set_errnullf_5_object();
+
 // list_disown::1::destroy_object
 //
 void destroy_object(void *);
 // list_disown_unlocked
 // file libslack/list.c line 732
 void (*list_disown_unlocked(struct List *list))(void *);
-// list_disown_unlocked::_tmp::return_value_set_errnullf_1_object
+
 //
-void return_value_set_errnullf_1_object();
+
 // list_disown_unlocked::1::destroy_object
 //
 void destroy_object(void *);
@@ -1373,9 +1373,9 @@ void * copy_object(const void *);
 // list_extract_with_locker_unlocked
 // file libslack/list.c line 1730
 struct List * list_extract_with_locker_unlocked(struct Locker *locker, const struct List *list, signed long int index, signed long int range, void * (*copy)(const void *));
-// list_extract_with_locker_unlocked::_tmp::tmp_if_expr_6_object
+
 //
-void tmp_if_expr_6_object(void *);
+
 // list_extract_with_locker_unlocked::copy_object
 //
 void * copy_object(const void *);
@@ -1976,24 +1976,24 @@ void * map_destroy(struct Map **map);
 // map_disown
 // file libslack/map.c line 721
 void (*map_disown(struct Map *map))(void *);
-// map_disown::_tmp::return_value_set_errnullf_1_object
+
 //
-void return_value_set_errnullf_1_object();
-// map_disown::_tmp::return_value_set_errnullf_2_object
+
+
 //
-void return_value_set_errnullf_2_object();
-// map_disown::_tmp::return_value_set_errnullf_5_object
+
+
 //
-void return_value_set_errnullf_5_object();
+
 // map_disown::1::ret_object
 //
 void ret_object(void *);
 // map_disown_unlocked
 // file libslack/map.c line 750
 void (*map_disown_unlocked(struct Map *map))(void *);
-// map_disown_unlocked::_tmp::return_value_set_errnullf_1_object
+
 //
-void return_value_set_errnullf_1_object();
+
 // map_disown_unlocked::1::destroy_object
 //
 void destroy_object(void *);
@@ -2989,7 +2989,7 @@ extern signed long int recv(signed int, void *, unsigned long int, signed int);
 signed long int recvfd(signed int sockfd, void *buf, unsigned long int nbytes, signed int flags, signed int *fd);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // recvmsg
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 202
 extern signed long int recvmsg(signed int, struct msghdr *, signed int);
@@ -3079,7 +3079,7 @@ signed long int sendfd(signed int sockfd, const void *buf, unsigned long int nby
 extern signed long int sendmsg(signed int, struct msghdr *, signed int);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // service_number
 // file libslack/net.c line 525
 static signed int service_number(const char *service);
@@ -3155,9 +3155,9 @@ signed int signal_received(signed int signo);
 // signal_set_handler
 // file libslack/sig.c line 149
 signed int signal_set_handler(signed int signo, signed int flags, void (*handler)(signed int));
-// signal_set_handler::handler_object
+
 //
-void handler_object(signed int);
+
 // sigprocmask
 // file /usr/include/signal.h line 248
 extern signed int sigprocmask(signed int, const struct anonymous_6 *, struct anonymous_6 *);

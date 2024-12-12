@@ -427,7 +427,7 @@ extern signed long int read(signed int, void *, unsigned long int);
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
 extern signed int select(signed int, struct anonymous_3 *, struct anonymous_3 *, struct anonymous_3 *, struct timeval *);
@@ -436,7 +436,7 @@ extern signed int select(signed int, struct anonymous_3 *, struct anonymous_3 *,
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // server_connect
 // file router.c line 593
 signed int server_connect(struct soap *server, const char *endpoint, const char *action, const char *userid, const char *passwd);

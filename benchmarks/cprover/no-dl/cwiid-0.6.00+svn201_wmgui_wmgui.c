@@ -728,9 +728,9 @@ void cwiid_err(struct wiimote *wiimote, const char *str, ...);
 // cwiid_err_default
 // file util.c line 74
 void cwiid_err_default(struct wiimote *wiimote, const char *str, void **ap);
-// cwiid_err_func_object
+
 //
-void cwiid_err_func_object(struct wiimote *, const char *, void **);
+
 // cwiid_find_wiimote
 // file bluetooth.c line 173
 signed int cwiid_find_wiimote(struct anonymous_2 *bdaddr, signed int timeout);
@@ -791,9 +791,9 @@ signed int cwiid_set_led(struct wiimote *wiimote, unsigned char led);
 // cwiid_set_mesg_callback
 // file ../libcwiid/cwiid.h line 371
 signed int cwiid_set_mesg_callback(struct wiimote *wiimote, void (*callback)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *));
-// cwiid_set_mesg_callback::callback_object
+
 //
-void callback_object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
+
 // cwiid_set_rpt_mode
 // file ../libcwiid/cwiid.h line 389
 signed int cwiid_set_rpt_mode(struct wiimote *wiimote, unsigned char rpt_mode);
@@ -1244,9 +1244,9 @@ void menuRW_activate(void);
 // mesg_callback_thread
 // file cwiid_internal.h line 194
 void * mesg_callback_thread(struct wiimote *wiimote);
-// mesg_callback_thread::1::callback_object
+
 //
-void callback_object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
+
 // message
 // file main.c line 450
 void message(enum anonymous_17 type, const char *message, struct _GtkWindow *parent);

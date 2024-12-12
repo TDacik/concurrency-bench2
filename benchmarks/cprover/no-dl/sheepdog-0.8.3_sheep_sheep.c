@@ -1056,7 +1056,7 @@ static signed long int _write(signed int fd, const void *buf, unsigned long int 
 extern void abort(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_22, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -1137,7 +1137,7 @@ static void * binary_search(void *first, void *last, void *key, unsigned long in
 signed int cmp_object(void *, void *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_22, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // block_sighup
 // file logger.c line 130
 static void block_sighup(void);
@@ -1165,9 +1165,9 @@ static signed int bucket_delete(const char *account, unsigned int avid, const ch
 // bucket_iterate_object
 // file http/kv.c line 492
 static signed int bucket_iterate_object(unsigned int bucket_vid, void (*cb)(const char *, void *), void *opaque);
-// bucket_iterate_object::cb_object
+
 //
-void cb_object(const char *, void *);
+
 // bucket_iterater
 // file http/kv.c line 120
 static void bucket_iterater(void *data, enum btree_node_type type, void *arg);
@@ -1338,7 +1338,7 @@ signed int conn_tx_off(struct connection *conn);
 signed int conn_tx_on(struct connection *conn);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_22, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // connect_to
 // file net.c line 137
 signed int connect_to(const char *name, signed int port);
@@ -1384,9 +1384,9 @@ static signed int create_listen_port_fn(signed int fd, void *data);
 // create_listen_ports
 // file ../include/net.h line 51
 signed int create_listen_ports(const char *bindaddr, signed int port, signed int (*callback)(signed int, void *), void *data);
-// create_listen_ports::callback_object
+
 //
-signed int callback_object(signed int, void *);
+
 // create_ordered_work_queue
 // file ../include/work.h line 63
 struct work_queue * create_ordered_work_queue(const char *name);
@@ -1396,9 +1396,9 @@ static signed int create_pidfile(const char *filename);
 // create_unix_domain_socket
 // file ../include/net.h line 53
 signed int create_unix_domain_socket(const char *unix_path, signed int (*callback)(signed int, void *), void *data);
-// create_unix_domain_socket::callback_object
+
 //
-signed int callback_object(signed int, void *);
+
 // create_vdi
 // file vdi.c line 264
 static signed int create_vdi(struct vdi_iocb *iocb, unsigned int new_snapid, unsigned int new_vid);
@@ -1846,33 +1846,33 @@ static inline unsigned long int fnv_64a_buf_link4(const void *buf_link4, unsigne
 // for_each_epoch
 // file migrate.c line 88
 static void for_each_epoch(signed int (*func)(unsigned int));
-// for_each_epoch::func_object
+
 //
-signed int func_object(unsigned int);
+
 // for_each_obj_path
 // file sheep_priv.h line 250
 signed int for_each_obj_path(signed int (*func)(const char *));
-// for_each_obj_path::func_object
+
 //
-signed int func_object(const char *);
+
 // for_each_object_in_path
 // file md.c line 177
 static signed int for_each_object_in_path(const char *path, signed int (*func)(unsigned long int, const char *, unsigned int, unsigned char, struct vnode_info *, void *), _Bool cleanup, struct vnode_info *vinfo, void *arg);
-// for_each_object_in_path::func_object
+
 //
-signed int func_object(unsigned long int, const char *, unsigned int, unsigned char, struct vnode_info *, void *);
+
 // for_each_object_in_stale
 // file sheep_priv.h line 246
 signed int for_each_object_in_stale(signed int (*func)(unsigned long int, const char *, unsigned int, unsigned char, struct vnode_info *, void *), void *arg);
-// for_each_object_in_stale::func_object
+
 //
-signed int func_object(unsigned long int, const char *, unsigned int, unsigned char, struct vnode_info *, void *);
+
 // for_each_object_in_wd
 // file sheep_priv.h line 243
 signed int for_each_object_in_wd(signed int (*func)(unsigned long int, const char *, unsigned int, unsigned char, struct vnode_info *, void *), _Bool cleanup, void *arg);
-// for_each_object_in_wd::func_object
+
 //
-signed int func_object(unsigned long int, const char *, unsigned int, unsigned char, struct vnode_info *, void *);
+
 // fork
 // file /usr/include/unistd.h line 756
 extern signed int fork(void);
@@ -2139,7 +2139,7 @@ extern signed int getopt_long(signed int, char * const *, const char *, struct o
 extern signed int getpagesize(void);
 // getpeername
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 141
-extern signed int getpeername(signed int, union anonymous_22, unsigned int *);
+extern signed int getpeername(signed int, struct sockaddr *, unsigned int *);
 // getpid
 // file /usr/include/unistd.h line 628
 extern signed int getpid(void);
@@ -2359,15 +2359,15 @@ signed int writer_object(unsigned long int, void *, unsigned int, unsigned long 
 // install_crash_handler
 // file ../include/util.h line 112
 signed int install_crash_handler(void (*handler)(signed int));
-// install_crash_handler::handler_object
+
 //
-void handler_object(signed int);
+
 // install_sighandler
 // file ../include/util.h line 111
 signed int install_sighandler(signed int signum, void (*handler)(signed int), _Bool once);
-// install_sighandler::handler_object
+
 //
-void handler_object(signed int);
+
 // invalid_node
 // file recovery.c line 120
 static _Bool invalid_node(struct sd_node *n, struct vnode_info *info);
@@ -2569,15 +2569,15 @@ signed int kv_delete_object(const char *account, const char *bucket, const char 
 // kv_iterate_bucket
 // file http/kv.c line 598
 signed int kv_iterate_bucket(const char *account, void (*cb)(const char *, void *), void *opaque);
-// kv_iterate_bucket::cb_object
+
 //
-void cb_object(const char *, void *);
+
 // kv_iterate_object
 // file http/kv.c line 1148
 signed int kv_iterate_object(const char *account, const char *bucket, void (*cb)(const char *, void *), void *opaque);
-// kv_iterate_object::cb_object
+
 //
-void cb_object(const char *, void *);
+
 // kv_read_account_meta
 // file http/kv.c line 180
 signed int kv_read_account_meta(struct http_request *req, const char *account);
@@ -4549,9 +4549,9 @@ signed int writer_object(unsigned long int, void *, unsigned int, unsigned long 
 // traverse_btree
 // file ../include/sheepdog_proto.h line 295
 extern void traverse_btree(signed int (*reader)(unsigned long int, void **, unsigned int, unsigned long int), struct sd_inode *inode, void (*fn)(void *, enum btree_node_type, void *), void *arg);
-// traverse_btree::fn_object
+
 //
-void fn_object(void *, enum btree_node_type, void *);
+
 // traverse_btree::reader_object
 //
 signed int reader_object(unsigned long int, void **, unsigned int, unsigned long int);
@@ -19507,14 +19507,14 @@ signed int get_store_path(unsigned long int oid, unsigned char ec_index, char *p
     const char *return_value_md_get_object_dir_1;
     return_value_md_get_object_dir_1=md_get_object_dir(oid);
     signed int return_value_snprintf_2;
-    return_value_snprintf_2=snprintf(path, (unsigned long int)4096, "%s/%016lx_%d", return_value_md_get_object_dir_1, oid, ec_index);
+
     return return_value_snprintf_2;
   }
 
   const char *return_value_md_get_object_dir_4;
   return_value_md_get_object_dir_4=md_get_object_dir(oid);
   signed int return_value_snprintf_5;
-  return_value_snprintf_5=snprintf(path, (unsigned long int)4096, "%s/%016lx", return_value_md_get_object_dir_4, oid);
+
   return return_value_snprintf_5;
 }
 
@@ -19544,14 +19544,14 @@ static signed int get_store_tmp_path(unsigned long int oid, unsigned char ec_ind
     const char *return_value_md_get_object_dir_1;
     return_value_md_get_object_dir_1=md_get_object_dir(oid);
     signed int return_value_snprintf_2;
-    return_value_snprintf_2=snprintf(path, (unsigned long int)4096, "%s/%016lx_%d.tmp", return_value_md_get_object_dir_1, oid, ec_index);
+
     return return_value_snprintf_2;
   }
 
   const char *return_value_md_get_object_dir_4;
   return_value_md_get_object_dir_4=md_get_object_dir(oid);
   signed int return_value_snprintf_5;
-  return_value_snprintf_5=snprintf(path, (unsigned long int)4096, "%s/%016lx.tmp", return_value_md_get_object_dir_4, oid);
+
   return return_value_snprintf_5;
 }
 
@@ -27393,7 +27393,7 @@ signed int object_cache_init(const char *p)
 
     else
     {
-      strbuf_copyout(&buf, (void *)object_cache_dir, sizeof(char [4096l]) /*4096ul*/ );
+
       unsigned int _v;
       *((volatile unsigned int *)&(*(&gcache.capacity))) = (volatile unsigned int)0;
       tmp_statement_expression_3 = *((volatile unsigned int *)&(*(&gcache.capacity)));

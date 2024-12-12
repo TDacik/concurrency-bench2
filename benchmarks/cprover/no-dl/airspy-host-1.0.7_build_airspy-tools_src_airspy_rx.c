@@ -282,9 +282,9 @@ extern signed int airspy_spiflash_write(struct airspy_device *device, const unsi
 // airspy_start_rx
 // file /srv/jenkins-slave/workspace/sid-goto-cc-airspy-host/airspy-host-1.0.7/libairspy/src/airspy.h line 132
 extern signed int airspy_start_rx(struct airspy_device *device, signed int (*callback)(struct anonymous_16 *), void *ctx);
-// airspy_start_rx::callback_object
+
 //
-signed int callback_object(struct anonymous_16 *);
+
 // airspy_stop_rx
 // file /srv/jenkins-slave/workspace/sid-goto-cc-airspy-host/airspy-host-1.0.7/libairspy/src/airspy.h line 133
 extern signed int airspy_stop_rx(struct airspy_device *device);
@@ -312,9 +312,9 @@ static void convert_samples_int16(unsigned short int *src, signed short int *des
 // create_io_threads
 // file /srv/jenkins-slave/workspace/sid-goto-cc-airspy-host/airspy-host-1.0.7/libairspy/src/airspy.c line 498
 static signed int create_io_threads(struct airspy_device *device, signed int (*callback)(struct anonymous_16 *));
-// create_io_threads::callback_object
+
 //
-signed int callback_object(struct anonymous_16 *);
+
 // delay_interleaved
 // file /srv/jenkins-slave/workspace/sid-goto-cc-airspy-host/airspy-host-1.0.7/libairspy/src/iqconverter_float.c line 269
 static void delay_interleaved(struct anonymous_13 *cnv, float *samples, signed int len);
@@ -408,9 +408,9 @@ void libusb_exit(struct libusb_context *);
 // libusb_fill_bulk_transfer
 // file /usr/include/libusb-1.0/libusb.h line 1545
 static inline void libusb_fill_bulk_transfer(struct libusb_transfer *transfer, struct libusb_device_handle *dev_handle, unsigned char endpoint, unsigned char *buffer, signed int length, void (*callback)(struct libusb_transfer *), void *user_data, unsigned int timeout);
-// libusb_fill_bulk_transfer::callback_object
+
 //
-void callback_object(struct libusb_transfer *);
+
 // libusb_free_device_list
 // file /usr/include/libusb-1.0/libusb.h line 1314
 void libusb_free_device_list(struct libusb_device **, signed int);
@@ -471,9 +471,9 @@ signed int parse_u64(char *s, unsigned long int * const value);
 // prepare_transfers
 // file /srv/jenkins-slave/workspace/sid-goto-cc-airspy-host/airspy-host-1.0.7/libairspy/src/airspy.c line 262
 static signed int prepare_transfers(struct airspy_device *device, const unsigned char endpoint_address, void (*callback)(struct libusb_transfer *));
-// prepare_transfers::callback_object
+
 //
-void callback_object(struct libusb_transfer *);
+
 // printf
 // file /usr/include/stdio.h line 362
 extern signed int printf(const char *, ...);

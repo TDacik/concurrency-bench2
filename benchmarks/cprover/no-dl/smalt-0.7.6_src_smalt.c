@@ -674,9 +674,9 @@ static signed int checkSeqNtSymbolsAreLetters(const struct _SEQSEQ *sp);
 // checkWordsInSeqSet
 // file hashidx.c line 606
 static signed int checkWordsInSeqSet(struct _SeqFastq *sqbufp, const struct _HashTable *htp, const struct _SeqSet *ssp, const struct _SeqCodec *codecp, signed int (*checkfunc)(const struct _HashTable *, const struct _SeqSet *, unsigned long int, signed long int, unsigned long int));
-// checkWordsInSeqSet::checkfunc_object
+
 //
-signed int checkfunc_object(const struct _HashTable *, const struct _SeqSet *, unsigned long int, signed long int, unsigned long int);
+
 // cleanupALIMETA
 // file alignment.c line 554
 static void cleanupALIMETA(struct _ALIMETA *p);
@@ -932,15 +932,15 @@ extern double difftime(signed long int, signed long int);
 // doAllWordsInSeqSet
 // file hashidx.c line 533
 static signed int doAllWordsInSeqSet(unsigned int *tuplectrp, struct _SeqFastq *sqbufp, const struct _HashTable *htp, const struct _SeqSet *ssp, const struct V_IVAL_ *ivp, const struct _SeqCodec *codecp, signed int (*keyfunc)(const struct _HashTable *, unsigned long int, unsigned int));
-// doAllWordsInSeqSet::keyfunc_object
+
 //
-signed int keyfunc_object(const struct _HashTable *, unsigned long int, unsigned int);
+
 // doWordsInSeq
 // file hashidx.c line 465
 static signed int doWordsInSeq(unsigned int *tuplectr, unsigned char *ktup_offs, const struct _SeqFastq *sqp, const struct _HashTable *htp, signed int (*keyfunc)(const struct _HashTable *, unsigned long int, unsigned int));
-// doWordsInSeq::keyfunc_object
+
 //
-signed int keyfunc_object(const struct _HashTable *, unsigned long int, unsigned int);
+
 // drand48
 // file /usr/include/stdlib.h line 389
 extern double drand48(void);
@@ -1505,12 +1505,12 @@ extern void * malloc(unsigned long int);
 // mapReads
 // file smalt.c line 1316
 static signed int mapReads(struct _ErrMsg *errmsgp, const struct _MenuOpt *menup);
-// mapReads::1::checkf_object
+
 //
-signed int checkf_object(const void *, const void *);
-// mapReads::1::cmpf_object
+
+
 //
-signed int cmpf_object(const void *, const void *);
+
 // mapSecondary
 // file rmap.c line 1435
 static signed int mapSecondary(struct _ErrMsg *errmsgp, struct RMAPBUFF_ *bufp, struct _ResultSet *rssp, struct RMAPINFO_ *rmrp, const struct RMAPPROF_ *rmprp, struct _SeqFastq *readp, signed int ktuple_maxhit, unsigned int min_cover, signed int min_swatscor, signed int min_swatscor_below_max, unsigned char min_basqval, signed short int target_depth, signed short int max_depth, unsigned short int rmapflg, const struct _HashTable *htp, const struct _SeqSet *ssp, const struct _SeqCodec *codecp);
@@ -1562,12 +1562,12 @@ char menuGetSubProgTyp(const struct _MenuOpt *mp);
 // menuParseCommandLine
 // file menu.h line 133
 signed int menuParseCommandLine(struct _MenuOpt *menu, signed int argc, char **argv);
-// menuParseCommandLine::1::check_fn_object
+
 //
-signed int check_fn_object(struct _MenuOpt *, const struct _optflags *);
-// menuParseCommandLine::1::parse_fn_object
+
+
 //
-signed int parse_fn_object(struct _MenuOpt *, struct _optflags *, signed int, char **);
+
 // menuPrint
 // file menu.c line 1851
 void menuPrint(struct _IO_FILE *fp, const struct _MenuOpt *menup);
@@ -1676,18 +1676,18 @@ static signed int pullARGBUFF(struct _BUFFARG **argp, struct _ARGBUFF *fifop);
 // pullTHREADARGInternalBuffer
 // file threads.c line 489
 static struct _BUFFARG * pullTHREADARGInternalBuffer(struct _THREADARG *thargp, signed int (*checkf)(const void *, const void *), void *tdatap);
-// pullTHREADARGInternalBuffer::checkf_object
+
 //
-signed int checkf_object(const void *, const void *);
+
 // pushARGBUFF
 // file threads.c line 227
 static signed int pushARGBUFF(struct _ARGBUFF *fifop, struct _BUFFARG *argp);
 // pushTHREADARGInternalBuffer
 // file threads.c line 442
 static void pushTHREADARGInternalBuffer(struct _THREADARG *thargp, struct _BUFFARG *argp, signed int (*cmpf)(const void *, const void *));
-// pushTHREADARGInternalBuffer::cmpf_object
+
 //
-signed int cmpf_object(const void *, const void *);
+
 // qsort
 // file /usr/include/stdlib.h line 764
 extern void qsort(void *, unsigned long int, unsigned long int, signed int (*)(const void *, const void *));
@@ -1865,9 +1865,9 @@ void resultSetDeletePairs(struct _ResultPairs *p);
 // resultSetDo
 // file results.c line 2179
 signed int resultSetDo(void *argp, signed int (*cbf)(signed int *, void *, const struct _RESULT *), const struct _ResultSet *rsp);
-// resultSetDo::cbf_object
+
 //
-signed int cbf_object(signed int *, void *, const struct _RESULT *);
+
 // resultSetFilterData
 // file results.h line 629
 void resultSetFilterData(struct _ResultFilter *p, signed int sw_abs, signed int sw_rel, double id_abs);
@@ -2420,21 +2420,21 @@ signed int threadsRun(void);
 // threadsSetTask
 // file threads.h line 97
 signed int threadsSetTask(unsigned char task_typ, signed short int n_threads, signed int (*initf)(void *, const void *, signed short int), const void *initargp, signed int (*procf)(struct _ErrMsg *, void *, void *), signed int (*cleanf)(struct _ErrMsg *, void *), signed int (*checkf)(const void *, const void *), signed int (*cmpf)(const void *, const void *), unsigned long int argsz);
-// threadsSetTask::checkf_object
+
 //
-signed int checkf_object(const void *, const void *);
-// threadsSetTask::cleanf_object
+
+
 //
-signed int cleanf_object(struct _ErrMsg *, void *);
-// threadsSetTask::cmpf_object
+
+
 //
-signed int cmpf_object(const void *, const void *);
-// threadsSetTask::initf_object
+
+
 //
-signed int initf_object(void *, const void *, signed short int);
-// threadsSetTask::procf_object
+
+
 //
-signed int procf_object(struct _ErrMsg *, void *, void *);
+
 // threadsSetUp
 // file threads.h line 116
 signed int threadsSetUp(signed int n_buffarg_factor);

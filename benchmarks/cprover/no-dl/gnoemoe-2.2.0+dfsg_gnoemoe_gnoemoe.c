@@ -3965,15 +3965,15 @@ void gm_external_view_update_last_modified(struct _GmExternalView *view);
 // gm_fetch
 // file ./gm-support.h line 134
 struct _GmFetchHandle * gm_fetch(const struct _GList *source, const struct _GList *dest, void (*cb)(void *, void *), void *user_data);
-// gm_fetch::cb_object
+
 //
-void cb_object(void *, void *);
+
 // gm_fetch_handle_create
 // file gm-support.c line 273
 struct _GmFetchHandle * gm_fetch_handle_create(void (*cb)(void *, void *), void *user_data);
-// gm_fetch_handle_create::cb_object
+
 //
-void cb_object(void *, void *);
+
 // gm_fetch_handle_free
 // file gm-support.c line 252
 void gm_fetch_handle_free(struct _GmFetchHandle *g);
@@ -4082,51 +4082,51 @@ void gm_log_view_set_text(struct _GmLogView *view, const char *text);
 // gm_marshal_VOID__INT_INT_STRING
 // file gm-marshal.c line 324
 extern void gm_marshal_VOID__INT_INT_STRING(struct _GClosure *closure, struct _GValue *return_value, unsigned int n_param_values, const struct _GValue *param_values, void *invocation_hint, void *marshal_data);
-// gm_marshal_VOID__INT_INT_STRING::1::callback_object
+
 //
-void callback_object(void *, signed int, signed int, void *, void *);
+
 // gm_marshal_VOID__INT_STRING
 // file gm-marshal.c line 166
 extern void gm_marshal_VOID__INT_STRING(struct _GClosure *closure, struct _GValue *return_value, unsigned int n_param_values, const struct _GValue *param_values, void *invocation_hint, void *marshal_data);
-// gm_marshal_VOID__INT_STRING::1::callback_object
+
 //
-void callback_object(void *, signed int, void *, void *);
+
 // gm_marshal_VOID__INT_STRING_STRING
 // file gm-marshal.c line 203
 extern void gm_marshal_VOID__INT_STRING_STRING(struct _GClosure *closure, struct _GValue *return_value, unsigned int n_param_values, const struct _GValue *param_values, void *invocation_hint, void *marshal_data);
-// gm_marshal_VOID__INT_STRING_STRING::1::callback_object
+
 //
-void callback_object(void *, signed int, void *, void *, void *);
+
 // gm_marshal_VOID__INT_STRING_STRING_STRING
 // file gm-marshal.c line 242
 extern void gm_marshal_VOID__INT_STRING_STRING_STRING(struct _GClosure *closure, struct _GValue *return_value, unsigned int n_param_values, const struct _GValue *param_values, void *invocation_hint, void *marshal_data);
-// gm_marshal_VOID__INT_STRING_STRING_STRING::1::callback_object
+
 //
-void callback_object(void *, signed int, void *, void *, void *, void *);
+
 // gm_marshal_VOID__POINTER_STRING_STRING_STRING
 // file ./gm-marshal.h line 58
 extern void gm_marshal_VOID__POINTER_STRING_STRING_STRING(struct _GClosure *closure, struct _GValue *return_value, unsigned int n_param_values, const struct _GValue *param_values, void *invocation_hint, void *marshal_data);
-// gm_marshal_VOID__POINTER_STRING_STRING_STRING::1::callback_object
+
 //
-void callback_object(void *, void *, void *, void *, void *, void *);
+
 // gm_marshal_VOID__STRING_INT
 // file gm-marshal.c line 92
 extern void gm_marshal_VOID__STRING_INT(struct _GClosure *closure, struct _GValue *return_value, unsigned int n_param_values, const struct _GValue *param_values, void *invocation_hint, void *marshal_data);
-// gm_marshal_VOID__STRING_INT::1::callback_object
+
 //
-void callback_object(void *, void *, signed int, void *);
+
 // gm_marshal_VOID__STRING_UINT
 // file gm-marshal.c line 55
 extern void gm_marshal_VOID__STRING_UINT(struct _GClosure *closure, struct _GValue *return_value, unsigned int n_param_values, const struct _GValue *param_values, void *invocation_hint, void *marshal_data);
-// gm_marshal_VOID__STRING_UINT::1::callback_object
+
 //
-void callback_object(void *, void *, unsigned int, void *);
+
 // gm_marshal_VOID__UINT_UINT
 // file ./gm-marshal.h line 26
 extern void gm_marshal_VOID__UINT_UINT(struct _GClosure *closure, struct _GValue *return_value, unsigned int n_param_values, const struct _GValue *param_values, void *invocation_hint, void *marshal_data);
-// gm_marshal_VOID__UINT_UINT::1::callback_object
+
 //
-void callback_object(void *, unsigned int, unsigned int, void *);
+
 // gm_mcp_awns_ping_class_init
 // file mcp/gm-mcp-awns-ping.c line 35
 static void gm_mcp_awns_ping_class_init(struct _GmMcpAwnsPingClass *klass);
@@ -4238,9 +4238,9 @@ struct _GmPlayerdbPlayerInfo * gm_mcp_icecrew_playerdb_find(struct _GmMcpIcecrew
 // gm_mcp_icecrew_playerdb_find_players_with
 // file mcp/gm-mcp-icecrew-playerdb.c line 152
 void gm_mcp_icecrew_playerdb_find_players_with(struct _GmMcpIcecrewPlayerdb *package, const char *key, const char *value, void (*func)(struct _GmPlayerdbPlayerInfo *, void *), void *user_data);
-// gm_mcp_icecrew_playerdb_find_players_with::func_object
+
 //
-void func_object(struct _GmPlayerdbPlayerInfo *, void *);
+
 // gm_mcp_icecrew_playerdb_get_type
 // file mcp/gm-mcp-icecrew-playerdb.h line 64
 unsigned long int gm_mcp_icecrew_playerdb_get_type(void);
@@ -4646,9 +4646,9 @@ struct _GmMcpSession * gm_mcp_session_new(struct _GObject *world);
 // gm_mcp_session_package_class_for_each
 // file mcp/gm-mcp-session.c line 276
 struct _GmMcpPackageClass * gm_mcp_session_package_class_for_each(signed int (*func)(struct _GmMcpPackageClass *, void *), void *user_data);
-// gm_mcp_session_package_class_for_each::func_object
+
 //
-signed int func_object(struct _GmMcpPackageClass *, void *);
+
 // gm_mcp_session_reset
 // file mcp/gm-mcp-session.c line 226
 void gm_mcp_session_reset(struct _GmMcpSession *session);
@@ -18050,7 +18050,7 @@ void egg_notification_bubble_set(struct _EggNotificationBubble *bubble, const ch
   if(!(icon == ((struct _GtkWidget *)NULL)))
   {
     return_value_g_type_check_instance_cast_6=g_type_check_instance_cast((struct _GTypeInstance *)icon, (unsigned long int)(20 << 2));
-    return_value_g_object_ref_7=g_object_ref((void *)(struct _GObject *)return_value_g_type_check_instance_cast_6);
+
     bubble->icon = (struct _GtkWidget *)return_value_g_object_ref_7;
   }
 
@@ -20435,7 +20435,7 @@ static void gm_app_view_create_tray(struct _GmAppView *view)
   struct _GmTray *return_value_gm_tray_new_2;
   return_value_gm_tray_new_2=gm_tray_new(return_value_gettext_1);
   void *return_value_g_object_ref_3;
-  return_value_g_object_ref_3=g_object_ref((void *)return_value_gm_tray_new_2);
+
   view->priv->tray = (struct _GmTray *)return_value_g_object_ref_3;
   struct _GdkPixbuf *return_value_gm_pixbuf_get_4;
   return_value_gm_pixbuf_get_4=gm_pixbuf_get("tray/default.svg");
@@ -23164,7 +23164,7 @@ void gm_editor_view_init_language()
     struct _GtkSourceLanguage *return_value_gtk_source_language_manager_get_language_1;
     return_value_gtk_source_language_manager_get_language_1=gtk_source_language_manager_get_language(manager, "moo");
     void *return_value_g_object_ref_2;
-    return_value_g_object_ref_2=g_object_ref((void *)return_value_gtk_source_language_manager_get_language_1);
+
     language = (struct _GtkSourceLanguage *)return_value_g_object_ref_2;
     g_object_unref((void *)manager);
   }
@@ -36343,7 +36343,7 @@ void gm_tray_set_icon(struct _GmTray *tray, enum _GmTrayState state, struct _Gdk
     g_object_unref((void *)tray->priv->icons[(signed long int)state]);
 
   void *return_value_g_object_ref_1;
-  return_value_g_object_ref_1=g_object_ref((void *)icon);
+
   tray->priv->icons[(signed long int)state] = (struct _GdkPixbuf *)return_value_g_object_ref_1;
   if(state == tray->priv->current_state)
     gm_tray_update_icon(tray);
@@ -39276,7 +39276,7 @@ void gm_world_input_view_set_color_table(struct _GmWorldInputView *view, struct 
   if(!(color_table == ((struct _GmColorTable *)NULL)))
   {
     void *return_value_g_object_ref_3;
-    return_value_g_object_ref_3=g_object_ref((void *)color_table);
+
     view->priv->color_table = (struct _GmColorTable *)return_value_g_object_ref_3;
   }
 
@@ -41871,7 +41871,7 @@ struct _GmWorldTab * gm_world_tab_new(struct _GmWorld *world)
   return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)return_value_g_object_new_2, return_value_gm_world_tab_get_type_3);
   obj = (struct _GmWorldTab *)return_value_g_type_check_instance_cast_4;
   void *return_value_g_object_ref_5;
-  return_value_g_object_ref_5=g_object_ref((void *)world);
+
   obj->priv->world = (struct _GmWorld *)return_value_g_object_ref_5;
   g_signal_connect_data((void *)world, "notify::activity", (void (*)(void))on_gm_world_tab_world_activity_changed, (void *)obj, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_73)0);
   g_signal_connect_data((void *)world, "notify::name", (void (*)(void))on_gm_world_tab_world_name_changed, (void *)obj, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_73)0);
@@ -42987,7 +42987,7 @@ static void gm_world_text_view_insert_text(struct _GmWorldTextView *view, const 
     struct _GtkTextMark *return_value_gtk_text_buffer_create_mark_6;
     return_value_gtk_text_buffer_create_mark_6=gtk_text_buffer_create_mark(tb, (const char *)(void *)0, &start_iter, (signed int)!(0 != 0));
     void *return_value_g_object_ref_7;
-    return_value_g_object_ref_7=g_object_ref((void *)return_value_gtk_text_buffer_create_mark_6);
+
     info->begin = (struct _GtkTextMark *)return_value_g_object_ref_7;
     info->view = view;
     if(insert_info->blink == 1u)
@@ -43244,7 +43244,7 @@ void gm_world_text_view_set_color_table(struct _GmWorldTextView *view, struct _G
   if(!(color_table == ((struct _GmColorTable *)NULL)))
   {
     void *return_value_g_object_ref_1;
-    return_value_g_object_ref_1=g_object_ref((void *)color_table);
+
     view->priv->color_table = (struct _GmColorTable *)return_value_g_object_ref_1;
     g_signal_connect_data((void *)view->priv->color_table, "color_changed", (void (*)(void))on_gm_world_text_view_color_table_color_changed, (void *)view, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_73)0);
     g_signal_connect_data((void *)view->priv->color_table, "font_changed", (void (*)(void))on_gm_world_text_view_color_table_font_changed, (void *)view, (void (*)(void *, struct _GClosure *))(void *)0, (enum anonymous_73)0);
@@ -44622,7 +44622,7 @@ struct _GtkWidget * gm_world_view_new(struct _GmWorld *world)
   return_value_g_type_check_instance_cast_4=g_type_check_instance_cast((struct _GTypeInstance *)return_value_g_object_new_2, return_value_gm_world_view_get_type_3);
   view = (struct _GmWorldView *)return_value_g_type_check_instance_cast_4;
   void *return_value_g_object_ref_5;
-  return_value_g_object_ref_5=g_object_ref((void *)world);
+
   view->priv->world = (struct _GmWorld *)return_value_g_object_ref_5;
   struct _GList **return_value_gm_world_history_6;
   return_value_gm_world_history_6=gm_world_history(view->priv->world);

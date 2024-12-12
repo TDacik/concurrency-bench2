@@ -384,7 +384,7 @@ extern void __pthread_unwind_next(struct anonymous_16 *);
 extern signed int __sigsetjmp(struct __jmp_buf_tag *, signed int);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_9, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bindtextdomain
 // file /usr/include/libintl.h line 86
 extern char * bindtextdomain(const char *, const char *);
@@ -733,9 +733,9 @@ signed int teredo_maintenance_process(struct teredo_maintenance * restrict m, co
 // teredo_maintenance_start
 // file maintain.h line 78
 struct teredo_maintenance * teredo_maintenance_start(signed int fd, void (*cb)(struct teredo_state *, void *), void *opaque, const char *s1, const char *s2, unsigned int q_sec, unsigned int q_retries, unsigned int refresh_sec, unsigned int restart_sec);
-// teredo_maintenance_start::cb_object
+
 //
-void cb_object(struct teredo_state *, void *);
+
 // teredo_maintenance_stop
 // file maintain.h line 89
 void teredo_maintenance_stop(struct teredo_maintenance *m);
@@ -763,9 +763,9 @@ static void teredo_predecap(struct teredo_tunnel * restrict tunnel, struct tered
 // teredo_queue_emit
 // file peerlist.h line 58
 void teredo_queue_emit(struct teredo_queue *q, signed int fd, unsigned int ipv4, unsigned short int port, void (*cb)(void *, const void *, unsigned long int), void *opaque);
-// teredo_queue_emit::cb_object
+
 //
-void cb_object(void *, const void *, unsigned long int);
+
 // teredo_recv
 // file teredo-udp.h line 129
 signed int teredo_recv(signed int fd, struct teredo_packet *p);
@@ -817,9 +817,9 @@ signed int teredo_set_cone_flag(struct teredo_tunnel *t, _Bool cone);
 // teredo_set_icmpv6_callback
 // file relay.c line 1126
 void teredo_set_icmpv6_callback(struct teredo_tunnel * restrict t, void (*cb)(void *, const void *, unsigned long int, struct in6_addr *));
-// teredo_set_icmpv6_callback::cb_object
+
 //
-void cb_object(void *, const void *, unsigned long int, struct in6_addr *);
+
 // teredo_set_prefix
 // file relay.c line 999
 signed int teredo_set_prefix(struct teredo_tunnel *t, unsigned int prefix);
@@ -829,9 +829,9 @@ void * teredo_set_privdata(struct teredo_tunnel *t, void *opaque);
 // teredo_set_recv_callback
 // file relay.c line 1116
 void teredo_set_recv_callback(struct teredo_tunnel * restrict t, void (*cb)(void *, const void *, unsigned long int));
-// teredo_set_recv_callback::cb_object
+
 //
-void cb_object(void *, const void *, unsigned long int);
+
 // teredo_set_relay_mode
 // file relay.c line 1045
 signed int teredo_set_relay_mode(struct teredo_tunnel *t);

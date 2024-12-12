@@ -470,7 +470,7 @@ extern signed int __xstat(signed int, const char *, struct stat *);
 extern void abort(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_20, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // accept_data
 // file src/destination.h line 36
 signed int accept_data(struct flow *flow);
@@ -560,7 +560,7 @@ static inline signed int atoi(const char *__nptr);
 static inline signed int atoi_link1(const char *__nptr_link1);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_20, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bind_daemon_to_core
 // file src/flowgrindd.c line 967
 void bind_daemon_to_core(void);
@@ -590,7 +590,7 @@ extern signed int close(signed int);
 extern void closelog(void);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_20, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // copy_options
 // file src/fg_argparser.c line 338
 static _Bool copy_options(struct arg_parser * const ap, struct ap_Option *options);
@@ -776,7 +776,7 @@ extern signed int gethostname(char *, unsigned long int);
 extern signed int getnameinfo(struct sockaddr *, unsigned int, char *, unsigned int, char *, unsigned int, signed int);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous_20, unsigned int *);
+extern signed int getsockname(signed int, struct sockaddr *, unsigned int *);
 // getsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 219
 extern signed int getsockopt(signed int, signed int, signed int, void *, unsigned int *);

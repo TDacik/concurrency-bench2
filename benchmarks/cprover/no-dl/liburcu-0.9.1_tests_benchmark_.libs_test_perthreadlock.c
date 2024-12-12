@@ -230,10 +230,10 @@ struct urcu_waiters;
 
 // ___cds_wfcq_append
 // file ./urcu/static/wfcqueue.h line 165
-static inline _Bool ___cds_wfcq_append(union anonymous_0 u_head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *new_head, struct cds_wfcq_node *new_tail);
+static inline _Bool ___cds_wfcq_append(struct __cds_wfcq_head * u_head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *new_head, struct cds_wfcq_node *new_tail);
 // ___cds_wfcq_append_link1
 // file urcu/static/wfcqueue.h line 165
-static inline _Bool ___cds_wfcq_append_link1(union anonymous_0 u_head_link1, struct cds_wfcq_tail *tail_link1, struct cds_wfcq_node *new_head_link1, struct cds_wfcq_node *new_tail_link1);
+static inline _Bool ___cds_wfcq_append_link1(struct __cds_wfcq_head * u_head_link1, struct cds_wfcq_tail *tail_link1, struct cds_wfcq_node *new_head_link1, struct cds_wfcq_node *new_tail_link1);
 // ___cds_wfcq_busy_wait
 // file ./urcu/static/wfcqueue.h line 219
 static inline _Bool ___cds_wfcq_busy_wait(signed int *attempt, signed int blocking);
@@ -242,52 +242,52 @@ static inline _Bool ___cds_wfcq_busy_wait(signed int *attempt, signed int blocki
 static inline _Bool ___cds_wfcq_busy_wait_link1(signed int *attempt_link1, signed int blocking_link1);
 // ___cds_wfcq_dequeue_blocking
 // file urcu/static/wfcqueue.h line 453
-static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_blocking(union anonymous_0 head, struct cds_wfcq_tail *tail);
+static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_blocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail);
 // ___cds_wfcq_dequeue_nonblocking
 // file urcu/static/wfcqueue.h line 479
-static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_nonblocking(union anonymous_0 head, struct cds_wfcq_tail *tail);
+static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_nonblocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail);
 // ___cds_wfcq_dequeue_with_state
 // file urcu/static/wfcqueue.h line 367
-static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_with_state(union anonymous_0 u_head, struct cds_wfcq_tail *tail, signed int *state, signed int blocking);
+static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_with_state(struct __cds_wfcq_head * u_head, struct cds_wfcq_tail *tail, signed int *state, signed int blocking);
 // ___cds_wfcq_dequeue_with_state_blocking
 // file urcu/static/wfcqueue.h line 440
-static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_with_state_blocking(union anonymous_0 head, struct cds_wfcq_tail *tail, signed int *state);
+static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_with_state_blocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, signed int *state);
 // ___cds_wfcq_dequeue_with_state_nonblocking
 // file urcu/static/wfcqueue.h line 466
-static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_with_state_nonblocking(union anonymous_0 head, struct cds_wfcq_tail *tail, signed int *state);
+static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_with_state_nonblocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, signed int *state);
 // ___cds_wfcq_first
 // file ./urcu/static/wfcqueue.h line 253
-static inline struct cds_wfcq_node * ___cds_wfcq_first(union anonymous_0 u_head, struct cds_wfcq_tail *tail, signed int blocking);
+static inline struct cds_wfcq_node * ___cds_wfcq_first(struct __cds_wfcq_head * u_head, struct cds_wfcq_tail *tail, signed int blocking);
 // ___cds_wfcq_first_link1
 // file urcu/static/wfcqueue.h line 253
-static inline struct cds_wfcq_node * ___cds_wfcq_first_link1(union anonymous_0 u_head_link1, struct cds_wfcq_tail *tail_link1, signed int blocking_link1);
+static inline struct cds_wfcq_node * ___cds_wfcq_first_link1(struct __cds_wfcq_head * u_head_link1, struct cds_wfcq_tail *tail_link1, signed int blocking_link1);
 // ___cds_wfcq_first_blocking
 // file ./urcu/static/wfcqueue.h line 283
-static inline struct cds_wfcq_node * ___cds_wfcq_first_blocking(union anonymous_0 head, struct cds_wfcq_tail *tail);
+static inline struct cds_wfcq_node * ___cds_wfcq_first_blocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail);
 // ___cds_wfcq_first_blocking_link1
 // file urcu/static/wfcqueue.h line 283
-static inline struct cds_wfcq_node * ___cds_wfcq_first_blocking_link1(union anonymous_0 head_link1, struct cds_wfcq_tail *tail_link1);
+static inline struct cds_wfcq_node * ___cds_wfcq_first_blocking_link1(struct __cds_wfcq_head * head_link1, struct cds_wfcq_tail *tail_link1);
 // ___cds_wfcq_first_nonblocking
 // file urcu/static/wfcqueue.h line 297
-static inline struct cds_wfcq_node * ___cds_wfcq_first_nonblocking(union anonymous_0 head, struct cds_wfcq_tail *tail);
+static inline struct cds_wfcq_node * ___cds_wfcq_first_nonblocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail);
 // ___cds_wfcq_init
 // file urcu/static/wfcqueue.h line 112
 static inline void ___cds_wfcq_init(struct __cds_wfcq_head *head, struct cds_wfcq_tail *tail);
 // ___cds_wfcq_next
 // file ./urcu/static/wfcqueue.h line 304
-static inline struct cds_wfcq_node * ___cds_wfcq_next(union anonymous_0 head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node, signed int blocking);
+static inline struct cds_wfcq_node * ___cds_wfcq_next(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node, signed int blocking);
 // ___cds_wfcq_next_link1
 // file urcu/static/wfcqueue.h line 304
-static inline struct cds_wfcq_node * ___cds_wfcq_next_link1(union anonymous_0 head_link1, struct cds_wfcq_tail *tail_link1, struct cds_wfcq_node *node_link1, signed int blocking_link1);
+static inline struct cds_wfcq_node * ___cds_wfcq_next_link1(struct __cds_wfcq_head * head_link1, struct cds_wfcq_tail *tail_link1, struct cds_wfcq_node *node_link1, signed int blocking_link1);
 // ___cds_wfcq_next_blocking
 // file ./urcu/static/wfcqueue.h line 345
-static inline struct cds_wfcq_node * ___cds_wfcq_next_blocking(union anonymous_0 head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node);
+static inline struct cds_wfcq_node * ___cds_wfcq_next_blocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node);
 // ___cds_wfcq_next_blocking_link1
 // file urcu/static/wfcqueue.h line 345
-static inline struct cds_wfcq_node * ___cds_wfcq_next_blocking_link1(union anonymous_0 head_link1, struct cds_wfcq_tail *tail_link1, struct cds_wfcq_node *node_link1);
+static inline struct cds_wfcq_node * ___cds_wfcq_next_blocking_link1(struct __cds_wfcq_head * head_link1, struct cds_wfcq_tail *tail_link1, struct cds_wfcq_node *node_link1);
 // ___cds_wfcq_next_nonblocking
 // file urcu/static/wfcqueue.h line 359
-static inline struct cds_wfcq_node * ___cds_wfcq_next_nonblocking(union anonymous_0 head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node);
+static inline struct cds_wfcq_node * ___cds_wfcq_next_nonblocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node);
 // ___cds_wfcq_node_sync_next
 // file ./urcu/static/wfcqueue.h line 236
 static inline struct cds_wfcq_node * ___cds_wfcq_node_sync_next(struct cds_wfcq_node *node, signed int blocking);
@@ -296,19 +296,19 @@ static inline struct cds_wfcq_node * ___cds_wfcq_node_sync_next(struct cds_wfcq_
 static inline struct cds_wfcq_node * ___cds_wfcq_node_sync_next_link1(struct cds_wfcq_node *node_link1, signed int blocking_link1);
 // ___cds_wfcq_splice
 // file ./urcu/static/wfcqueue.h line 496
-static inline enum cds_wfcq_ret ___cds_wfcq_splice(union anonymous_0 u_dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 u_src_q_head, struct cds_wfcq_tail *src_q_tail, signed int blocking);
+static inline enum cds_wfcq_ret ___cds_wfcq_splice(struct __cds_wfcq_head * u_dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 u_src_q_head, struct cds_wfcq_tail *src_q_tail, signed int blocking);
 // ___cds_wfcq_splice_link1
 // file urcu/static/wfcqueue.h line 496
-static inline enum cds_wfcq_ret ___cds_wfcq_splice_link1(union anonymous_0 u_dest_q_head_link1, struct cds_wfcq_tail *dest_q_tail_link1, union anonymous_0 u_src_q_head_link1, struct cds_wfcq_tail *src_q_tail_link1, signed int blocking_link1);
+static inline enum cds_wfcq_ret ___cds_wfcq_splice_link1(struct __cds_wfcq_head * u_dest_q_head_link1, struct cds_wfcq_tail *dest_q_tail_link1, union anonymous_0 u_src_q_head_link1, struct cds_wfcq_tail *src_q_tail_link1, signed int blocking_link1);
 // ___cds_wfcq_splice_blocking
 // file ./urcu/static/wfcqueue.h line 559
-static inline enum cds_wfcq_ret ___cds_wfcq_splice_blocking(union anonymous_0 dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 src_q_head, struct cds_wfcq_tail *src_q_tail);
+static inline enum cds_wfcq_ret ___cds_wfcq_splice_blocking(struct __cds_wfcq_head * dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 src_q_head, struct cds_wfcq_tail *src_q_tail);
 // ___cds_wfcq_splice_blocking_link1
 // file urcu/static/wfcqueue.h line 559
-static inline enum cds_wfcq_ret ___cds_wfcq_splice_blocking_link1(union anonymous_0 dest_q_head_link1, struct cds_wfcq_tail *dest_q_tail_link1, union anonymous_0 src_q_head_link1, struct cds_wfcq_tail *src_q_tail_link1);
+static inline enum cds_wfcq_ret ___cds_wfcq_splice_blocking_link1(struct __cds_wfcq_head * dest_q_head_link1, struct cds_wfcq_tail *dest_q_tail_link1, union anonymous_0 src_q_head_link1, struct cds_wfcq_tail *src_q_tail_link1);
 // ___cds_wfcq_splice_nonblocking
 // file urcu/static/wfcqueue.h line 576
-static inline enum cds_wfcq_ret ___cds_wfcq_splice_nonblocking(union anonymous_0 dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 src_q_head, struct cds_wfcq_tail *src_q_tail);
+static inline enum cds_wfcq_ret ___cds_wfcq_splice_nonblocking(struct __cds_wfcq_head * dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 src_q_head, struct cds_wfcq_tail *src_q_tail);
 // ___cds_wfq_dequeue_blocking
 // file urcu/static/wfqueue.h line 119
 static inline struct cds_wfq_node * ___cds_wfq_dequeue_blocking(struct cds_wfq_queue *q);
@@ -365,37 +365,37 @@ extern void __assert_fail(const char *, const char *, unsigned int, const char *
 static inline void __cds_list_del(struct cds_list_head *prev, struct cds_list_head *next);
 // __cds_wfcq_dequeue_blocking
 // file wfcqueue.c line 100
-extern struct cds_wfcq_node * __cds_wfcq_dequeue_blocking(union anonymous_0 head, struct cds_wfcq_tail *tail);
+extern struct cds_wfcq_node * __cds_wfcq_dequeue_blocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail);
 // __cds_wfcq_dequeue_nonblocking
 // file wfcqueue.c line 115
-extern struct cds_wfcq_node * __cds_wfcq_dequeue_nonblocking(union anonymous_0 head, struct cds_wfcq_tail *tail);
+extern struct cds_wfcq_node * __cds_wfcq_dequeue_nonblocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail);
 // __cds_wfcq_dequeue_with_state_blocking
 // file wfcqueue.c line 107
-extern struct cds_wfcq_node * __cds_wfcq_dequeue_with_state_blocking(union anonymous_0 head, struct cds_wfcq_tail *tail, signed int *state);
+extern struct cds_wfcq_node * __cds_wfcq_dequeue_with_state_blocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, signed int *state);
 // __cds_wfcq_dequeue_with_state_nonblocking
 // file wfcqueue.c line 122
-extern struct cds_wfcq_node * __cds_wfcq_dequeue_with_state_nonblocking(union anonymous_0 head, struct cds_wfcq_tail *tail, signed int *state);
+extern struct cds_wfcq_node * __cds_wfcq_dequeue_with_state_nonblocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, signed int *state);
 // __cds_wfcq_first_blocking
 // file wfcqueue.c line 150
-extern struct cds_wfcq_node * __cds_wfcq_first_blocking(union anonymous_0 head, struct cds_wfcq_tail *tail);
+extern struct cds_wfcq_node * __cds_wfcq_first_blocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail);
 // __cds_wfcq_first_nonblocking
 // file wfcqueue.c line 157
-extern struct cds_wfcq_node * __cds_wfcq_first_nonblocking(union anonymous_0 head, struct cds_wfcq_tail *tail);
+extern struct cds_wfcq_node * __cds_wfcq_first_nonblocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail);
 // __cds_wfcq_init
 // file wfcqueue.c line 43
 extern void __cds_wfcq_init(struct __cds_wfcq_head *head, struct cds_wfcq_tail *tail);
 // __cds_wfcq_next_blocking
 // file wfcqueue.c line 164
-extern struct cds_wfcq_node * __cds_wfcq_next_blocking(union anonymous_0 head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node);
+extern struct cds_wfcq_node * __cds_wfcq_next_blocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node);
 // __cds_wfcq_next_nonblocking
 // file wfcqueue.c line 172
-extern struct cds_wfcq_node * __cds_wfcq_next_nonblocking(union anonymous_0 head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node);
+extern struct cds_wfcq_node * __cds_wfcq_next_nonblocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node);
 // __cds_wfcq_splice_blocking
 // file wfcqueue.c line 130
-extern enum cds_wfcq_ret __cds_wfcq_splice_blocking(union anonymous_0 dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 src_q_head, struct cds_wfcq_tail *src_q_tail);
+extern enum cds_wfcq_ret __cds_wfcq_splice_blocking(struct __cds_wfcq_head * dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 src_q_head, struct cds_wfcq_tail *src_q_tail);
 // __cds_wfcq_splice_nonblocking
 // file wfcqueue.c line 140
-extern enum cds_wfcq_ret __cds_wfcq_splice_nonblocking(union anonymous_0 dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 src_q_head, struct cds_wfcq_tail *src_q_tail);
+extern enum cds_wfcq_ret __cds_wfcq_splice_nonblocking(struct __cds_wfcq_head * dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 src_q_head, struct cds_wfcq_tail *src_q_tail);
 // __cds_wfq_dequeue_blocking
 // file wfqueue.c line 49
 extern struct cds_wfq_node * __cds_wfq_dequeue_blocking(struct cds_wfq_queue *q);
@@ -485,16 +485,16 @@ static inline void _cds_wfcq_dequeue_unlock(struct cds_wfcq_head *head, struct c
 static inline struct cds_wfcq_node * _cds_wfcq_dequeue_with_state_blocking(struct cds_wfcq_head *head, struct cds_wfcq_tail *tail, signed int *state);
 // _cds_wfcq_empty
 // file ./urcu/static/wfcqueue.h line 132
-static inline _Bool _cds_wfcq_empty(union anonymous_0 u_head, struct cds_wfcq_tail *tail);
+static inline _Bool _cds_wfcq_empty(struct __cds_wfcq_head * u_head, struct cds_wfcq_tail *tail);
 // _cds_wfcq_empty_link1
 // file urcu/static/wfcqueue.h line 132
-static inline _Bool _cds_wfcq_empty_link1(union anonymous_0 u_head_link1, struct cds_wfcq_tail *tail_link1);
+static inline _Bool _cds_wfcq_empty_link1(struct __cds_wfcq_head * u_head_link1, struct cds_wfcq_tail *tail_link1);
 // _cds_wfcq_enqueue
 // file ./urcu/static/wfcqueue.h line 206
-static inline _Bool _cds_wfcq_enqueue(union anonymous_0 head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *new_tail);
+static inline _Bool _cds_wfcq_enqueue(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *new_tail);
 // _cds_wfcq_enqueue_link1
 // file urcu/static/wfcqueue.h line 206
-static inline _Bool _cds_wfcq_enqueue_link1(union anonymous_0 head_link1, struct cds_wfcq_tail *tail_link1, struct cds_wfcq_node *new_tail_link1);
+static inline _Bool _cds_wfcq_enqueue_link1(struct __cds_wfcq_head * head_link1, struct cds_wfcq_tail *tail_link1, struct cds_wfcq_node *new_tail_link1);
 // _cds_wfcq_init
 // file ./urcu/static/wfcqueue.h line 97
 static inline void _cds_wfcq_init(struct cds_wfcq_head *head, struct cds_wfcq_tail *tail);
@@ -570,9 +570,9 @@ static inline signed int _cds_wfs_push_link1(union anonymous_11 u_stack_link1, s
 // _defer_rcu
 // file urcu-defer-impl.h line 311
 static void _defer_rcu(void (*fct)(void *), void *p);
-// _defer_rcu::fct_object
+
 //
-void fct_object(void *);
+
 // _rcu_barrier_complete
 // file urcu-call-rcu-impl.h line 822
 static void _rcu_barrier_complete(struct rcu_head *head);
@@ -680,10 +680,10 @@ extern void cds_wfcq_dequeue_unlock(struct cds_wfcq_head *head, struct cds_wfcq_
 extern struct cds_wfcq_node * cds_wfcq_dequeue_with_state_blocking(struct cds_wfcq_head *head, struct cds_wfcq_tail *tail, signed int *state);
 // cds_wfcq_empty
 // file wfcqueue.c line 49
-extern _Bool cds_wfcq_empty(union anonymous_0 head, struct cds_wfcq_tail *tail);
+extern _Bool cds_wfcq_empty(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail);
 // cds_wfcq_enqueue
 // file wfcqueue.c line 56
-extern _Bool cds_wfcq_enqueue(union anonymous_0 head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node);
+extern _Bool cds_wfcq_enqueue(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node);
 // cds_wfcq_init
 // file wfcqueue.c line 37
 extern void cds_wfcq_init(struct cds_wfcq_head *head, struct cds_wfcq_tail *tail);
@@ -756,9 +756,9 @@ struct call_rcu_data * create_call_rcu_data_sig(unsigned long int flags, signed 
 // defer_rcu_sig
 // file urcu-defer-impl.h line 395
 extern void defer_rcu_sig(void (*fct)(void *), void *p);
-// defer_rcu_sig::fct_object
+
 //
-void fct_object(void *);
+
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
@@ -873,9 +873,9 @@ extern void * rcu_cmpxchg_pointer_sym(void **p, void *old, void *_new);
 // rcu_defer_barrier_queue
 // file urcu-defer-impl.h line 218
 static void rcu_defer_barrier_queue(struct defer_queue *queue, unsigned long int head);
-// rcu_defer_barrier_queue::1::fct_object
+
 //
-void fct_object(void *);
+
 // rcu_defer_barrier_sig
 // file urcu-defer-impl.h line 281
 extern void rcu_defer_barrier_sig(void);
@@ -1806,7 +1806,7 @@ static unsigned long int wduration;
 
 // ___cds_wfcq_append
 // file ./urcu/static/wfcqueue.h line 165
-static inline _Bool ___cds_wfcq_append(union anonymous_0 u_head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *new_head, struct cds_wfcq_node *new_tail)
+static inline _Bool ___cds_wfcq_append(struct __cds_wfcq_head * u_head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *new_head, struct cds_wfcq_node *new_tail)
 {
   struct __cds_wfcq_head *head = u_head._h;
   struct cds_wfcq_node *old_tail;
@@ -1825,7 +1825,7 @@ static inline _Bool ___cds_wfcq_append(union anonymous_0 u_head, struct cds_wfcq
 
 // ___cds_wfcq_append_link1
 // file urcu/static/wfcqueue.h line 165
-static inline _Bool ___cds_wfcq_append_link1(union anonymous_0 u_head_link1, struct cds_wfcq_tail *tail_link1, struct cds_wfcq_node *new_head_link1, struct cds_wfcq_node *new_tail_link1)
+static inline _Bool ___cds_wfcq_append_link1(struct __cds_wfcq_head * u_head_link1, struct cds_wfcq_tail *tail_link1, struct cds_wfcq_node *new_head_link1, struct cds_wfcq_node *new_tail_link1)
 {
   struct __cds_wfcq_head *head_link1 = u_head_link1._h;
   struct cds_wfcq_node *old_tail_link1;
@@ -1888,7 +1888,7 @@ static inline _Bool ___cds_wfcq_busy_wait_link1(signed int *attempt_link1, signe
 
 // ___cds_wfcq_dequeue_blocking
 // file urcu/static/wfcqueue.h line 453
-static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_blocking(union anonymous_0 head, struct cds_wfcq_tail *tail)
+static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_blocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_dequeue_with_state_blocking_1;
   return_value____cds_wfcq_dequeue_with_state_blocking_1=___cds_wfcq_dequeue_with_state_blocking(head, tail, (signed int *)(void *)0);
@@ -1897,7 +1897,7 @@ static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_blocking(union anonymou
 
 // ___cds_wfcq_dequeue_nonblocking
 // file urcu/static/wfcqueue.h line 479
-static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_nonblocking(union anonymous_0 head, struct cds_wfcq_tail *tail)
+static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_nonblocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_dequeue_with_state_nonblocking_1;
   return_value____cds_wfcq_dequeue_with_state_nonblocking_1=___cds_wfcq_dequeue_with_state_nonblocking(head, tail, (signed int *)(void *)0);
@@ -1906,7 +1906,7 @@ static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_nonblocking(union anony
 
 // ___cds_wfcq_dequeue_with_state
 // file urcu/static/wfcqueue.h line 367
-static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_with_state(union anonymous_0 u_head, struct cds_wfcq_tail *tail, signed int *state, signed int blocking)
+static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_with_state(struct __cds_wfcq_head * u_head, struct cds_wfcq_tail *tail, signed int *state, signed int blocking)
 {
   struct __cds_wfcq_head *head = u_head._h;
   struct cds_wfcq_node *node;
@@ -1961,7 +1961,7 @@ static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_with_state(union anonym
 
 // ___cds_wfcq_dequeue_with_state_blocking
 // file urcu/static/wfcqueue.h line 440
-static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_with_state_blocking(union anonymous_0 head, struct cds_wfcq_tail *tail, signed int *state)
+static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_with_state_blocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, signed int *state)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_dequeue_with_state_1;
   return_value____cds_wfcq_dequeue_with_state_1=___cds_wfcq_dequeue_with_state(head, tail, state, 1);
@@ -1970,7 +1970,7 @@ static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_with_state_blocking(uni
 
 // ___cds_wfcq_dequeue_with_state_nonblocking
 // file urcu/static/wfcqueue.h line 466
-static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_with_state_nonblocking(union anonymous_0 head, struct cds_wfcq_tail *tail, signed int *state)
+static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_with_state_nonblocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, signed int *state)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_dequeue_with_state_1;
   return_value____cds_wfcq_dequeue_with_state_1=___cds_wfcq_dequeue_with_state(head, tail, state, 0);
@@ -1979,7 +1979,7 @@ static inline struct cds_wfcq_node * ___cds_wfcq_dequeue_with_state_nonblocking(
 
 // ___cds_wfcq_first
 // file ./urcu/static/wfcqueue.h line 253
-static inline struct cds_wfcq_node * ___cds_wfcq_first(union anonymous_0 u_head, struct cds_wfcq_tail *tail, signed int blocking)
+static inline struct cds_wfcq_node * ___cds_wfcq_first(struct __cds_wfcq_head * u_head, struct cds_wfcq_tail *tail, signed int blocking)
 {
   struct __cds_wfcq_head *head = u_head._h;
   struct cds_wfcq_node *node;
@@ -1997,7 +1997,7 @@ static inline struct cds_wfcq_node * ___cds_wfcq_first(union anonymous_0 u_head,
 
 // ___cds_wfcq_first_link1
 // file urcu/static/wfcqueue.h line 253
-static inline struct cds_wfcq_node * ___cds_wfcq_first_link1(union anonymous_0 u_head_link1, struct cds_wfcq_tail *tail_link1, signed int blocking_link1)
+static inline struct cds_wfcq_node * ___cds_wfcq_first_link1(struct __cds_wfcq_head * u_head_link1, struct cds_wfcq_tail *tail_link1, signed int blocking_link1)
 {
   struct __cds_wfcq_head *head_link1 = u_head_link1._h;
   struct cds_wfcq_node *node_link1;
@@ -2015,7 +2015,7 @@ static inline struct cds_wfcq_node * ___cds_wfcq_first_link1(union anonymous_0 u
 
 // ___cds_wfcq_first_blocking
 // file ./urcu/static/wfcqueue.h line 283
-static inline struct cds_wfcq_node * ___cds_wfcq_first_blocking(union anonymous_0 head, struct cds_wfcq_tail *tail)
+static inline struct cds_wfcq_node * ___cds_wfcq_first_blocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_first_1;
   return_value____cds_wfcq_first_1=___cds_wfcq_first(head, tail, 1);
@@ -2024,7 +2024,7 @@ static inline struct cds_wfcq_node * ___cds_wfcq_first_blocking(union anonymous_
 
 // ___cds_wfcq_first_blocking_link1
 // file urcu/static/wfcqueue.h line 283
-static inline struct cds_wfcq_node * ___cds_wfcq_first_blocking_link1(union anonymous_0 head_link1, struct cds_wfcq_tail *tail_link1)
+static inline struct cds_wfcq_node * ___cds_wfcq_first_blocking_link1(struct __cds_wfcq_head * head_link1, struct cds_wfcq_tail *tail_link1)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_first_1_link1;
   return_value____cds_wfcq_first_1_link1=___cds_wfcq_first_link1(head_link1, tail_link1, 1);
@@ -2033,7 +2033,7 @@ static inline struct cds_wfcq_node * ___cds_wfcq_first_blocking_link1(union anon
 
 // ___cds_wfcq_first_nonblocking
 // file urcu/static/wfcqueue.h line 297
-static inline struct cds_wfcq_node * ___cds_wfcq_first_nonblocking(union anonymous_0 head, struct cds_wfcq_tail *tail)
+static inline struct cds_wfcq_node * ___cds_wfcq_first_nonblocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_first_1;
   return_value____cds_wfcq_first_1=___cds_wfcq_first_link1(head, tail, 0);
@@ -2050,7 +2050,7 @@ static inline void ___cds_wfcq_init(struct __cds_wfcq_head *head, struct cds_wfc
 
 // ___cds_wfcq_next
 // file ./urcu/static/wfcqueue.h line 304
-static inline struct cds_wfcq_node * ___cds_wfcq_next(union anonymous_0 head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node, signed int blocking)
+static inline struct cds_wfcq_node * ___cds_wfcq_next(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node, signed int blocking)
 {
   struct cds_wfcq_node *next;
   struct cds_wfcq_node * volatile tmp_statement_expression_2;
@@ -2074,7 +2074,7 @@ static inline struct cds_wfcq_node * ___cds_wfcq_next(union anonymous_0 head, st
 
 // ___cds_wfcq_next_link1
 // file urcu/static/wfcqueue.h line 304
-static inline struct cds_wfcq_node * ___cds_wfcq_next_link1(union anonymous_0 head_link1, struct cds_wfcq_tail *tail_link1, struct cds_wfcq_node *node_link1, signed int blocking_link1)
+static inline struct cds_wfcq_node * ___cds_wfcq_next_link1(struct __cds_wfcq_head * head_link1, struct cds_wfcq_tail *tail_link1, struct cds_wfcq_node *node_link1, signed int blocking_link1)
 {
   struct cds_wfcq_node *next_link1;
   struct cds_wfcq_node * volatile tmp_statement_expression_2_link1;
@@ -2098,7 +2098,7 @@ static inline struct cds_wfcq_node * ___cds_wfcq_next_link1(union anonymous_0 he
 
 // ___cds_wfcq_next_blocking
 // file ./urcu/static/wfcqueue.h line 345
-static inline struct cds_wfcq_node * ___cds_wfcq_next_blocking(union anonymous_0 head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node)
+static inline struct cds_wfcq_node * ___cds_wfcq_next_blocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_next_1;
   return_value____cds_wfcq_next_1=___cds_wfcq_next(head, tail, node, 1);
@@ -2107,7 +2107,7 @@ static inline struct cds_wfcq_node * ___cds_wfcq_next_blocking(union anonymous_0
 
 // ___cds_wfcq_next_blocking_link1
 // file urcu/static/wfcqueue.h line 345
-static inline struct cds_wfcq_node * ___cds_wfcq_next_blocking_link1(union anonymous_0 head_link1, struct cds_wfcq_tail *tail_link1, struct cds_wfcq_node *node_link1)
+static inline struct cds_wfcq_node * ___cds_wfcq_next_blocking_link1(struct __cds_wfcq_head * head_link1, struct cds_wfcq_tail *tail_link1, struct cds_wfcq_node *node_link1)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_next_1_link1;
   return_value____cds_wfcq_next_1_link1=___cds_wfcq_next_link1(head_link1, tail_link1, node_link1, 1);
@@ -2116,7 +2116,7 @@ static inline struct cds_wfcq_node * ___cds_wfcq_next_blocking_link1(union anony
 
 // ___cds_wfcq_next_nonblocking
 // file urcu/static/wfcqueue.h line 359
-static inline struct cds_wfcq_node * ___cds_wfcq_next_nonblocking(union anonymous_0 head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node)
+static inline struct cds_wfcq_node * ___cds_wfcq_next_nonblocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_next_1;
   return_value____cds_wfcq_next_1=___cds_wfcq_next_link1(head, tail, node, 0);
@@ -2175,7 +2175,7 @@ static inline struct cds_wfcq_node * ___cds_wfcq_node_sync_next_link1(struct cds
 
 // ___cds_wfcq_splice
 // file ./urcu/static/wfcqueue.h line 496
-static inline enum cds_wfcq_ret ___cds_wfcq_splice(union anonymous_0 u_dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 u_src_q_head, struct cds_wfcq_tail *src_q_tail, signed int blocking)
+static inline enum cds_wfcq_ret ___cds_wfcq_splice(struct __cds_wfcq_head * u_dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 u_src_q_head, struct cds_wfcq_tail *src_q_tail, signed int blocking)
 {
   struct __cds_wfcq_head *dest_q_head = u_dest_q_head._h;
   struct __cds_wfcq_head *src_q_head = u_src_q_head._h;
@@ -2225,7 +2225,7 @@ static inline enum cds_wfcq_ret ___cds_wfcq_splice(union anonymous_0 u_dest_q_he
 
 // ___cds_wfcq_splice_link1
 // file urcu/static/wfcqueue.h line 496
-static inline enum cds_wfcq_ret ___cds_wfcq_splice_link1(union anonymous_0 u_dest_q_head_link1, struct cds_wfcq_tail *dest_q_tail_link1, union anonymous_0 u_src_q_head_link1, struct cds_wfcq_tail *src_q_tail_link1, signed int blocking_link1)
+static inline enum cds_wfcq_ret ___cds_wfcq_splice_link1(struct __cds_wfcq_head * u_dest_q_head_link1, struct cds_wfcq_tail *dest_q_tail_link1, union anonymous_0 u_src_q_head_link1, struct cds_wfcq_tail *src_q_tail_link1, signed int blocking_link1)
 {
   struct __cds_wfcq_head *dest_q_head_link1 = u_dest_q_head_link1._h;
   struct __cds_wfcq_head *src_q_head_link1 = u_src_q_head_link1._h;
@@ -2275,7 +2275,7 @@ static inline enum cds_wfcq_ret ___cds_wfcq_splice_link1(union anonymous_0 u_des
 
 // ___cds_wfcq_splice_blocking
 // file ./urcu/static/wfcqueue.h line 559
-static inline enum cds_wfcq_ret ___cds_wfcq_splice_blocking(union anonymous_0 dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 src_q_head, struct cds_wfcq_tail *src_q_tail)
+static inline enum cds_wfcq_ret ___cds_wfcq_splice_blocking(struct __cds_wfcq_head * dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 src_q_head, struct cds_wfcq_tail *src_q_tail)
 {
   enum cds_wfcq_ret return_value____cds_wfcq_splice_1;
   return_value____cds_wfcq_splice_1=___cds_wfcq_splice(dest_q_head, dest_q_tail, src_q_head, src_q_tail, 1);
@@ -2284,7 +2284,7 @@ static inline enum cds_wfcq_ret ___cds_wfcq_splice_blocking(union anonymous_0 de
 
 // ___cds_wfcq_splice_blocking_link1
 // file urcu/static/wfcqueue.h line 559
-static inline enum cds_wfcq_ret ___cds_wfcq_splice_blocking_link1(union anonymous_0 dest_q_head_link1, struct cds_wfcq_tail *dest_q_tail_link1, union anonymous_0 src_q_head_link1, struct cds_wfcq_tail *src_q_tail_link1)
+static inline enum cds_wfcq_ret ___cds_wfcq_splice_blocking_link1(struct __cds_wfcq_head * dest_q_head_link1, struct cds_wfcq_tail *dest_q_tail_link1, union anonymous_0 src_q_head_link1, struct cds_wfcq_tail *src_q_tail_link1)
 {
   enum cds_wfcq_ret return_value____cds_wfcq_splice_1_link1;
   return_value____cds_wfcq_splice_1_link1=___cds_wfcq_splice_link1(dest_q_head_link1, dest_q_tail_link1, src_q_head_link1, src_q_tail_link1, 1);
@@ -2293,7 +2293,7 @@ static inline enum cds_wfcq_ret ___cds_wfcq_splice_blocking_link1(union anonymou
 
 // ___cds_wfcq_splice_nonblocking
 // file urcu/static/wfcqueue.h line 576
-static inline enum cds_wfcq_ret ___cds_wfcq_splice_nonblocking(union anonymous_0 dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 src_q_head, struct cds_wfcq_tail *src_q_tail)
+static inline enum cds_wfcq_ret ___cds_wfcq_splice_nonblocking(struct __cds_wfcq_head * dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 src_q_head, struct cds_wfcq_tail *src_q_tail)
 {
   enum cds_wfcq_ret return_value____cds_wfcq_splice_1;
   return_value____cds_wfcq_splice_1=___cds_wfcq_splice_link1(dest_q_head, dest_q_tail, src_q_head, src_q_tail, 0);
@@ -2617,7 +2617,7 @@ static inline void __cds_list_del(struct cds_list_head *prev, struct cds_list_he
 
 // __cds_wfcq_dequeue_blocking
 // file wfcqueue.c line 100
-extern struct cds_wfcq_node * __cds_wfcq_dequeue_blocking(union anonymous_0 head, struct cds_wfcq_tail *tail)
+extern struct cds_wfcq_node * __cds_wfcq_dequeue_blocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_dequeue_blocking_1;
   return_value____cds_wfcq_dequeue_blocking_1=___cds_wfcq_dequeue_blocking(head, tail);
@@ -2626,7 +2626,7 @@ extern struct cds_wfcq_node * __cds_wfcq_dequeue_blocking(union anonymous_0 head
 
 // __cds_wfcq_dequeue_nonblocking
 // file wfcqueue.c line 115
-extern struct cds_wfcq_node * __cds_wfcq_dequeue_nonblocking(union anonymous_0 head, struct cds_wfcq_tail *tail)
+extern struct cds_wfcq_node * __cds_wfcq_dequeue_nonblocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_dequeue_nonblocking_1;
   return_value____cds_wfcq_dequeue_nonblocking_1=___cds_wfcq_dequeue_nonblocking(head, tail);
@@ -2635,7 +2635,7 @@ extern struct cds_wfcq_node * __cds_wfcq_dequeue_nonblocking(union anonymous_0 h
 
 // __cds_wfcq_dequeue_with_state_blocking
 // file wfcqueue.c line 107
-extern struct cds_wfcq_node * __cds_wfcq_dequeue_with_state_blocking(union anonymous_0 head, struct cds_wfcq_tail *tail, signed int *state)
+extern struct cds_wfcq_node * __cds_wfcq_dequeue_with_state_blocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, signed int *state)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_dequeue_with_state_blocking_1;
   return_value____cds_wfcq_dequeue_with_state_blocking_1=___cds_wfcq_dequeue_with_state_blocking(head, tail, state);
@@ -2644,7 +2644,7 @@ extern struct cds_wfcq_node * __cds_wfcq_dequeue_with_state_blocking(union anony
 
 // __cds_wfcq_dequeue_with_state_nonblocking
 // file wfcqueue.c line 122
-extern struct cds_wfcq_node * __cds_wfcq_dequeue_with_state_nonblocking(union anonymous_0 head, struct cds_wfcq_tail *tail, signed int *state)
+extern struct cds_wfcq_node * __cds_wfcq_dequeue_with_state_nonblocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, signed int *state)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_dequeue_with_state_nonblocking_1;
   return_value____cds_wfcq_dequeue_with_state_nonblocking_1=___cds_wfcq_dequeue_with_state_nonblocking(head, tail, state);
@@ -2653,7 +2653,7 @@ extern struct cds_wfcq_node * __cds_wfcq_dequeue_with_state_nonblocking(union an
 
 // __cds_wfcq_first_blocking
 // file wfcqueue.c line 150
-extern struct cds_wfcq_node * __cds_wfcq_first_blocking(union anonymous_0 head, struct cds_wfcq_tail *tail)
+extern struct cds_wfcq_node * __cds_wfcq_first_blocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_first_blocking_1;
   return_value____cds_wfcq_first_blocking_1=___cds_wfcq_first_blocking_link1(head, tail);
@@ -2662,7 +2662,7 @@ extern struct cds_wfcq_node * __cds_wfcq_first_blocking(union anonymous_0 head, 
 
 // __cds_wfcq_first_nonblocking
 // file wfcqueue.c line 157
-extern struct cds_wfcq_node * __cds_wfcq_first_nonblocking(union anonymous_0 head, struct cds_wfcq_tail *tail)
+extern struct cds_wfcq_node * __cds_wfcq_first_nonblocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_first_nonblocking_1;
   return_value____cds_wfcq_first_nonblocking_1=___cds_wfcq_first_nonblocking(head, tail);
@@ -2678,7 +2678,7 @@ extern void __cds_wfcq_init(struct __cds_wfcq_head *head, struct cds_wfcq_tail *
 
 // __cds_wfcq_next_blocking
 // file wfcqueue.c line 164
-extern struct cds_wfcq_node * __cds_wfcq_next_blocking(union anonymous_0 head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node)
+extern struct cds_wfcq_node * __cds_wfcq_next_blocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_next_blocking_1;
   return_value____cds_wfcq_next_blocking_1=___cds_wfcq_next_blocking_link1(head, tail, node);
@@ -2687,7 +2687,7 @@ extern struct cds_wfcq_node * __cds_wfcq_next_blocking(union anonymous_0 head, s
 
 // __cds_wfcq_next_nonblocking
 // file wfcqueue.c line 172
-extern struct cds_wfcq_node * __cds_wfcq_next_nonblocking(union anonymous_0 head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node)
+extern struct cds_wfcq_node * __cds_wfcq_next_nonblocking(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node)
 {
   struct cds_wfcq_node *return_value____cds_wfcq_next_nonblocking_1;
   return_value____cds_wfcq_next_nonblocking_1=___cds_wfcq_next_nonblocking(head, tail, node);
@@ -2696,7 +2696,7 @@ extern struct cds_wfcq_node * __cds_wfcq_next_nonblocking(union anonymous_0 head
 
 // __cds_wfcq_splice_blocking
 // file wfcqueue.c line 130
-extern enum cds_wfcq_ret __cds_wfcq_splice_blocking(union anonymous_0 dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 src_q_head, struct cds_wfcq_tail *src_q_tail)
+extern enum cds_wfcq_ret __cds_wfcq_splice_blocking(struct __cds_wfcq_head * dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 src_q_head, struct cds_wfcq_tail *src_q_tail)
 {
   enum cds_wfcq_ret return_value____cds_wfcq_splice_blocking_1;
   return_value____cds_wfcq_splice_blocking_1=___cds_wfcq_splice_blocking_link1(dest_q_head, dest_q_tail, src_q_head, src_q_tail);
@@ -2705,7 +2705,7 @@ extern enum cds_wfcq_ret __cds_wfcq_splice_blocking(union anonymous_0 dest_q_hea
 
 // __cds_wfcq_splice_nonblocking
 // file wfcqueue.c line 140
-extern enum cds_wfcq_ret __cds_wfcq_splice_nonblocking(union anonymous_0 dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 src_q_head, struct cds_wfcq_tail *src_q_tail)
+extern enum cds_wfcq_ret __cds_wfcq_splice_nonblocking(struct __cds_wfcq_head * dest_q_head, struct cds_wfcq_tail *dest_q_tail, union anonymous_0 src_q_head, struct cds_wfcq_tail *src_q_tail)
 {
   enum cds_wfcq_ret return_value____cds_wfcq_splice_nonblocking_1;
   return_value____cds_wfcq_splice_nonblocking_1=___cds_wfcq_splice_nonblocking(dest_q_head, dest_q_tail, src_q_head, src_q_tail);
@@ -3348,7 +3348,7 @@ static inline struct cds_wfcq_node * _cds_wfcq_dequeue_with_state_blocking(struc
 
 // _cds_wfcq_empty
 // file ./urcu/static/wfcqueue.h line 132
-static inline _Bool _cds_wfcq_empty(union anonymous_0 u_head, struct cds_wfcq_tail *tail)
+static inline _Bool _cds_wfcq_empty(struct __cds_wfcq_head * u_head, struct cds_wfcq_tail *tail)
 {
   struct __cds_wfcq_head *head = u_head._h;
   struct cds_wfcq_node * volatile tmp_statement_expression_1;
@@ -3370,7 +3370,7 @@ static inline _Bool _cds_wfcq_empty(union anonymous_0 u_head, struct cds_wfcq_ta
 
 // _cds_wfcq_empty_link1
 // file urcu/static/wfcqueue.h line 132
-static inline _Bool _cds_wfcq_empty_link1(union anonymous_0 u_head_link1, struct cds_wfcq_tail *tail_link1)
+static inline _Bool _cds_wfcq_empty_link1(struct __cds_wfcq_head * u_head_link1, struct cds_wfcq_tail *tail_link1)
 {
   struct __cds_wfcq_head *head_link1 = u_head_link1._h;
   struct cds_wfcq_node * volatile tmp_statement_expression_1_link1;
@@ -3392,7 +3392,7 @@ static inline _Bool _cds_wfcq_empty_link1(union anonymous_0 u_head_link1, struct
 
 // _cds_wfcq_enqueue
 // file ./urcu/static/wfcqueue.h line 206
-static inline _Bool _cds_wfcq_enqueue(union anonymous_0 head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *new_tail)
+static inline _Bool _cds_wfcq_enqueue(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *new_tail)
 {
   _Bool return_value____cds_wfcq_append_1;
   return_value____cds_wfcq_append_1=___cds_wfcq_append(head, tail, new_tail, new_tail);
@@ -3401,7 +3401,7 @@ static inline _Bool _cds_wfcq_enqueue(union anonymous_0 head, struct cds_wfcq_ta
 
 // _cds_wfcq_enqueue_link1
 // file urcu/static/wfcqueue.h line 206
-static inline _Bool _cds_wfcq_enqueue_link1(union anonymous_0 head_link1, struct cds_wfcq_tail *tail_link1, struct cds_wfcq_node *new_tail_link1)
+static inline _Bool _cds_wfcq_enqueue_link1(struct __cds_wfcq_head * head_link1, struct cds_wfcq_tail *tail_link1, struct cds_wfcq_node *new_tail_link1)
 {
   _Bool return_value____cds_wfcq_append_1_link1;
   return_value____cds_wfcq_append_1_link1=___cds_wfcq_append_link1(head_link1, tail_link1, new_tail_link1, new_tail_link1);
@@ -4549,7 +4549,7 @@ extern struct cds_wfcq_node * cds_wfcq_dequeue_with_state_blocking(struct cds_wf
 
 // cds_wfcq_empty
 // file wfcqueue.c line 49
-extern _Bool cds_wfcq_empty(union anonymous_0 head, struct cds_wfcq_tail *tail)
+extern _Bool cds_wfcq_empty(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail)
 {
   _Bool return_value__cds_wfcq_empty_1;
   return_value__cds_wfcq_empty_1=_cds_wfcq_empty_link1(head, tail);
@@ -4558,7 +4558,7 @@ extern _Bool cds_wfcq_empty(union anonymous_0 head, struct cds_wfcq_tail *tail)
 
 // cds_wfcq_enqueue
 // file wfcqueue.c line 56
-extern _Bool cds_wfcq_enqueue(union anonymous_0 head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node)
+extern _Bool cds_wfcq_enqueue(struct __cds_wfcq_head * head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *node)
 {
   _Bool return_value__cds_wfcq_enqueue_1;
   return_value__cds_wfcq_enqueue_1=_cds_wfcq_enqueue_link1(head, tail, node);

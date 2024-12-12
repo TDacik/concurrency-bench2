@@ -553,7 +553,7 @@ extern void _exit(signed int);
 signed int a2ptrstr(union anonymous_6 *a, signed int tp, unsigned char *buf);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_23, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // add_additional_a
 // file dns_answer.c line 715
 static signed int add_additional_a(struct anonymous_28 **ans, unsigned long int *rlen, unsigned long int *allocsz, unsigned char *rhn, signed long int queryts, unsigned int *udp, struct _dynamic_list_head **cb, struct _dynamic_list_head **sva);
@@ -631,7 +631,7 @@ extern signed int asprintf(char ** restrict , const char *, ...);
 static signed int auth_ok(struct anonymous_4 *q, const unsigned char *name, signed int thint, struct anonymous_0 *ent, signed int hops, struct qstatnode_s *qslist, struct qhintnode_s *qhlist, struct anonymous_5 *qse, struct _dynamic_list_head *ns, struct anonymous_4 **serv);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_23, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bind_socket
 // file dns_query.c line 682
 static signed int bind_socket(signed int s);
@@ -670,7 +670,7 @@ unsigned int compress_name(unsigned char *in, unsigned char *out, unsigned int o
 signed int confparse(struct _IO_FILE *in, char *prestr, struct anonymous_21 *global, struct anonymous_18 **servers, signed int includedepth, char **errstr);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_23, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // const_name
 // file consts.h line 67
 const char * const_name(signed int c);
@@ -1438,7 +1438,7 @@ static inline void * realloc_or_cleanup(void *ptr, unsigned long int size);
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous_23, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // recvmsg
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 202
 extern signed long int recvmsg(signed int, struct msghdr *, signed int);
@@ -1555,7 +1555,7 @@ extern signed long int send(signed int, const void *, unsigned long int, signed 
 extern signed long int sendmsg(signed int, struct msghdr *, signed int);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_23, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // servstat_thread
 // file servers.c line 314
 void * servstat_thread(void *p);

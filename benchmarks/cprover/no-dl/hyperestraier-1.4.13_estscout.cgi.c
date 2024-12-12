@@ -356,7 +356,7 @@ extern signed int __sigsetjmp(struct __jmp_buf_tag *, signed int);
 extern signed int abs(signed int);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_31, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // acos
 // file /usr/include/x86_64-linux-gnu/bits/mathcalls.h line 54
 extern double acos(double);
@@ -368,7 +368,7 @@ extern signed int atexit(void (*)(void));
 extern signed int atoi(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_31, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // caturisuffixes
 // file estscout.c line 845
 static char * caturisuffixes(struct anonymous_13 *db, signed int id, const char *uri);
@@ -563,7 +563,7 @@ char * cburldecode(const char *, signed int *);
 extern signed int close(signed int);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_31, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // cos
 // file /usr/include/x86_64-linux-gnu/bits/mathcalls.h line 63
 extern double cos(double);
@@ -822,9 +822,9 @@ void est_cond_set_eclipse(struct anonymous_10 *cond, double limit);
 // est_cond_set_expander
 // file estraier.c line 4418
 void est_cond_set_expander(struct anonymous_10 *cond, void (*func)(const char *, struct anonymous_1 *));
-// est_cond_set_expander::func_object
+
 //
-void func_object(const char *, struct anonymous_1 *);
+
 // est_cond_set_mask
 // file estraier.c line 881
 void est_cond_set_mask(struct anonymous_10 *cond, signed int mask);
@@ -1023,9 +1023,9 @@ void est_db_set_ecode(struct anonymous_4 *db, signed int ecode);
 // est_db_set_informer
 // file estraier.c line 4985
 void est_db_set_informer(struct anonymous_4 *db, void (*func)(const char *, void *), void *opaque);
-// est_db_set_informer::func_object
+
 //
-void func_object(const char *, void *);
+
 // est_db_set_special_cache
 // file estraier.c line 4972
 void est_db_set_special_cache(struct anonymous_4 *db, const char *name, signed int num);
@@ -1503,9 +1503,9 @@ void est_mtdb_set_ecode(struct anonymous_13 *db, signed int ecode);
 // est_mtdb_set_informer
 // file estmtdb.c line 677
 void est_mtdb_set_informer(struct anonymous_13 *db, void (*func)(const char *, void *), void *opaque);
-// est_mtdb_set_informer::func_object
+
 //
-void func_object(const char *, void *);
+
 // est_mtdb_set_special_cache
 // file estmtdb.c line 668
 void est_mtdb_set_special_cache(struct anonymous_13 *db, const char *name, signed int num);
@@ -1839,9 +1839,9 @@ static signed int est_short_compare(const void *ap, const void *bp);
 // est_signal
 // file estraier.c line 5665
 void est_signal(signed int signum, void (*sighandler)(signed int));
-// est_signal::sighandler_object
+
 //
-void sighandler_object(signed int);
+
 // est_signal_dispatch
 // file estraier.c line 10431
 static signed int est_signal_dispatch(signed int signum);

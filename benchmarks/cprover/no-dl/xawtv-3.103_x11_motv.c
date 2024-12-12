@@ -2173,7 +2173,7 @@ static char configure_delayed(void *data);
 static void configure_overlay(void);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_65, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // convert_buffer
 // file x11/motv.c line 2634
 static struct ng_video_buf * convert_buffer(struct ng_video_buf *in, signed int out_fmt);
@@ -2506,7 +2506,7 @@ extern signed int getnameinfo(struct sockaddr *, unsigned int, char *, unsigned 
 static void getparams_periods(struct _snd_pcm *handle, struct _snd_pcm_hw_params *params, unsigned int *usecs, unsigned int *count, signed int allow_adjust, const char *id);
 // getpeername
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 141
-extern signed int getpeername(signed int, union anonymous_65, unsigned int *);
+extern signed int getpeername(signed int, struct sockaddr *, unsigned int *);
 // getpid
 // file /usr/include/unistd.h line 628
 extern signed int getpid(void);
@@ -2521,7 +2521,7 @@ extern struct passwd * getpwnam(const char *);
 extern struct passwd * getpwuid(unsigned int);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous_65, unsigned int *);
+extern signed int getsockname(signed int, struct sockaddr *, unsigned int *);
 // gettimeofday
 // file /usr/include/x86_64-linux-gnu/sys/time.h line 71
 extern signed int gettimeofday(struct timeval *, struct timezone *);
@@ -3059,9 +3059,9 @@ struct ng_attribute * ng_mix_init(char *device, char *channel);
 // ng_packed_frame
 // file libng/color_common.c line 22
 void ng_packed_frame(void *handle, struct ng_video_buf *out, struct ng_video_buf *in);
-// ng_packed_frame::1::func_object
+
 //
-signed int func_object(unsigned char *, unsigned char *, signed int);
+
 // ng_packed_init
 // file libng/color_common.c line 16
 void * ng_packed_init(struct ng_video_fmt *out, void *priv);
@@ -3137,9 +3137,9 @@ extern signed int nice(signed int);
 // odd
 // file common/vbi-sim.c line 194
 static inline signed int odd(signed int c);
-// old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous *);
+
 // ontop_ac
 // file x11/motv.c line 311
 static void ontop_ac(struct _WidgetRec *widget, union _XEvent *event, char **params, unsigned int *num_params);
@@ -3152,9 +3152,9 @@ extern signed int open(const char *, signed int, ...);
 // opendir
 // file /usr/include/dirent.h line 134
 extern struct __dirstream * opendir(const char *);
-// orig_xfree_error_handler_object
+
 //
-signed int orig_xfree_error_handler_object(struct _XDisplay *, struct anonymous *);
+
 // oss_levels
 // file ./common/sound.h line 4
 void oss_levels(struct ng_audio_buf *buf, signed int *left, signed int *right);

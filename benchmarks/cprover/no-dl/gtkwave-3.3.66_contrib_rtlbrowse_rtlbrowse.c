@@ -1509,15 +1509,15 @@ signed int fstReaderIterBlocks(void *ctx, void (*value_change_callback)(void *, 
 // fstReaderIterBlocks2
 // file ./../../src/helpers/fst/fstapi.c line 4659
 signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *, unsigned long int, unsigned int, const unsigned char *), void (*value_change_callback_varlen)(void *, unsigned long int, unsigned int, const unsigned char *, unsigned int), void *user_callback_data_pointer, struct _IO_FILE *fv);
-// fstReaderIterBlocks2::value_change_callback_object
+
 //
-void value_change_callback_object(void *, unsigned long int, unsigned int, const unsigned char *);
-// fstReaderIterBlocks2::value_change_callback_varlen_object
+
+
 //
-void value_change_callback_varlen_object(void *, unsigned long int, unsigned int, const unsigned char *, unsigned int);
-// fstReaderIterBlocks::value_change_callback_object
+
+
 //
-void value_change_callback_object(void *, unsigned long int, unsigned int, const unsigned char *);
+
 // fstReaderIterBlocksSetNativeDoublesOnCallback
 // file ./../../src/helpers/fst/fstapi.c line 3556
 void fstReaderIterBlocksSetNativeDoublesOnCallback(void *ctx, signed int enable);
@@ -2202,9 +2202,9 @@ static struct jrb_node * jrb_insert_b(struct jrb_node *n, union anonymous_26 key
 // jrb_insert_gen
 // file jrb.c line 601
 extern struct jrb_node * jrb_insert_gen(struct jrb_node *tree, union anonymous_26 key, union anonymous_26 val, signed int (*func)(union anonymous_26, union anonymous_26));
-// jrb_insert_gen::func_object
+
 //
-signed int func_object(union anonymous_26, union anonymous_26);
+
 // jrb_insert_int
 // file jrb.h line 58
 extern struct jrb_node * jrb_insert_int(struct jrb_node *tree, signed int ikey, union anonymous_26 val);
@@ -2295,9 +2295,9 @@ struct lxt2_rd_trace * lxt2_rd_init(const char *name);
 // lxt2_rd_iter_blocks
 // file ../../src/helpers/lxt2_read.h line 295
 signed int lxt2_rd_iter_blocks(struct lxt2_rd_trace *lt, void (*value_change_callback)(struct lxt2_rd_trace **, unsigned long int *, unsigned int *, char **), void *user_callback_data_pointer);
-// lxt2_rd_iter_blocks::value_change_callback_object
+
 //
-void value_change_callback_object(struct lxt2_rd_trace **, unsigned long int *, unsigned int *, char **);
+
 // lxt2_rd_iter_radix
 // file ./../../src/helpers/lxt2_read.c line 175
 void lxt2_rd_iter_radix(struct lxt2_rd_trace *lt, struct lxt2_rd_block *b);
@@ -2568,9 +2568,9 @@ void tr_search_forward(char *str, signed int noskip);
 // treebox
 // file tree_widget.c line 102
 void treebox(char *title, void (*func)(void), struct _GtkWidget *old_window);
-// treebox::func_object
+
 //
-void func_object(void);
+
 // treebox_is_active
 // file tree_widget.c line 74
 signed int treebox_is_active(void);
@@ -2673,9 +2673,9 @@ struct vzt_rd_trace * vzt_rd_init_smp(const char *name, unsigned int num_cpus);
 // vzt_rd_iter_blocks
 // file ./../../src/helpers/vzt_read.c line 1452
 signed int vzt_rd_iter_blocks(struct vzt_rd_trace *lt, void (*value_change_callback)(struct vzt_rd_trace **, unsigned long int *, unsigned int *, char **), void *user_callback_data_pointer);
-// vzt_rd_iter_blocks::value_change_callback_object
+
 //
-void value_change_callback_object(struct vzt_rd_trace **, unsigned long int *, unsigned int *, char **);
+
 // vzt_rd_limit_time_range
 // file ./../../src/helpers/vzt_read.c line 1571
 unsigned int vzt_rd_limit_time_range(struct vzt_rd_trace *lt, unsigned long int strt_time, unsigned long int end_time);

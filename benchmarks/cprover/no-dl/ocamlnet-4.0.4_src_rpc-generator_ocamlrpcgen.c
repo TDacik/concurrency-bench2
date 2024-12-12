@@ -1479,7 +1479,7 @@ extern signed int getpid(void);
 extern signed int getsid(signed int);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous_9, unsigned int *);
+extern signed int getsockname(signed int, struct sockaddr *, unsigned int *);
 // grantpt
 // file /usr/include/stdlib.h line 923
 extern signed int grantpt(signed int);

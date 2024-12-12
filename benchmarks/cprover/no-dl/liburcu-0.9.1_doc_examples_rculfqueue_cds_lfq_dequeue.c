@@ -479,9 +479,9 @@ static inline signed int _cds_wfs_push(union anonymous_3 u_stack, struct cds_wfs
 // _defer_rcu
 // file urcu-defer-impl.h line 311
 static void _defer_rcu(void (*fct)(void *), void *p);
-// _defer_rcu::fct_object
+
 //
-void fct_object(void *);
+
 // _do_cds_lfht_grow
 // file rculfhash.c line 1856
 static void _do_cds_lfht_grow(struct cds_lfht *ht, unsigned long int old_size, unsigned long int new_size);
@@ -788,9 +788,9 @@ struct call_rcu_data * create_call_rcu_data_memb(unsigned long int flags, signed
 // defer_rcu_memb
 // file urcu-defer-impl.h line 395
 extern void defer_rcu_memb(void (*fct)(void *), void *p);
-// defer_rcu_memb::fct_object
+
 //
-void fct_object(void *);
+
 // do_resize_cb
 // file rculfhash.c line 1958
 static void do_resize_cb(struct rcu_head *head);
@@ -947,9 +947,9 @@ static void mutex_unlock(union anonymous_2 *mutex);
 // partition_resize_helper
 // file rculfhash.c line 1162
 static void partition_resize_helper(struct cds_lfht *ht, unsigned long int i, unsigned long int len, void (*fct)(struct cds_lfht *, unsigned long int, unsigned long int, unsigned long int));
-// partition_resize_helper::fct_object
+
 //
-void fct_object(struct cds_lfht *, unsigned long int, unsigned long int, unsigned long int);
+
 // partition_resize_thread
 // file rculfhash.c line 1151
 static void * partition_resize_thread(void *arg);
@@ -961,10 +961,10 @@ extern signed int poll(struct pollfd *, unsigned long int, signed int);
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous_0 *);
+extern signed int pthread_cond_broadcast(struct __cds_wfcq_head * *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous_0 *, union anonymous_2 *);
+extern signed int pthread_cond_wait(struct __cds_wfcq_head * *, union anonymous_2 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -998,9 +998,9 @@ extern void rcu_defer_barrier_memb(void);
 // rcu_defer_barrier_queue
 // file urcu-defer-impl.h line 218
 static void rcu_defer_barrier_queue(struct defer_queue *queue, unsigned long int head);
-// rcu_defer_barrier_queue::1::fct_object
+
 //
-void fct_object(void *);
+
 // rcu_defer_barrier_thread_memb
 // file urcu-defer-impl.h line 261
 extern void rcu_defer_barrier_thread_memb(void);

@@ -495,9 +495,9 @@ static void * __list_consume(struct list *l, struct timespec *absts);
 // __list_remove
 // file c/list.c line 258
 static inline void * __list_remove(struct list *l, signed int (*func)(signed int, void *, void *), void *m);
-// __list_remove::func_object
+
 //
-signed int func_object(signed int, void *, void *);
+
 // __lock
 // file c/list.c line 30
 static inline void __lock(struct list *l);
@@ -948,9 +948,9 @@ void * hash_get(struct hash *h, unsigned int key, void *arg);
 // hash_init
 // file c/hash.h line 50
 signed int hash_init(struct hash *h, signed int max_items, signed int (*eqfunc)(unsigned int, void *, void *));
-// hash_init::eqfunc_object
+
 //
-signed int eqfunc_object(unsigned int, void *, void *);
+
 // hash_iter_end
 // file c/hash.h line 68
 void hash_iter_end(struct hash_iterator *i);
@@ -1107,9 +1107,9 @@ void * list_remove_at(struct list *l, signed int nr);
 // list_remove_func
 // file c/list.c line 300
 void * list_remove_func(struct list *l, signed int (*func)(signed int, void *, void *), void *m);
-// list_remove_func::func_object
+
 //
-signed int func_object(signed int, void *, void *);
+
 // list_unlock
 // file c/list.h line 87
 void list_unlock(struct list *l);

@@ -1437,9 +1437,9 @@ static void normalize_quat(float *q);
 // open
 // file /usr/include/fcntl.h line 156
 extern signed int open(const char *, signed int, ...);
-// orig_ehandler_object
+
 //
-signed int orig_ehandler_object(struct _XDisplay *, struct anonymous_43 *);
+
 // parse_color
 // file splitflap.c line 268
 static void parse_color(struct ModeInfo *mi, char *key, float *color);
@@ -1554,12 +1554,12 @@ extern void rotate_colors(struct anonymous_30 *screen, unsigned long int cmap, s
 // run_screenhack_table
 // file screenhack.c line 536
 static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window, unsigned long int window2, struct xscreensaver_function_table *ft);
-// run_screenhack_table::1::fps_cb_object
+
 //
-void fps_cb_object(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
-// run_screenhack_table::1::init_cb_object
+
+
 //
-void * init_cb_object(struct _XDisplay *, unsigned long int, void *);
+
 // screen_number
 // file ./../../utils/visual.h line 21
 extern signed int screen_number(struct anonymous_30 *screen);

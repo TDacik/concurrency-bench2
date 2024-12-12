@@ -783,18 +783,18 @@ extern signed int kill(signed int, signed int);
 // list_add_ordered
 // file list.c line 66
 extern struct link * list_add_ordered(struct anonymous_3 *list, void *new_data, signed int (* const compare)(const void *, const void *));
-// list_add_ordered::compare_object
+
 //
-signed int compare_object(const void *, const void *);
+
 // list_append
 // file list.c line 41
 extern struct link * list_append(struct anonymous_3 *list, void *data);
 // list_free
 // file list.c line 98
 extern void list_free(struct anonymous_3 *list, void (* const freefunc)(void *));
-// list_free::freefunc_object
+
 //
-void freefunc_object(void *);
+
 // list_init
 // file list.c line 30
 extern void list_init(struct anonymous_3 *list);
@@ -6735,7 +6735,7 @@ signed int main(signed int argc, char **argv)
           json_obj=json_object_new_object();
           if(json_obj == ((struct json_object *)NULL))
           {
-            health_check_out_of_memory("cannot allocate JSON object");
+
             goto out;
           }
 

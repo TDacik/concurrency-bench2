@@ -369,9 +369,9 @@ static enum permission_error _dir_permission_error(struct stat *st, unsigned int
 // _do_output
 // file dsh.c line 523
 static signed int _do_output(signed int fd, struct cbuf *cb, void (*outf)(const char *, ...), enum anonymous read_rc, struct thd *t);
-// _do_output::outf_object
+
 //
-void outf_object(const char *, ...);
+
 // _dsh_attr_init
 // file dsh.c line 806
 static signed int _dsh_attr_init(union pthread_attr_t *attrp, signed int stacksize);
@@ -402,9 +402,9 @@ char * _find_path(char *argv0);
 // _flush_output
 // file dsh.c line 579
 static void _flush_output(struct cbuf *cb, void (*outf)(const char *, ...), struct thd *t);
-// _flush_output::outf_object
+
 //
-void outf_object(const char *, ...);
+
 // _fwd_signal
 // file dsh.c line 260
 static void _fwd_signal(signed int signum);
@@ -669,9 +669,9 @@ static signed int _width_equiv(unsigned long int n, signed int *wn, unsigned lon
 // _xsignal
 // file dsh.c line 166
 static void (*_xsignal(signed int signal, void (*handler)(signed int)))(signed int);
-// _xsignal::handler_object
+
 //
-void handler_object(signed int);
+
 // _zero_padded
 // file hostlist.c line 398
 static signed int _zero_padded(unsigned long int num, signed int width);
@@ -771,9 +771,9 @@ signed int cbuf_read_to_fd(struct cbuf *src, signed int dstfd, signed int len);
 // cbuf_reader
 // file cbuf.c line 1449
 static signed int cbuf_reader(struct cbuf *src, signed int len, signed int (*putf)(void *, void *, signed int), void *dst);
-// cbuf_reader::putf_object
+
 //
-signed int putf_object(void *, void *, signed int);
+
 // cbuf_replay
 // file cbuf.c line 556
 signed int cbuf_replay(struct cbuf *src, void *dstbuf, signed int len);
@@ -786,9 +786,9 @@ signed int cbuf_replay_to_fd(struct cbuf *src, signed int dstfd, signed int len)
 // cbuf_replayer
 // file cbuf.c line 1505
 static signed int cbuf_replayer(struct cbuf *src, signed int len, signed int (*putf)(void *, void *, signed int), void *dst);
-// cbuf_replayer::putf_object
+
 //
-signed int putf_object(void *, void *, signed int);
+
 // cbuf_reused
 // file cbuf.c line 380
 signed int cbuf_reused(struct cbuf *cb);
@@ -819,9 +819,9 @@ signed int cbuf_write_line(struct cbuf *dst, char *srcbuf, signed int *ndropped)
 // cbuf_writer
 // file cbuf.c line 1562
 static signed int cbuf_writer(struct cbuf *dst, signed int len, signed int (*getf)(void *, void *, signed int), void *src, signed int *ndropped);
-// cbuf_writer::getf_object
+
 //
-signed int getf_object(void *, void *, signed int);
+
 // chdir
 // file /usr/include/unistd.h line 497
 extern signed int chdir(const char *);
@@ -1296,18 +1296,18 @@ signed int list_count(struct list *l);
 // list_create
 // file ../../src/common/list.h line 99
 struct list * list_create(void (*f)(void *));
-// list_create::f_object
+
 //
-void f_object(void *);
+
 // list_delete
 // file ../../src/common/list.h line 273
 signed int list_delete(struct listIterator *i);
 // list_delete_all
 // file list.c line 350
 signed int list_delete_all(struct list *l, signed int (*f)(void *, void *), void *key);
-// list_delete_all::f_object
+
 //
-signed int f_object(void *, void *);
+
 // list_dequeue
 // file list.c line 505
 void * list_dequeue(struct list *l);
@@ -1320,21 +1320,21 @@ void * list_enqueue(struct list *l, void *x);
 // list_find
 // file ../../src/common/list.h line 257
 void * list_find(struct listIterator *i, signed int (*f)(void *, void *), void *key);
-// list_find::f_object
+
 //
-signed int f_object(void *, void *);
+
 // list_find_first
 // file ../../src/common/list.h line 143
 void * list_find_first(struct list *l, signed int (*f)(void *, void *), void *key);
-// list_find_first::f_object
+
 //
-signed int f_object(void *, void *);
+
 // list_for_each
 // file ../../src/common/list.h line 162
 signed int list_for_each(struct list *l, signed int (*f)(void *, void *), void *arg);
-// list_for_each::f_object
+
 //
-signed int f_object(void *, void *);
+
 // list_free
 // file list.c line 735
 static void list_free(struct list *l);
@@ -1401,9 +1401,9 @@ void * list_remove(struct listIterator *i);
 // list_sort
 // file ../../src/common/list.h line 170
 void list_sort(struct list *l, signed int (*f)(void *, void *));
-// list_sort::f_object
+
 //
-signed int f_object(void *, void *);
+
 // list_split
 // file ../../src/common/split.h line 31
 struct list * list_split(char *sep, char *str);

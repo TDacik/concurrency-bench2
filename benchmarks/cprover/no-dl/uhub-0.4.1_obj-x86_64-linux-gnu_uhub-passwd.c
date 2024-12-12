@@ -817,7 +817,7 @@ extern char * __strdup(const char *);
 extern char * __strndup(const char *, unsigned long int);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_3, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // add
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/tools/uhub-passwd.c line 249
 static signed int add(unsigned long int argc, const char **argv);
@@ -844,7 +844,7 @@ extern void base32_decode(const char *src, unsigned char *dst, unsigned long int
 extern void base32_encode(const unsigned char *buffer, unsigned long int len, char *result);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_3, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -925,7 +925,7 @@ extern signed int close(signed int);
 extern void closelog(void);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_3, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/tools/uhub-passwd.c line 202
 static signed int create(unsigned long int argc, const char **argv);
@@ -968,9 +968,9 @@ static signed int file_read_line_handler(char *line, signed int count, void *ptr
 // file_read_lines
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.c line 229
 extern signed int file_read_lines(const char *file, void *data, signed int (*handler)(char *, signed int, void *));
-// file_read_lines::handler_object
+
 //
-signed int handler_object(char *, signed int, void *);
+
 // find_and_remove_job
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 273
 static struct net_dns_job * find_and_remove_job(struct net_dns_job *job);
@@ -1015,13 +1015,13 @@ extern signed int getaddrinfo(const char *, const char *, struct addrinfo *, str
 extern char * getenv(const char *);
 // getpeername
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 141
-extern signed int getpeername(signed int, union anonymous_3, unsigned int *);
+extern signed int getpeername(signed int, struct sockaddr *, unsigned int *);
 // getrlimit
 // file /usr/include/x86_64-linux-gnu/sys/resource.h line 54
 extern signed int getrlimit(enum __rlimit_resource, struct rlimit *);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous_3, unsigned int *);
+extern signed int getsockname(signed int, struct sockaddr *, unsigned int *);
 // getsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 219
 extern signed int getsockopt(signed int, signed int, signed int, void *, unsigned int *);
@@ -1313,21 +1313,21 @@ extern signed int net_con_get_sd(struct net_connection *con);
 // net_con_initialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/backend.c line 164
 extern void net_con_initialize(struct net_connection *con, signed int sd, void (*callback)(struct net_connection *, signed int, void *), const void *ptr, signed int events);
-// net_con_initialize::callback_object
+
 //
-void callback_object(struct net_connection *, signed int, void *);
+
 // net_con_initialize_epoll
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/epoll.c line 84
 void net_con_initialize_epoll(struct net_backend *data, struct net_connection *con_, signed int sd, void (*callback)(struct net_connection *, signed int, void *), const void *ptr);
-// net_con_initialize_epoll::callback_object
+
 //
-void callback_object(struct net_connection *, signed int, void *);
+
 // net_con_initialize_select
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/select.c line 119
 void net_con_initialize_select(struct net_backend *data, struct net_connection *con_, signed int sd, void (*callback)(struct net_connection *, signed int, void *), const void *ptr);
-// net_con_initialize_select::callback_object
+
 //
-void callback_object(struct net_connection *, signed int, void *);
+
 // net_con_is_ssl
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/connection.c line 103
 extern signed int net_con_is_ssl(struct net_connection *con);
@@ -1340,9 +1340,9 @@ extern signed long int net_con_recv(struct net_connection *con, void *buf, unsig
 // net_con_reinitialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/backend.c line 105
 extern void net_con_reinitialize(struct net_connection *con, void (*callback)(struct net_connection *, signed int, void *), const void *ptr, signed int events);
-// net_con_reinitialize::callback_object
+
 //
-void callback_object(struct net_connection *, signed int, void *);
+
 // net_con_send
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/connection.c line 35
 extern signed long int net_con_send(struct net_connection *con, const void *buf, unsigned long int len);
@@ -1373,15 +1373,15 @@ void net_dns_destroy();
 // net_dns_gethostbyaddr
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 255
 extern struct net_dns_job * net_dns_gethostbyaddr(struct ip_addr_encap *ipaddr, signed int (*callback)(struct net_dns_job *, struct net_dns_result *), void *ptr);
-// net_dns_gethostbyaddr::callback_object
+
 //
-signed int callback_object(struct net_dns_job *, struct net_dns_result *);
+
 // net_dns_gethostbyname
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 224
 extern struct net_dns_job * net_dns_gethostbyname(const char *host, signed int af, signed int (*callback)(struct net_dns_job *, struct net_dns_result *), void *ptr);
-// net_dns_gethostbyname::callback_object
+
 //
-signed int callback_object(struct net_dns_job *, struct net_dns_result *);
+
 // net_dns_initialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/dnsresolver.c line 83
 void net_dns_initialize();
@@ -1619,12 +1619,12 @@ extern struct rb_tree * rb_tree_create(signed int (*compare)(const void *, const
 // rb_tree_create::a_object
 //
 void * a_object(unsigned long int);
-// rb_tree_create::compare_object
+
 //
-signed int compare_object(const void *, const void *);
-// rb_tree_create::f_object
+
+
 //
-void f_object(void *);
+
 // rb_tree_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 172
 extern void rb_tree_destroy(struct rb_tree *tree);
@@ -1652,9 +1652,9 @@ extern signed int rb_tree_remove(struct rb_tree *tree, const void *key);
 // rb_tree_remove_node
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 200
 extern signed int rb_tree_remove_node(struct rb_tree *tree, const void *key, void (*freecb)(struct rb_node *));
-// rb_tree_remove_node::freecb_object
+
 //
-void freecb_object(struct rb_node *);
+
 // rb_tree_rotate_double
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/rbtree.c line 112
 static struct rb_node * rb_tree_rotate_double(struct rb_node *node, signed int dir);
@@ -1754,9 +1754,9 @@ extern unsigned long int strftime(char *, unsigned long int, const char *, struc
 // string_split
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.c line 176
 extern signed int string_split(const char *string, const char *split, void *data, signed int (*handler)(char *, signed int, void *));
-// string_split::handler_object
+
 //
-signed int handler_object(char *, signed int, void *);
+
 // string_to_boolean
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/util/misc.c line 472
 extern signed int string_to_boolean(const char *str, signed int *boolean);
@@ -1799,9 +1799,9 @@ static void timeout_callback(struct timeout_evt *evt);
 // timeout_evt_initialize
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/timeout.c line 22
 void timeout_evt_initialize(struct timeout_evt *t, void (*cb)(struct timeout_evt *), void *ptr);
-// timeout_evt_initialize::cb_object
+
 //
-void cb_object(struct timeout_evt *);
+
 // timeout_evt_is_scheduled
 // file /srv/jenkins-slave/workspace/sid-goto-cc-uhub/uhub-0.4.1/src/network/timeout.c line 36
 signed int timeout_evt_is_scheduled(struct timeout_evt *t);

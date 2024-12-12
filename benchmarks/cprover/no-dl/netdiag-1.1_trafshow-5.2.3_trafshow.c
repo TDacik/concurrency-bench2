@@ -447,9 +447,9 @@ static signed int add_colormask(const char *s, struct cm_entry *m);
 // add_event
 // file events.h line 62
 signed int add_event(struct timeval *tvp, void (*func)(void *), void *arg);
-// add_event::func_object
+
 //
-void func_object(void *);
+
 // atexit
 // file /usr/include/stdlib.h line 519
 extern signed int atexit(void (*)(void));
@@ -477,9 +477,9 @@ extern signed int cbreak(void);
 // change_event
 // file events.c line 264
 signed int change_event(void (*func)(void *), void *arg, void *new_arg);
-// change_event::func_object
+
 //
-void func_object(void *);
+
 // checksum
 // file lookupa.c line 170
 void checksum(unsigned char *k, unsigned long int len, unsigned long int *state);
@@ -603,9 +603,9 @@ static signed int find_backflow(struct netstat **list, signed int items, struct 
 // find_event
 // file events.c line 281
 struct event_ent * find_event(void (*func)(void *), void *arg);
-// find_event::func_object
+
 //
-void func_object(void *);
+
 // find_transact
 // file domain_resolver.c line 303
 static struct domain_transact_ent * find_transact(unsigned short int reqid);
@@ -1148,7 +1148,7 @@ static void read_netflow(struct session_ent *sd, const unsigned char *data, sign
 extern void * realloc(void *, unsigned long int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // refree
 // file recycle.h line 46
 void refree(struct reroot *r);
@@ -1158,9 +1158,9 @@ struct reroot * remkroot(unsigned long int size);
 // remove_event
 // file events.h line 69
 signed int remove_event(void (*func)(void *), void *arg);
-// remove_event::func_object
+
 //
-void func_object(void *);
+
 // renewx
 // file recycle.h line 52
 char * renewx(struct reroot *r);
@@ -1212,9 +1212,9 @@ extern signed int select(signed int, struct anonymous_11 *, struct anonymous_11 
 // select_event
 // file events.h line 56
 signed int select_event(struct timeval *tvp);
-// select_event::1::1::1::1::func_object
+
 //
-void func_object();
+
 // selector_get
 // file selector.c line 249
 signed int selector_get(struct selector *sp);

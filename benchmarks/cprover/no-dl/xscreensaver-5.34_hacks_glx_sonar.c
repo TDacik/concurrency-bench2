@@ -1558,9 +1558,9 @@ extern unsigned int ntohl(unsigned int);
 // open
 // file /usr/include/fcntl.h line 156
 extern signed int open(const char *, signed int, ...);
-// orig_ehandler_object
+
 //
-signed int orig_ehandler_object(struct _XDisplay *, struct anonymous_21 *);
+
 // pack_addr
 // file sonar-icmp.c line 167
 static unsigned long int pack_addr(unsigned int a, unsigned int b, unsigned int c, unsigned int d);
@@ -1659,7 +1659,7 @@ static struct sonar_bogie * read_hosts_file(struct sonar_sensor_data *ssd, const
 extern void * realloc(void *, unsigned long int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // release_sonar
 // file sonar.c line 1227
 static void release_sonar(struct ModeInfo *mi);
@@ -1681,12 +1681,12 @@ extern void rotate_colors(struct anonymous_10 *screen, unsigned long int cmap, s
 // run_screenhack_table
 // file screenhack.c line 536
 static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window, unsigned long int window2, struct xscreensaver_function_table *ft);
-// run_screenhack_table::1::fps_cb_object
+
 //
-void fps_cb_object(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
-// run_screenhack_table::1::init_cb_object
+
+
 //
-void * init_cb_object(struct _XDisplay *, unsigned long int, void *);
+
 // screen_number
 // file ./../../utils/visual.h line 21
 extern signed int screen_number(struct anonymous_10 *screen);
@@ -1716,7 +1716,7 @@ extern signed int select(signed int, struct anonymous_78 *, struct anonymous_78 
 static void send_ping(struct anonymous_2 *pd, const struct sonar_bogie *b);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // setitimer
 // file /usr/include/x86_64-linux-gnu/sys/time.h line 131
 extern signed int setitimer(signed int, struct itimerval *, struct itimerval *);

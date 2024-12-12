@@ -1156,9 +1156,9 @@ static signed int reconfigure_read_config_file(const char *filename, signed int 
 // reconfigure_set_boolean
 // file reconfigure.c line 170
 static signed int reconfigure_set_boolean(char *value, signed int (*func)(signed int));
-// reconfigure_set_boolean::func_object
+
 //
-signed int func_object(signed int);
+
 // reconfigure_set_config_dir
 // file reconfigure.c line 74
 static void reconfigure_set_config_dir(const char *path);
@@ -1168,15 +1168,15 @@ void reconfigure_set_default_login_and_configdir(void);
 // reconfigure_set_kb_size
 // file reconfigure.c line 151
 static signed int reconfigure_set_kb_size(char *value, signed int (*func)(unsigned long int));
-// reconfigure_set_kb_size::func_object
+
 //
-signed int func_object(unsigned long int);
+
 // reconfigure_set_number
 // file reconfigure.c line 136
 static signed int reconfigure_set_number(char *value, signed int (*func)(signed int));
-// reconfigure_set_number::func_object
+
 //
-signed int func_object(signed int);
+
 // reconfigure_split_line
 // file reconfigure.c line 213
 static signed int reconfigure_split_line(const char *line, char **arg, unsigned long int *arg_len, signed int arg_cnt);
@@ -1204,9 +1204,9 @@ static signed int req_timeout_check(struct _GSource *source);
 // req_timeout_dispatch
 // file auth-gnome-keyring.c line 89
 static signed int req_timeout_dispatch(struct _GSource *source, signed int (*callback)(void *), void *user_data);
-// req_timeout_dispatch::callback_object
+
 //
-signed int callback_object(void *);
+
 // req_timeout_finalize
 // file auth-gnome-keyring.c line 103
 static void req_timeout_finalize(struct _GSource *source);
@@ -1762,9 +1762,9 @@ static signed int stat_workaround_add_name_internal(const char *name, signed int
 // stat_workaround_check_path
 // file stat_workaround.c line 229
 static signed int stat_workaround_check_path(const char *path, signed int min_depth);
-// stat_workaround_check_path::1::cmp_func_object
+
 //
-signed int cmp_func_object(const char *, const char *, unsigned long int);
+
 // stat_workaround_delete_obsolete
 // file stat_workaround.c line 193
 void stat_workaround_delete_obsolete(signed long int threshold);
@@ -7215,7 +7215,7 @@ static void gnome_keyring_get_list_callback(enum anonymous_8 result, struct _GLi
           tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr_4 = (signed int)*p->object == 0 ? (_Bool)1 : (_Bool)0;
+
         if(!tmp_if_expr_4)
           goto __CPROVER_DUMP_L6;
 
@@ -7254,7 +7254,7 @@ static void gnome_keyring_get_list_callback(enum anonymous_8 result, struct _GLi
             tmp_if_expr_6 = (_Bool)1;
 
           else
-            tmp_if_expr_6 = (signed int)*p->object == 0 ? (_Bool)1 : (_Bool)0;
+
           if(!tmp_if_expr_6)
             goto __CPROVER_DUMP_L11;
 
@@ -7285,7 +7285,7 @@ static void gnome_keyring_get_list_callback(enum anonymous_8 result, struct _GLi
               tmp_if_expr_9 = (_Bool)1;
 
             else
-              tmp_if_expr_9 = (signed int)*p->object == 0 ? (_Bool)1 : (_Bool)0;
+
             if(!tmp_if_expr_9)
               goto __CPROVER_DUMP_L14;
 
@@ -7312,7 +7312,7 @@ static void gnome_keyring_get_list_callback(enum anonymous_8 result, struct _GLi
                 tmp_if_expr_10 = (_Bool)1;
 
               else
-                tmp_if_expr_10 = (signed int)*p->object == 0 ? (_Bool)1 : (_Bool)0;
+
               if(tmp_if_expr_10)
                 req->info=gnome_keyring_update_authinfo(req->info, p->domain, p->user, p->password, 1);
 

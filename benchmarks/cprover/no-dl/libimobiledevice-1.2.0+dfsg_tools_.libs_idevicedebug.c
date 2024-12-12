@@ -762,9 +762,9 @@ enum anonymous_49 diagnostics_relay_shutdown(struct diagnostics_relay_client_pri
 // diagnostics_relay_sleep
 // file diagnostics_relay.c line 199
 enum anonymous_49 diagnostics_relay_sleep(struct diagnostics_relay_client_private *client);
-// event_cb_object
+
 //
-void event_cb_object(const struct anonymous_33 *, void *);
+
 // fclose
 // file /usr/include/stdio.h line 237
 extern signed int fclose(struct _IO_FILE *);
@@ -1023,9 +1023,9 @@ enum anonymous_11 idevice_disconnect(struct idevice_connection_private *connecti
 // idevice_event_subscribe
 // file idevice.c line 159
 enum anonymous_11 idevice_event_subscribe(void (*callback)(const struct anonymous_33 *, void *), void *user_data);
-// idevice_event_subscribe::callback_object
+
 //
-void callback_object(const struct anonymous_33 *, void *);
+
 // idevice_event_unsubscribe
 // file idevice.c line 171
 enum anonymous_11 idevice_event_unsubscribe(void);
@@ -1056,18 +1056,18 @@ static void instproxy_append_current_list_to_result_cb(void *command, void *stat
 // instproxy_archive
 // file installation_proxy.c line 722
 enum anonymous_6 instproxy_archive(struct instproxy_client_private *client, const char *appid, void *client_options, void (*status_cb)(void *, void *, void *), void *user_data);
-// instproxy_archive::status_cb_object
+
 //
-void status_cb_object(void *, void *, void *);
+
 // instproxy_browse
 // file installation_proxy.c line 571
 enum anonymous_6 instproxy_browse(struct instproxy_client_private *client, void *client_options, void **result);
 // instproxy_browse_with_callback
 // file installation_proxy.c line 530
 enum anonymous_6 instproxy_browse_with_callback(struct instproxy_client_private *client, void *client_options, void (*status_cb)(void *, void *, void *), void *user_data);
-// instproxy_browse_with_callback::status_cb_object
+
 //
-void status_cb_object(void *, void *, void *);
+
 // instproxy_check_capabilities_match
 // file installation_proxy.c line 773
 enum anonymous_6 instproxy_check_capabilities_match(struct instproxy_client_private *client, const char **capabilities, void *client_options, void **result);
@@ -1110,9 +1110,9 @@ static enum anonymous_6 instproxy_error(enum anonymous_22 err);
 // instproxy_install
 // file installation_proxy.c line 655
 enum anonymous_6 instproxy_install(struct instproxy_client_private *client, const char *pkg_path, void *client_options, void (*status_cb)(void *, void *, void *), void *user_data);
-// instproxy_install::status_cb_object
+
 //
-void status_cb_object(void *, void *, void *);
+
 // instproxy_lock
 // file installation_proxy.c line 187
 static void instproxy_lock(struct instproxy_client_private *client);
@@ -1125,36 +1125,36 @@ enum anonymous_6 instproxy_lookup_archives(struct instproxy_client_private *clie
 // instproxy_perform_command
 // file installation_proxy.c line 507
 static enum anonymous_6 instproxy_perform_command(struct instproxy_client_private *client, void *command, enum anonymous_24 async, void (*status_cb)(void *, void *, void *), void *user_data);
-// instproxy_perform_command::status_cb_object
+
 //
-void status_cb_object(void *, void *, void *);
+
 // instproxy_receive_status_loop
 // file installation_proxy.c line 316
 static enum anonymous_6 instproxy_receive_status_loop(struct instproxy_client_private *client, void *command, void (*status_cb)(void *, void *, void *), void *user_data);
-// instproxy_receive_status_loop::status_cb_object
+
 //
-void status_cb_object(void *, void *, void *);
+
 // instproxy_receive_status_loop_thread
 // file installation_proxy.c line 416
 static void * instproxy_receive_status_loop_thread(void *arg);
 // instproxy_receive_status_loop_with_callback
 // file installation_proxy.c line 462
 static enum anonymous_6 instproxy_receive_status_loop_with_callback(struct instproxy_client_private *client, void *command, enum anonymous_24 async, void (*status_cb)(void *, void *, void *), void *user_data);
-// instproxy_receive_status_loop_with_callback::status_cb_object
+
 //
-void status_cb_object(void *, void *, void *);
+
 // instproxy_remove_archive
 // file installation_proxy.c line 756
 enum anonymous_6 instproxy_remove_archive(struct instproxy_client_private *client, const char *appid, void *client_options, void (*status_cb)(void *, void *, void *), void *user_data);
-// instproxy_remove_archive::status_cb_object
+
 //
-void status_cb_object(void *, void *, void *);
+
 // instproxy_restore
 // file installation_proxy.c line 739
 enum anonymous_6 instproxy_restore(struct instproxy_client_private *client, const char *appid, void *client_options, void (*status_cb)(void *, void *, void *), void *user_data);
-// instproxy_restore::status_cb_object
+
 //
-void status_cb_object(void *, void *, void *);
+
 // instproxy_send_command
 // file installation_proxy.c line 288
 static enum anonymous_6 instproxy_send_command(struct instproxy_client_private *client, void *command);
@@ -1176,18 +1176,18 @@ static enum anonymous_6 instproxy_strtoerr(const char *name);
 // instproxy_uninstall
 // file installation_proxy.c line 689
 enum anonymous_6 instproxy_uninstall(struct instproxy_client_private *client, const char *appid, void *client_options, void (*status_cb)(void *, void *, void *), void *user_data);
-// instproxy_uninstall::status_cb_object
+
 //
-void status_cb_object(void *, void *, void *);
+
 // instproxy_unlock
 // file installation_proxy.c line 198
 static void instproxy_unlock(struct instproxy_client_private *client);
 // instproxy_upgrade
 // file installation_proxy.c line 672
 enum anonymous_6 instproxy_upgrade(struct instproxy_client_private *client, const char *pkg_path, void *client_options, void (*status_cb)(void *, void *, void *), void *user_data);
-// instproxy_upgrade::status_cb_object
+
 //
-void status_cb_object(void *, void *, void *);
+
 // internal_cert_callback
 // file idevice.c line 629
 static signed int internal_cert_callback(struct gnutls_session_int *session, const struct anonymous_9 *req_ca_rdn, signed int nreqs, const enum anonymous_16 *sign_algos, signed int sign_algos_length, struct gnutls_retr2_st *st);
@@ -1404,9 +1404,9 @@ static void mobile_image_mounter_unlock(struct mobile_image_mounter_client_priva
 // mobile_image_mounter_upload_image
 // file mobile_image_mounter.c line 144
 enum anonymous_36 mobile_image_mounter_upload_image(struct mobile_image_mounter_client_private *client, const char *image_type, unsigned long int image_size, const char *signature, unsigned short int signature_size, signed long int (*upload_cb)(void *, unsigned long int, void *), void *userdata);
-// mobile_image_mounter_upload_image::upload_cb_object
+
 //
-signed long int upload_cb_object(void *, unsigned long int, void *);
+
 // mobilebackup2_client_free
 // file mobilebackup2.c line 99
 enum anonymous_46 mobilebackup2_client_free(struct mobilebackup2_client_private *client);
@@ -1599,9 +1599,9 @@ enum anonymous_23 np_post_notification(struct np_client_private *client, const c
 // np_set_notify_callback
 // file notification_proxy.c line 339
 enum anonymous_23 np_set_notify_callback(struct np_client_private *client, void (*notify_cb)(const char *, void *), void *user_data);
-// np_set_notify_callback::notify_cb_object
+
 //
-void notify_cb_object(const char *, void *);
+
 // np_unlock
 // file notification_proxy.c line 57
 static void np_unlock(struct np_client_private *client);
@@ -1920,9 +1920,9 @@ extern signed long int send(signed int, const void *, unsigned long int, signed 
 // service_client_factory_start_service
 // file service.c line 79
 enum anonymous_18 service_client_factory_start_service(struct idevice_private *device, const char *service_name, void **client, const char *label, signed int (*constructor_func)(struct idevice_private *, struct lockdownd_service_descriptor *, void **), signed int *error_code);
-// service_client_factory_start_service::constructor_func_object
+
 //
-signed int constructor_func_object(struct idevice_private *, struct lockdownd_service_descriptor *, void **);
+
 // service_client_free
 // file service.c line 118
 enum anonymous_18 service_client_free(struct service_client_private *client);
@@ -2085,9 +2085,9 @@ enum anonymous_52 syslog_relay_receive_with_timeout(struct syslog_relay_client_p
 // syslog_relay_start_capture
 // file syslog_relay.c line 176
 enum anonymous_52 syslog_relay_start_capture(struct syslog_relay_client_private *client, void (*callback)(char, void *), void *user_data);
-// syslog_relay_start_capture::callback_object
+
 //
-void callback_object(char, void *);
+
 // syslog_relay_stop_capture
 // file syslog_relay.c line 203
 enum anonymous_52 syslog_relay_stop_capture(struct syslog_relay_client_private *client);
@@ -2103,12 +2103,12 @@ void thread_join(unsigned long int thread);
 // thread_new
 // file thread.c line 24
 signed int thread_new(unsigned long int *thread, void * (*thread_func)(void *), void *data);
-// thread_new::thread_func_link1_object
+
 //
-void * thread_func_link1_object(void *);
-// thread_new::thread_func_object
+
+
 //
-void * thread_func_object(void *);
+
 // thread_once
 // file thread.c line 92
 void thread_once(signed int *once_control, void (*init_routine)(void));

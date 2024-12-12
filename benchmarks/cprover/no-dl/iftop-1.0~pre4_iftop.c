@@ -519,7 +519,7 @@ extern struct servent * getservent(void);
 // gprof_pthread_create
 // file threadprof.c line 27
 signed int gprof_pthread_create(unsigned long int *thread, union pthread_attr_t *attr, void * (*start_routine)(void *), void *arg);
-// gprof_pthread_create::start_routine_object
+
 //
 void * start_routine_object(void *);
 // halfdelay
@@ -726,9 +726,9 @@ void options_read_args(signed int argc, char **argv);
 // options_set_defaults
 // file options.h line 97
 void options_set_defaults();
-// packet_handler_object
+
 //
-void packet_handler_object(unsigned char *, struct pcap_pkthdr *, const unsigned char *);
+
 // packet_init
 // file iftop.c line 680
 void packet_init();

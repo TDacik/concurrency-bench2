@@ -234,15 +234,15 @@ void log_object(void *, unsigned int, const char *, ...);
 // DOODLE_tree_search
 // file tree.c line 3150
 signed int DOODLE_tree_search(struct DOODLE_SuffixTree *tree, const char *substring, void (*callback)(const struct anonymous *, void *), void *arg);
-// DOODLE_tree_search::callback_object
+
 //
-void callback_object(const struct anonymous *, void *);
+
 // DOODLE_tree_search_approx
 // file tree.c line 3304
 signed int DOODLE_tree_search_approx(struct DOODLE_SuffixTree *tree, const unsigned int approx, const signed int ignore_case, const char *ss, void (*callback)(const struct anonymous *, void *), void *arg);
-// DOODLE_tree_search_approx::callback_object
+
 //
-void callback_object(const struct anonymous *, void *);
+
 // DOODLE_tree_set_memory_limit
 // file doodle.h line 195
 void DOODLE_tree_set_memory_limit(struct DOODLE_SuffixTree *tree, unsigned long int limit);
@@ -663,9 +663,9 @@ void run_shutdown(signed int signum);
 // scanDirectory
 // file files.c line 54
 signed int scanDirectory(char *dirName, void (*logger)(void *, unsigned int, const char *, ...), void *context, signed int (*pruner)(const char *, void *), void *pr_arg, signed int (*callback)(const char *, void *), void *cb_arg);
-// scanDirectory::callback_object
+
 //
-signed int callback_object(const char *, void *);
+
 // scanDirectory::logger_object
 //
 void logger_object(void *, unsigned int, const char *, ...);
@@ -756,18 +756,18 @@ extern signed int tolower(signed int);
 // tree_iterate_internal
 // file tree.c line 3104
 static signed int tree_iterate_internal(signed int do_links, struct DOODLE_SuffixTree *tree, struct DOODLE_Node *node, void (*callback)(const struct anonymous *, void *), void *arg);
-// tree_iterate_internal::callback_object
+
 //
-void callback_object(const struct anonymous *, void *);
+
 // tree_normalize
 // file tree.c line 2071
 static void tree_normalize(struct DOODLE_SuffixTree *tree, struct DOODLE_Node *pos);
 // tree_search_approx_internal
 // file tree.c line 3175
 static signed int tree_search_approx_internal(struct DOODLE_Node *pos, const unsigned int approx, const signed int ignore_case, struct DOODLE_SuffixTree *tree, const char *ss, void (*callback)(const struct anonymous *, void *), void *arg);
-// tree_search_approx_internal::callback_object
+
 //
-void callback_object(const struct anonymous *, void *);
+
 // tree_search_internal
 // file tree.c line 2180
 static struct DOODLE_Node * tree_search_internal(struct DOODLE_SuffixTree *tree, const char *substring);

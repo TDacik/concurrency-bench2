@@ -277,12 +277,12 @@ extern signed int creat(const char *, unsigned int);
 // create_hashtable
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/hashtable.h line 75
 struct hashtable * create_hashtable(unsigned int minsize, unsigned int (*hashf)(void *), signed int (*eqf)(void *, void *));
-// create_hashtable::eqf_object
+
 //
-signed int eqf_object(void *, void *);
-// create_hashtable::hashf_object
+
+
 //
-unsigned int hashf_object(void *);
+
 // debug_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-unionfs-fuse/unionfs-fuse-1.0/src/debug.h line 39
 signed int debug_init(void);

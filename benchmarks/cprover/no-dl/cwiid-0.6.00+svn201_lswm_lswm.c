@@ -230,9 +230,9 @@ void cwiid_err(struct wiimote *wiimote, const char *str, ...);
 // cwiid_err_default
 // file util.c line 74
 void cwiid_err_default(struct wiimote *wiimote, const char *str, void **ap);
-// cwiid_err_func_object
+
 //
-void cwiid_err_func_object(struct wiimote *, const char *, void **);
+
 // cwiid_find_wiimote
 // file bluetooth.c line 173
 signed int cwiid_find_wiimote(struct anonymous *bdaddr, signed int timeout);
@@ -287,9 +287,9 @@ signed int cwiid_set_led(struct wiimote *wiimote, unsigned char led);
 // cwiid_set_mesg_callback
 // file interface.c line 92
 signed int cwiid_set_mesg_callback(struct wiimote *wiimote, void (*callback)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *));
-// cwiid_set_mesg_callback::callback_object
+
 //
-void callback_object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
+
 // cwiid_set_rpt_mode
 // file command.c line 151
 signed int cwiid_set_rpt_mode(struct wiimote *wiimote, unsigned char rpt_mode);
@@ -347,9 +347,9 @@ extern void * memset(void *, signed int, unsigned long int);
 // mesg_callback_thread
 // file cwiid_internal.h line 194
 void * mesg_callback_thread(struct wiimote *wiimote);
-// mesg_callback_thread::1::callback_object
+
 //
-void callback_object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
+
 // pipe
 // file /usr/include/unistd.h line 417
 extern signed int pipe(signed int *);

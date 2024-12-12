@@ -634,7 +634,7 @@ extern signed long int read(signed int, void *, unsigned long int);
 static void reconnect_timeout_handler(struct rtpp_session *sp, struct rtpp_timeout_handler *th);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // remove_session
 // file rtpp_session.h line 97
 void remove_session(struct cfg *cf, struct rtpp_session *sp);
@@ -757,7 +757,7 @@ extern signed long int send(signed int, const void *, unsigned long int, signed 
 static void send_packet(struct cfg *cf, struct rtpp_session *sp, signed int ridx, struct rtp_packet *packet);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // session_findfirst
 // file rtpp_session.c line 116
 struct rtpp_session * session_findfirst(struct cfg *cf, char *call_id);

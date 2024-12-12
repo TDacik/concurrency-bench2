@@ -702,7 +702,7 @@ static signed int compat_write(signed int fd, const void *buffer, signed int siz
 static signed int compat_write_data(signed int fd, unsigned char data);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_20, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // createTempFile
 // file common/utils.c line 223
 signed int createTempFile(char *szFileName, struct _IO_FILE **pFilePtr);
@@ -1344,7 +1344,7 @@ signed int readsect(signed int sector, signed int nsector, void *buf, signed int
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // release_interface
 // file io/hpmud/musb.c line 543
 static signed int release_interface(struct anonymous_21 *pfd);
@@ -1359,7 +1359,7 @@ extern signed int select(signed int, struct anonymous_14 *, struct anonymous_14 
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // service_to_channel
 // file io/hpmud/hpmud.c line 189
 enum HPMUD_RESULT service_to_channel(struct _mud_device *pd, const char *sn, signed int *index);

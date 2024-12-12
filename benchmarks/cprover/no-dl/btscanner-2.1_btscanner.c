@@ -1011,9 +1011,9 @@ struct _sdp_list * sdp_list_append(struct _sdp_list *, void *);
 // sdp_list_foreach
 // file /usr/include/bluetooth/sdp_lib.h line 66
 static inline void sdp_list_foreach(struct _sdp_list *list, void (*f)(void *, void *), void *u);
-// sdp_list_foreach::f_object
+
 //
-void f_object(void *, void *);
+
 // sdp_list_free
 // file /usr/include/bluetooth/sdp_lib.h line 48
 void sdp_list_free(struct _sdp_list *, void (*)(void *));

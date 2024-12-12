@@ -607,7 +607,7 @@ extern signed int raise(signed int);
 extern signed long int read(signed int, void *, unsigned long int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // recvmsg
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 202
 extern signed long int recvmsg(signed int, struct msghdr *, signed int);
@@ -640,7 +640,7 @@ static signed int sendOk(struct client_config *client_config, unsigned int slice
 static signed int sendRetransmit(struct clientState *clst, struct slice *slice, signed int rxmit);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // setNextBlock
 // file receivedata.c line 236
 static void setNextBlock(struct clientState *clst);

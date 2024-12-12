@@ -374,9 +374,9 @@ static signed int blocks_free(struct pool *pool, unsigned int pool_idx, unsigned
 // blocks_iter
 // file smalloc.c line 103
 static signed int blocks_iter(struct pool *pool, unsigned int pool_idx, unsigned int idx, unsigned long int nr_blocks, signed int (*func)(unsigned int *, unsigned int));
-// blocks_iter::func_object
+
 //
-signed int func_object(unsigned int *, unsigned int);
+
 // bloom_crc32c
 // file lib/bloom.c line 26
 static unsigned int bloom_crc32c(const void *buf, unsigned int len, unsigned int seed);

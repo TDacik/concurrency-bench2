@@ -602,9 +602,9 @@ extern signed int munmap(void *, unsigned long int);
 // partition_resize_helper
 // file rculfhash.c line 1162
 static void partition_resize_helper(struct cds_lfht *ht, unsigned long int i, unsigned long int len, void (*fct)(struct cds_lfht *, unsigned long int, unsigned long int, unsigned long int));
-// partition_resize_helper::fct_object
+
 //
-void fct_object(struct cds_lfht *, unsigned long int, unsigned long int, unsigned long int);
+
 // partition_resize_thread
 // file rculfhash.c line 1151
 static void * partition_resize_thread(void *arg);

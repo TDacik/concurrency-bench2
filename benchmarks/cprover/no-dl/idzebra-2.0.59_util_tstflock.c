@@ -2084,9 +2084,9 @@ void res_set(struct res_struct *r, const char *name, const char *value);
 // res_trav
 // file res.c line 357
 signed int res_trav(struct res_struct *r, const char *prefix, void *p, void (*f)(void *, const char *, const char *));
-// res_trav::f_object
+
 //
-void f_object(void *, const char *, const char *);
+
 // res_write_file
 // file res.c line 384
 signed short int res_write_file(struct res_struct *r, const char *fname);
@@ -2096,9 +2096,9 @@ void * run_func(void *arg);
 // scan_string
 // file charmap.c line 421
 static signed int scan_string(char *s_native, struct yaz_iconv_struct *t_unicode, struct yaz_iconv_struct *t_utf8, void (*fun)(const char *, void *, signed int), void *data, signed int *num);
-// scan_string::fun_object
+
 //
-void fun_object(const char *, void *, signed int);
+
 // scan_to_utf8
 // file charmap.c line 393
 static signed int scan_to_utf8(struct yaz_iconv_struct *t, unsigned int *from, unsigned long int inlen, char *outbuf, unsigned long int outbytesleft);

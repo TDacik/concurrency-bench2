@@ -314,7 +314,7 @@ static char * _br_find_exe_for_symbol(const void *symbol, enum anonymous_11 *err
 extern signed int access(const char *, signed int);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_2, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bindtextdomain
 // file /usr/include/libintl.h line 86
 extern char * bindtextdomain(const char *, const char *);
@@ -504,7 +504,7 @@ void miredo_conf_clear(struct miredo_conf *conf, signed int show);
 // miredo_conf_create
 // file conf.h line 33
 struct miredo_conf * miredo_conf_create(void (*logger)(void *, _Bool, const char *, void **), void *opaque);
-// miredo_conf_create::logger_object
+
 //
 void logger_object(void *, _Bool, const char *, void **);
 // miredo_conf_destroy
@@ -605,7 +605,7 @@ extern signed long int recvmsg(signed int, struct msghdr *, signed int);
 extern signed long int sendmsg(signed int, struct msghdr *, signed int);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_2, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // server_diagnose
 // file serverd.c line 55
 static signed int server_diagnose(void);

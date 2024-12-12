@@ -186,22 +186,22 @@ static inline struct cds_wfs_node * ___cds_wfs_next(struct cds_wfs_node *node, s
 static inline struct cds_wfs_node * ___cds_wfs_node_sync_next(struct cds_wfs_node *node, signed int blocking);
 // ___cds_wfs_pop
 // file urcu/static/wfstack.h line 175
-static inline struct cds_wfs_node * ___cds_wfs_pop(union anonymous_0 u_stack, signed int *state, signed int blocking);
+static inline struct cds_wfs_node * ___cds_wfs_pop(struct __cds_wfcq_head * u_stack, signed int *state, signed int blocking);
 // ___cds_wfs_pop_all
 // file urcu/static/wfstack.h line 284
-static inline struct cds_wfs_head * ___cds_wfs_pop_all(union anonymous_0 u_stack);
+static inline struct cds_wfs_head * ___cds_wfs_pop_all(struct __cds_wfcq_head * u_stack);
 // ___cds_wfs_pop_blocking
 // file urcu/static/wfstack.h line 232
-static inline struct cds_wfs_node * ___cds_wfs_pop_blocking(union anonymous_0 u_stack);
+static inline struct cds_wfs_node * ___cds_wfs_pop_blocking(struct __cds_wfcq_head * u_stack);
 // ___cds_wfs_pop_nonblocking
 // file urcu/static/wfstack.h line 260
-static inline struct cds_wfs_node * ___cds_wfs_pop_nonblocking(union anonymous_0 u_stack);
+static inline struct cds_wfs_node * ___cds_wfs_pop_nonblocking(struct __cds_wfcq_head * u_stack);
 // ___cds_wfs_pop_with_state_blocking
 // file urcu/static/wfstack.h line 225
-static inline struct cds_wfs_node * ___cds_wfs_pop_with_state_blocking(union anonymous_0 u_stack, signed int *state);
+static inline struct cds_wfs_node * ___cds_wfs_pop_with_state_blocking(struct __cds_wfcq_head * u_stack, signed int *state);
 // ___cds_wfs_pop_with_state_nonblocking
 // file urcu/static/wfstack.h line 247
-static inline struct cds_wfs_node * ___cds_wfs_pop_with_state_nonblocking(union anonymous_0 u_stack, signed int *state);
+static inline struct cds_wfs_node * ___cds_wfs_pop_with_state_nonblocking(struct __cds_wfcq_head * u_stack, signed int *state);
 // __assert_fail
 // file /usr/include/assert.h line 69
 extern void __assert_fail(const char *, const char *, unsigned int, const char *);
@@ -246,19 +246,19 @@ extern struct cds_wfq_node * __cds_wfq_dequeue_blocking(struct cds_wfq_queue *q)
 extern void __cds_wfs_init(struct __cds_wfs_stack *s);
 // __cds_wfs_pop_all
 // file ../../urcu/wfstack.h line 309
-extern struct cds_wfs_head * __cds_wfs_pop_all(union anonymous_0 u_stack);
+extern struct cds_wfs_head * __cds_wfs_pop_all(struct __cds_wfcq_head * u_stack);
 // __cds_wfs_pop_blocking
 // file wfstack.c line 97
-extern struct cds_wfs_node * __cds_wfs_pop_blocking(union anonymous_0 u_stack);
+extern struct cds_wfs_node * __cds_wfs_pop_blocking(struct __cds_wfcq_head * u_stack);
 // __cds_wfs_pop_nonblocking
 // file wfstack.c line 109
-extern struct cds_wfs_node * __cds_wfs_pop_nonblocking(union anonymous_0 u_stack);
+extern struct cds_wfs_node * __cds_wfs_pop_nonblocking(struct __cds_wfcq_head * u_stack);
 // __cds_wfs_pop_with_state_blocking
 // file ../../urcu/wfstack.h line 271
-extern struct cds_wfs_node * __cds_wfs_pop_with_state_blocking(union anonymous_0 u_stack, signed int *state);
+extern struct cds_wfs_node * __cds_wfs_pop_with_state_blocking(struct __cds_wfcq_head * u_stack, signed int *state);
 // __cds_wfs_pop_with_state_nonblocking
 // file wfstack.c line 115
-extern struct cds_wfs_node * __cds_wfs_pop_with_state_nonblocking(union anonymous_0 u_stack, signed int *state);
+extern struct cds_wfs_node * __cds_wfs_pop_with_state_nonblocking(struct __cds_wfcq_head * u_stack, signed int *state);
 // __errno_location
 // file /usr/include/x86_64-linux-gnu/bits/errno.h line 50
 extern signed int * __errno_location(void);
@@ -321,7 +321,7 @@ static inline void _cds_wfq_init(struct cds_wfq_queue *q);
 static inline void _cds_wfq_node_init(struct cds_wfq_node *node);
 // _cds_wfs_empty
 // file urcu/static/wfstack.h line 110
-static inline _Bool _cds_wfs_empty(union anonymous_0 u_stack);
+static inline _Bool _cds_wfs_empty(struct __cds_wfcq_head * u_stack);
 // _cds_wfs_first
 // file urcu/static/wfstack.h line 380
 static inline struct cds_wfs_node * _cds_wfs_first(struct cds_wfs_head *head);
@@ -354,7 +354,7 @@ static inline void _cds_wfs_pop_unlock(struct cds_wfs_stack *s);
 static inline struct cds_wfs_node * _cds_wfs_pop_with_state_blocking(struct cds_wfs_stack *s, signed int *state);
 // _cds_wfs_push
 // file urcu/static/wfstack.h line 127
-static inline signed int _cds_wfs_push(union anonymous_0 u_stack, struct cds_wfs_node *node);
+static inline signed int _cds_wfs_push(struct __cds_wfcq_head * u_stack, struct cds_wfs_node *node);
 // atoi
 // file /usr/include/stdlib.h line 147
 extern signed int atoi(const char *);
@@ -405,7 +405,7 @@ extern void cds_wfq_init(struct cds_wfq_queue *q);
 extern void cds_wfq_node_init(struct cds_wfq_node *node);
 // cds_wfs_empty
 // file ../../urcu/wfstack.h line 163
-extern _Bool cds_wfs_empty(union anonymous_0 u_stack);
+extern _Bool cds_wfs_empty(struct __cds_wfcq_head * u_stack);
 // cds_wfs_first
 // file ../../urcu/wfstack.h line 211
 extern struct cds_wfs_node * cds_wfs_first(struct cds_wfs_head *head);
@@ -438,7 +438,7 @@ extern void cds_wfs_pop_unlock(struct cds_wfs_stack *s);
 extern struct cds_wfs_node * cds_wfs_pop_with_state_blocking(struct cds_wfs_stack *s, signed int *state);
 // cds_wfs_push
 // file ../../urcu/wfstack.h line 174
-extern signed int cds_wfs_push(union anonymous_0 u_stack, struct cds_wfs_node *node);
+extern signed int cds_wfs_push(struct __cds_wfcq_head * u_stack, struct cds_wfs_node *node);
 // compat_futex_async
 // file compat_futex.c line 116
 extern signed int compat_futex_async(signed int *uaddr, signed int op, signed int val, struct timespec *timeout, signed int *uaddr2, signed int val3);
@@ -1357,7 +1357,7 @@ static inline struct cds_wfs_node * ___cds_wfs_node_sync_next(struct cds_wfs_nod
 
 // ___cds_wfs_pop
 // file urcu/static/wfstack.h line 175
-static inline struct cds_wfs_node * ___cds_wfs_pop(union anonymous_0 u_stack, signed int *state, signed int blocking)
+static inline struct cds_wfs_node * ___cds_wfs_pop(struct __cds_wfcq_head * u_stack, signed int *state, signed int blocking)
 {
   struct cds_wfs_head *head;
   struct cds_wfs_head *new_head;
@@ -1410,7 +1410,7 @@ static inline struct cds_wfs_node * ___cds_wfs_pop(union anonymous_0 u_stack, si
 
 // ___cds_wfs_pop_all
 // file urcu/static/wfstack.h line 284
-static inline struct cds_wfs_head * ___cds_wfs_pop_all(union anonymous_0 u_stack)
+static inline struct cds_wfs_head * ___cds_wfs_pop_all(struct __cds_wfcq_head * u_stack)
 {
   struct __cds_wfs_stack *___cds_wfs_pop_all__1__s = u_stack._s;
   struct cds_wfs_head *head;
@@ -1428,7 +1428,7 @@ static inline struct cds_wfs_head * ___cds_wfs_pop_all(union anonymous_0 u_stack
 
 // ___cds_wfs_pop_blocking
 // file urcu/static/wfstack.h line 232
-static inline struct cds_wfs_node * ___cds_wfs_pop_blocking(union anonymous_0 u_stack)
+static inline struct cds_wfs_node * ___cds_wfs_pop_blocking(struct __cds_wfcq_head * u_stack)
 {
   struct cds_wfs_node *return_value____cds_wfs_pop_with_state_blocking_1;
   return_value____cds_wfs_pop_with_state_blocking_1=___cds_wfs_pop_with_state_blocking(u_stack, (signed int *)(void *)0);
@@ -1437,7 +1437,7 @@ static inline struct cds_wfs_node * ___cds_wfs_pop_blocking(union anonymous_0 u_
 
 // ___cds_wfs_pop_nonblocking
 // file urcu/static/wfstack.h line 260
-static inline struct cds_wfs_node * ___cds_wfs_pop_nonblocking(union anonymous_0 u_stack)
+static inline struct cds_wfs_node * ___cds_wfs_pop_nonblocking(struct __cds_wfcq_head * u_stack)
 {
   struct cds_wfs_node *return_value____cds_wfs_pop_with_state_nonblocking_1;
   return_value____cds_wfs_pop_with_state_nonblocking_1=___cds_wfs_pop_with_state_nonblocking(u_stack, (signed int *)(void *)0);
@@ -1446,7 +1446,7 @@ static inline struct cds_wfs_node * ___cds_wfs_pop_nonblocking(union anonymous_0
 
 // ___cds_wfs_pop_with_state_blocking
 // file urcu/static/wfstack.h line 225
-static inline struct cds_wfs_node * ___cds_wfs_pop_with_state_blocking(union anonymous_0 u_stack, signed int *state)
+static inline struct cds_wfs_node * ___cds_wfs_pop_with_state_blocking(struct __cds_wfcq_head * u_stack, signed int *state)
 {
   struct cds_wfs_node *return_value____cds_wfs_pop_1;
   return_value____cds_wfs_pop_1=___cds_wfs_pop(u_stack, state, 1);
@@ -1455,7 +1455,7 @@ static inline struct cds_wfs_node * ___cds_wfs_pop_with_state_blocking(union ano
 
 // ___cds_wfs_pop_with_state_nonblocking
 // file urcu/static/wfstack.h line 247
-static inline struct cds_wfs_node * ___cds_wfs_pop_with_state_nonblocking(union anonymous_0 u_stack, signed int *state)
+static inline struct cds_wfs_node * ___cds_wfs_pop_with_state_nonblocking(struct __cds_wfcq_head * u_stack, signed int *state)
 {
   struct cds_wfs_node *return_value____cds_wfs_pop_1;
   return_value____cds_wfs_pop_1=___cds_wfs_pop(u_stack, state, 0);
@@ -1577,7 +1577,7 @@ extern void __cds_wfs_init(struct __cds_wfs_stack *s)
 
 // __cds_wfs_pop_all
 // file ../../urcu/wfstack.h line 309
-extern struct cds_wfs_head * __cds_wfs_pop_all(union anonymous_0 u_stack)
+extern struct cds_wfs_head * __cds_wfs_pop_all(struct __cds_wfcq_head * u_stack)
 {
   struct cds_wfs_head *return_value____cds_wfs_pop_all_1;
   return_value____cds_wfs_pop_all_1=___cds_wfs_pop_all(u_stack);
@@ -1586,7 +1586,7 @@ extern struct cds_wfs_head * __cds_wfs_pop_all(union anonymous_0 u_stack)
 
 // __cds_wfs_pop_blocking
 // file wfstack.c line 97
-extern struct cds_wfs_node * __cds_wfs_pop_blocking(union anonymous_0 u_stack)
+extern struct cds_wfs_node * __cds_wfs_pop_blocking(struct __cds_wfcq_head * u_stack)
 {
   struct cds_wfs_node *return_value____cds_wfs_pop_blocking_1;
   return_value____cds_wfs_pop_blocking_1=___cds_wfs_pop_blocking(u_stack);
@@ -1595,7 +1595,7 @@ extern struct cds_wfs_node * __cds_wfs_pop_blocking(union anonymous_0 u_stack)
 
 // __cds_wfs_pop_nonblocking
 // file wfstack.c line 109
-extern struct cds_wfs_node * __cds_wfs_pop_nonblocking(union anonymous_0 u_stack)
+extern struct cds_wfs_node * __cds_wfs_pop_nonblocking(struct __cds_wfcq_head * u_stack)
 {
   struct cds_wfs_node *return_value____cds_wfs_pop_nonblocking_1;
   return_value____cds_wfs_pop_nonblocking_1=___cds_wfs_pop_nonblocking(u_stack);
@@ -1604,7 +1604,7 @@ extern struct cds_wfs_node * __cds_wfs_pop_nonblocking(union anonymous_0 u_stack
 
 // __cds_wfs_pop_with_state_blocking
 // file ../../urcu/wfstack.h line 271
-extern struct cds_wfs_node * __cds_wfs_pop_with_state_blocking(union anonymous_0 u_stack, signed int *state)
+extern struct cds_wfs_node * __cds_wfs_pop_with_state_blocking(struct __cds_wfcq_head * u_stack, signed int *state)
 {
   struct cds_wfs_node *return_value____cds_wfs_pop_with_state_blocking_1;
   return_value____cds_wfs_pop_with_state_blocking_1=___cds_wfs_pop_with_state_blocking(u_stack, state);
@@ -1613,7 +1613,7 @@ extern struct cds_wfs_node * __cds_wfs_pop_with_state_blocking(union anonymous_0
 
 // __cds_wfs_pop_with_state_nonblocking
 // file wfstack.c line 115
-extern struct cds_wfs_node * __cds_wfs_pop_with_state_nonblocking(union anonymous_0 u_stack, signed int *state)
+extern struct cds_wfs_node * __cds_wfs_pop_with_state_nonblocking(struct __cds_wfcq_head * u_stack, signed int *state)
 {
   struct cds_wfs_node *return_value____cds_wfs_pop_with_state_nonblocking_1;
   return_value____cds_wfs_pop_with_state_nonblocking_1=___cds_wfs_pop_with_state_nonblocking(u_stack, state);
@@ -2005,7 +2005,7 @@ static inline void _cds_wfq_node_init(struct cds_wfq_node *node)
 
 // _cds_wfs_empty
 // file urcu/static/wfstack.h line 110
-static inline _Bool _cds_wfs_empty(union anonymous_0 u_stack)
+static inline _Bool _cds_wfs_empty(struct __cds_wfcq_head * u_stack)
 {
   struct __cds_wfs_stack *_cds_wfs_empty__1__s = u_stack._s;
   struct cds_wfs_head * volatile tmp_statement_expression_1;
@@ -2118,7 +2118,7 @@ static inline struct cds_wfs_node * _cds_wfs_pop_with_state_blocking(struct cds_
 
 // _cds_wfs_push
 // file urcu/static/wfstack.h line 127
-static inline signed int _cds_wfs_push(union anonymous_0 u_stack, struct cds_wfs_node *node)
+static inline signed int _cds_wfs_push(struct __cds_wfcq_head * u_stack, struct cds_wfs_node *node)
 {
   struct __cds_wfs_stack *_cds_wfs_push__1__s = u_stack._s;
   struct cds_wfs_head *old_head;
@@ -2249,7 +2249,7 @@ extern void cds_wfq_node_init(struct cds_wfq_node *node)
 
 // cds_wfs_empty
 // file ../../urcu/wfstack.h line 163
-extern _Bool cds_wfs_empty(union anonymous_0 u_stack)
+extern _Bool cds_wfs_empty(struct __cds_wfcq_head * u_stack)
 {
   _Bool return_value__cds_wfs_empty_1;
   return_value__cds_wfs_empty_1=_cds_wfs_empty(u_stack);
@@ -2340,7 +2340,7 @@ extern struct cds_wfs_node * cds_wfs_pop_with_state_blocking(struct cds_wfs_stac
 
 // cds_wfs_push
 // file ../../urcu/wfstack.h line 174
-extern signed int cds_wfs_push(union anonymous_0 u_stack, struct cds_wfs_node *node)
+extern signed int cds_wfs_push(struct __cds_wfcq_head * u_stack, struct cds_wfs_node *node)
 {
   signed int return_value__cds_wfs_push_1;
   return_value__cds_wfs_push_1=_cds_wfs_push(u_stack, node);

@@ -329,7 +329,7 @@ static inline unsigned long int __bswap_64_link1(unsigned long int __bsx_link1);
 extern signed int * __errno_location(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_1, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // add_read_block_to_tail
 // file xnbd_proxy_forwarder.c line 56
 void add_read_block_to_tail(struct proxy_priv *priv, unsigned long int i);
@@ -347,7 +347,7 @@ void * bgctl_thread_main(void *data);
 void bgctl_wait_shutdown(void);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_1, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bitmap_alloc
 // file bitmap.c line 43
 unsigned long int * bitmap_alloc(unsigned long int bits);
@@ -434,7 +434,7 @@ void compress_iovec_and_send(signed int csock, struct iovec *iov, signed int cou
 void compress_iovec_and_send_advanced(signed int csock, struct iovec *iov, const unsigned int count, signed int lzo_enabled);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_1, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // create_disk_stack
 // file xnbd_target_cow_lzo.c line 170
 struct disk_stack * create_disk_stack(char *diskpath);

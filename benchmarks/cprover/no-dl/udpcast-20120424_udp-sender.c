@@ -670,7 +670,7 @@ extern signed int raise(signed int);
 extern signed long int read(signed int, void *, unsigned long int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // reduce
 // file fec.c line 810
 static inline void reduce(unsigned int blockSize, unsigned char **data_blocks, unsigned int nr_data_blocks, unsigned char **fec_blocks, unsigned int *fec_block_nos, unsigned int *erased_blocks, unsigned short int nr_fec_blocks);
@@ -718,7 +718,7 @@ static signed int sendSlice(struct senderState *sendst, struct slice *slice, sig
 extern signed long int sendmsg(signed int, struct msghdr *, signed int);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // setProp
 // file rate-limit.c line 62
 static void setProp(void *data, const char *key, const char *bitrate);

@@ -565,15 +565,15 @@ signed int fstReaderIterBlocks(void *ctx, void (*value_change_callback)(void *, 
 // fstReaderIterBlocks2
 // file fst/fstapi.h line 400
 signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *, unsigned long int, unsigned int, const unsigned char *), void (*value_change_callback_varlen)(void *, unsigned long int, unsigned int, const unsigned char *, unsigned int), void *user_callback_data_pointer, struct _IO_FILE *fv);
-// fstReaderIterBlocks2::value_change_callback_object
+
 //
-void value_change_callback_object(void *, unsigned long int, unsigned int, const unsigned char *);
-// fstReaderIterBlocks2::value_change_callback_varlen_object
+
+
 //
-void value_change_callback_varlen_object(void *, unsigned long int, unsigned int, const unsigned char *, unsigned int);
-// fstReaderIterBlocks::value_change_callback_object
+
+
 //
-void value_change_callback_object(void *, unsigned long int, unsigned int, const unsigned char *);
+
 // fstReaderIterBlocksSetNativeDoublesOnCallback
 // file ./fst/fstapi.c line 3556
 void fstReaderIterBlocksSetNativeDoublesOnCallback(void *ctx, signed int enable);

@@ -528,9 +528,9 @@ static void _cleanup(void);
 // _defer_rcu
 // file urcu-defer-impl.h line 311
 static void _defer_rcu(void (*fct)(void *), void *p);
-// _defer_rcu::fct_object
+
 //
-void fct_object(void *);
+
 // _expected_tests
 // file tap.c line 315
 static void _expected_tests(unsigned int tests);
@@ -747,9 +747,9 @@ void * func_object(void *);
 // defer_rcu_bp
 // file urcu-defer-impl.h line 395
 extern void defer_rcu_bp(void (*fct)(void *), void *p);
-// defer_rcu_bp::fct_object
+
 //
-void fct_object(void *);
+
 // diag
 // file ../../tests/utils/tap.h line 82
 unsigned int diag(char *fmt, ...);
@@ -960,9 +960,9 @@ extern void rcu_defer_barrier_bp(void);
 // rcu_defer_barrier_queue
 // file urcu-defer-impl.h line 218
 static void rcu_defer_barrier_queue(struct defer_queue *queue, unsigned long int head);
-// rcu_defer_barrier_queue::1::fct_object
+
 //
-void fct_object(void *);
+
 // rcu_defer_barrier_thread_bp
 // file urcu-defer-impl.h line 261
 extern void rcu_defer_barrier_thread_bp(void);

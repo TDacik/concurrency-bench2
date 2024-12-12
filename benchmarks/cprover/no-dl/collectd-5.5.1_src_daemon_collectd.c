@@ -461,9 +461,9 @@ extern void bzero(void *, unsigned long int);
 // c_avl_create
 // file utils_avltree.h line 54
 struct c_avl_tree_s * c_avl_create(signed int (*compare)(const void *, const void *));
-// c_avl_create::compare_object
+
 //
-signed int compare_object(const void *, const void *);
+
 // c_avl_destroy
 // file utils_avltree.h line 65
 void c_avl_destroy(struct c_avl_tree_s *t);
@@ -512,9 +512,9 @@ void c_do_release(signed int level, struct anonymous_2 *c, const char *format, .
 // c_heap_create
 // file utils_heap.h line 51
 struct c_heap_s * c_heap_create(signed int (*compare)(const void *, const void *));
-// c_heap_create::compare_object
+
 //
-signed int compare_object(const void *, const void *);
+
 // c_heap_destroy
 // file utils_heap.h line 61
 void c_heap_destroy(struct c_heap_s *h);
@@ -587,15 +587,15 @@ static struct oconfig_item_s * cf_read_generic(const char *path, const char *pat
 // cf_register
 // file configfile.c line 1055
 void cf_register(const char *type, signed int (*callback)(const char *, const char *), const char **keys, signed int keys_num);
-// cf_register::callback_object
+
 //
-signed int callback_object(const char *, const char *);
+
 // cf_register_complex
 // file configfile.c line 1078
 signed int cf_register_complex(const char *type, signed int (*callback)(struct oconfig_item_s *));
-// cf_register_complex::callback_object
+
 //
-signed int callback_object(struct oconfig_item_s *);
+
 // cf_search
 // file configfile.c line 135
 static struct cf_callback * cf_search(const char *type);
@@ -674,9 +674,9 @@ signed int cu_tail_destroy(struct cu_tail_s *obj);
 // cu_tail_read
 // file utils_tail.h line 85
 signed int cu_tail_read(struct cu_tail_s *obj, char *buf, signed int buflen, signed int (*callback)(void *, char *, signed int), void *data);
-// cu_tail_read::callback_object
+
 //
-signed int callback_object(void *, char *, signed int);
+
 // cu_tail_readline
 // file utils_tail.c line 149
 signed int cu_tail_readline(struct cu_tail_s *obj, char *buf, signed int buflen);
@@ -977,9 +977,9 @@ struct llentry_s * llist_search(struct llist_s *l, const char *key);
 // llist_search_custom
 // file utils_llist.h line 60
 struct llentry_s * llist_search_custom(struct llist_s *l, signed int (*compare)(struct llentry_s *, void *), void *user_data);
-// llist_search_custom::compare_object
+
 //
-signed int compare_object(struct llentry_s *, void *);
+
 // llist_size
 // file utils_llist.h line 57
 signed int llist_size(struct llist_s *l);
@@ -1034,9 +1034,9 @@ signed int match_apply(struct cu_match_s *obj, const char *str);
 // match_create_callback
 // file utils_match.c line 230
 struct cu_match_s * match_create_callback(const char *regex, const char *excluderegex, signed int (*callback)(const char *, char * const *, unsigned long int, void *), void *user_data);
-// match_create_callback::callback_object
+
 //
-signed int callback_object(const char *, char * const *, unsigned long int, void *);
+
 // match_create_simple
 // file utils_match.h line 126
 struct cu_match_s * match_create_simple(const char *regex, const char *excluderegex, signed int match_ds_type);
@@ -1223,18 +1223,18 @@ static void plugin_ctx_destructor(void *ctx);
 // plugin_dispatch_missing
 // file plugin.c line 1913
 signed int plugin_dispatch_missing(const struct value_list_s *vl);
-// plugin_dispatch_missing::1::1::callback_object
+
 //
-signed int callback_object(const struct value_list_s *, struct user_data_s *);
+
 // plugin_dispatch_multivalue
 // file plugin.c line 2222
 signed int plugin_dispatch_multivalue(const struct value_list_s *template, _Bool store_percentage, signed int store_type, ...);
 // plugin_dispatch_notification
 // file plugin.c line 2302
 signed int plugin_dispatch_notification(const struct notification_s *notif);
-// plugin_dispatch_notification::1::1::callback_object
+
 //
-signed int callback_object(const struct notification_s *, struct user_data_s *);
+
 // plugin_dispatch_values
 // file plugin.c line 2194
 signed int plugin_dispatch_values(const struct value_list_s *vl);
@@ -1244,9 +1244,9 @@ static signed int plugin_dispatch_values_internal(struct value_list_s *vl);
 // plugin_flush
 // file plugin.h line 276
 signed int plugin_flush(const char *plugin, unsigned long int timeout, const char *identifier);
-// plugin_flush::1::1::callback_object
+
 //
-signed int callback_object(unsigned long int, const char *, struct user_data_s *);
+
 // plugin_free_data_sets
 // file plugin.c line 1326
 static void plugin_free_data_sets(void);
@@ -1268,9 +1268,9 @@ unsigned long int plugin_get_interval(void);
 // plugin_init_all
 // file plugin.h line 241
 void plugin_init_all(void);
-// plugin_init_all::1::5::callback_object
+
 //
-signed int callback_object(void);
+
 // plugin_init_ctx
 // file plugin.h line 437
 void plugin_init_ctx(void);
@@ -1292,9 +1292,9 @@ void reg_handle_object(void);
 // plugin_log
 // file plugin.h line 393
 void plugin_log(signed int level, const char *format, ...);
-// plugin_log::1::2::callback_object
+
 //
-void callback_object(signed int, const char *, struct user_data_s *);
+
 // plugin_log_available_writers
 // file plugin.h line 335
 void plugin_log_available_writers(void);
@@ -1331,90 +1331,90 @@ void plugin_read_all(void);
 // plugin_read_all_once
 // file plugin.h line 243
 signed int plugin_read_all_once(void);
-// plugin_read_all_once::1::2::1::callback_object
+
 //
-signed int callback_object(void);
-// plugin_read_all_once::1::2::2::callback_object
+
+
 //
-signed int callback_object(struct user_data_s *);
+
 // plugin_read_thread
 // file plugin.c line 474
 static void * plugin_read_thread(void *args);
-// plugin_read_thread::1::1::6::callback_object
+
 //
-signed int callback_object(void);
-// plugin_read_thread::1::1::7::callback_object
+
+
 //
-signed int callback_object(struct user_data_s *);
+
 // plugin_register_complex_config
 // file plugin.c line 1115
 signed int plugin_register_complex_config(const char *type, signed int (*callback)(struct oconfig_item_s *));
-// plugin_register_complex_config::callback_object
+
 //
-signed int callback_object(struct oconfig_item_s *);
+
 // plugin_register_complex_read
 // file plugin.c line 1248
 signed int plugin_register_complex_read(const char *group, const char *name, signed int (*callback)(struct user_data_s *), struct timespec *interval, struct user_data_s *user_data);
-// plugin_register_complex_read::callback_object
+
 //
-signed int callback_object(struct user_data_s *);
+
 // plugin_register_config
 // file plugin.c line 1107
 signed int plugin_register_config(const char *name, signed int (*callback)(const char *, const char *), const char **keys, signed int keys_num);
-// plugin_register_config::callback_object
+
 //
-signed int callback_object(const char *, const char *);
+
 // plugin_register_data_set
 // file plugin.c line 1347
 signed int plugin_register_data_set(const struct data_set_s *ds);
 // plugin_register_flush
 // file plugin.c line 1305
 signed int plugin_register_flush(const char *name, signed int (*callback)(unsigned long int, const char *, struct user_data_s *), struct user_data_s *ud);
-// plugin_register_flush::callback_object
+
 //
-signed int callback_object(unsigned long int, const char *, struct user_data_s *);
+
 // plugin_register_init
 // file plugin.c line 1121
 signed int plugin_register_init(const char *name, signed int (*callback)(void));
-// plugin_register_init::callback_object
+
 //
-signed int callback_object(void);
+
 // plugin_register_log
 // file plugin.c line 1384
 signed int plugin_register_log(const char *name, void (*callback)(signed int, const char *, struct user_data_s *), struct user_data_s *ud);
-// plugin_register_log::callback_object
+
 //
-void callback_object(signed int, const char *, struct user_data_s *);
+
 // plugin_register_missing
 // file plugin.c line 1312
 signed int plugin_register_missing(const char *name, signed int (*callback)(const struct value_list_s *, struct user_data_s *), struct user_data_s *ud);
-// plugin_register_missing::callback_object
+
 //
-signed int callback_object(const struct value_list_s *, struct user_data_s *);
+
 // plugin_register_notification
 // file plugin.c line 1391
 signed int plugin_register_notification(const char *name, signed int (*callback)(const struct notification_s *, struct user_data_s *), struct user_data_s *ud);
-// plugin_register_notification::callback_object
+
 //
-signed int callback_object(const struct notification_s *, struct user_data_s *);
+
 // plugin_register_read
 // file plugin.c line 1216
 signed int plugin_register_read(const char *name, signed int (*callback)(void));
-// plugin_register_read::callback_object
+
 //
-signed int callback_object(void);
+
 // plugin_register_shutdown
 // file plugin.c line 1319
 signed int plugin_register_shutdown(const char *name, signed int (*callback)(void));
-// plugin_register_shutdown::callback_object
+
 //
-signed int callback_object(void);
+
 // plugin_register_write
 // file plugin.c line 1298
 signed int plugin_register_write(const char *name, signed int (*callback)(const struct data_set_s *, const struct value_list_s *, struct user_data_s *), struct user_data_s *ud);
-// plugin_register_write::callback_object
+
 //
-signed int callback_object(const struct data_set_s *, const struct value_list_s *, struct user_data_s *);
+
 // plugin_set_ctx
 // file plugin.h line 440
 struct plugin_ctx_s plugin_set_ctx(struct plugin_ctx_s ctx);
@@ -1424,9 +1424,9 @@ void plugin_set_dir(const char *dir);
 // plugin_shutdown_all
 // file plugin.h line 244
 void plugin_shutdown_all(void);
-// plugin_shutdown_all::1::1::callback_object
+
 //
-signed int callback_object(void);
+
 // plugin_thread_create
 // file plugin.c line 2715
 signed int plugin_thread_create(unsigned long int *thread, const union pthread_attr_t *attr, void * (*start_routine)(void *), void *arg);
@@ -1490,12 +1490,12 @@ static void plugin_value_list_free(struct value_list_s *vl);
 // plugin_write
 // file plugin.h line 273
 signed int plugin_write(const char *plugin, const struct data_set_s *ds, const struct value_list_s *vl);
-// plugin_write::1::2::1::callback_object
+
 //
-signed int callback_object(const struct data_set_s *, const struct value_list_s *, struct user_data_s *);
-// plugin_write::1::3::callback_object
+
+
 //
-signed int callback_object(const struct data_set_s *, const struct value_list_s *, struct user_data_s *);
+
 // plugin_write_dequeue
 // file plugin.c line 797
 static struct value_list_s * plugin_write_dequeue(void);
@@ -1928,9 +1928,9 @@ extern signed int vsnprintf(char *, unsigned long int, const char *, void **);
 // walk_directory
 // file common.c line 1306
 signed int walk_directory(const char *dir, signed int (*callback)(const char *, const char *, void *), void *user_data, signed int include_hidden);
-// walk_directory::callback_object
+
 //
-signed int callback_object(const char *, const char *, void *);
+
 // wordexp
 // file /usr/include/wordexp.h line 62
 extern signed int wordexp(const char *, struct anonymous_18 *, signed int);

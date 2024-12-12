@@ -368,7 +368,7 @@ extern signed int __sigsetjmp(struct __jmp_buf_tag *, signed int);
 extern void _exit(signed int);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_2, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -434,7 +434,7 @@ extern signed int ber_set_option(void *, signed int, const void *);
 static const char ** bervalues_to_values(struct berval **bvalues);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_2, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // binsid2id
 // file common.c line 330
 unsigned long int binsid2id(const char *binsid);
@@ -734,7 +734,7 @@ extern signed int getopt_long(signed int, char * const *, const char *, struct o
 signed int getpeercred(signed int sock, unsigned int *uid, unsigned int *gid, signed int *pid);
 // getpeername
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 141
-extern signed int getpeername(signed int, union anonymous_2, unsigned int *);
+extern signed int getpeername(signed int, struct sockaddr *, unsigned int *);
 // getpid
 // file /usr/include/unistd.h line 628
 extern signed int getpid(void);
@@ -843,9 +843,9 @@ extern signed int initgroups(const char *, unsigned int);
 // install_sighandler
 // file nslcd.c line 502
 static void install_sighandler(signed int signum, void (*handler)(signed int));
-// install_sighandler::handler_object
+
 //
-void handler_object(signed int);
+
 // invalidator_do
 // file common.h line 151
 void invalidator_do(enum ldap_map_selector map);

@@ -1044,9 +1044,9 @@ static signed int _evhtp_request_parser_start(struct htparser *p);
 // _evhtp_request_set_callbacks
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 1179
 static inline signed int _evhtp_request_set_callbacks(struct evhtp_request_s *request);
-// _evhtp_request_set_callbacks::1::cb_object
+
 //
-void cb_object(struct evhtp_request_s *, void *);
+
 // _evhtp_require_uri
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 1327
 static signed int _evhtp_require_uri(struct evhtp_connection_s *c);
@@ -1077,9 +1077,9 @@ static unsigned long int _evhtp_ssl_get_thread_id(void);
 // _evhtp_ssl_servername
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 2296
 static signed int _evhtp_ssl_servername(struct ssl_st *ssl, signed int *unused, void *arg);
-// _evhtp_ssl_servername::_tmp::return_value_SSL_CTX_get_verify_callback_4_object
+
 //
-signed int return_value_SSL_CTX_get_verify_callback_4_object(signed int, struct x509_store_ctx_st *);
+
 // _evhtp_ssl_thread_lock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 2225
 static void _evhtp_ssl_thread_lock(signed int mode, signed int type, const char *file, signed int line);
@@ -1115,7 +1115,7 @@ extern signed int atoi(const char *);
 extern signed long long int atoll(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_10, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bufferevent_disable
 // file /usr/include/event2/bufferevent.h line 418
 signed int bufferevent_disable(struct bufferevent *, signed short int);
@@ -1272,9 +1272,9 @@ void evhtp_callback_free(struct evhtp_callback_s *callback);
 // evhtp_callback_new
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 3325
 struct evhtp_callback_s * evhtp_callback_new(const char *path, enum evhtp_callback_type type, void (*cb)(struct evhtp_request_s *, void *), void *arg);
-// evhtp_callback_new::cb_object
+
 //
-void cb_object(struct evhtp_request_s *, void *);
+
 // evhtp_callbacks_add_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 3395
 signed int evhtp_callbacks_add_callback(struct evhtp_callbacks_s *cbs, struct evhtp_callback_s *cb);
@@ -1356,9 +1356,9 @@ struct evhtp_kv_s * evhtp_kvs_find_kv(struct evhtp_kvs_s *kvs, const char *key);
 // evhtp_kvs_for_each
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 1062
 signed int evhtp_kvs_for_each(struct evhtp_kvs_s *kvs, signed int (*cb)(struct evhtp_kv_s *, void *), void *arg);
-// evhtp_kvs_for_each::cb_object
+
 //
-signed int cb_object(struct evhtp_kv_s *, void *);
+
 // evhtp_kvs_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 2546
 void evhtp_kvs_free(struct evhtp_kvs_s *kvs);
@@ -1404,9 +1404,9 @@ enum evhtp_proto evhtp_request_get_proto(struct evhtp_request_s *request);
 // evhtp_request_new
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 4333
 struct evhtp_request_s * evhtp_request_new(void (*cb)(struct evhtp_request_s *, void *), void *arg);
-// evhtp_request_new::cb_object
+
 //
-void cb_object(struct evhtp_request_s *, void *);
+
 // evhtp_request_pause
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 2388
 void evhtp_request_pause(struct evhtp_request_s *request);
@@ -1458,27 +1458,27 @@ void evhtp_set_bev_flags(struct evhtp_s *htp, signed int flags);
 // evhtp_set_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 669
 struct evhtp_callback_s * evhtp_set_cb(struct evhtp_s *htp, const char *path, void (*cb)(struct evhtp_request_s *, void *), void *arg);
-// evhtp_set_cb::cb_object
+
 //
-void cb_object(struct evhtp_request_s *, void *);
+
 // evhtp_set_gencb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 633
 void evhtp_set_gencb(struct evhtp_s *htp, void (*cb)(struct evhtp_request_s *, void *), void *arg);
-// evhtp_set_gencb::cb_object
+
 //
-void cb_object(struct evhtp_request_s *, void *);
+
 // evhtp_set_glob_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 702
 struct evhtp_callback_s * evhtp_set_glob_cb(struct evhtp_s *htp, const char *pattern, void (*cb)(struct evhtp_request_s *, void *), void *arg);
-// evhtp_set_glob_cb::cb_object
+
 //
-void cb_object(struct evhtp_request_s *, void *);
+
 // evhtp_set_hook
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 772
 signed int evhtp_set_hook(struct evhtp_hooks_s **hooks, enum evhtp_hook_type type, unsigned short int (*cb)(), void *arg);
-// evhtp_set_hook::cb_object
+
 //
-unsigned short int cb_object();
+
 // evhtp_set_max_body_size
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 4067
 void evhtp_set_max_body_size(struct evhtp_s *htp, unsigned long int len);
@@ -1491,21 +1491,21 @@ void evhtp_set_parser_flags(struct evhtp_s *htp, signed int flags);
 // evhtp_set_post_accept_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 657
 void evhtp_set_post_accept_cb(struct evhtp_s *htp, unsigned short int (*cb)(struct evhtp_connection_s *, void *), void *arg);
-// evhtp_set_post_accept_cb::cb_object
+
 //
-unsigned short int cb_object(struct evhtp_connection_s *, void *);
+
 // evhtp_set_pre_accept_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 645
 void evhtp_set_pre_accept_cb(struct evhtp_s *htp, unsigned short int (*cb)(struct evhtp_connection_s *, void *), void *arg);
-// evhtp_set_pre_accept_cb::cb_object
+
 //
-unsigned short int cb_object(struct evhtp_connection_s *, void *);
+
 // evhtp_set_regex_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 684
 struct evhtp_callback_s * evhtp_set_regex_cb(struct evhtp_s *htp, const char *pattern, void (*cb)(struct evhtp_request_s *, void *), void *arg);
-// evhtp_set_regex_cb::cb_object
+
 //
-void cb_object(struct evhtp_request_s *, void *);
+
 // evhtp_set_timeouts
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evhtp.c line 4040
 void evhtp_set_timeouts(struct evhtp_s *htp, struct timeval *r_timeo, struct timeval *w_timeo);
@@ -1533,15 +1533,15 @@ signed int evhtp_use_callback_locks(struct evhtp_s *htp);
 // evhtp_use_threads
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/examples/../evhtp.h line 848
 signed int evhtp_use_threads(struct evhtp_s *htp, void (*init_cb)(struct evhtp_s *, struct evthr *, void *), signed int nthreads, void *arg);
-// evhtp_use_threads::init_cb_object
+
 //
-void init_cb_object(struct evhtp_s *, struct evthr *, void *);
+
 // evthr_defer
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evthr.c line 138
 enum evthr_res evthr_defer(struct evthr *thread, void (*cb)(struct evthr *, void *, void *), void *arg);
-// evthr_defer::cb_object
+
 //
-void cb_object(struct evthr *, void *, void *);
+
 // evthr_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evthr.c line 227
 void evthr_free(struct evthr *thread);
@@ -1554,24 +1554,24 @@ struct event_base * evthr_get_base(struct evthr *thr);
 // evthr_new
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evthr.c line 184
 struct evthr * evthr_new(void (*init_cb)(struct evthr *, void *), void *args);
-// evthr_new::init_cb_object
+
 //
-void init_cb_object(struct evthr *, void *);
+
 // evthr_pool_defer
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evthr.h line 48
 enum evthr_res evthr_pool_defer(struct evthr_pool *pool, void (*cb)(struct evthr *, void *, void *), void *arg);
-// evthr_pool_defer::cb_object
+
 //
-void cb_object(struct evthr *, void *, void *);
+
 // evthr_pool_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evthr.h line 49
 void evthr_pool_free(struct evthr_pool *pool);
 // evthr_pool_new
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evthr.h line 45
 struct evthr_pool * evthr_pool_new(signed int nthreads, void (*init_cb)(struct evthr *, void *), void *shared);
-// evthr_pool_new::init_cb_object
+
 //
-void init_cb_object(struct evthr *, void *);
+
 // evthr_pool_start
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libevhtp/libevhtp-1.2.11/evthr.h line 46
 signed int evthr_pool_start(struct evthr_pool *pool);

@@ -184,9 +184,9 @@ signed int fiu_enable(const char *name, signed int failnum, void *failinfo, unsi
 // fiu_enable_external
 // file fiu.c line 406
 signed int fiu_enable_external(const char *name, signed int failnum, void *failinfo, unsigned int flags, signed int (*external_cb)(const char *, signed int *, void **, unsigned int *));
-// fiu_enable_external::external_cb_object
+
 //
-signed int external_cb_object(const char *, signed int *, void **, unsigned int *);
+
 // fiu_enable_random
 // file fiu.c line 392
 signed int fiu_enable_random(const char *name, signed int failnum, void *failinfo, unsigned int flags, float probability);

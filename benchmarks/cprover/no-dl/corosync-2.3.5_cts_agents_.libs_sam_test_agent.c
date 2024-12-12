@@ -415,15 +415,15 @@ extern enum anonymous_0 cmap_set_uint8(unsigned long int handle, const char *key
 // cmap_track_add
 // file cmap.c line 933
 extern enum anonymous_0 cmap_track_add(unsigned long int handle, const char *key_name, signed int track_type, void (*notify_fn)(unsigned long int, unsigned long int, signed int, const char *, struct cmap_notify_value, struct cmap_notify_value, void *), void *user_data, unsigned long int *cmap_track_handle);
-// cmap_track_add::notify_fn_link1_object
+
 //
-void notify_fn_link1_object(unsigned long int, unsigned long int, signed int, const char *, struct cmap_notify_value, struct cmap_notify_value, void *);
-// cmap_track_add::notify_fn_link2_object
+
+
 //
-void notify_fn_link2_object(unsigned long int, unsigned long int, signed int, const char *, struct cmap_notify_value, struct cmap_notify_value, void *);
-// cmap_track_add::notify_fn_object
+
+
 //
-void notify_fn_object(unsigned long int, unsigned long int, signed int, const char *, struct cmap_notify_value, struct cmap_notify_value, void *);
+
 // cmap_track_delete
 // file cmap.c line 1024
 extern enum anonymous_0 cmap_track_delete(unsigned long int handle, unsigned long int track_handle);
@@ -760,9 +760,9 @@ enum anonymous_0 sam_finalize(void);
 // sam_hc_callback_register
 // file ../../include/corosync/sam.h line 179
 enum anonymous_0 sam_hc_callback_register(signed int (*cb)(void));
-// sam_hc_callback_register::cb_object
+
 //
-signed int cb_object(void);
+
 // sam_hc_send
 // file ../../include/corosync/sam.h line 159
 enum anonymous_0 sam_hc_send(void);
@@ -907,12 +907,12 @@ static signed int test9(signed int pid, signed int old_pid, signed int test_n);
 // test_agent_run
 // file common_test_agent.h line 51
 signed int test_agent_run(const char *prog_name, signed int server_port, void (*func)(signed int, char *, char **, signed int), void (*exit_fn)(void));
-// test_agent_run::exit_fn_object
+
 //
-void exit_fn_object(void);
-// test_agent_run::func_object
+
+
 //
-void func_object(signed int, char *, char **, signed int);
+
 // waitpid
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 125
 extern signed int waitpid(signed int, signed int *, signed int);

@@ -343,7 +343,7 @@ void arguments_set_defaults(struct anonymous_16 *args);
 extern signed int atoi(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_12, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bootchart_find_running_pid
 // file collector/common.h line 102
 signed int bootchart_find_running_pid(struct anonymous_16 *opt_args);
@@ -602,9 +602,9 @@ static void pid_event_cb(const struct anonymous_22 *event, void *user_data);
 // pid_scanner_alloc
 // file collector/tasks.c line 56
 struct _PidScanner * pid_scanner_alloc(signed int derived_size, void (*event_fn)(const struct anonymous_22 *, void *), void *user_data);
-// pid_scanner_alloc::event_fn_object
+
 //
-void event_fn_object(const struct anonymous_22 *, void *);
+
 // pid_scanner_emit_exec
 // file collector/tasks.c line 209
 void pid_scanner_emit_exec(struct _PidScanner *scanner, signed int new_pid);
@@ -614,15 +614,15 @@ void pid_scanner_emit_paternity(struct _PidScanner *scanner, signed int new_pid,
 // pid_scanner_new_netlink
 // file collector/common.h line 146
 struct _PidScanner * pid_scanner_new_netlink(void (*event_fn)(const struct anonymous_22 *, void *), void *user_data);
-// pid_scanner_new_netlink::event_fn_object
+
 //
-void event_fn_object(const struct anonymous_22 *, void *);
+
 // pid_scanner_new_proc
 // file collector/common.h line 148
 struct _PidScanner * pid_scanner_new_proc(const char *proc_path, void (*event_fn)(const struct anonymous_22 *, void *), void *user_data);
-// pid_scanner_new_proc::event_fn_object
+
 //
-void event_fn_object(const struct anonymous_22 *, void *);
+
 // poll
 // file /usr/include/x86_64-linux-gnu/sys/poll.h line 57
 extern signed int poll(struct pollfd *, unsigned long int, signed int);
@@ -691,7 +691,7 @@ extern void * realloc(void *, unsigned long int);
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous_12, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // remove_pid
 // file collector/tasks-netlink.c line 168
 static void remove_pid(struct anonymous_11 *nls, signed int pid);
@@ -721,7 +721,7 @@ extern signed long int send(signed int, const void *, unsigned long int, signed 
 static signed int send_cmd(signed int sd, unsigned short int nlmsg_type, unsigned int nlmsg_pid, unsigned char genl_cmd, unsigned short int nla_type, void *nla_data, signed int nla_len);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_12, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // setup_sigaction
 // file collector/collector.c line 724
 static void setup_sigaction(signed int sig);

@@ -482,9 +482,9 @@ extern signed int fc_solve_befs_or_bfs_do_solve(struct fc_solve_soft_thread_stru
 // fc_solve_befs_or_bfs_do_solve::1::6::12::next_test_object_object
 //
 void next_test_object_object(struct fc_solve_soft_thread_struct *, struct anonymous_6 *, struct anonymous_12 *);
-// fc_solve_befs_or_bfs_do_solve::1::debug_iter_output_func_object
+
 //
-void debug_iter_output_func_object(void *, signed long int, signed int, void *, struct anonymous_6 *, signed long int);
+
 // fc_solve_befs_or_bfs_do_solve::1::tests_list_object_object
 //
 void tests_list_object_object(struct fc_solve_soft_thread_struct *, struct anonymous_6 *, struct anonymous_12 *);
@@ -809,9 +809,9 @@ extern void fc_solve_sfs_yukon_do_nothing(struct fc_solve_soft_thread_struct * c
 // fc_solve_soft_dfs_do_solve
 // file /srv/jenkins-slave/workspace/sid-goto-cc-freecell-solver/freecell-solver-3.26.0/instance.h line 1210
 extern signed int fc_solve_soft_dfs_do_solve(struct fc_solve_soft_thread_struct * const soft_thread);
-// fc_solve_soft_dfs_do_solve::1::debug_iter_output_func_object
+
 //
-void debug_iter_output_func_object(void *, signed long int, signed int, void *, struct anonymous_6 *, signed long int);
+
 // fc_solve_soft_thread_init_befs_or_bfs
 // file /srv/jenkins-slave/workspace/sid-goto-cc-freecell-solver/freecell-solver-3.26.0/instance.h line 1212
 extern void fc_solve_soft_thread_init_befs_or_bfs(struct fc_solve_soft_thread_struct *soft_thread);
@@ -986,15 +986,15 @@ extern signed int freecell_solver_user_apply_preset(void *api_instance, const ch
 // freecell_solver_user_cmd_line_parse_args
 // file /srv/jenkins-slave/workspace/sid-goto-cc-freecell-solver/freecell-solver-3.26.0/fcs_cl.h line 62
 extern signed int freecell_solver_user_cmd_line_parse_args(void *instance, signed int argc, const char **argv, signed int start_arg, const char **known_parameters, signed int (*callback)(void *, signed int, const char **, signed int, signed int *, signed int *, void *), void *callback_context, char **error_string, signed int *last_arg);
-// freecell_solver_user_cmd_line_parse_args::callback_object
+
 //
-signed int callback_object(void *, signed int, const char **, signed int, signed int *, signed int *, void *);
+
 // freecell_solver_user_cmd_line_parse_args_with_file_nesting_count
 // file /srv/jenkins-slave/workspace/sid-goto-cc-freecell-solver/freecell-solver-3.26.0/cmd_line.c line 309
 extern signed int freecell_solver_user_cmd_line_parse_args_with_file_nesting_count(void *instance, signed int argc, const char **argv, signed int start_arg, const char **known_parameters, signed int (*callback)(void *, signed int, const char **, signed int, signed int *, signed int *, void *), void *callback_context, char **error_string, signed int *last_arg, signed int file_nesting_count, const char *opened_files_dir);
-// freecell_solver_user_cmd_line_parse_args_with_file_nesting_count::callback_object
+
 //
-signed int callback_object(void *, signed int, const char **, signed int, signed int *, signed int *, void *);
+
 // freecell_solver_user_cmd_line_read_cmd_line_preset
 // file /srv/jenkins-slave/workspace/sid-goto-cc-freecell-solver/freecell-solver-3.26.0/cmd_line.c line 260
 extern signed int freecell_solver_user_cmd_line_read_cmd_line_preset(void *instance, const char * const preset_name, const char **known_parameters, char **error_string, signed int file_nesting_count, const char *opened_files_dir);
@@ -1139,15 +1139,15 @@ extern signed int freecell_solver_user_set_hard_thread_prelude(void *api_instanc
 // freecell_solver_user_set_iter_handler
 // file /srv/jenkins-slave/workspace/sid-goto-cc-freecell-solver/freecell-solver-3.26.0/lib.c line 1965
 extern void freecell_solver_user_set_iter_handler(void *api_instance, void (*iter_handler)(void *, signed int, signed int, void *, signed int, void *), void *iter_handler_context);
-// freecell_solver_user_set_iter_handler::iter_handler_object
+
 //
-void iter_handler_object(void *, signed int, signed int, void *, signed int, void *);
+
 // freecell_solver_user_set_iter_handler_long
 // file /srv/jenkins-slave/workspace/sid-goto-cc-freecell-solver/freecell-solver-3.26.0/fcs_user.h line 229
 extern void freecell_solver_user_set_iter_handler_long(void *api_instance, void (*long_iter_handler)(void *, signed long int, signed int, void *, signed long int, void *), void *iter_handler_context);
-// freecell_solver_user_set_iter_handler_long::long_iter_handler_object
+
 //
-void long_iter_handler_object(void *, signed long int, signed int, void *, signed long int, void *);
+
 // freecell_solver_user_set_num_decks
 // file /srv/jenkins-slave/workspace/sid-goto-cc-freecell-solver/freecell-solver-3.26.0/fcs_user.h line 169
 extern signed int freecell_solver_user_set_num_decks(void *api_instance, signed int decks_num);
@@ -1343,16 +1343,16 @@ static inline signed int run_hard_thread(struct fc_solve_hard_thread_struct *har
 // set_any_iter_handler
 // file /srv/jenkins-slave/workspace/sid-goto-cc-freecell-solver/freecell-solver-3.26.0/lib.c line 1931
 static void set_any_iter_handler(void *api_instance, void (*long_iter_handler)(void *, signed long int, signed int, void *, signed long int, void *), void (*iter_handler)(void *, signed int, signed int, void *, signed int, void *), void *iter_handler_context);
-// set_any_iter_handler::iter_handler_object
+
 //
-void iter_handler_object(void *, signed int, signed int, void *, signed int, void *);
-// set_any_iter_handler::long_iter_handler_object
+
+
 //
-void long_iter_handler_object(void *, signed long int, signed int, void *, signed long int, void *);
+
 // set_debug_iter_output_func_to_val
 // file /srv/jenkins-slave/workspace/sid-goto-cc-freecell-solver/freecell-solver-3.26.0/lib.c line 1920
 static void set_debug_iter_output_func_to_val(struct anonymous * const user, void (* const value)(void *, signed long int, signed int, void *, struct anonymous_6 *, signed long int));
-// set_debug_iter_output_func_to_val::value_object
+
 //
 void value_object(void *, signed long int, signed int, void *, struct anonymous_6 *, signed long int);
 // soft_thread_clean_soft_dfs

@@ -834,15 +834,15 @@ unsigned int _gpgme_engine_new(struct _gpgme_engine_info *info, struct engine **
 // _gpgme_engine_op_assuan_transact
 // file engine.h line 138
 unsigned int _gpgme_engine_op_assuan_transact(struct engine *engine, const char *command, unsigned int (*data_cb)(void *, const void *, unsigned long int), void *data_cb_value, unsigned int (*inq_cb)(void *, const char *, const char *, struct gpgme_data **), void *inq_cb_value, unsigned int (*status_cb)(void *, const char *, const char *), void *status_cb_value);
-// _gpgme_engine_op_assuan_transact::data_cb_object
+
 //
-unsigned int data_cb_object(void *, const void *, unsigned long int);
-// _gpgme_engine_op_assuan_transact::inq_cb_object
+
+
 //
-unsigned int inq_cb_object(void *, const char *, const char *, struct gpgme_data **);
-// _gpgme_engine_op_assuan_transact::status_cb_object
+
+
 //
-unsigned int status_cb_object(void *, const char *, const char *);
+
 // _gpgme_engine_op_conf_load
 // file engine.c line 842
 unsigned int _gpgme_engine_op_conf_load(struct engine *engine, struct gpgme_conf_comp **conf_p);
@@ -948,18 +948,18 @@ void _gpgme_fd_table_init(struct fd_table *fdt);
 // _gpgme_funopen
 // file funopen.c line 44
 struct _IO_FILE * _gpgme_funopen(void *cookie, signed long int (*readfn)(void *, char *, unsigned long int), signed long int (*writefn)(void *, const char *, unsigned long int), signed int (*seekfn)(void *, signed long int *, signed int), signed int (*closefn)(void *));
-// _gpgme_funopen::closefn_object
+
 //
-signed int closefn_object(void *);
-// _gpgme_funopen::readfn_object
+
+
 //
-signed long int readfn_object(void *, char *, unsigned long int);
-// _gpgme_funopen::seekfn_object
+
+
 //
-signed int seekfn_object(void *, signed long int *, signed int);
-// _gpgme_funopen::writefn_object
+
+
 //
-signed long int writefn_object(void *, const char *, unsigned long int);
+
 // _gpgme_get_basename
 // file util.h line 65
 const char * _gpgme_get_basename(const char *name);
@@ -1008,9 +1008,9 @@ signed int _gpgme_in_gpg_one_mode(void);
 // _gpgme_io_close
 // file priv-io.h line 73
 signed int _gpgme_io_close(signed int fd);
-// _gpgme_io_close::1::handler_object
+
 //
-void handler_object(signed int, void *);
+
 // _gpgme_io_connect
 // file priv-io.h line 69
 signed int _gpgme_io_connect(signed int fd, struct sockaddr *addr, signed int addrlen);
@@ -1038,9 +1038,9 @@ signed int _gpgme_io_sendmsg(signed int fd, struct msghdr *msg, signed int flags
 // _gpgme_io_set_close_notify
 // file priv-io.h line 75
 signed int _gpgme_io_set_close_notify(signed int fd, void (*handler)(signed int, void *), void *value);
-// _gpgme_io_set_close_notify::handler_object
+
 //
-void handler_object(signed int, void *);
+
 // _gpgme_io_set_nonblocking
 // file priv-io.h line 77
 signed int _gpgme_io_set_nonblocking(signed int fd);
@@ -1274,7 +1274,7 @@ void _gpgme_wait_user_remove_io_cb(void *data);
 static unsigned int _uiserver_decrypt(void *engine, signed int verify, struct gpgme_data *ciph, struct gpgme_data *plain);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_18, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -1311,24 +1311,24 @@ static unsigned int add_io_cb_link4(struct engine_g13 *g13, struct anonymous_44 
 // add_io_cb_link5
 // file engine-spawn.c line 210
 static unsigned int add_io_cb_link5(struct engine_spawn *esp, signed int fd_link1, signed int dir_link1, unsigned int (*handler_link5)(void *, signed int), void *data_link1, void **tag_link1);
-// add_io_cb::handler_link1_object
+
 //
-unsigned int handler_link1_object(void *, signed int);
-// add_io_cb::handler_link2_object
+
+
 //
-unsigned int handler_link2_object(void *, signed int);
-// add_io_cb::handler_link3_object
+
+
 //
-unsigned int handler_link3_object(void *, signed int);
-// add_io_cb::handler_link4_object
+
+
 //
-unsigned int handler_link4_object(void *, signed int);
-// add_io_cb::handler_link5_object
+
+
 //
-unsigned int handler_link5_object(void *, signed int);
-// add_io_cb::handler_object
+
+
 //
-unsigned int handler_object(void *, signed int);
+
 // append_args_from_recipients
 // file engine-gpg.c line 1649
 static unsigned int append_args_from_recipients(struct engine_gpg *gpg, struct _gpgme_key **recp);
@@ -1442,7 +1442,7 @@ static unsigned int command_handler(void *priv, enum anonymous_14 status, const 
 static unsigned int command_handler_link1(void *opaque, signed int fd_link1);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_18, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // cright_blurb
 // file version.c line 88
 static const char * cright_blurb(void);
@@ -1698,15 +1698,15 @@ static unsigned int g13_set_locale(void *engine, signed int category, const char
 // g13_transact
 // file engine-g13.c line 706
 static unsigned int g13_transact(void *engine, const char *command, unsigned int (*data_cb)(void *, const void *, unsigned long int), void *data_cb_value, unsigned int (*inq_cb)(void *, const char *, const char *, struct gpgme_data **), void *inq_cb_value, unsigned int (*status_cb)(void *, const char *, const char *), void *status_cb_value);
-// g13_transact::data_cb_object
+
 //
-unsigned int data_cb_object(void *, const void *, unsigned long int);
-// g13_transact::inq_cb_object
+
+
 //
-unsigned int inq_cb_object(void *, const char *, const char *, struct gpgme_data **);
-// g13_transact::status_cb_object
+
+
 //
-unsigned int status_cb_object(void *, const char *, const char *);
+
 // genkey_start
 // file genkey.c line 185
 static unsigned int genkey_start(struct gpgme_context *ctx, signed int synchronous, const char *parms, struct gpgme_data *pubkey, struct gpgme_data *seckey);
@@ -2301,9 +2301,9 @@ static unsigned int gpgconf_parse_option(struct gpgme_conf_opt *opt, struct gpgm
 // gpgconf_read
 // file engine-gpgconf.c line 200
 static unsigned int gpgconf_read(void *engine, char *arg1, char *arg2, unsigned int (*cb)(void *, char *), void *hook);
-// gpgconf_read::cb_object
+
 //
-unsigned int cb_object(void *, char *);
+
 // gpgconf_release
 // file engine-gpgconf.c line 76
 static void gpgconf_release(void *engine);
@@ -2376,9 +2376,9 @@ unsigned int gpgme_data_new_from_stream(struct gpgme_data **r_dh, struct _IO_FIL
 // gpgme_data_new_with_read_cb
 // file data-compat.c line 225
 unsigned int gpgme_data_new_with_read_cb(struct gpgme_data **r_dh, signed int (*read_cb)(void *, char *, unsigned long int, unsigned long int *), void *read_cb_value);
-// gpgme_data_new_with_read_cb::read_cb_object
+
 //
-signed int read_cb_object(void *, char *, unsigned long int, unsigned long int *);
+
 // gpgme_data_read
 // file ../../src/gpgme.h line 1194
 signed long int gpgme_data_read(struct gpgme_data *dh, void *buffer, unsigned long int size);
@@ -2478,18 +2478,18 @@ signed int gpgme_get_offline(struct gpgme_context *ctx);
 // gpgme_get_passphrase_cb
 // file gpgme.c line 615
 void gpgme_get_passphrase_cb(struct gpgme_context *ctx, unsigned int (**r_cb)(void *, const char *, const char *, signed int, signed int), void **r_cb_value);
-// gpgme_get_passphrase_cb::r_cb_object_object
+
 //
-unsigned int r_cb_object_object(void *, const char *, const char *, signed int, signed int);
+
 // gpgme_get_pinentry_mode
 // file gpgme.c line 587
 enum anonymous_2 gpgme_get_pinentry_mode(struct gpgme_context *ctx);
 // gpgme_get_progress_cb
 // file gpgme.c line 647
 void gpgme_get_progress_cb(struct gpgme_context *ctx, void (**r_cb)(void *, const char *, signed int, signed int, signed int), void **r_cb_value);
-// gpgme_get_progress_cb::r_cb_object_object
+
 //
-void r_cb_object_object(void *, const char *, signed int, signed int, signed int);
+
 // gpgme_get_protocol
 // file gpgme.h line 914
 enum anonymous gpgme_get_protocol(struct gpgme_context *ctx);
@@ -2511,12 +2511,12 @@ unsigned long int gpgme_get_sig_ulong_attr(struct gpgme_context *ctx, signed int
 // gpgme_get_status_cb
 // file gpgme.c line 678
 void gpgme_get_status_cb(struct gpgme_context *ctx, unsigned int (**r_cb)(void *, const char *, const char *), void **r_cb_value);
-// gpgme_get_status_cb::_tmp::tmp_if_expr_1_object
+
 //
-unsigned int tmp_if_expr_1_object(void *, const char *, const char *);
-// gpgme_get_status_cb::r_cb_object_object
+
+
 //
-unsigned int r_cb_object_object(void *, const char *, const char *);
+
 // gpgme_get_sub_protocol
 // file gpgme.c line 377
 enum anonymous gpgme_get_sub_protocol(struct gpgme_context *ctx);
@@ -2568,39 +2568,39 @@ struct _gpgme_op_assuan_result * gpgme_op_assuan_result(struct gpgme_context *ct
 // gpgme_op_assuan_transact
 // file opassuan.c line 208
 unsigned int gpgme_op_assuan_transact(struct gpgme_context *ctx, const char *command, unsigned int (*data_cb)(void *, const void *, unsigned long int), void *data_cb_value, unsigned int (*inq_cb)(void *, const char *, const char *, struct gpgme_data **), void *inq_cb_value, unsigned int (*status_cb)(void *, const char *, const char *), void *status_cb_value);
-// gpgme_op_assuan_transact::data_cb_object
+
 //
-unsigned int data_cb_object(void *, const void *, unsigned long int);
-// gpgme_op_assuan_transact::inq_cb_object
+
+
 //
-unsigned int inq_cb_object(void *, const char *, const char *, struct gpgme_data **);
-// gpgme_op_assuan_transact::status_cb_object
+
+
 //
-unsigned int status_cb_object(void *, const char *, const char *);
+
 // gpgme_op_assuan_transact_ext
 // file opassuan.c line 109
 unsigned int gpgme_op_assuan_transact_ext(struct gpgme_context *ctx, const char *command, unsigned int (*data_cb)(void *, const void *, unsigned long int), void *data_cb_value, unsigned int (*inq_cb)(void *, const char *, const char *, struct gpgme_data **), void *inq_cb_value, unsigned int (*status_cb)(void *, const char *, const char *), void *status_cb_value, unsigned int *op_err_p);
-// gpgme_op_assuan_transact_ext::data_cb_object
+
 //
-unsigned int data_cb_object(void *, const void *, unsigned long int);
-// gpgme_op_assuan_transact_ext::inq_cb_object
+
+
 //
-unsigned int inq_cb_object(void *, const char *, const char *, struct gpgme_data **);
-// gpgme_op_assuan_transact_ext::status_cb_object
+
+
 //
-unsigned int status_cb_object(void *, const char *, const char *);
+
 // gpgme_op_assuan_transact_start
 // file opassuan.c line 82
 unsigned int gpgme_op_assuan_transact_start(struct gpgme_context *ctx, const char *command, unsigned int (*data_cb)(void *, const void *, unsigned long int), void *data_cb_value, unsigned int (*inq_cb)(void *, const char *, const char *, struct gpgme_data **), void *inq_cb_value, unsigned int (*status_cb)(void *, const char *, const char *), void *status_cb_value);
-// gpgme_op_assuan_transact_start::data_cb_object
+
 //
-unsigned int data_cb_object(void *, const void *, unsigned long int);
-// gpgme_op_assuan_transact_start::inq_cb_object
+
+
 //
-unsigned int inq_cb_object(void *, const char *, const char *, struct gpgme_data **);
-// gpgme_op_assuan_transact_start::status_cb_object
+
+
 //
-unsigned int status_cb_object(void *, const char *, const char *);
+
 // gpgme_op_card_edit
 // file edit.c line 204
 unsigned int gpgme_op_card_edit(struct gpgme_context *ctx, struct _gpgme_key *key, unsigned int (*fnc)(void *, enum anonymous_14, const char *, signed int), void *fnc_value, struct gpgme_data *out);
@@ -2787,24 +2787,24 @@ static unsigned int gpgme_op_vfs_transact(struct gpgme_context *ctx, const char 
 // gpgme_op_vfs_transact_link1
 // file vfs-create.c line 82
 static unsigned int gpgme_op_vfs_transact_link1(struct gpgme_context *ctx_link1, const char *command_link1, unsigned int (*data_cb_link1)(void *, const void *, unsigned long int), void *data_cb_value_link1, unsigned int (*inq_cb_link1)(void *, const char *, const char *, struct gpgme_data **), void *inq_cb_value_link1, unsigned int (*status_cb_link1)(void *, const char *, const char *), void *status_cb_value_link1, unsigned int *op_err_link1);
-// gpgme_op_vfs_transact::data_cb_link1_object
+
 //
-unsigned int data_cb_link1_object(void *, const void *, unsigned long int);
-// gpgme_op_vfs_transact::data_cb_object
+
+
 //
-unsigned int data_cb_object(void *, const void *, unsigned long int);
-// gpgme_op_vfs_transact::inq_cb_link1_object
+
+
 //
-unsigned int inq_cb_link1_object(void *, const char *, const char *, struct gpgme_data **);
-// gpgme_op_vfs_transact::inq_cb_object
+
+
 //
-unsigned int inq_cb_object(void *, const char *, const char *, struct gpgme_data **);
-// gpgme_op_vfs_transact::status_cb_link1_object
+
+
 //
-unsigned int status_cb_link1_object(void *, const char *, const char *);
-// gpgme_op_vfs_transact::status_cb_object
+
+
 //
-unsigned int status_cb_object(void *, const char *, const char *);
+
 // gpgme_pubkey_algo_name
 // file gpgme.h line 2240
 const char * gpgme_pubkey_algo_name(enum anonymous_1 algo);
@@ -2844,27 +2844,27 @@ void gpgme_set_offline(struct gpgme_context *ctx, signed int offline);
 // gpgme_set_passphrase_cb
 // file ../../src/gpgme.h line 973
 void gpgme_set_passphrase_cb(struct gpgme_context *ctx, unsigned int (*cb)(void *, const char *, const char *, signed int, signed int), void *cb_value);
-// gpgme_set_passphrase_cb::cb_object
+
 //
-unsigned int cb_object(void *, const char *, const char *, signed int, signed int);
+
 // gpgme_set_pinentry_mode
 // file gpgme.c line 560
 unsigned int gpgme_set_pinentry_mode(struct gpgme_context *ctx, enum anonymous_2 mode);
 // gpgme_set_progress_cb
 // file gpgme.c line 631
 void gpgme_set_progress_cb(struct gpgme_context *ctx, void (*cb)(void *, const char *, signed int, signed int, signed int), void *cb_value);
-// gpgme_set_progress_cb::cb_object
+
 //
-void cb_object(void *, const char *, signed int, signed int, signed int);
+
 // gpgme_set_protocol
 // file gpgme.h line 911
 unsigned int gpgme_set_protocol(struct gpgme_context *ctx, enum anonymous protocol);
 // gpgme_set_status_cb
 // file gpgme.c line 662
 void gpgme_set_status_cb(struct gpgme_context *ctx, unsigned int (*cb)(void *, const char *, const char *), void *cb_value);
-// gpgme_set_status_cb::cb_object
+
 //
-unsigned int cb_object(void *, const char *, const char *);
+
 // gpgme_set_sub_protocol
 // file gpgme.c line 362
 unsigned int gpgme_set_sub_protocol(struct gpgme_context *ctx, enum anonymous protocol);
@@ -3066,15 +3066,15 @@ static unsigned int llass_status_handler(void *opaque, signed int fd);
 // llass_transact
 // file engine-assuan.c line 694
 static unsigned int llass_transact(void *engine, const char *command, unsigned int (*data_cb)(void *, const void *, unsigned long int), void *data_cb_value, unsigned int (*inq_cb)(void *, const char *, const char *, struct gpgme_data **), void *inq_cb_value, unsigned int (*status_cb)(void *, const char *, const char *), void *status_cb_value);
-// llass_transact::data_cb_object
+
 //
-unsigned int data_cb_object(void *, const void *, unsigned long int);
-// llass_transact::inq_cb_object
+
+
 //
-unsigned int inq_cb_object(void *, const char *, const char *, struct gpgme_data **);
-// llass_transact::status_cb_object
+
+
 //
-unsigned int status_cb_object(void *, const char *, const char *);
+
 // localtime
 // file /usr/include/time.h line 243
 extern struct tm * localtime(const signed long int *);
@@ -3174,15 +3174,15 @@ static signed long int old_user_seek(struct gpgme_data *dh, signed long int offs
 // opassuan_start
 // file opassuan.c line 41
 static unsigned int opassuan_start(struct gpgme_context *ctx, signed int synchronous, const char *command, unsigned int (*data_cb)(void *, const void *, unsigned long int), void *data_cb_value, unsigned int (*inq_cb)(void *, const char *, const char *, struct gpgme_data **), void *inq_cb_value, unsigned int (*status_cb)(void *, const char *, const char *), void *status_cb_value);
-// opassuan_start::data_cb_object
+
 //
-unsigned int data_cb_object(void *, const void *, unsigned long int);
-// opassuan_start::inq_cb_object
+
+
 //
-unsigned int inq_cb_object(void *, const char *, const char *, struct gpgme_data **);
-// opassuan_start::status_cb_object
+
+
 //
-unsigned int status_cb_object(void *, const char *, const char *);
+
 // open
 // file /usr/include/fcntl.h line 146
 extern signed int open(const char *, signed int, ...);
@@ -3630,24 +3630,24 @@ static unsigned int vfs_start(struct gpgme_context *ctx, signed int synchronous,
 // vfs_start_link1
 // file vfs-create.c line 35
 static unsigned int vfs_start_link1(struct gpgme_context *ctx_link1, signed int synchronous_link1, const char *command_link1, unsigned int (*data_cb_link1)(void *, const void *, unsigned long int), void *data_cb_value_link1, unsigned int (*inq_cb_link1)(void *, const char *, const char *, struct gpgme_data **), void *inq_cb_value_link1, unsigned int (*status_cb_link1)(void *, const char *, const char *), void *status_cb_value_link1);
-// vfs_start::data_cb_link1_object
+
 //
-unsigned int data_cb_link1_object(void *, const void *, unsigned long int);
-// vfs_start::data_cb_object
+
+
 //
-unsigned int data_cb_object(void *, const void *, unsigned long int);
-// vfs_start::inq_cb_link1_object
+
+
 //
-unsigned int inq_cb_link1_object(void *, const char *, const char *, struct gpgme_data **);
-// vfs_start::inq_cb_object
+
+
 //
-unsigned int inq_cb_object(void *, const char *, const char *, struct gpgme_data **);
-// vfs_start::status_cb_link1_object
+
+
 //
-unsigned int status_cb_link1_object(void *, const char *, const char *);
-// vfs_start::status_cb_object
+
+
 //
-unsigned int status_cb_object(void *, const char *, const char *);
+
 // waitpid
 // file /usr/include/x86_64-linux-gnu/sys/wait.h line 125
 extern signed int waitpid(signed int, signed int *, signed int);

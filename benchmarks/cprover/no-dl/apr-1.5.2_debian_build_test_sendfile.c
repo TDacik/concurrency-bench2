@@ -725,7 +725,7 @@ signed int __sync_val_compare_and_swap();
 extern void _exit(signed int);
 // accept4
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 251
-extern signed int accept4(signed int, struct sockaddr *, unsigned int *, signed int);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -1893,9 +1893,9 @@ signed int apr_signal_thread(signed int (*signal_handler)(signed int));
 
 //
 
-// apr_signal_thread::signal_handler_object
+
 //
-signed int signal_handler_object(signed int);
+
 // apr_signal_unblock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-apr/apr-1.5.2/threadproc/unix/signals.c line 462
 signed int apr_signal_unblock(signed int signum);

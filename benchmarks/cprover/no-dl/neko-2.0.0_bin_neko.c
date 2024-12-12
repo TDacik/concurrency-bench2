@@ -888,9 +888,9 @@ signed int end_object();
 // neko_thread_blocking::1::start_object
 //
 signed int start_object();
-// neko_thread_blocking::f_object
+
 //
-void f_object(void *);
+
 // neko_thread_create
 // file vm/threads.c line 128
 signed int neko_thread_create(void (*init)(void *), void (*main)(void *), void *param, void **handle);
@@ -945,9 +945,9 @@ struct _value * neko_val_field_name(signed int id);
 // neko_val_gc
 // file vm/alloc.c line 348
 void neko_val_gc(struct _value *v, void (*f)(struct _value *));
-// neko_val_gc::f_object
+
 //
-void f_object(struct _value *);
+
 // neko_val_hash
 // file vm/neko.h line 432
 signed int neko_val_hash(struct _value *v);
@@ -957,9 +957,9 @@ signed int neko_val_id(const char *name);
 // neko_val_iter_fields
 // file vm/others.c line 465
 void neko_val_iter_fields(struct _value *o, void (*f)(struct _value *, signed int, void *), void *p);
-// neko_val_iter_fields::f_object
+
 //
-void f_object(struct _value *, signed int, void *);
+
 // neko_val_ocall0
 // file vm/neko.h line 408
 struct _value * neko_val_ocall0(struct _value *o, signed int f);
@@ -1056,9 +1056,9 @@ static inline void otable_init(struct _objtable *t);
 // otable_iter
 // file vm/objtable.h line 81
 void otable_iter(struct _objtable *t, void (*f)(struct _value *, signed int, void *), void *p);
-// otable_iter::f_object
+
 //
-void f_object(struct _value *, signed int, void *);
+
 // otable_optimize
 // file vm/objtable.c line 53
 void otable_optimize(struct _objtable *t);

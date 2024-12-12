@@ -2140,7 +2140,7 @@ static void record_dump(unsigned long int recID, unsigned int recIndex, signed i
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // register_sdp
 // file bluetooth.c line 170
 static signed int register_sdp(unsigned int *handle, signed int *channel, struct anonymous_21 **sess);
@@ -2221,7 +2221,7 @@ struct anonymous_16 * sdp_uuid16_create(struct anonymous_16 *, unsigned short in
 extern signed int select(signed int, struct anonymous_9 *, struct anonymous_9 *, struct anonymous_9 *, struct timeval *);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // set_float
 // file utils.c line 322
 extern void set_float(void *buffer, double value);

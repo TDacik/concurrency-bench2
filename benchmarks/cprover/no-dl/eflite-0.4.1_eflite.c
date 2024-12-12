@@ -304,7 +304,7 @@ extern signed int __xstat(signed int, const char *, struct stat *);
 static void ac_destroy(struct anonymous_9 *ac);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_0, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // add_command
 // file fs.c line 772
 static void add_command(struct synth_struct *s, signed int id, unsigned char *buffer);

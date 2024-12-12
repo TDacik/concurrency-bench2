@@ -869,15 +869,15 @@ void vringbuffer_return_writing(struct vringbuffer_t *vrb, void *data);
 // vringbuffer_set_autoincrease_callback
 // file vringbuffer.h line 96
 void vringbuffer_set_autoincrease_callback(struct vringbuffer_t *vrb, signed int (*callback)(struct vringbuffer_t *, _Bool, signed int, signed int), unsigned int interval);
-// vringbuffer_set_autoincrease_callback::callback_object
+
 //
-signed int callback_object(struct vringbuffer_t *, _Bool, signed int, signed int);
+
 // vringbuffer_set_receiver_callback
 // file vringbuffer.h line 106
 void vringbuffer_set_receiver_callback(struct vringbuffer_t *vrb, enum vringbuffer_receiver_callback_return_t (*receiver_callback)(struct vringbuffer_t *, _Bool, void *));
-// vringbuffer_set_receiver_callback::receiver_callback_object
+
 //
-enum vringbuffer_receiver_callback_return_t receiver_callback_object(struct vringbuffer_t *, _Bool, void *);
+
 // vringbuffer_stop_callbacks
 // file vringbuffer.h line 63
 void vringbuffer_stop_callbacks(struct vringbuffer_t *vrb);

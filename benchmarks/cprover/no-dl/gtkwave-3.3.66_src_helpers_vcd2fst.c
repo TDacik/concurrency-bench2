@@ -583,15 +583,15 @@ signed int fstReaderIterBlocks(void *ctx, void (*value_change_callback)(void *, 
 // fstReaderIterBlocks2
 // file ./fst/fstapi.c line 4659
 signed int fstReaderIterBlocks2(void *ctx, void (*value_change_callback)(void *, unsigned long int, unsigned int, const unsigned char *), void (*value_change_callback_varlen)(void *, unsigned long int, unsigned int, const unsigned char *, unsigned int), void *user_callback_data_pointer, struct _IO_FILE *fv);
-// fstReaderIterBlocks2::value_change_callback_object
+
 //
-void value_change_callback_object(void *, unsigned long int, unsigned int, const unsigned char *);
-// fstReaderIterBlocks2::value_change_callback_varlen_object
+
+
 //
-void value_change_callback_varlen_object(void *, unsigned long int, unsigned int, const unsigned char *, unsigned int);
-// fstReaderIterBlocks::value_change_callback_object
+
+
 //
-void value_change_callback_object(void *, unsigned long int, unsigned int, const unsigned char *);
+
 // fstReaderIterBlocksSetNativeDoublesOnCallback
 // file ./fst/fstapi.c line 3556
 void fstReaderIterBlocksSetNativeDoublesOnCallback(void *ctx, signed int enable);
@@ -883,9 +883,9 @@ static struct jrb_node * jrb_insert_b(struct jrb_node *n, union anonymous_12 key
 // jrb_insert_gen
 // file ./../../contrib/rtlbrowse/jrb.c line 601
 extern struct jrb_node * jrb_insert_gen(struct jrb_node *tree, union anonymous_12 key, union anonymous_12 val, signed int (*func)(union anonymous_12, union anonymous_12));
-// jrb_insert_gen::func_object
+
 //
-signed int func_object(union anonymous_12, union anonymous_12);
+
 // jrb_insert_int
 // file ../../contrib/rtlbrowse/jrb.h line 58
 extern struct jrb_node * jrb_insert_int(struct jrb_node *tree, signed int ikey, union anonymous_12 val);

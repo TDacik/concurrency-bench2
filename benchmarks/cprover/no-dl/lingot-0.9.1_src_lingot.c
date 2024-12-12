@@ -1193,9 +1193,9 @@ void lingot_audio_jack_stop(struct _LingotAudioHandler *audio);
 // lingot_audio_new
 // file lingot-audio.c line 35
 struct _LingotAudioHandler * lingot_audio_new(enum audio_system_t audio_system, char *device, signed int sample_rate, void (*process_callback)(double *, signed int, void *), void *process_callback_arg);
-// lingot_audio_new::process_callback_object
+
 //
-void process_callback_object(double *, signed int, void *);
+
 // lingot_audio_oss_destroy
 // file lingot-audio-oss.h line 29
 void lingot_audio_oss_destroy(struct _LingotAudioHandler *audio);

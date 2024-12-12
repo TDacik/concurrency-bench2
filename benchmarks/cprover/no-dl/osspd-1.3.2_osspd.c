@@ -569,15 +569,15 @@ void ossp_slave_init(signed int argc, char **argv);
 // ossp_slave_process_command
 // file ossp-slave.c line 133
 signed int ossp_slave_process_command(signed int cmd_fd, signed long int (* const *action_fn_tbl)(enum ossp_opcode, void *, void *, unsigned long int, void *, void *, unsigned long int *, signed int), signed int (*action_pre_fn)(void), void (*action_post_fn)(void));
-// ossp_slave_process_command::action_fn_tbl_object_object
+
 //
-signed long int action_fn_tbl_object_object(enum ossp_opcode, void *, void *, unsigned long int, void *, void *, unsigned long int *, signed int);
-// ossp_slave_process_command::action_post_fn_object
+
+
 //
-void action_post_fn_object(void);
-// ossp_slave_process_command::action_pre_fn_object
+
+
 //
-signed int action_pre_fn_object(void);
+
 // pipe
 // file /usr/include/unistd.h line 417
 extern signed int pipe(signed int *);

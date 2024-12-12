@@ -1332,9 +1332,9 @@ static inline void minmax4(double a, double b, double c, double d, double *min, 
 // open
 // file /usr/include/fcntl.h line 156
 extern signed int open(const char *, signed int, ...);
-// orig_ehandler_object
+
 //
-signed int orig_ehandler_object(struct _XDisplay *, struct anonymous_4 *);
+
 // parse_time
 // file resources.c line 203
 extern signed int parse_time(const char *string, signed int seconds_default_p, signed int silent_p);
@@ -1428,12 +1428,12 @@ extern void rotate_colors(struct anonymous_6 *screen, unsigned long int cmap, st
 // run_screenhack_table
 // file screenhack.c line 536
 static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window, unsigned long int window2, struct xscreensaver_function_table *ft);
-// run_screenhack_table::1::fps_cb_object
+
 //
-void fps_cb_object(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
-// run_screenhack_table::1::init_cb_object
+
+
 //
-void * init_cb_object(struct _XDisplay *, unsigned long int, void *);
+
 // screen_number
 // file ./../../utils/visual.h line 21
 extern signed int screen_number(struct anonymous_6 *screen);
@@ -1584,9 +1584,9 @@ static struct _Trile * triles_find(struct _Trile *tr, signed int x, signed int y
 // triles_foreach
 // file crackberg.c line 765
 static unsigned int triles_foreach(struct _Trile *root, void (*f)(struct _Trile *, void *), void *data);
-// triles_foreach::f_object
+
 //
-void f_object(struct _Trile *, void *);
+
 // triles_set_visible
 // file crackberg.c line 739
 static void triles_set_visible(struct _cberg_state *cberg, struct _Trile **root, signed int x, signed int y);

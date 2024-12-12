@@ -615,9 +615,9 @@ void * VSC_Get(struct VSM_data *vd, struct VSM_fantom *fantom, const char *type,
 // VSC_Iter
 // file vsc.c line 507
 signed int VSC_Iter(struct VSM_data *vd, struct VSM_fantom *fantom, signed int (*func)(void *, struct VSC_point *), void *priv);
-// VSC_Iter::func_object
+
 //
-signed int func_object(void *, struct VSC_point *);
+
 // VSC_LevelDesc
 // file vsc.c line 535
 struct VSC_level_desc * VSC_LevelDesc(unsigned int level);
@@ -633,15 +633,15 @@ void VSLQ_Delete(struct VSLQ **pvslq);
 // VSLQ_Dispatch
 // file ../../include/vapi/vsl.h line 486
 signed int VSLQ_Dispatch(struct VSLQ *vslq, signed int (*func)(struct VSL_data *, struct VSL_transaction * const *, void *), void *priv);
-// VSLQ_Dispatch::func_object
+
 //
-signed int func_object(struct VSL_data *, struct VSL_transaction * const *, void *);
+
 // VSLQ_Flush
 // file ../../include/vapi/vsl.h line 502
 signed int VSLQ_Flush(struct VSLQ *vslq, signed int (*func)(struct VSL_data *, struct VSL_transaction * const *, void *), void *priv);
-// VSLQ_Flush::func_object
+
 //
-signed int func_object(struct VSL_data *, struct VSL_transaction * const *, void *);
+
 // VSLQ_Name2Grouping
 // file ../../include/vapi/vsl.h line 229
 signed int VSLQ_Name2Grouping(const char *name, signed int l);
@@ -672,15 +672,15 @@ const char * VSL_Error(struct VSL_data *vsl);
 // VSL_Glob2Tags
 // file vsl_arg.c line 88
 signed int VSL_Glob2Tags(const char *glob, signed int l, void (*func)(signed int, void *), void *priv);
-// VSL_Glob2Tags::func_object
+
 //
-void func_object(signed int, void *);
+
 // VSL_List2Tags
 // file vsl_arg.c line 157
 signed int VSL_List2Tags(const char *list, signed int l, void (*func)(signed int, void *), void *priv);
-// VSL_List2Tags::func_object
+
 //
-void func_object(signed int, void *);
+
 // VSL_Match
 // file vsl.c line 190
 signed int VSL_Match(struct VSL_data *vsl, struct VSL_cursor *c);
@@ -1281,9 +1281,9 @@ static signed int vslc_vtx_reset(struct VSL_cursor *cursor);
 // vslq_callback
 // file vsl_dispatch.c line 906
 static signed int vslq_callback(struct VSLQ *vslq, struct vtx *vtx, signed int (*func)(struct VSL_data *, struct VSL_transaction * const *, void *), void *priv);
-// vslq_callback::func_object
+
 //
-signed int func_object(struct VSL_data *, struct VSL_transaction * const *, void *);
+
 // vslq_deletequery
 // file vsl_api.h line 100
 void vslq_deletequery(struct vslq_query **pquery);
@@ -1299,15 +1299,15 @@ static signed int vslq_next(struct VSLQ *vslq);
 // vslq_process_ready
 // file vsl_dispatch.c line 1264
 static signed int vslq_process_ready(struct VSLQ *vslq, signed int (*func)(struct VSL_data *, struct VSL_transaction * const *, void *), void *priv);
-// vslq_process_ready::func_object
+
 //
-signed int func_object(struct VSL_data *, struct VSL_transaction * const *, void *);
+
 // vslq_raw
 // file vsl_dispatch.c line 1138
 static signed int vslq_raw(struct VSLQ *vslq, signed int (*func)(struct VSL_data *, struct VSL_transaction * const *, void *), void *priv);
-// vslq_raw::func_object
+
 //
-signed int func_object(struct VSL_data *, struct VSL_transaction * const *, void *);
+
 // vslq_runquery
 // file vsl_api.h line 101
 signed int vslq_runquery(struct vslq_query *query, struct VSL_transaction * const *ptrans);

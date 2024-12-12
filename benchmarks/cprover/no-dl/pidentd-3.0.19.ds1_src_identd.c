@@ -442,7 +442,7 @@ static void random_lock_init(void);
 extern signed long int read(signed int, void *, unsigned long int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // request_init
 // file request.h line 34
 extern signed int request_init(void);
@@ -626,9 +626,9 @@ extern signed int timeout_cancel(struct timeout *tp);
 // timeout_create
 // file timeout.h line 34
 extern struct timeout * timeout_create(signed int timeout, void (*fun)(void *), void *arg);
-// timeout_create::fun_object
+
 //
-void fun_object(void *);
+
 // timeout_handler
 // file request.c line 153
 static void timeout_handler(void *arg);

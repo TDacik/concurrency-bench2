@@ -1722,7 +1722,7 @@ extern char * realpath(const char *, char *);
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // register_dsd
 // file squeezelite.h line 651
 struct codec * register_dsd(void);
@@ -1800,7 +1800,7 @@ static void send_header(void);
 void send_packet(unsigned char *packet, unsigned long int len);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // server_addr
 // file squeezelite.h line 380
 void server_addr(char *server, unsigned int *ip_ptr, unsigned int *port_ptr);

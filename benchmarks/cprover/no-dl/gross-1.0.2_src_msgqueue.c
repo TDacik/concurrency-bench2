@@ -628,9 +628,9 @@ signed int walk_mmap_info(void);
 // walk_queue
 // file msgqueue.c line 709
 signed int walk_queue(signed int msgid, signed int (*callback)(void *));
-// walk_queue::callback_object
+
 //
-signed int callback_object(void *);
+
 // write
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);

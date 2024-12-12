@@ -930,9 +930,9 @@ extern signed int fflush(struct _IO_FILE *);
 // fgetc
 // file /usr/include/stdio.h line 531
 extern signed int fgetc(struct _IO_FILE *);
-// file_selection_handler_object
+
 //
-void file_selection_handler_object(struct _GtkWidget *, void *);
+
 // file_selection_set_path
 // file gui_callbacks.c line 53
 void file_selection_set_path(char *filename);
@@ -1437,9 +1437,9 @@ void on_about_dismiss(struct _GtkWidget *widget, void *data);
 // on_delete_event_wrapper
 // file gui_callbacks.c line 145
 signed int on_delete_event_wrapper(struct _GtkWidget *widget, union _GdkEvent *event, void *data);
-// on_delete_event_wrapper::1::handler_object
+
 //
-void handler_object(struct _GtkWidget *, void *);
+
 // on_file_selection_cancel
 // file gui_callbacks.c line 164
 void on_file_selection_cancel(struct _GtkWidget *widget, void *data);
@@ -4836,7 +4836,7 @@ static void blinky_destroy(struct _GtkObject *object)
     tmp_statement_expression_1 = _g_boolean_var_;
     if((signed long int)tmp_statement_expression_1 == 0l)
     {
-      g_return_if_fail_warning((char *)0, (const char *)"blinky_destroy", "object != NULL");
+
       goto __CPROVER_DUMP_L15;
     }
 
@@ -4877,7 +4877,7 @@ static void blinky_destroy(struct _GtkObject *object)
     tmp_statement_expression_2 = blinky_destroy__1__2__1___g_boolean_var_;
     if((signed long int)tmp_statement_expression_2 == 0l)
     {
-      g_return_if_fail_warning((char *)0, (const char *)"blinky_destroy", "IS_BLINKY(object)");
+
       goto __CPROVER_DUMP_L15;
     }
 

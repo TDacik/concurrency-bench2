@@ -774,9 +774,9 @@ static void option_process(char **argv, signed int argc);
 // option_register
 // file options.c line 191
 static void option_register(const char opch, void (* const cb)(char, char *, signed int), const signed int areq);
-// option_register::cb_object
+
 //
-void cb_object(char, char *, signed int);
+
 // option_usage
 // file options.c line 93
 static void option_usage(void);
@@ -1014,9 +1014,9 @@ static void thread_attribute_init(union pthread_attr_t *attr, signed int joinabl
 // thread_cache_init
 // file thread_cache.h line 62
 void thread_cache_init(struct thread_cache *tc, void (*cb)(struct packet *), signed int n_slots, signed int max_thread_wait);
-// thread_cache_init::cb_object
+
 //
-void cb_object(struct packet *);
+
 // thread_cache_new
 // file thread_cache.h line 61
 void thread_cache_new(struct thread_cache *tc, struct packet *pkt);
@@ -1035,21 +1035,21 @@ void thread_init(void);
 // thread_new
 // file thread.h line 35
 signed int thread_new(void * (*th_func)(void *), void *data, unsigned long int *pt);
-// thread_new::th_func_object
+
 //
-void * th_func_object(void *);
+
 // thread_new_joinable
 // file thread.h line 37
 signed int thread_new_joinable(void * (*th_func)(void *), void *data, unsigned long int *pt);
-// thread_new_joinable::th_func_object
+
 //
-void * th_func_object(void *);
+
 // thread_new_wait
 // file thread.h line 36
 unsigned long int thread_new_wait(void * (*th_func)(void *), void *data, signed long int retry);
-// thread_new_wait::th_func_object
+
 //
-void * th_func_object(void *);
+
 // time
 // file /usr/include/time.h line 192
 extern signed long int time(signed long int *);

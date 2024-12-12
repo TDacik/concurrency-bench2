@@ -105,9 +105,9 @@ extern signed int bm_init(struct anonymous *bmp, unsigned char *x, signed int m,
 // bm_search
 // file bm.h line 26
 extern signed int bm_search(struct anonymous *bmp, unsigned char *y, signed int n, signed int (*mfun)(void *, signed int, signed int));
-// bm_search::mfun_object
+
 //
-signed int mfun_object(void *, signed int, signed int);
+
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);

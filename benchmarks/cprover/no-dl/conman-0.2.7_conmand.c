@@ -297,9 +297,9 @@ extern void _exit(signed int);
 // _inevent_create
 // file inevent.c line 411
 static struct inevent * _inevent_create(const char *pathname, void (*cb_fnc)(void *), void *cb_arg);
-// _inevent_create::cb_fnc_object
+
 //
-void cb_fnc_object(void *);
+
 // _inevent_destroy
 // file inevent.c line 472
 static void _inevent_destroy(struct inevent *inevent_ptr);
@@ -663,9 +663,9 @@ extern const char * inet_ntop(signed int, const void *, char *, unsigned int);
 // inevent_add
 // file inevent.h line 45
 signed int inevent_add(const char *pathname, void (*cb_fnc)(void *), void *cb_arg);
-// inevent_add::cb_fnc_object
+
 //
-void cb_fnc_object(void *);
+
 // inevent_get_fd
 // file inevent.h line 49
 signed int inevent_get_fd(void);
@@ -825,18 +825,18 @@ signed int list_count(struct list *l);
 // list_create
 // file list.h line 82
 struct list * list_create(void (*f)(void *));
-// list_create::f_object
+
 //
-void f_object(void *);
+
 // list_delete
 // file list.h line 248
 signed int list_delete(struct listIterator *i);
 // list_delete_all
 // file list.h line 136
 signed int list_delete_all(struct list *l, signed int (*f)(void *, void *), void *key);
-// list_delete_all::f_object
+
 //
-signed int f_object(void *, void *);
+
 // list_dequeue
 // file list.c line 427
 void * list_dequeue(struct list *l);
@@ -849,15 +849,15 @@ void * list_enqueue(struct list *l, void *x);
 // list_find
 // file list.h line 232
 void * list_find(struct listIterator *i, signed int (*f)(void *, void *), void *key);
-// list_find::f_object
+
 //
-signed int f_object(void *, void *);
+
 // list_find_first
 // file list.h line 126
 void * list_find_first(struct list *l, signed int (*f)(void *, void *), void *key);
-// list_find_first::f_object
+
 //
-signed int f_object(void *, void *);
+
 // list_free
 // file list.c line 703
 static void list_free(struct list *l);
@@ -915,9 +915,9 @@ void * list_remove(struct listIterator *i);
 // list_sort
 // file list.h line 145
 void list_sort(struct list *l, signed int (*f)(void *, void *));
-// list_sort::f_object
+
 //
-signed int f_object(void *, void *);
+
 // listen
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 233
 extern signed int listen(signed int, signed int);
@@ -1089,9 +1089,9 @@ extern signed int poll(struct pollfd *, unsigned long int, signed int);
 // posix_signal
 // file util.h line 49
 void (*posix_signal(signed int signum, void (*f)(signed int)))(signed int);
-// posix_signal::f_object
+
 //
-void f_object(signed int);
+
 // printf
 // file /usr/include/stdio.h line 362
 extern signed int printf(const char *, ...);
@@ -1428,18 +1428,18 @@ signed int tpoll_set(struct tpoll *tp, signed int fd, signed short int events);
 // tpoll_timeout_absolute
 // file tpoll.h line 74
 signed int tpoll_timeout_absolute(struct tpoll *tp, void (*cb)(void *), void *arg, struct timeval *tvp);
-// tpoll_timeout_absolute::cb_object
+
 //
-void cb_object(void *);
+
 // tpoll_timeout_cancel
 // file tpoll.h line 79
 signed int tpoll_timeout_cancel(struct tpoll *tp, signed int id);
 // tpoll_timeout_relative
 // file tpoll.h line 77
 signed int tpoll_timeout_relative(struct tpoll *tp, void (*cb)(void *), void *arg, signed int ms);
-// tpoll_timeout_relative::cb_object
+
 //
-void cb_object(void *);
+
 // tpoll_zero
 // file tpoll.h line 66
 signed int tpoll_zero(struct tpoll *tp, enum anonymous_1 how);

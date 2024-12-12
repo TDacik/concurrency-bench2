@@ -970,7 +970,7 @@ static inline signed int atoi(const char *__nptr);
 void * av_mallocz(unsigned long int);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_55, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // br_get_bit
 // file tools/bitstream.h line 34
 static inline signed int br_get_bit(struct anonymous_15 *br);
@@ -1223,7 +1223,7 @@ static struct buf_element_s * get_buf_element(struct vdr_input_plugin_s *this, s
 // get_buf_element_timed
 // file xine_input_vdr.c line 1451
 static struct buf_element_s * get_buf_element_timed(struct vdr_input_plugin_s *this, signed int size, signed int timeout);
-// get_buf_element_timed::1::1::1::2::1::__cancel_routine_object
+
 //
 void __cancel_routine_object(void *);
 // get_decoder_name
@@ -1237,10 +1237,10 @@ static signed long int get_option(struct metronom_s *metronom, signed int option
 struct video_overlay_manager_s_1 * get_ovl_manager(struct osd_manager_impl_s *this);
 // getpeername
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 141
-extern signed int getpeername(signed int, union anonymous_55, unsigned int *);
+extern signed int getpeername(signed int, struct sockaddr *, unsigned int *);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous_55, unsigned int *);
+extern signed int getsockname(signed int, struct sockaddr *, unsigned int *);
 // getsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 219
 extern signed int getsockopt(signed int, signed int, signed int, void *, unsigned int *);

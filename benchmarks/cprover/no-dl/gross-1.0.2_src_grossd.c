@@ -1014,7 +1014,7 @@ signed int recv_sync_msg(struct peer_s *peer);
 void * recv_syncs(void *arg);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // recvquery
 // file proto_sjsms.c line 80
 signed int recvquery(struct anonymous_31 *message, struct anonymous_30 *request);
@@ -1113,7 +1113,7 @@ signed int sendquery(signed int fd, struct sockaddr_in *gserv, struct anonymous_
 signed int sendquerystr(signed int fd, struct sockaddr_in *gserv, const char *querystr);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // set_delay
 // file msgqueue.c line 347
 signed int set_delay(signed int msqid, struct timespec *ts);
@@ -1327,9 +1327,9 @@ signed int walk_mmap_info(void);
 // walk_queue
 // file ../include/msgqueue.h line 65
 signed int walk_queue(signed int msgid, signed int (*callback)(void *));
-// walk_queue::callback_object
+
 //
-signed int callback_object(void *);
+
 // worker_init
 // file worker.c line 690
 void worker_init();

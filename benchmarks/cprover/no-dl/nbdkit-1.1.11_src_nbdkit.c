@@ -233,7 +233,7 @@ static signed int _negotiate_handshake(struct connection *conn);
 extern void abort(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_13, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // accept_connection
 // file sockets.c line 226
 static void accept_connection(signed int listen_sock);
@@ -245,7 +245,7 @@ extern void accept_incoming_connections(signed int *socks, unsigned long int nr_
 extern signed int asprintf(char ** restrict , const char *, ...);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_13, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bind_tcpip_socket
 // file internal.h line 110
 extern signed int * bind_tcpip_socket(unsigned long int *nr_socks);

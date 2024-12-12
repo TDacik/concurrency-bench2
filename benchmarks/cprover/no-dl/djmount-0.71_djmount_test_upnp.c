@@ -343,24 +343,24 @@ static struct _VFS_BrowseStatus BrowseDebug(struct _VFS * const self, const char
 // BrowseDebug_link1
 // file djfs.c line 431
 static struct _VFS_BrowseStatus BrowseDebug_link1(struct _VFS * const vfs, const char * const sub_path_link1, const struct _VFS_Query * const query_link1, void * const tmp_ctx_link1);
-// BrowseDebug::1::2::1::func_object
+
 //
-struct _VFS_BrowseStatus func_object(struct _VFS *, const char *, const struct _VFS_Query *, void *);
+
 // BrowseOrSearchAction
 // file content_dir.c line 124
 static signed int BrowseOrSearchAction(struct _ContentDir *cds, void *result_context, const char *objectId, const char *criteria, unsigned long int starting_index, unsigned long int requested_count, unsigned long int *nb_matched, unsigned long int *nb_returned, struct _PtrArray *objects);
 // BrowseOrSearchAll
 // file content_dir.c line 255
 static struct _ContentDir_Children * BrowseOrSearchAll(struct _ContentDir *cds, void *result_context, const char *objectId, const char * const criteria);
-// BrowseOrSearchAll::1::1::_talloc_destructor_fn_object
+
 //
-signed int _talloc_destructor_fn_object(struct _ContentDir_Children *);
+
 // BrowseOrSearchWithCache
 // file content_dir.c line 383
 static const struct _ContentDir_BrowseResult * BrowseOrSearchWithCache(struct _ContentDir *cds, void *result_context, const char *objectId, const char * const criteria);
-// BrowseOrSearchWithCache::1::2::4::1::_talloc_destructor_fn_object
+
 //
-signed int _talloc_destructor_fn_object(struct _ContentDir_BrowseResult *);
+
 // BrowseRoot
 // file djfs.c line 350
 static struct _VFS_BrowseStatus BrowseRoot(struct _VFS * const vfs, const char * const sub_path, const struct _VFS_Query * const query, void * const tmp_ctx);
@@ -370,9 +370,9 @@ static struct _VFS_BrowseStatus BrowseSearchDir(struct _DJFS * const self, const
 // Cache_Create
 // file cache.h line 66
 struct _Cache * Cache_Create(void *talloc_context, unsigned long int size, signed long int max_age, void (*free_expired_data)(const char *, void *));
-// Cache_Create::1::3::_talloc_destructor_fn_object
+
 //
-signed int _talloc_destructor_fn_object(struct _Cache *);
+
 // Cache_Create::free_expired_data_object
 //
 void free_expired_data_object(const char *, void *);
@@ -424,9 +424,9 @@ static inline struct _Service * ContentDir_ToService(struct _ContentDir *obj);
 // DIDLObject_Create
 // file didl_object.c line 56
 struct _DIDLObject * DIDLObject_Create(void *talloc_context, struct _IXML_Element *elem, _Bool is_container);
-// DIDLObject_Create::1::2::4::_talloc_destructor_fn_object
+
 //
-signed int _talloc_destructor_fn_object(struct _DIDLObject *);
+
 // DIDLObject_GetElementString
 // file didl_object.c line 137
 char * DIDLObject_GetElementString(const struct _DIDLObject *o, void *result_context);
@@ -481,9 +481,9 @@ signed int DeviceList_Stop(void);
 // Device_Create
 // file device.c line 191
 struct _Device * Device_Create(void *parent_context, signed int ctrlpt_handle, const char * const descDocURL, const char * const deviceId, const char * const descDocText);
-// Device_Create::1::8::_talloc_destructor_fn_object
+
 //
-signed int _talloc_destructor_fn_object(struct _Device *);
+
 // Device_GetDescDocItem
 // file device.c line 314
 const char * Device_GetDescDocItem(const struct _Device *dev, const char *tagname, _Bool log_error);
@@ -691,27 +691,27 @@ const char * Service_GetSid(const struct _Service *serv);
 // Service_GetStatusString
 // file service.c line 523
 char * Service_GetStatusString(const struct _Service *serv, void *result_context, _Bool debug, const char *spacer);
-// Service_GetStatusString::_tmp::tmp_if_expr_2_object
+
 //
-char * tmp_if_expr_2_object(const struct _Service *, void *, _Bool, const char *);
-// Service_GetStatusString::_tmp::tmp_if_expr_4_object
+
+
 //
-char * tmp_if_expr_4_object(const struct _Service *, void *, _Bool, const char *);
+
 // Service_SendAction
 // file service.c line 413
 signed int Service_SendAction(struct _Service *serv, struct _IXML_Document **response, const char *actionName, signed int nb_params, const struct _StringPair *params);
 // Service_SendActionAsync
 // file service.c line 353
 signed int Service_SendActionAsync(const struct _Service *serv, signed int (*callback)(enum Upnp_EventType_e, void *, void *), const char *actionName, signed int nb_params, const struct _StringPair *params);
-// Service_SendActionAsync::callback_object
+
 //
-signed int callback_object(enum Upnp_EventType_e, void *, void *);
+
 // Service_SendActionAsyncVa
 // file service.c line 389
 signed int Service_SendActionAsyncVa(const struct _Service *serv, signed int (*callback)(enum Upnp_EventType_e, void *, void *), const char *actionName, ...);
-// Service_SendActionAsyncVa::callback_object
+
 //
-signed int callback_object(enum Upnp_EventType_e, void *, void *);
+
 // Service_SendActionVa
 // file service.c line 452
 signed int Service_SendActionVa(struct _Service *serv, struct _IXML_Document **response, const char *actionName, ...);
@@ -727,18 +727,18 @@ signed int Service_UnsubscribeEventURL(struct _Service *serv);
 // Service_UpdateState
 // file service.c line 191
 signed int Service_UpdateState(struct _Service *serv, struct _IXML_Document *changedVariables);
-// Service_UpdateState::_tmp::tmp_if_expr_10_object
+
 //
-void tmp_if_expr_10_object(struct _Service *, const char *, const char *);
-// Service_UpdateState::_tmp::tmp_if_expr_8_object
+
+
 //
-void tmp_if_expr_8_object(struct _Service *, const char *, const char *);
+
 // StringStream_Create
 // file string_util.h line 155
 struct _StringStream * StringStream_Create(void *parent_context);
-// StringStream_Create::1::1::2::1::_talloc_destructor_fn_object
+
 //
-signed int _talloc_destructor_fn_object(struct _StringStream *);
+
 // StringStream_GetFile
 // file string_util.h line 163
 struct _IO_FILE * StringStream_GetFile(const struct _StringStream *ss);
@@ -832,15 +832,15 @@ char * UpnpUtil_ResolveURL(void *talloc_context, const char *base, const char *r
 // VFS_Browse
 // file vfs.c line 282
 signed int VFS_Browse(struct _VFS * const self, const struct _VFS_Query *q);
-// VFS_Browse::_tmp::tmp_if_expr_4_object
+
 //
-struct _VFS_BrowseStatus tmp_if_expr_4_object(struct _VFS *, const char *, const struct _VFS_Query *, void *);
-// VFS_Browse::_tmp::tmp_if_expr_6_object
+
+
 //
-struct _VFS_BrowseStatus tmp_if_expr_6_object(struct _VFS *, const char *, const struct _VFS_Query *, void *);
-// VFS_Browse::1::2::1::1::2::1::2::func_object
+
+
 //
-struct _VFS_BrowseStatus func_object(struct _VFS *, const char *, const struct _VFS_Query *, void *);
+
 // VFS_Create
 // file vfs.c line 361
 struct _VFS * VFS_Create(void *talloc_context, _Bool show_debug_dir);
@@ -907,9 +907,9 @@ extern _Bool _Object_IsA(const void * const objptr, const struct _Object_Class *
 // _Object_check_alloc
 // file object.c line 188
 struct _Object * _Object_check_alloc(void *talloc_context, const struct _Object_Class *isa);
-// _Object_check_alloc::1::4::_talloc_destructor_fn_object
+
 //
-signed int _talloc_destructor_fn_object(struct _Object *);
+
 // _Service_GetBaseClass
 // file service.c line 575
 extern const struct _Object_Class * _Service_GetBaseClass();
@@ -3788,7 +3788,7 @@ static signed int BrowseOrSearchAction(struct _ContentDir *cds, void *result_con
     return_value_int_to_string_2=int_to_string(tmp_ctx, (signed long int)starting_index);
     const char *return_value_int_to_string_3;
     return_value_int_to_string_3=int_to_string(tmp_ctx, (signed long int)requested_count);
-    rc=Service_SendActionVa(tmp_if_expr_1, &doc, browse != (_Bool)0 ? "Browse" : "Search", browse != (_Bool)0 ? "ObjectID" : "ContainerID", objectId, browse != (_Bool)0 ? "BrowseFlag" : "SearchCriteria", criteria, (const void *)"Filter", (const void *)"*", (const void *)"StartingIndex", return_value_int_to_string_2, (const void *)"RequestedCount", return_value_int_to_string_3, (const void *)"SortCriteria", (const void *)"", (void *)0, (void *)0);
+
     if(doc == ((struct _IXML_Document *)NULL) && rc == 0)
       rc = -113;
 

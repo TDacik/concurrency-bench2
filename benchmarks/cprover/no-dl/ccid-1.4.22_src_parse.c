@@ -309,9 +309,9 @@ void libusb_exit(struct libusb_context *);
 // libusb_fill_bulk_transfer
 // file /usr/include/libusb-1.0/libusb.h line 1545
 static inline void libusb_fill_bulk_transfer(struct libusb_transfer *transfer, struct libusb_device_handle *dev_handle, unsigned char endpoint, unsigned char *buffer, signed int length, void (*callback)(struct libusb_transfer *), void *user_data, unsigned int timeout);
-// libusb_fill_bulk_transfer::callback_object
+
 //
-void callback_object(struct libusb_transfer *);
+
 // libusb_free_device_list
 // file /usr/include/libusb-1.0/libusb.h line 1314
 void libusb_free_device_list(struct libusb_device **, signed int);
@@ -360,42 +360,42 @@ signed int list_append(struct anonymous_1 * restrict l, const void *data);
 // list_attributes_comparator
 // file simclist.c line 332
 signed int list_attributes_comparator(struct anonymous_1 * restrict l, signed int (*comparator_fun)(const void *, const void *));
-// list_attributes_comparator::comparator_fun_object
+
 //
-signed int comparator_fun_object(const void *, const void *);
+
 // list_attributes_copy
 // file simclist.c line 351
 signed int list_attributes_copy(struct anonymous_1 * restrict l, unsigned long int (*metric_fun)(const void *), signed int copy_data);
-// list_attributes_copy::metric_fun_object
+
 //
-unsigned long int metric_fun_object(const void *);
+
 // list_attributes_hash_computer
 // file simclist.c line 362
 signed int list_attributes_hash_computer(struct anonymous_1 * restrict l, signed int (*hash_computer_fun)(const void *));
-// list_attributes_hash_computer::hash_computer_fun_object
+
 //
-signed int hash_computer_fun_object(const void *);
+
 // list_attributes_seeker
 // file simclist.c line 342
 signed int list_attributes_seeker(struct anonymous_1 * restrict l, signed int (*seeker_fun)(const void *, const void *));
-// list_attributes_seeker::seeker_fun_object
+
 //
-signed int seeker_fun_object(const void *, const void *);
+
 // list_attributes_serializer
 // file simclist.c line 370
 signed int list_attributes_serializer(struct anonymous_1 * restrict l, void * (*serializer_fun)(const void *, unsigned int *));
-// list_attributes_serializer::serializer_fun_object
+
 //
-void * serializer_fun_object(const void *, unsigned int *);
+
 // list_attributes_setdefaults
 // file simclist.c line 312
 static signed int list_attributes_setdefaults(struct anonymous_1 * restrict l);
 // list_attributes_unserializer
 // file simclist.c line 378
 signed int list_attributes_unserializer(struct anonymous_1 * restrict l, void * (*unserializer_fun)(const void *, unsigned int *));
-// list_attributes_unserializer::unserializer_fun_object
+
 //
-void * unserializer_fun_object(const void *, unsigned int *);
+
 // list_clear
 // file simclist.c line 623
 signed int list_clear(struct anonymous_1 * restrict l);

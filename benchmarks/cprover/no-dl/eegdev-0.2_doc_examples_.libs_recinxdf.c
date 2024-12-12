@@ -209,9 +209,9 @@ signed int acq_get_info(struct acq *acq, signed int type);
 // acq_init
 // file library-usage/acquisition.c line 120
 struct acq * acq_init(const char *devstring, void (*cb)(void *, unsigned long int, float *, float *, signed int *), void *cbdata);
-// acq_init::cb_object
+
 //
-void cb_object(void *, unsigned long int, float *, float *, signed int *);
+
 // acq_loop_fn
 // file library-usage/acquisition.c line 57
 static void * acq_loop_fn(void *arg);
@@ -593,12 +593,12 @@ struct selected_channels * egdi_alloc_input_groups(struct devmodule *mdev, unsig
 // egdi_create_eegdev
 // file core.c line 277
 struct eegdev * egdi_create_eegdev(struct egdi_plugin_info *info);
-// egdi_create_eegdev::_tmp::tmp_if_expr_10_object
+
 //
-signed int tmp_if_expr_10_object(struct devmodule *);
-// egdi_create_eegdev::_tmp::tmp_if_expr_11_object
+
+
 //
-signed int tmp_if_expr_11_object(struct devmodule *);
+
 // egdi_free_config
 // file configuration.h line 35
 void egdi_free_config(struct egdi_config *cf);

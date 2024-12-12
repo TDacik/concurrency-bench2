@@ -331,7 +331,7 @@ extern signed int rand(void);
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // remove_proxy_desc
 // file ptunnel.c line 1162
 void remove_proxy_desc(struct proxy_desc_t *cur, struct proxy_desc_t *prev);
@@ -349,7 +349,7 @@ unsigned int send_packets(struct anonymous_7 **ring, signed int *xfer_idx, signe
 void send_termination_msg(struct proxy_desc_t *cur, signed int icmp_sock);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // setcon
 // file /usr/include/selinux/selinux.h line 40
 extern signed int setcon(const char *);

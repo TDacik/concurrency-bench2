@@ -555,7 +555,7 @@ extern signed int select(signed int, struct anonymous_10 *, struct anonymous_10 
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // set_details
 // file main.c line 207
 static signed int set_details();
@@ -640,9 +640,9 @@ signed int tc_event_process_cycle(struct tc_event_loop_s *loop);
 // tc_event_timer_add
 // file tc_event.c line 203
 signed int tc_event_timer_add(struct tc_event_loop_s *loop, signed long int msec, void (*handler)(struct tc_event_timer_s *));
-// tc_event_timer_add::handler_object
+
 //
-void handler_object(struct tc_event_timer_s *);
+
 // tc_event_timer_find
 // file tc_event.c line 223
 static signed long int tc_event_timer_find(struct tc_event_loop_s *loop);

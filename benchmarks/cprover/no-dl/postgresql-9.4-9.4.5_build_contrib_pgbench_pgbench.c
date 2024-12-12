@@ -1165,9 +1165,9 @@ extern void PQinitSSL(signed int do_init);
 // PQinstanceData
 // file /srv/jenkins-slave/workspace/sid-goto-cc-postgresql-9.4/postgresql-9.4-9.4.5/build/../src/interfaces/libpq/libpq-events.c line 121
 extern void * PQinstanceData(const struct pg_conn *conn, signed int (*proc)(enum anonymous_13, void *, void *));
-// PQinstanceData::proc_object
+
 //
-signed int proc_object(enum anonymous_13, void *, void *);
+
 // PQisBusy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-postgresql-9.4/postgresql-9.4-9.4.5/build/../src/interfaces/libpq/libpq-fe.h line 404
 extern signed int PQisBusy(struct pg_conn *conn);
@@ -1252,18 +1252,18 @@ extern signed int PQputnbytes(struct pg_conn *conn, const char *buffer, signed i
 // PQregisterEventProc
 // file /srv/jenkins-slave/workspace/sid-goto-cc-postgresql-9.4/postgresql-9.4-9.4.5/build/../src/interfaces/libpq/libpq-events.c line 40
 extern signed int PQregisterEventProc(struct pg_conn *conn, signed int (*proc)(enum anonymous_13, void *, void *), const char *name, void *passThrough);
-// PQregisterEventProc::proc_object
+
 //
-signed int proc_object(enum anonymous_13, void *, void *);
+
 // PQregisterThreadLock
 // file /srv/jenkins-slave/workspace/sid-goto-cc-postgresql-9.4/postgresql-9.4-9.4.5/build/../src/interfaces/libpq/fe-connect.c line 5920
 extern void (*PQregisterThreadLock(void (*newhandler)(signed int)))(signed int);
 // PQregisterThreadLock::1::prev_object
 //
 void prev_object(signed int);
-// PQregisterThreadLock::newhandler_object
+
 //
-void newhandler_object(signed int);
+
 // PQrequestCancel
 // file /srv/jenkins-slave/workspace/sid-goto-cc-postgresql-9.4/postgresql-9.4-9.4.5/build/../src/interfaces/libpq/fe-connect.c line 3345
 extern signed int PQrequestCancel(struct pg_conn *conn);
@@ -1291,15 +1291,15 @@ extern char * PQresultErrorMessage(const struct pg_result *res);
 // PQresultInstanceData
 // file /srv/jenkins-slave/workspace/sid-goto-cc-postgresql-9.4/postgresql-9.4-9.4.5/build/../src/interfaces/libpq/libpq-events.c line 165
 extern void * PQresultInstanceData(const struct pg_result *result, signed int (*proc)(enum anonymous_13, void *, void *));
-// PQresultInstanceData::proc_object
+
 //
-signed int proc_object(enum anonymous_13, void *, void *);
+
 // PQresultSetInstanceData
 // file /srv/jenkins-slave/workspace/sid-goto-cc-postgresql-9.4/postgresql-9.4-9.4.5/build/../src/interfaces/libpq/libpq-events.c line 142
 extern signed int PQresultSetInstanceData(struct pg_result *result, signed int (*proc)(enum anonymous_13, void *, void *), void *data);
-// PQresultSetInstanceData::proc_object
+
 //
-signed int proc_object(enum anonymous_13, void *, void *);
+
 // PQresultStatus
 // file /srv/jenkins-slave/workspace/sid-goto-cc-postgresql-9.4/postgresql-9.4-9.4.5/build/../src/interfaces/libpq/libpq-fe.h line 446
 extern enum anonymous_20 PQresultStatus(const struct pg_result *res);
@@ -1342,27 +1342,27 @@ extern enum anonymous_5 PQsetErrorVerbosity(struct pg_conn *conn, enum anonymous
 // PQsetInstanceData
 // file /srv/jenkins-slave/workspace/sid-goto-cc-postgresql-9.4/postgresql-9.4-9.4.5/build/../src/interfaces/libpq/libpq-events.c line 98
 extern signed int PQsetInstanceData(struct pg_conn *conn, signed int (*proc)(enum anonymous_13, void *, void *), void *data);
-// PQsetInstanceData::proc_object
+
 //
-signed int proc_object(enum anonymous_13, void *, void *);
+
 // PQsetNoticeProcessor
 // file /srv/jenkins-slave/workspace/sid-goto-cc-postgresql-9.4/postgresql-9.4-9.4.5/build/../src/interfaces/libpq/fe-connect.c line 5596
 extern void (*PQsetNoticeProcessor(struct pg_conn *conn, void (*proc)(void *, const char *), void *arg))(void *, const char *);
 // PQsetNoticeProcessor::1::old_object
 //
 void old_object(void *, const char *);
-// PQsetNoticeProcessor::proc_object
+
 //
-void proc_object(void *, const char *);
+
 // PQsetNoticeReceiver
 // file /srv/jenkins-slave/workspace/sid-goto-cc-postgresql-9.4/postgresql-9.4-9.4.5/build/../src/interfaces/libpq/fe-connect.c line 5579
 extern void (*PQsetNoticeReceiver(struct pg_conn *conn, void (*proc)(void *, const struct pg_result *), void *arg))(void *, const struct pg_result *);
 // PQsetNoticeReceiver::1::old_object
 //
 void old_object(void *, const struct pg_result *);
-// PQsetNoticeReceiver::proc_object
+
 //
-void proc_object(void *, const struct pg_result *);
+
 // PQsetResultAttrs
 // file /srv/jenkins-slave/workspace/sid-goto-cc-postgresql-9.4/postgresql-9.4-9.4.5/build/../src/interfaces/libpq/fe-exec.c line 225
 extern signed int PQsetResultAttrs(struct pg_result *res, signed int numAttributes, struct pgresAttDesc *attDescs);
@@ -1614,7 +1614,7 @@ extern signed int closedir(struct __dirstream *);
 static signed int compareVariables(const void *v1, const void *v2);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_29, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // connectDBComplete
 // file /srv/jenkins-slave/workspace/sid-goto-cc-postgresql-9.4/postgresql-9.4-9.4.5/build/../src/interfaces/libpq/fe-connect.c line 1527
 static signed int connectDBComplete(struct pg_conn *conn);
@@ -1974,7 +1974,7 @@ static signed long int getrand(struct anonymous_17 *thread, signed long int min,
 extern signed int getrlimit(enum __rlimit_resource, struct rlimit *);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous_29, unsigned int *);
+extern signed int getsockname(signed int, struct sockaddr *, unsigned int *);
 // getsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 219
 extern signed int getsockopt(signed int, signed int, signed int, void *, unsigned int *);
@@ -2437,9 +2437,9 @@ extern signed int pg_fe_sendauth(unsigned int areq, struct pg_conn *conn);
 // pg_foreach_ifaddr
 // file ip.c line 531
 extern signed int pg_foreach_ifaddr(void (*callback)(struct sockaddr *, struct sockaddr *, void *), void *cb_data);
-// pg_foreach_ifaddr::callback_object
+
 //
-void callback_object(struct sockaddr *, struct sockaddr *, void *);
+
 // pg_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-postgresql-9.4/postgresql-9.4-9.4.5/build/../src/include/common/fe_memutils.h line 17
 extern void pg_free(void *ptr);
@@ -2875,15 +2875,15 @@ extern signed long int pqsecure_write(struct pg_conn *conn, const void *ptr, uns
 // pqsignal
 // file /srv/jenkins-slave/workspace/sid-goto-cc-postgresql-9.4/postgresql-9.4-9.4.5/build/../src/include/port.h line 475
 extern void (*pqsignal(signed int signo, void (*func)(signed int)))(signed int);
-// pqsignal::func_link1_object
+
 //
-void func_link1_object(signed int);
-// pqsignal::func_link2_object
+
+
 //
-void func_link2_object(signed int);
-// pqsignal::func_object
+
+
 //
-void func_object(signed int);
+
 // preparedStatementName
 // file /srv/jenkins-slave/workspace/sid-goto-cc-postgresql-9.4/postgresql-9.4-9.4.5/build/../contrib/pgbench/pgbench.c line 896
 static void preparedStatementName(char *buffer, signed int file, signed int state);
@@ -3022,9 +3022,9 @@ static char runShellCommand(struct anonymous_18 *st, char *variable, char **argv
 // run_ifaddr_callback
 // file ip.c line 415
 static void run_ifaddr_callback(void (*callback)(struct sockaddr *, struct sockaddr *, void *), void *cb_data, struct sockaddr *addr, struct sockaddr *mask);
-// run_ifaddr_callback::callback_object
+
 //
-void callback_object(struct sockaddr *, struct sockaddr *, void *);
+
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
 extern signed int select(signed int, struct anonymous_28 *, struct anonymous_28 *, struct anonymous_28 *, struct timeval *);

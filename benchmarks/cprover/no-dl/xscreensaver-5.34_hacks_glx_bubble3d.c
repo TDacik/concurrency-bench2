@@ -1284,9 +1284,9 @@ static inline void normalize_link1(float *v_link1);
 // open
 // file /usr/include/fcntl.h line 156
 extern signed int open(const char *, signed int, ...);
-// orig_ehandler_object
+
 //
-signed int orig_ehandler_object(struct _XDisplay *, struct anonymous_14 *);
+
 // parse_color
 // file b_lockglue.c line 103
 static void parse_color(struct ModeInfo *mi, const char *name, const char *s, float *a);
@@ -1371,12 +1371,12 @@ extern void rotate_colors(struct anonymous_6 *screen, unsigned long int cmap, st
 // run_screenhack_table
 // file screenhack.c line 536
 static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window, unsigned long int window2, struct xscreensaver_function_table *ft);
-// run_screenhack_table::1::fps_cb_object
+
 //
-void fps_cb_object(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
-// run_screenhack_table::1::init_cb_object
+
+
 //
-void * init_cb_object(struct _XDisplay *, unsigned long int, void *);
+
 // save_triangle
 // file b_sphere.c line 74
 static inline unsigned int save_triangle(struct glb_data *d, unsigned int v1, unsigned int v2, unsigned int v3);

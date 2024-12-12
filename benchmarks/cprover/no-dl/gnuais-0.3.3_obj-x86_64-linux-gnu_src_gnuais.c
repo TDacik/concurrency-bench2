@@ -993,9 +993,9 @@ extern void sp_null(struct sptree *q);
 // sp_scan
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gnuais/gnuais-0.3.3/src/splay.c line 198
 extern void sp_scan(signed int (*f)(struct spblk *), struct spblk *n, struct sptree *q);
-// sp_scan::f_object
+
 //
-signed int f_object(struct spblk *);
+
 // sp_stats
 // file /srv/jenkins-slave/workspace/sid-goto-cc-gnuais/gnuais-0.3.3/src/splay.c line 282
 extern const char * sp_stats(struct sptree *q);

@@ -726,15 +726,15 @@ static void dns_worker(void *ptr_data);
 // draw_header
 // file src/ui.c line 199
 void draw_header(struct _win_st *win, const char *s, const char *fmt, signed int y, signed int x, signed int w, struct GColors_ * (*func)(void));
-// draw_header::func_object
+
 //
-struct GColors_ * func_object(void);
+
 // draw_menu_item
 // file src/gmenu.c line 57
 static void draw_menu_item(struct GMenu__0 *menu, char *s, signed int x, signed int y, signed int w, signed int checked, struct GColors_ * (*func)(void));
-// draw_menu_item::func_object
+
 //
-struct GColors_ * func_object(void);
+
 // dump_struct
 // file src/error.c line 84
 static void dump_struct(struct _IO_FILE *fp);
@@ -1479,15 +1479,15 @@ struct GSLList_ * list_create(void *data);
 // list_find
 // file src/commons.h line 249
 struct GSLList_ * list_find(struct GSLList_ *node, signed int (*func)(void *, void *), void *data);
-// list_find::func_object
+
 //
-signed int func_object(void *, void *);
+
 // list_foreach
 // file src/commons.c line 169
 signed int list_foreach(struct GSLList_ *node, signed int (*func)(void *, void *), void *user_data);
-// list_foreach::func_object
+
 //
-signed int func_object(void *, void *);
+
 // list_insert_append
 // file src/commons.c line 121
 struct GSLList_ * list_insert_append(struct GSLList_ *node, void *data);
@@ -1767,9 +1767,9 @@ static void perform_tail_follow(unsigned long int *size1);
 // post_gmenu
 // file src/gmenu.c line 75
 signed int post_gmenu(struct GMenu__0 *menu);
-// post_gmenu::1::func_object
+
 //
-struct GColors_ * func_object(void);
+
 // pre_process_log
 // file src/parser.c line 1696
 static signed int pre_process_log(struct GLog_ *logger, char *line, signed int test);
@@ -2043,9 +2043,9 @@ signed int render_find_dialog(struct _win_st_2 *main_win, struct GScroll_ *gscro
 // render_header
 // file src/gdashboard.c line 865
 static void render_header(struct _win_st_2 *win, struct GDashModule_ *data, enum MODULES cur_module, signed int *y);
-// render_header::1::func_object
+
 //
-struct GColors_ * func_object(void);
+
 // render_hits
 // file src/gdashboard.c line 806
 static void render_hits(struct GDashModule_ *data, struct GDashRender_ render, signed int *x);
@@ -2085,9 +2085,9 @@ static void render_sort_dialog(void);
 // render_total_label
 // file src/gdashboard.c line 520
 static void render_total_label(struct _win_st_2 *win, struct GDashModule_ *data, signed int y, struct GColors_ * (*func)(void));
-// render_total_label::func_object
+
 //
-struct GColors_ * func_object(void);
+
 // render_visitors
 // file src/gdashboard.c line 836
 static void render_visitors(struct GDashModule_ *data, struct GDashRender_ render, signed int *x);
@@ -2157,9 +2157,9 @@ signed int set_geolocation(char *host, char *continent, char *country, char *cit
 // set_host_agents
 // file src/ui.h line 303
 signed int set_host_agents(const char *addr, void (*func)(void *, void *, signed int), void *arr);
-// set_host_agents::func_object
+
 //
-void func_object(void *, void *, signed int);
+
 // set_host_child_metrics
 // file src/gdashboard.c line 1504
 static signed int set_host_child_metrics(char *data, unsigned char id, struct GMetrics **nmetrics);

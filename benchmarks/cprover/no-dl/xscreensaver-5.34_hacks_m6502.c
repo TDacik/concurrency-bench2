@@ -1380,9 +1380,9 @@ static unsigned char nibble(unsigned char value, enum anonymous_17 side);
 // nullify
 // file asm6502.c line 1264
 static void nullify(char *token, unsigned int sourceLength);
-// old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous_56 *);
+
 // opIndex
 // file asm6502.c line 1127
 static signed int opIndex(struct machine_6502 *machine, unsigned char opcode, enum anonymous_60 *adm);
@@ -1518,12 +1518,12 @@ static void rnd_seek_ac(unsigned int *a, unsigned int *c, unsigned int dist);
 // run_screenhack_table
 // file screenhack.c line 536
 static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window, unsigned long int window2, struct xscreensaver_function_table *ft);
-// run_screenhack_table::1::fps_cb_object
+
 //
-void fps_cb_object(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
-// run_screenhack_table::1::init_cb_object
+
+
 //
-void * init_cb_object(struct _XDisplay *, unsigned long int, void *);
+
 // screen_number
 // file visual.c line 475
 extern signed int screen_number(struct anonymous_25 *screen);

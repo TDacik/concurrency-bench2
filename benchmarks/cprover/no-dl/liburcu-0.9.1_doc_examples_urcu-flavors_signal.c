@@ -324,9 +324,9 @@ static inline signed int _cds_wfs_push(union anonymous_9 u_stack, struct cds_wfs
 // _defer_rcu
 // file urcu-defer-impl.h line 311
 static void _defer_rcu(void (*fct)(void *), void *p);
-// _defer_rcu::fct_object
+
 //
-void fct_object(void *);
+
 // _rcu_barrier_complete
 // file urcu-call-rcu-impl.h line 822
 static void _rcu_barrier_complete(struct rcu_head *head);
@@ -438,9 +438,9 @@ struct call_rcu_data * create_call_rcu_data_sig(unsigned long int flags, signed 
 // defer_rcu_sig
 // file urcu-defer-impl.h line 395
 extern void defer_rcu_sig(void (*fct)(void *), void *p);
-// defer_rcu_sig::fct_object
+
 //
-void fct_object(void *);
+
 // force_mb_all_readers
 // file urcu.c line 179
 static void force_mb_all_readers(void);
@@ -543,9 +543,9 @@ extern void * rcu_cmpxchg_pointer_sym(void **p, void *old, void *_new);
 // rcu_defer_barrier_queue
 // file urcu-defer-impl.h line 218
 static void rcu_defer_barrier_queue(struct defer_queue *queue, unsigned long int head);
-// rcu_defer_barrier_queue::1::fct_object
+
 //
-void fct_object(void *);
+
 // rcu_defer_barrier_sig
 // file urcu-defer-impl.h line 281
 extern void rcu_defer_barrier_sig(void);

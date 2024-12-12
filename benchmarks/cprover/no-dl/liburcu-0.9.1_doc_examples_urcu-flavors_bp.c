@@ -230,9 +230,9 @@ static inline void _cds_wfcq_node_init(struct cds_wfcq_node *node);
 // _defer_rcu
 // file urcu-defer-impl.h line 311
 static void _defer_rcu(void (*fct)(void *), void *p);
-// _defer_rcu::fct_object
+
 //
-void fct_object(void *);
+
 // _rcu_barrier_complete
 // file urcu-call-rcu-impl.h line 822
 static void _rcu_barrier_complete(struct rcu_head *head);
@@ -353,9 +353,9 @@ struct call_rcu_data * create_call_rcu_data_bp(unsigned long int flags, signed i
 // defer_rcu_bp
 // file urcu-defer-impl.h line 395
 extern void defer_rcu_bp(void (*fct)(void *), void *p);
-// defer_rcu_bp::fct_object
+
 //
-void fct_object(void *);
+
 // expand_arena
 // file urcu-bp.c line 365
 static void expand_arena(struct registry_arena *arena);
@@ -436,10 +436,10 @@ extern signed int poll(struct pollfd *, unsigned long int, signed int);
 extern signed int printf(const char *, ...);
 // pthread_cond_broadcast
 // file /usr/include/pthread.h line 983
-extern signed int pthread_cond_broadcast(union anonymous_0 *);
+extern signed int pthread_cond_broadcast(struct __cds_wfcq_head * *);
 // pthread_cond_wait
 // file /usr/include/pthread.h line 991
-extern signed int pthread_cond_wait(union anonymous_0 *, union anonymous_3 *);
+extern signed int pthread_cond_wait(struct __cds_wfcq_head * *, union anonymous_3 *);
 // pthread_create
 // file /usr/include/pthread.h line 235
 extern signed int pthread_create(unsigned long int *, const union pthread_attr_t *, void * (*)(void *), void *);
@@ -509,9 +509,9 @@ extern void rcu_defer_barrier_bp(void);
 // rcu_defer_barrier_queue
 // file urcu-defer-impl.h line 218
 static void rcu_defer_barrier_queue(struct defer_queue *queue, unsigned long int head);
-// rcu_defer_barrier_queue::1::fct_object
+
 //
-void fct_object(void *);
+
 // rcu_defer_barrier_thread_bp
 // file urcu-defer-impl.h line 261
 extern void rcu_defer_barrier_thread_bp(void);

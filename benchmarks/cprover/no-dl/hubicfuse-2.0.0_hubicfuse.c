@@ -4440,8 +4440,8 @@ static unsigned long int header_dispatch(void *ptr, unsigned long int size, unsi
     {
       unsigned long int object_count;
       object_count=strtoul(value, (char ** restrict )(void *)0, 10);
-      statcache.f_ffree = (unsigned long int)10000 - object_count;
-      statcache.f_favail = (unsigned long int)10000 - object_count;
+
+
     }
 
   }

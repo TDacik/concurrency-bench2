@@ -893,12 +893,12 @@ static signed int every_sink(struct GroovePlaylist *playlist, signed int (*func)
 // every_sink_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 493
 static signed int every_sink_link1(struct GroovePlaylist *playlist_link1, signed int (*func_link1)(struct GrooveSink *), signed int default_value_link1);
-// every_sink::func_link1_object
+
 //
-signed int func_link1_object(struct GrooveSink *);
-// every_sink::func_object
+
+
 //
-signed int func_object(struct GrooveSink *);
+
 // every_sink_flush
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 543
 static void every_sink_flush(struct GroovePlaylist *playlist);

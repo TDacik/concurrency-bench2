@@ -2481,9 +2481,9 @@ void urlcheck_init(void);
 // urlcheck_validate
 // file urlcheck.h line 68
 signed int urlcheck_validate(union acl_data *ad, enum anonymous_2 stage, struct acl_param *ap, struct mlfi_priv *priv);
-// urlcheck_validate::_tmp::tmp_if_expr_1_object
+
 //
-char * tmp_if_expr_1_object(char *str);
+
 // urlcheck_validate::1::cv_object
 //
 char * cv_object(char *);

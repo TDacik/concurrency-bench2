@@ -1099,15 +1099,15 @@ signed int oscap_apply_xslt(const char *xmlfile, const char *xsltfile, const cha
 // oscap_bfind
 // file ../../../../../src/common/bfind.h line 32
 void * oscap_bfind(void *ptr, unsigned long int nmemb, unsigned long int size, void *key, signed int (*cmpfn)(void *, void *));
-// oscap_bfind::cmpfn_object
+
 //
-signed int cmpfn_object(void *, void *);
+
 // oscap_bfind_i
 // file ../../../src/common/bfind.c line 60
 signed int oscap_bfind_i(void *ptr, unsigned long int nmemb, unsigned long int size, void *key, signed int (*cmpfn)(void *, void *), unsigned long int *save);
-// oscap_bfind_i::cmpfn_object
+
 //
-signed int cmpfn_object(void *, void *);
+
 // oscap_buffer_append_binary_data
 // file ../../../src/common/oscap_buffer.h line 69
 void oscap_buffer_append_binary_data(struct oscap_buffer *s, const char *data, const unsigned long int append_length);
@@ -1318,9 +1318,9 @@ void * cloner_object(void *);
 // oscap_list_contains
 // file ../../../src/common/list.c line 206
 _Bool oscap_list_contains(struct oscap_list *list, void *what, _Bool (*compare)(void *, void *));
-// oscap_list_contains::compare_object
+
 //
-_Bool compare_object(void *, void *);
+
 // oscap_list_destructive_join
 // file ../../../src/common/list.c line 144
 struct oscap_list * oscap_list_destructive_join(struct oscap_list *list1, struct oscap_list *list2);
@@ -1333,9 +1333,9 @@ void dumper_object();
 // oscap_list_find
 // file ../../../src/common/list.c line 187
 void * oscap_list_find(struct oscap_list *list, void *what, _Bool (*compare)(void *, void *));
-// oscap_list_find::compare_object
+
 //
-_Bool compare_object(void *, void *);
+
 // oscap_list_free
 // file ../../../src/common/list.c line 161
 void oscap_list_free(struct oscap_list *list, void (*destructor)(void *));
@@ -1363,9 +1363,9 @@ _Bool oscap_list_push(struct oscap_list *list, void *value);
 // oscap_list_remove
 // file ../../../src/common/list.c line 96
 _Bool oscap_list_remove(struct oscap_list *list, void *value, _Bool (*compare)(void *, void *), void (*destructor)(void *));
-// oscap_list_remove::compare_object
+
 //
-_Bool compare_object(void *, void *);
+
 // oscap_list_remove::destructor_object
 //
 void destructor_object(void *);
@@ -1750,24 +1750,24 @@ char * oscap_trim(char *str);
 // oscap_tsort
 // file ../../../src/common/tsort.c line 105
 _Bool oscap_tsort(struct oscap_list *input, struct oscap_list **output, struct oscap_list * (*edge_func)(void *, void *), _Bool (*cmp_func)(void *, void *), void *userdata);
-// oscap_tsort::cmp_func_object
+
 //
-_Bool cmp_func_object(void *, void *);
-// oscap_tsort::edge_func_object
+
+
 //
-struct oscap_list * edge_func_object(void *, void *);
+
 // oscap_tsort_context_free
 // file ../../../src/common/tsort.c line 53
 static void oscap_tsort_context_free(struct oscap_tsort_context *ctx);
 // oscap_tsort_context_new
 // file ../../../src/common/tsort.c line 41
 static struct oscap_tsort_context * oscap_tsort_context_new(struct oscap_list * (*edge_func)(void *, void *), _Bool (*cmp_func)(void *, void *), void *userdata);
-// oscap_tsort_context_new::cmp_func_object
+
 //
-_Bool cmp_func_object(void *, void *);
-// oscap_tsort_context_new::edge_func_object
+
+
 //
-struct oscap_list * edge_func_object(void *, void *);
+
 // oscap_tsort_visit
 // file ../../../src/common/tsort.c line 81
 static _Bool oscap_tsort_visit(void *node, struct oscap_tsort_context *ctx);
@@ -2536,15 +2536,15 @@ signed int xmlTextWriterWriteString(struct _xmlTextWriter *, const unsigned char
 // xml_element_dfs_callback
 // file ../../../src/common/xml_iterate.c line 29
 static signed int xml_element_dfs_callback(struct _xmlNode **node, signed int (*user_fn)(struct _xmlNode **, void *), void *user_data);
-// xml_element_dfs_callback::user_fn_object
+
 //
-signed int user_fn_object(struct _xmlNode **, void *);
+
 // xml_iterate_dfs
 // file ../../../src/common/xml_iterate.c line 46
 signed int xml_iterate_dfs(const char *input_text, char **output_text, signed int (*user_fn)(struct _xmlNode **, void *), void *user_data);
-// xml_iterate_dfs::user_fn_object
+
 //
-signed int user_fn_object(struct _xmlNode **, void *);
+
 // xsltCleanupGlobals
 // file /usr/include/libxslt/xslt.h line 103
 void xsltCleanupGlobals(void);

@@ -131,13 +131,13 @@ struct sockaddr_x25;
 extern signed int * __errno_location(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_4, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // asprintf
 // file /usr/include/stdio.h line 405
 extern signed int asprintf(char ** restrict , const char *, ...);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_4, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // chdir
 // file /usr/include/unistd.h line 497
 extern signed int chdir(const char *);
@@ -149,7 +149,7 @@ extern signed int close(signed int);
 extern enum anonymous_7 close_connection(signed int s, signed int id);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_4, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // connect_server
 // file server.c line 434
 static signed int connect_server();

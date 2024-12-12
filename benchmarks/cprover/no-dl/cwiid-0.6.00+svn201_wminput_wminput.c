@@ -10,7 +10,7 @@ struct anonymous_5;
 // file /usr/include/python2.7/object.h line 275
 struct anonymous_4;
 
-// tag-#anon#ST[*{S64(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|*{*{V}_V_}_*{V}_V__)->S64}_S64(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|*{*{V}_V_}_*{V}_V__)->S64_'bf_getreadbuffer'||*{S64(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|*{*{V}_V_}_*{V}_V__)->S64}_S64(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|*{*{V}_V_}_*{V}_V__)->S64_'bf_getwritebuffer'||*{S64(*{SYM#tag-_object#}_SYM#tag-_object#_|*{S64}_S64_)->S64}_S64(*{SYM#tag-_object#}_SYM#tag-_object#_|*{S64}_S64_)->S64_'bf_getsegcount'||*{S64(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|*{*{S8}_S8_}_*{S8}_S8__)->S64}_S64(*{SYM#tag-_object#}_SYM#tag-_object#_|S64|*{*{S8}_S8_}_*{S8}_S8__)->S64_'bf_getcharbuffer'||*{S32(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-bufferinfo#}_SYM#tag-bufferinfo#_|S32)->S32}_S32(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-bufferinfo#}_SYM#tag-bufferinfo#_|S32)->S32_'bf_getbuffer'||*{V(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-bufferinfo#}_SYM#tag-bufferinfo#_)->V}_V(*{SYM#tag-_object#}_SYM#tag-_object#_|*{SYM#tag-bufferinfo#}_SYM#tag-bufferinfo#_)->V_'bf_releasebuffer'|]
+
 // file /usr/include/python2.7/object.h line 295
 struct anonymous_6;
 
@@ -610,9 +610,9 @@ void cwiid_err_connect(struct wiimote *wiimote, const char *str, void **ap);
 // cwiid_err_default
 // file ../libcwiid/cwiid.h line 355
 void cwiid_err_default(struct wiimote *wiimote, const char *str, void **ap);
-// cwiid_err_func_object
+
 //
-void cwiid_err_func_object(struct wiimote *, const char *, void **);
+
 // cwiid_find_wiimote
 // file ../libcwiid/cwiid.h line 399
 signed int cwiid_find_wiimote(struct anonymous_0 *bdaddr, signed int timeout);
@@ -667,9 +667,9 @@ signed int cwiid_set_led(struct wiimote *wiimote, unsigned char led);
 // cwiid_set_mesg_callback
 // file ../libcwiid/cwiid.h line 371
 signed int cwiid_set_mesg_callback(struct wiimote *wiimote, void (*callback)(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *));
-// cwiid_set_mesg_callback::callback_object
+
 //
-void callback_object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
+
 // cwiid_set_rpt_mode
 // file ../libcwiid/cwiid.h line 389
 signed int cwiid_set_rpt_mode(struct wiimote *wiimote, unsigned char rpt_mode);
@@ -781,9 +781,9 @@ extern void * memset(void *, signed int, unsigned long int);
 // mesg_callback_thread
 // file cwiid_internal.h line 194
 void * mesg_callback_thread(struct wiimote *wiimote);
-// mesg_callback_thread::1::callback_object
+
 //
-void callback_object(struct wiimote *, signed int, union cwiid_mesg *, struct timespec *);
+
 // open
 // file /usr/include/fcntl.h line 146
 extern signed int open(const char *, signed int, ...);
@@ -1243,17 +1243,17 @@ struct anonymous_4
 struct anonymous_6
 {
   // bf_getreadbuffer
-  signed long int (*bf_getreadbuffer)(struct _object *, signed long int, void **);
+
   // bf_getwritebuffer
-  signed long int (*bf_getwritebuffer)(struct _object *, signed long int, void **);
+
   // bf_getsegcount
-  signed long int (*bf_getsegcount)(struct _object *, signed long int *);
+
   // bf_getcharbuffer
-  signed long int (*bf_getcharbuffer)(struct _object *, signed long int, char **);
+
   // bf_getbuffer
-  signed int (*bf_getbuffer)(struct _object *, struct bufferinfo *, signed int);
+
   // bf_releasebuffer
-  void (*bf_releasebuffer)(struct _object *, struct bufferinfo *);
+
 };
 
 struct anonymous_7

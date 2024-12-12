@@ -1482,7 +1482,7 @@ extern void * realloc(void *, unsigned long int);
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // rttengine_deinit
 // file net_rudp.c line 360
 extern signed int rttengine_deinit(struct rttengine_statistics *s, void *im, void *om);
@@ -1512,7 +1512,7 @@ signed int send_status_info(void);
 signed int send_tunnel_info(void);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // set_tsp_env_variables
 // file tsp_setup.c line 139
 void set_tsp_env_variables(const struct stConf *pConfig, const struct stTunnel *pTunnelInfo);

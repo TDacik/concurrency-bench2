@@ -261,7 +261,7 @@ extern void __sched_cpufree(struct anonymous_6 *);
 static signed int __stop_trace(signed int fd);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // ack_open_close
 // file blktrace.c line 921
 static void ack_open_close(signed int fd, char *buts_name);
@@ -285,7 +285,7 @@ extern signed int atexit(void (*)(void));
 extern signed int atoi(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -321,7 +321,7 @@ static void close_iop(struct io_info *iop);
 static void close_ios(struct tracer *tp);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // decr_entries
 // file blktrace.c line 1215
 static void decr_entries(signed int handled);

@@ -167,13 +167,13 @@ extern signed int * __errno_location(void);
 extern void _exit(signed int);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_2, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // asctime_r
 // file /usr/include/time.h line 272
 extern char * asctime_r(struct tm *, char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_2, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -311,7 +311,7 @@ extern struct passwd * getpwnam(const char *);
 extern struct passwd * getpwuid(unsigned int);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous_2, unsigned int *);
+extern signed int getsockname(signed int, struct sockaddr *, unsigned int *);
 // htonl
 // file /usr/include/netinet/in.h line 377
 extern unsigned int htonl(unsigned int);

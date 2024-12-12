@@ -311,9 +311,9 @@ void dir_cache_begin(const char *fn);
 // dir_cache_enumerate
 // file ../../../src/statcache.h line 35
 signed int dir_cache_enumerate(const char *fn, void (*f)(const char *, const char *, void *), void *user);
-// dir_cache_enumerate::f_object
+
 //
-void f_object(const char *, const char *, void *);
+
 // dir_cache_finish
 // file ../../../src/statcache.h line 33
 void dir_cache_finish(const char *fn, signed int success);

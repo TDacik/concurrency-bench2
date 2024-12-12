@@ -931,9 +931,9 @@ struct PianoSong * BarUiSelectSong(const struct anonymous_33 *settings, struct P
 // BarUiSelectStation
 // file src/ui.h line 41
 struct PianoStation * BarUiSelectStation(struct anonymous_35 *app, struct PianoStation *stations, const char *prompt, void (*callback)(struct anonymous_35 *, char *), _Bool autoselect);
-// BarUiSelectStation::callback_object
+
 //
-void callback_object(struct anonymous_35 *, char *);
+
 // BarUiStartEventCmd
 // file src/ui.h line 51
 void BarUiStartEventCmd(const struct anonymous_33 *settings, const char *type, const struct PianoStation *curStation, const struct PianoSong *curSong, const struct anonymous_3 * const player, struct PianoStation *stations, enum anonymous_4 pRet, enum anonymous_5 wRet);

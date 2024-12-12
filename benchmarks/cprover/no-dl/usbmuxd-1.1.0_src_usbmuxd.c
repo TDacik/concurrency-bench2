@@ -391,7 +391,7 @@ static signed int __mkdir(const char *dir, signed int mode);
 extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_2, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // buffer_read_from_filename
 // file utils.c line 213
 void buffer_read_from_filename(const char *filename, char **buffer, unsigned long int *length);
@@ -728,9 +728,9 @@ void libusb_exit(struct libusb_context *);
 // libusb_fill_bulk_transfer
 // file /usr/include/libusb-1.0/libusb.h line 1545
 static inline void libusb_fill_bulk_transfer(struct libusb_transfer *transfer, struct libusb_device_handle *dev_handle, unsigned char endpoint, unsigned char *buffer, signed int length, void (*callback)(struct libusb_transfer *), void *user_data, unsigned int timeout);
-// libusb_fill_bulk_transfer::callback_object
+
 //
-void callback_object(struct libusb_transfer *);
+
 // libusb_free_config_descriptor
 // file /usr/include/libusb-1.0/libusb.h line 1329
 void libusb_free_config_descriptor(struct libusb_config_descriptor *);

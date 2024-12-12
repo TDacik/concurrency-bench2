@@ -242,9 +242,9 @@ extern signed int _setjmp(struct __jmp_buf_tag *);
 // _tcase_add_test
 // file ../src/check.h line 274
 void _tcase_add_test(struct TCase *tc, void (*fn)(signed int), const char *name, signed int _signal, signed int allowed_exit_value, signed int start, signed int end);
-// _tcase_add_test::fn_object
+
 //
-void fn_object(signed int);
+
 // abort
 // file /usr/include/stdlib.h line 515
 extern void abort(void);
@@ -335,9 +335,9 @@ extern signed int fflush(struct _IO_FILE *);
 // fixture_create
 // file ../../src/check.c line 197
 static struct Fixture * fixture_create(void (*fun)(void), signed int ischecked);
-// fixture_create::fun_object
+
 //
-void fun_object(void);
+
 // floor
 // file /usr/include/x86_64-linux-gnu/bits/mathcalls.h line 184
 extern double floor(double);
@@ -656,9 +656,9 @@ void srunner_print(struct SRunner *sr, enum print_output print_mode);
 // srunner_register_lfun
 // file ../../src/check_log.c line 113
 void srunner_register_lfun(struct SRunner *sr, struct _IO_FILE *lfile, signed int close, void (*lfun)(struct SRunner *, struct _IO_FILE *, enum print_output, void *, enum cl_event), enum print_output printmode);
-// srunner_register_lfun::lfun_object
+
 //
-void lfun_object(struct SRunner *, struct _IO_FILE *, enum print_output, void *, enum cl_event);
+
 // srunner_results
 // file ../../src/check.c line 418
 struct TestResult ** srunner_results(struct SRunner *sr);

@@ -399,7 +399,7 @@ signed int _tt_dummyfunc(void);
 signed int _tt_dummyfuncv(signed int a, ...);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_28, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // aio_error
 // file /usr/include/aio.h line 156
 extern signed int aio_error(struct aiocb *);
@@ -414,7 +414,7 @@ extern signed int aio_suspend(struct aiocb * const *, signed int, struct timespe
 extern signed int aio_write(struct aiocb *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_28, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // chdir
 // file /usr/include/unistd.h line 497
 extern signed int chdir(const char *);
@@ -423,7 +423,7 @@ extern signed int chdir(const char *);
 extern signed int close(signed int);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_28, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // dup2
 // file /usr/include/unistd.h line 534
 extern signed int dup2(signed int, signed int);

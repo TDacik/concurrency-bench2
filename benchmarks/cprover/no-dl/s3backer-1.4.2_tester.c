@@ -621,9 +621,9 @@ static unsigned long int block_cache_get_time_millis(void);
 // block_cache_list_blocks
 // file block_cache.c line 476
 static signed int block_cache_list_blocks(struct s3backer_store *s3b, void (*callback)(void *, unsigned int), void *arg);
-// block_cache_list_blocks::callback_object
+
 //
-void callback_object(void *, unsigned int);
+
 // block_cache_meta_data
 // file block_cache.c line 392
 static signed int block_cache_meta_data(struct s3backer_store *s3b, signed long int *file_sizep, unsigned int *block_sizep);
@@ -747,9 +747,9 @@ static unsigned long int ec_protect_get_time(void);
 // ec_protect_list_blocks
 // file ec_protect.c line 302
 static signed int ec_protect_list_blocks(struct s3backer_store *s3b, void (*callback)(void *, unsigned int), void *arg);
-// ec_protect_list_blocks::callback_object
+
 //
-void callback_object(void *, unsigned int);
+
 // ec_protect_meta_data
 // file ec_protect.c line 230
 static signed int ec_protect_meta_data(struct s3backer_store *s3b, signed long int *file_sizep, unsigned int *block_sizep);
@@ -927,9 +927,9 @@ static signed int http_io_is_zero_block(const void *data, unsigned int block_siz
 // http_io_list_blocks
 // file http_io.c line 504
 static signed int http_io_list_blocks(struct s3backer_store *s3b, void (*callback)(void *, unsigned int), void *arg);
-// http_io_list_blocks::callback_object
+
 //
-void callback_object(void *, unsigned int);
+
 // http_io_list_elem_end
 // file http_io.c line 665
 static void http_io_list_elem_end(void *arg, const char *name);
@@ -1302,9 +1302,9 @@ static signed int test_io_flush(struct s3backer_store * const s3b);
 // test_io_list_blocks
 // file test_io.c line 345
 static signed int test_io_list_blocks(struct s3backer_store *s3b, void (*callback)(void *, unsigned int), void *arg);
-// test_io_list_blocks::callback_object
+
 //
-void callback_object(void *, unsigned int);
+
 // test_io_meta_data
 // file test_io.c line 103
 static signed int test_io_meta_data(struct s3backer_store *s3b, signed long int *file_sizep, unsigned int *block_sizep);

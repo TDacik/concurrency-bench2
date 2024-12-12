@@ -1019,9 +1019,9 @@ static void fill_open_compat(struct fuse_open_out *arg, struct fuse_file_info_co
 // find_interrupted
 // file fuse_lowlevel.c line 1567
 static signed int find_interrupted(struct fuse_ll *f, struct fuse_req *req);
-// find_interrupted::1::1::1::1::func_object
+
 //
-void func_object(struct fuse_req *, void *);
+
 // find_node
 // file fuse.c line 878
 static struct node * find_node(struct fuse *f, unsigned long int parent, const char *name);
@@ -1586,9 +1586,9 @@ signed int fuse_loop_mt(struct fuse *f);
 // fuse_loop_mt_proc
 // file fuse_mt.c line 69
 signed int fuse_loop_mt_proc(struct fuse *f, void (*proc)(struct fuse *, struct fuse_cmd *, void *), void *data);
-// fuse_loop_mt_proc::proc_object
+
 //
-void proc_object(struct fuse *, struct fuse_cmd *, void *);
+
 // fuse_loop_start_thread
 // file fuse_loop_mt.c line 178
 static signed int fuse_loop_start_thread(struct fuse_mt *mt);
@@ -1742,9 +1742,9 @@ signed int fuse_opt_match(struct fuse_opt *opts, const char *opt);
 // fuse_opt_parse
 // file ../include/fuse_opt.h line 202
 signed int fuse_opt_parse(struct fuse_args *args, void *data, struct fuse_opt *opts, signed int (*proc)(void *, const char *, signed int, struct fuse_args *));
-// fuse_opt_parse::proc_object
+
 //
-signed int proc_object(void *, const char *, signed int, struct fuse_args *);
+
 // fuse_parse_cmdline
 // file ../include/fuse_common.h line 237
 signed int fuse_parse_cmdline(struct fuse_args *args, char **mountpoint, signed int *multithreaded, signed int *foreground);
@@ -1850,9 +1850,9 @@ signed int fuse_req_getgroups(struct fuse_req *req, signed int size, unsigned in
 // fuse_req_interrupt_func
 // file ../include/fuse_lowlevel.h line 1492
 void fuse_req_interrupt_func(struct fuse_req *req, void (*func)(struct fuse_req *, void *), void *data);
-// fuse_req_interrupt_func::func_object
+
 //
-void func_object(struct fuse_req *, void *);
+
 // fuse_req_interrupted
 // file ../include/fuse_lowlevel.h line 1501
 signed int fuse_req_interrupted(struct fuse_req *req);
@@ -1922,9 +1922,9 @@ void fuse_session_reset(struct fuse_session *se);
 // fuse_set_getcontext_func
 // file fuse.c line 4400
 void fuse_set_getcontext_func(struct fuse_context * (*func)(void));
-// fuse_set_getcontext_func::func_object
+
 //
-struct fuse_context * func_object(void);
+
 // fuse_set_signal_handlers
 // file fuse_signals.c line 47
 signed int fuse_set_signal_handlers(struct fuse_session *se);
@@ -1949,9 +1949,9 @@ signed int fuse_start_cleanup_thread(struct fuse *f);
 // fuse_start_thread
 // file fuse_i.h line 130
 signed int fuse_start_thread(unsigned long int *thread_id, void * (*func)(void *), void *arg);
-// fuse_start_thread::func_object
+
 //
-void * func_object(void *);
+
 // fuse_stop_cleanup_thread
 // file fuse.c line 4625
 void fuse_stop_cleanup_thread(struct fuse *f);
@@ -2597,9 +2597,9 @@ static void set_mount_flag(const char *s, signed int *flags);
 // set_one_signal_handler
 // file fuse_signals.c line 24
 static signed int set_one_signal_handler(signed int sig, void (*handler)(signed int), signed int remove);
-// set_one_signal_handler::handler_object
+
 //
-void handler_object(signed int);
+
 // set_stat
 // file fuse.c line 1417
 static void set_stat(struct fuse *f, unsigned long int nodeid, struct stat *stbuf);

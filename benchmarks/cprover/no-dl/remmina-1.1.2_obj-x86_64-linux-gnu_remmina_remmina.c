@@ -4338,9 +4338,9 @@ void remmina_connection_window_open_from_file(struct _RemminaFile *remminafile);
 // remmina_connection_window_open_from_file_full
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_connection_window.c line 2629
 struct _GtkWidget * remmina_connection_window_open_from_file_full(struct _RemminaFile *remminafile, void (*disconnect_cb)(void), void *data, unsigned int *handler);
-// remmina_connection_window_open_from_file_full::disconnect_cb_object
+
 //
-void disconnect_cb_object(void);
+
 // remmina_connection_window_open_from_filename
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_connection_window.c line 2601
 signed int remmina_connection_window_open_from_filename(const char *filename);
@@ -4554,9 +4554,9 @@ void remmina_file_manager_init(void);
 // remmina_file_manager_iterate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_file_manager.c line 50
 signed int remmina_file_manager_iterate(void (*func)(void *, void *), void *user_data);
-// remmina_file_manager_iterate::func_object
+
 //
-void func_object(void *, void *);
+
 // remmina_file_manager_load_file
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_file_manager.h line 57
 struct _RemminaFile * remmina_file_manager_load_file(const char *filename);
@@ -5073,15 +5073,15 @@ static signed int remmina_main_selection_func(struct _GtkTreeSelection *selectio
 // remmina_marshal_BOOLEAN__INT
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_marshals.c line 49
 void remmina_marshal_BOOLEAN__INT(struct _GClosure *closure, struct _GValue *return_value, unsigned int n_param_values, const struct _GValue *param_values, void *invocation_hint, void *marshal_data);
-// remmina_marshal_BOOLEAN__INT::1::callback_object
+
 //
-signed int callback_object(void *, signed int, void *);
+
 // remmina_marshal_BOOLEAN__INT_STRING
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_marshals.c line 89
 void remmina_marshal_BOOLEAN__INT_STRING(struct _GClosure *closure, struct _GValue *return_value, unsigned int n_param_values, const struct _GValue *param_values, void *invocation_hint, void *marshal_data);
-// remmina_marshal_BOOLEAN__INT_STRING::1::callback_object
+
 //
-signed int callback_object(void *, signed int, void *, void *);
+
 // remmina_on_command_line
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina.c line 89
 static signed int remmina_on_command_line(struct _GApplication *app, struct _GApplicationCommandLine *cmdline);
@@ -5094,9 +5094,9 @@ static signed int remmina_plugin_manager_compare_func(struct _RemminaPlugin **a,
 // remmina_plugin_manager_for_each_plugin
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_plugin_manager.h line 46
 void remmina_plugin_manager_for_each_plugin(enum anonymous_38 type, signed int (*func)(char *, struct _RemminaPlugin *, void *), void *data);
-// remmina_plugin_manager_for_each_plugin::func_object
+
 //
-signed int func_object(char *, struct _RemminaPlugin *, void *);
+
 // remmina_plugin_manager_get_export_file_handler
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_plugin_manager.h line 49
 struct _RemminaFilePlugin * remmina_plugin_manager_get_export_file_handler(struct _RemminaFile *remminafile);
@@ -5451,9 +5451,9 @@ void remmina_protocol_widget_set_height(struct _RemminaProtocolWidget *gp, signe
 // remmina_protocol_widget_set_hostkey_func
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_protocol_widget.h line 108
 void remmina_protocol_widget_set_hostkey_func(struct _RemminaProtocolWidget *gp, signed int (*func)(struct _RemminaProtocolWidget *, unsigned int, signed int, void *), void *data);
-// remmina_protocol_widget_set_hostkey_func::func_object
+
 //
-signed int func_object(struct _RemminaProtocolWidget *, unsigned int, signed int, void *);
+
 // remmina_protocol_widget_set_scale
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_protocol_widget.h line 85
 void remmina_protocol_widget_set_scale(struct _RemminaProtocolWidget *gp, signed int scale);
@@ -5484,9 +5484,9 @@ signed int remmina_protocol_widget_start_xport_tunnel(struct _RemminaProtocolWid
 // remmina_protocol_widget_start_xport_tunnel::1::1::__cancel_routine_object
 //
 void __cancel_routine_object(void *);
-// remmina_protocol_widget_start_xport_tunnel::init_func_object
+
 //
-signed int init_func_object(struct _RemminaProtocolWidget *, signed int, const char *, signed int);
+
 // remmina_protocol_widget_tunnel_connect_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_protocol_widget.c line 659
 static signed int remmina_protocol_widget_tunnel_connect_callback(struct _RemminaSSHTunnel *tunnel, void *data);
@@ -5781,9 +5781,9 @@ struct _RemminaSSHShell * remmina_ssh_shell_new_from_ssh(struct _RemminaSSH *ssh
 // remmina_ssh_shell_open
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_ssh.c line 1448
 signed int remmina_ssh_shell_open(struct _RemminaSSHShell *shell, void (*exit_callback)(void *), void *data);
-// remmina_ssh_shell_open::exit_callback_object
+
 //
-void exit_callback_object(void *);
+
 // remmina_ssh_shell_set_size
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_ssh.c line 1480
 void remmina_ssh_shell_set_size(struct _RemminaSSHShell *shell, signed int columns, signed int rows);
@@ -5919,9 +5919,9 @@ void remmina_string_list_set_text(struct _RemminaStringList *gsl, const char *te
 // remmina_string_list_set_validation_func
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_string_list.h line 80
 void remmina_string_list_set_validation_func(struct _RemminaStringList *gsl, signed int (*func)(const char *, char **));
-// remmina_string_list_set_validation_func::func_object
+
 //
-signed int func_object(const char *, char **);
+
 // remmina_string_list_status_error
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_string_list.c line 52
 static void remmina_string_list_status_error(struct _RemminaStringList *gsl, const char *error);
@@ -5940,9 +5940,9 @@ struct _GtkWidget * remmina_widget_pool_find_by_window(unsigned long int type, s
 // remmina_widget_pool_foreach
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_widget_pool.c line 148
 signed int remmina_widget_pool_foreach(signed int (*callback)(struct _GtkWidget *, void *), void *data);
-// remmina_widget_pool_foreach::callback_object
+
 //
-signed int callback_object(struct _GtkWidget *, void *);
+
 // remmina_widget_pool_hold
 // file /srv/jenkins-slave/workspace/sid-goto-cc-remmina/remmina-1.1.2/remmina/src/remmina_widget_pool.h line 46
 void remmina_widget_pool_hold(signed int hold);

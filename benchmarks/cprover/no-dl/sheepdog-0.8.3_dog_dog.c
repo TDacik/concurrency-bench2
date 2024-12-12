@@ -739,7 +739,7 @@ static void * binary_search(void *first, void *last, void *key, unsigned long in
 signed int cmp_object(void *, void *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_30, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // block_sighup
 // file logger.c line 130
 static void block_sighup(void);
@@ -827,9 +827,9 @@ static signed int cluster_shutdown(signed int argc, char **argv);
 // cluster_snapshot
 // file cluster.c line 519
 static signed int cluster_snapshot(signed int argc, char **argv);
-// command_fn_object
+
 //
-signed int command_fn_object(signed int, char **);
+
 // command_parser_object
 //
 signed int command_parser_object(signed int, const char *);
@@ -856,7 +856,7 @@ signed int conn_tx_off(struct connection *conn);
 signed int conn_tx_on(struct connection *conn);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_30, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // connect_to
 // file net.c line 137
 signed int connect_to(const char *name, signed int port);
@@ -887,18 +887,18 @@ static signed int create_directory(const char *p);
 // create_listen_ports
 // file net.c line 64
 signed int create_listen_ports(const char *bindaddr, signed int port, signed int (*callback)(signed int, void *), void *data);
-// create_listen_ports::callback_object
+
 //
-signed int callback_object(signed int, void *);
+
 // create_ordered_work_queue
 // file work.c line 440
 struct work_queue * create_ordered_work_queue(const char *name);
 // create_unix_domain_socket
 // file net.c line 536
 signed int create_unix_domain_socket(const char *unix_path, signed int (*callback)(signed int, void *), void *data);
-// create_unix_domain_socket::callback_object
+
 //
-signed int callback_object(signed int, void *);
+
 // create_work_queue
 // file ../include/work.h line 62
 struct work_queue * create_work_queue(const char *name, enum wq_thread_control tc);
@@ -1196,15 +1196,15 @@ static inline unsigned long int fnv_64a_buf_link1(const void *buf_link1, unsigne
 // for_each_entry_in_trunk
 // file farm/trunk.c line 55
 signed int for_each_entry_in_trunk(unsigned char *trunk_sha1, signed int (*func)(struct trunk_entry *, void *), void *data);
-// for_each_entry_in_trunk::func_object
+
 //
-signed int func_object(struct trunk_entry *, void *);
+
 // for_each_object_in_tree
 // file farm/object_tree.c line 86
 signed int for_each_object_in_tree(signed int (*func)(unsigned long int, unsigned int, unsigned char, void *), void *data);
-// for_each_object_in_tree::func_object
+
 //
-signed int func_object(unsigned long int, unsigned int, unsigned char, void *);
+
 // fork
 // file /usr/include/unistd.h line 756
 extern signed int fork(void);
@@ -1400,15 +1400,15 @@ signed int writer_object(unsigned long int, void *, unsigned int, unsigned long 
 // install_crash_handler
 // file ../include/util.h line 112
 signed int install_crash_handler(void (*handler)(signed int));
-// install_crash_handler::handler_object
+
 //
-void handler_object(signed int);
+
 // install_sighandler
 // file ../include/util.h line 111
 signed int install_sighandler(signed int signum, void (*handler)(signed int), _Bool once);
-// install_sighandler::handler_object
+
 //
-void handler_object(signed int);
+
 // ioctl
 // file /usr/include/x86_64-linux-gnu/sys/ioctl.h line 41
 extern signed int ioctl(signed int, unsigned long int, ...);
@@ -1745,15 +1745,15 @@ unsigned char parse_copy(const char *str, unsigned char *copy_policy);
 // parse_objs
 // file vdi.c line 403
 static void parse_objs(unsigned long int oid, signed int (*func)(const char *, unsigned long int, struct sd_rsp *, char *, void *), void *data, unsigned long int size);
-// parse_objs::func_object
+
 //
-signed int func_object(const char *, unsigned long int, struct sd_rsp *, char *, void *);
+
 // parse_vdi
 // file common.c line 131
 signed int parse_vdi(void (*func)(unsigned int, const char *, const char *, unsigned int, unsigned int, struct sd_inode *, void *), unsigned long int size, void *data);
-// parse_vdi::func_object
+
 //
-void func_object(unsigned int, const char *, const char *, unsigned int, unsigned int, struct sd_inode *, void *);
+
 // pclose
 // file /usr/include/stdio.h line 878
 extern signed int pclose(struct _IO_FILE *);
@@ -2546,9 +2546,9 @@ signed int writer_object(unsigned long int, void *, unsigned int, unsigned long 
 // traverse_btree
 // file ../include/sheepdog_proto.h line 295
 extern void traverse_btree(signed int (*reader)(unsigned long int, void **, unsigned int, unsigned long int), struct sd_inode *inode, void (*fn)(void *, enum btree_node_type, void *), void *arg);
-// traverse_btree::fn_object
+
 //
-void fn_object(void *, enum btree_node_type, void *);
+
 // traverse_btree::reader_object
 //
 signed int reader_object(unsigned long int, void **, unsigned int, unsigned long int);
@@ -7757,7 +7757,7 @@ static signed int create_directory(const char *p)
   if(return_value_strlen_3 == 0ul)
     strbuf_copyout(&buf, (void *)farm_dir, sizeof(char [4096l]) /*4096ul*/ );
 
-  strbuf_addstr_link1(&buf, "/objects");
+
   signed int return_value_xmkdir_4;
   return_value_xmkdir_4=xmkdir(buf.buf, (unsigned int)0755);
   unsigned long int return_value_strlen_6;
@@ -7776,7 +7776,7 @@ static signed int create_directory(const char *p)
     }
     return_value_strlen_6=strlen(farm_object_dir);
     if(return_value_strlen_6 == 0ul)
-      strbuf_copyout(&buf, (void *)farm_object_dir, sizeof(char [4096l]) /*4096ul*/ );
+
 
     ret = 0;
   }
@@ -10030,7 +10030,7 @@ signed int farm_save_snapshot(const char *tag)
   if(!(snap_log == NULL))
   {
     idx = log_nr + 1;
-    strbuf_init(&trunk_buf, sizeof(struct trunk_entry) /*32ul*/  * nr_objects);
+
     wq=create_work_queue("save snapshot", (enum wq_thread_control)WQ_ORDERED);
     return_value_for_each_object_in_tree_2=for_each_object_in_tree(queue_save_snapshot_work, (void *)&trunk_buf);
     if(return_value_for_each_object_in_tree_2 >= 0)
@@ -17433,7 +17433,7 @@ void * slice_read(const unsigned char *sha1, unsigned long int *outsize)
       *outsize = *outsize + size;
     }
     object=xmalloc(*outsize);
-    strbuf_copyout(&buf, object, *outsize);
+
     free((void *)file);
     strbuf_release(&buf);
     return object;

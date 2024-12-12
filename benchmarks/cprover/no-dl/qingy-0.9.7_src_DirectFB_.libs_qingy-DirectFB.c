@@ -931,9 +931,9 @@ union yyalloc;
 // Button_Create
 // file objects/button.c line 188
 struct _Button * Button_Create(const char *normal, const char *mouseover, signed int xpos, signed int ypos, void (*callback)(struct _Button *), struct _IDirectFBDisplayLayer *layer, struct _IDirectFBSurface *primary, struct _IDirectFB *dfb, float x_ratio, float y_ratio);
-// Button_Create::callback_object
+
 //
-void callback_object(struct _Button *);
+
 // Button_Destroy
 // file objects/button.c line 97
 void Button_Destroy(struct _Button *thiz);

@@ -601,7 +601,7 @@ struct text_table_entry * alloc_text_table_entry(signed int val_num, struct ci_m
 extern char * asctime_r(struct tm *, char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_13, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // byteReverse
 // file md5.c line 28
 static void byteReverse(unsigned char *buf, unsigned int longs);
@@ -722,9 +722,9 @@ const struct ci_array_item * ci_array_get_item(struct ci_array *array, signed in
 // ci_array_iterate
 // file array.c line 116
 void ci_array_iterate(const struct ci_array *array, void *data, signed int (*fn)(void *, const char *, const void *));
-// ci_array_iterate::fn_object
+
 //
-signed int fn_object(void *, const char *, const void *);
+
 // ci_array_new
 // file include/array.h line 90
 struct ci_array * ci_array_new(unsigned long int size);
@@ -926,9 +926,9 @@ void ci_dyn_array_destroy(struct ci_dyn_array *array);
 // ci_dyn_array_iterate
 // file array.c line 329
 void ci_dyn_array_iterate(const struct ci_dyn_array *array, void *data, signed int (*fn)(void *, const char *, const void *));
-// ci_dyn_array_iterate::fn_object
+
 //
-signed int fn_object(void *, const char *, const void *);
+
 // ci_dyn_array_new
 // file array.c line 212
 struct ci_dyn_array * ci_dyn_array_new(unsigned long int size);
@@ -995,9 +995,9 @@ void ci_headers_destroy(struct ci_headers_list *h);
 // ci_headers_iterate
 // file header.c line 424
 signed int ci_headers_iterate(struct ci_headers_list *h, void *data, void (*fn)(void *, const char *, const char *));
-// ci_headers_iterate::fn_object
+
 //
-void fn_object(void *, const char *, const char *);
+
 // ci_headers_pack
 // file header.c line 451
 void ci_headers_pack(struct ci_headers_list *h);
@@ -1094,15 +1094,15 @@ signed int ci_linger_close(signed int fd, signed int timeout);
 // ci_list_cmp_handler
 // file array.c line 536
 void ci_list_cmp_handler(struct ci_list *list, signed int (*cmp_func)(const void *, const void *, unsigned long int));
-// ci_list_cmp_handler::cmp_func_object
+
 //
-signed int cmp_func_object(const void *, const void *, unsigned long int);
+
 // ci_list_copy_handler
 // file array.c line 546
 void ci_list_copy_handler(struct ci_list *list, signed int (*copy_func)(void *, const void *));
-// ci_list_copy_handler::copy_func_object
+
 //
-signed int copy_func_object(void *, const void *);
+
 // ci_list_create
 // file array.c line 507
 struct ci_list * ci_list_create(unsigned long int init_size, unsigned long int obj_size);
@@ -1112,15 +1112,15 @@ void ci_list_destroy(struct ci_list *list);
 // ci_list_free_handler
 // file array.c line 541
 void ci_list_free_handler(struct ci_list *list, void (*free_func)(void *));
-// ci_list_free_handler::free_func_object
+
 //
-void free_func_object(void *);
+
 // ci_list_iterate
 // file array.c line 551
 void ci_list_iterate(struct ci_list *list, void *data, signed int (*fn)(void *, const void *));
-// ci_list_iterate::fn_object
+
 //
-signed int fn_object(void *, const void *);
+
 // ci_list_pop
 // file array.c line 617
 void * ci_list_pop(struct ci_list *list, void *data);
@@ -1136,33 +1136,33 @@ const void * ci_list_push_back(struct ci_list *list, const void *data);
 // ci_list_remove
 // file array.c line 690
 signed int ci_list_remove(struct ci_list *list, const void *obj);
-// ci_list_remove::1::cmp_func_object
+
 //
-signed int cmp_func_object(const void *, const void *, unsigned long int);
+
 // ci_list_search
 // file array.c line 723
 const void * ci_list_search(struct ci_list *list, const void *data);
 // ci_list_search2
 // file array.c line 742
 const void * ci_list_search2(struct ci_list *list, const void *data, signed int (*cmp_func)(const void *, const void *, unsigned long int));
-// ci_list_search2::cmp_func_object
+
 //
-signed int cmp_func_object(const void *, const void *, unsigned long int);
-// ci_list_search::1::cmp_func_object
+
+
 //
-signed int cmp_func_object(const void *, const void *, unsigned long int);
+
 // ci_list_sort
 // file array.c line 752
 void ci_list_sort(struct ci_list *list);
 // ci_list_sort2
 // file array.c line 766
 void ci_list_sort2(struct ci_list *list, signed int (*cmp_func)(const void *, const void *, unsigned long int));
-// ci_list_sort2::cmp_func_object
+
 //
-signed int cmp_func_object(const void *, const void *, unsigned long int);
-// ci_list_sort::1::cmp_func_object
+
+
 //
-signed int cmp_func_object(const void *, const void *, unsigned long int);
+
 // ci_local_cache_destroy
 // file cache.c line 217
 void ci_local_cache_destroy(struct ci_cache *cache);
@@ -1439,15 +1439,15 @@ const void * ci_registry_id_get_item(signed int reg_id, const char *label);
 // ci_registry_id_iterate
 // file registry.c line 135
 signed int ci_registry_id_iterate(signed int reg_id, void *data, signed int (*fn)(void *, const char *, const void *));
-// ci_registry_id_iterate::fn_object
+
 //
-signed int fn_object(void *, const char *, const void *);
+
 // ci_registry_iterate
 // file registry.c line 65
 signed int ci_registry_iterate(const char *name, void *data, signed int (*fn)(void *, const char *, const void *));
-// ci_registry_iterate::fn_object
+
 //
-signed int fn_object(void *, const char *, const void *);
+
 // ci_request_206_origin_body
 // file request_common.c line 436
 signed int ci_request_206_origin_body(struct ci_request *req, unsigned long int offset);
@@ -1661,9 +1661,9 @@ char * ci_str_trim2(char *s);
 // ci_str_vector_iterate
 // file array.c line 461
 void ci_str_vector_iterate(const struct ci_vector *vector, void *data, signed int (*fn)(void *, const char *));
-// ci_str_vector_iterate::fn_object
+
 //
-signed int fn_object(void *, const char *);
+
 // ci_str_vector_search
 // file include/array.h line 549
 const char * ci_str_vector_search(struct ci_vector *vector, const char *item);
@@ -1694,9 +1694,9 @@ signed int ci_thread_cond_init(union anonymous_6 *pcond);
 // ci_thread_create
 // file os/unix/threads.c line 201
 signed int ci_thread_create(unsigned long int *pthread_id, void * (*pfunc)(void *), void *parg);
-// ci_thread_create::pfunc_object
+
 //
-void * pfunc_object(void *);
+
 // ci_thread_join
 // file os/unix/threads.c line 206
 signed int ci_thread_join(unsigned long int thread_id);
@@ -1754,9 +1754,9 @@ void ci_vector_destroy(struct ci_vector *vector);
 // ci_vector_iterate
 // file array.c line 452
 void ci_vector_iterate(const struct ci_vector *vector, void *data, signed int (*fn)(void *, const void *));
-// ci_vector_iterate::fn_object
+
 //
-signed int fn_object(void *, const void *);
+
 // ci_vector_pop
 // file array.c line 427
 void * ci_vector_pop(struct ci_vector *vector);
@@ -1825,7 +1825,7 @@ signed int common_mutex_lock(struct common_mutex *mtx);
 signed int common_mutex_unlock(struct common_mutex *mtx);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_13, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // datatype_cmp
 // file types_ops.c line 330
 signed int datatype_cmp(const void *key1, const void *key2);
@@ -2107,7 +2107,7 @@ extern signed int getaddrinfo(const char *, const char *, struct addrinfo *, str
 extern signed int getnameinfo(struct sockaddr *, unsigned int, char *, unsigned int, char *, unsigned int, signed int);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous_13, unsigned int *);
+extern signed int getsockname(signed int, struct sockaddr *, unsigned int *);
 // gmtime_r
 // file /usr/include/time.h line 249
 extern struct tm * gmtime_r(const signed long int *, struct tm *);
@@ -13791,7 +13791,7 @@ void * ci_object_pool_alloc(signed int id)
     tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr_1 = !(object_pools[(signed long int)id] != ((struct ci_mem_allocator *)NULL)) ? (_Bool)1 : (_Bool)0;
+
   if(tmp_if_expr_1)
   {
     if(CI_DEBUG_LEVEL >= 1)
@@ -13878,7 +13878,7 @@ void ci_object_pool_free(void *ptr)
       tmp_if_expr_2 = (_Bool)1;
 
     else
-      tmp_if_expr_2 = !(object_pools[(signed long int)block->ID] != ((struct ci_mem_allocator *)NULL)) ? (_Bool)1 : (_Bool)0;
+
     if(tmp_if_expr_2)
     {
       if(CI_DEBUG_LEVEL >= 1)

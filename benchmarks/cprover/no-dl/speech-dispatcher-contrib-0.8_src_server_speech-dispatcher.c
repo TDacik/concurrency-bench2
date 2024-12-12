@@ -312,19 +312,19 @@ extern const unsigned short int ** __ctype_b_loc(void);
 extern signed int * __errno_location(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_3, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // add_config_option
 // file configuration.h line 39
 struct configoption_t * add_config_option(struct configoption_t *options, signed int *num_config_options, char *name, signed int type, const char * (*callback)(struct command_t *, void *), void *info, unsigned long int context);
-// add_config_option::callback_object
+
 //
-const char * callback_object(struct command_t *, void *);
+
 // atoi
 // file /usr/include/stdlib.h line 147
 extern signed int atoi(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_3, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bindtextdomain
 // file /usr/include/libintl.h line 86
 extern char * bindtextdomain(const char *, const char *);
@@ -955,9 +955,9 @@ signed int output_stop();
 // output_unlock
 // file output.c line 168
 static void output_unlock(void);
-// p_msg_comp_id_object
+
 //
-signed int p_msg_comp_id_object();
+
 // p_msg_lc_object
 //
 signed int p_msg_lc_object();

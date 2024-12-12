@@ -682,9 +682,9 @@ signed long int _glfwKeySym2Unicode(unsigned long int keysym);
 // _glfwNewThread
 // file x11_thread.c line 45
 void * _glfwNewThread(void *arg);
-// _glfwNewThread::1::threadfun_object
+
 //
-void threadfun_object(void *);
+
 // _glfwOpenBufferStream
 // file ../internal.h line 251
 signed int _glfwOpenBufferStream(struct anonymous_8 *stream, void *data, signed long int size);
@@ -709,9 +709,9 @@ void * _glfwPlatformCreateMutex(void);
 // _glfwPlatformCreateThread
 // file ../internal.h line 187
 signed int _glfwPlatformCreateThread(void (*fun)(void *), void *arg);
-// _glfwPlatformCreateThread::fun_object
+
 //
-void fun_object(void *);
+
 // _glfwPlatformDestroyCond
 // file ../internal.h line 196
 void _glfwPlatformDestroyCond(void *cond);
@@ -1168,9 +1168,9 @@ void * glfwCreateMutex(void);
 // glfwCreateThread
 // file ../include/GL/glfw.h line 485
 signed int glfwCreateThread(void (*fun)(void *), void *arg);
-// glfwCreateThread::fun_object
+
 //
-void fun_object(void *);
+
 // glfwDestroyCond
 // file ../thread.c line 264
 void glfwDestroyCond(void *cond);

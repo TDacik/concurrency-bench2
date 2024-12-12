@@ -297,7 +297,7 @@ extern void _exit(signed int);
 static void about_to_execute(const char * const *argv);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_5, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -315,7 +315,7 @@ extern signed int asprintf(char ** restrict , const char *, ...);
 extern signed int atoi(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_5, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bitmap_alloc
 // file bitmap.c line 43
 unsigned long int * bitmap_alloc(unsigned long int bits);
@@ -399,7 +399,7 @@ void compress_iovec_and_send(signed int csock, struct iovec *iov, signed int cou
 void compress_iovec_and_send_advanced(signed int csock, struct iovec *iov, const unsigned int count, signed int lzo_enabled);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_5, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // copy_disk_data
 // file xnbd_wrapper.c line 108
 static struct _t_disk_data * copy_disk_data(const struct _t_disk_data *source);

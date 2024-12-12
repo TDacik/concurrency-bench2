@@ -537,18 +537,18 @@ void libusb_exit(struct libusb_context *ctx);
 // libusb_fill_bulk_transfer
 // file ../../libusb/libusb.h line 1545
 static inline void libusb_fill_bulk_transfer(struct libusb_transfer *transfer, struct libusb_device_handle *dev_handle, unsigned char endpoint, unsigned char *buffer, signed int length, void (*callback)(struct libusb_transfer *), void *user_data, unsigned int timeout);
-// libusb_fill_bulk_transfer::callback_object
+
 //
-void callback_object(struct libusb_transfer *);
+
 // libusb_fill_control_setup
 // file ../../libusb/libusb.h line 1465
 static inline void libusb_fill_control_setup(unsigned char *buffer, unsigned char bmRequestType, unsigned char bRequest, unsigned short int wValue, unsigned short int wIndex, unsigned short int wLength);
 // libusb_fill_control_transfer
 // file ../../libusb/libusb.h line 1514
 static inline void libusb_fill_control_transfer(struct libusb_transfer *transfer, struct libusb_device_handle *dev_handle, unsigned char *buffer, void (*callback)(struct libusb_transfer *), void *user_data, unsigned int timeout);
-// libusb_fill_control_transfer::callback_object
+
 //
-void callback_object(struct libusb_transfer *);
+
 // libusb_free_bos_descriptor
 // file ../../libusb/descriptor.c line 953
 void libusb_free_bos_descriptor(struct libusb_bos_descriptor *bos);
@@ -684,9 +684,9 @@ void libusb_hotplug_deregister_callback(struct libusb_context *ctx, signed int h
 // libusb_hotplug_register_callback
 // file ../../libusb/hotplug.c line 230
 signed int libusb_hotplug_register_callback(struct libusb_context *ctx, enum anonymous_2 events, enum anonymous_1 flags, signed int vendor_id, signed int product_id, signed int dev_class, signed int (*cb_fn)(struct libusb_context *, struct libusb_device *, enum anonymous_2, void *), void *user_data, signed int *handle);
-// libusb_hotplug_register_callback::cb_fn_object
+
 //
-signed int cb_fn_object(struct libusb_context *, struct libusb_device *, enum anonymous_2, void *);
+
 // libusb_init
 // file ../../libusb/libusb.h line 1303
 signed int libusb_init(struct libusb_context **context);
@@ -735,12 +735,12 @@ signed int libusb_set_interface_alt_setting(struct libusb_device_handle *dev, si
 // libusb_set_pollfd_notifiers
 // file ../../libusb/io.c line 2565
 void libusb_set_pollfd_notifiers(struct libusb_context *ctx, void (*added_cb)(signed int, signed short int, void *), void (*removed_cb)(signed int, void *), void *user_data);
-// libusb_set_pollfd_notifiers::added_cb_object
+
 //
-void added_cb_object(signed int, signed short int, void *);
-// libusb_set_pollfd_notifiers::removed_cb_object
+
+
 //
-void removed_cb_object(signed int, void *);
+
 // libusb_setlocale
 // file ../../libusb/strerror.c line 158
 signed int libusb_setlocale(const char *locale);

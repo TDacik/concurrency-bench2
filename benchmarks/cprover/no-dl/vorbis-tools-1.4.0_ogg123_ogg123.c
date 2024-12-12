@@ -706,33 +706,33 @@ void buffer_action_now(struct buf_t *buf, void (*action_func)(struct buf_t *, vo
 // buffer_action_now::1::1::__cancel_routine_object
 //
 void __cancel_routine_object(void *);
-// buffer_action_now::action_func_object
+
 //
-void action_func_object(struct buf_t *, void *);
+
 // buffer_append_action_at
 // file buffer.c line 747
 void buffer_append_action_at(struct buf_t *buf, void (*action_func)(struct buf_t *, void *), void *action_arg, signed long int position);
 // buffer_append_action_at::1::1::__cancel_routine_object
 //
 void __cancel_routine_object(void *);
-// buffer_append_action_at::action_func_object
+
 //
-void action_func_object(struct buf_t *, void *);
+
 // buffer_append_action_at_end
 // file buffer.c line 704
 void buffer_append_action_at_end(struct buf_t *buf, void (*action_func)(struct buf_t *, void *), void *action_arg);
 // buffer_append_action_at_end::1::1::__cancel_routine_object
 //
 void __cancel_routine_object(void *);
-// buffer_append_action_at_end::action_func_object
+
 //
-void action_func_object(struct buf_t *, void *);
+
 // buffer_create
 // file buffer.c line 396
 struct buf_t * buffer_create(signed long int size, signed long int prebuffer, signed int (*write_func)(void *, signed int, signed int, void *), void *arg, signed int audio_chunk_size);
-// buffer_create::write_func_object
+
 //
-signed int write_func_object(void *, signed int, signed int, void *);
+
 // buffer_destroy
 // file buffer.c line 471
 void buffer_destroy(struct buf_t *buf);
@@ -754,18 +754,18 @@ void buffer_insert_action_at(struct buf_t *buf, void (*action_func)(struct buf_t
 // buffer_insert_action_at::1::1::__cancel_routine_object
 //
 void __cancel_routine_object(void *);
-// buffer_insert_action_at::action_func_object
+
 //
-void action_func_object(struct buf_t *, void *);
+
 // buffer_insert_action_at_end
 // file buffer.c line 682
 void buffer_insert_action_at_end(struct buf_t *buf, void (*action_func)(struct buf_t *, void *), void *action_arg);
 // buffer_insert_action_at_end::1::1::__cancel_routine_object
 //
 void __cancel_routine_object(void *);
-// buffer_insert_action_at_end::action_func_object
+
 //
-void action_func_object(struct buf_t *, void *);
+
 // buffer_mark_eos
 // file buffer.c line 626
 void buffer_mark_eos(struct buf_t *buf);
@@ -1081,9 +1081,9 @@ extern void * malloc(unsigned long int);
 // malloc_action
 // file buffer.c line 110
 struct action_t * malloc_action(void (*action_func)(struct buf_t *, void *), void *action_arg);
-// malloc_action::action_func_object
+
 //
-void action_func_object(struct buf_t *, void *);
+
 // malloc_buffer_stats
 // file buffer.c line 377
 struct buffer_stats_t * malloc_buffer_stats();

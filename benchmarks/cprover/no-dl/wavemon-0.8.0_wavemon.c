@@ -1111,9 +1111,9 @@ extern void sampling_do_poll(void);
 // sampling_init
 // file info_scr.c line 29
 extern void sampling_init(void (*sampling_handler)(signed int));
-// sampling_init::sampling_handler_object
+
 //
-void sampling_handler_object(signed int);
+
 // sampling_stop
 // file iw_if.h line 213
 static inline void sampling_stop(void);
@@ -1396,15 +1396,15 @@ static inline void (*xsignal_link1(signed int signo_link1, void (*handler_link1)
 // xsignal_link2
 // file wavemon.h line 310
 static inline void (*xsignal_link2(signed int signo_link2, void (*handler_link2)(signed int)))(signed int);
-// xsignal::handler_link1_object
+
 //
-void handler_link1_object(signed int);
-// xsignal::handler_link2_object
+
+
 //
-void handler_link2_object(signed int);
-// xsignal::handler_object
+
+
 //
-void handler_object(signed int);
+
 
 struct anonymous_21
 {

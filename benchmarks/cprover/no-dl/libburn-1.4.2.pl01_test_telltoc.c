@@ -279,12 +279,12 @@ static void Cleanup_handler_generic(signed int signum);
 // Cleanup_set_handlers
 // file libburn/cleanup.c line 146
 signed int Cleanup_set_handlers(void *handle, signed int (*handler)(void *, signed int, signed int), signed int flag);
-// Cleanup_set_handlers::1::sig_handler_object
+
 //
-void sig_handler_object(signed int);
-// Cleanup_set_handlers::handler_object
+
+
 //
-signed int handler_object(void *, signed int, signed int);
+
 // Cleanup_signo_to_name
 // file libburn/cleanup.c line 136
 static char * Cleanup_signo_to_name(signed int signo);
@@ -315,9 +315,9 @@ static signed int add_proc_info_drives(signed int flag);
 // add_worker
 // file libburn/async.c line 136
 static void add_worker(signed int w_type, struct burn_drive *d, void * (*f)(void *), union w_list_data *data);
-// add_worker::f_object
+
 //
-void * f_object(void *);
+
 // alarm
 // file /usr/include/unistd.h line 435
 extern unsigned int alarm(unsigned int);
@@ -336,15 +336,15 @@ static signed int burn__split_path(char *adr, char **dpt, char **npt);
 // burn_abort
 // file libburn/drive.c line 2459
 signed int burn_abort(signed int patience, signed int (*pacifier_func)(void *, signed int, signed int), void *handle);
-// burn_abort::pacifier_func_object
+
 //
-signed int pacifier_func_object(void *, signed int, signed int);
+
 // burn_abort_5
 // file libburn/drive.c line 2350
 signed int burn_abort_5(signed int patience, signed int (*pacifier_func)(void *, signed int, signed int), void *handle, signed int elapsed, signed int flag);
-// burn_abort_5::pacifier_func_object
+
 //
-signed int pacifier_func_object(void *, signed int, signed int);
+
 // burn_abort_exit
 // file libburn/init.c line 386
 signed int burn_abort_exit(signed int value);
@@ -861,9 +861,9 @@ signed int burn_get_read_capacity(struct burn_drive *d, signed int *capacity, si
 // burn_get_time
 // file libburn/util.h line 20
 double burn_get_time(signed int flag);
-// burn_global_signal_handler_object
+
 //
-signed int burn_global_signal_handler_object(void *, signed int, signed int);
+
 // burn_grab_prepare_sig_action
 // file libburn/init.h line 59
 signed int burn_grab_prepare_sig_action(signed int *signal_action_mem, signed int flag);
@@ -1098,9 +1098,9 @@ void burn_set_scsi_logging(signed int flag);
 // burn_set_signal_handling
 // file test/../libburn/libburn.h line 3887
 void burn_set_signal_handling(void *handle, signed int (*handler)(void *, signed int, signed int), signed int mode);
-// burn_set_signal_handling::handler_object
+
 //
-signed int handler_object(void *, signed int, signed int);
+
 // burn_set_verbosity
 // file libburn/debug.c line 23
 void burn_set_verbosity(signed int v);
@@ -1392,9 +1392,9 @@ extern void * calloc(unsigned long int, unsigned long int);
 // char_to_isrc
 // file libburn/sector.c line 577
 static char char_to_isrc(char c);
-// cleanup_app_handler_object
+
 //
-signed int cleanup_app_handler_object(void *, signed int, signed int);
+
 // close
 // file /usr/include/unistd.h line 356
 extern signed int close(signed int);

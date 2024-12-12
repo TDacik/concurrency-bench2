@@ -216,9 +216,9 @@ extern signed int dup2(signed int, signed int);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
-// exitfn_object
+
 //
-void exitfn_object(signed int);
+
 // fatal
 // file utils.h line 185
 void fatal(const char *msg, ...);

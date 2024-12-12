@@ -337,7 +337,7 @@ void config_update_range(const char *key, signed int min, signed int max);
 void config_update_string(const char *key, char *string);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_0, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // dump_cpu_infos
 // file dump.c line 63
 void dump_cpu_infos(void);
@@ -463,7 +463,7 @@ extern char * readline(const char *);
 extern void * realloc(void *, unsigned long int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous_0, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // rl_attempted_completion_function_object
 //
 char ** rl_attempted_completion_function_object(const char *, signed int, signed int);

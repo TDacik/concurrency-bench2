@@ -172,13 +172,13 @@ extern const unsigned short int ** __ctype_b_loc(void);
 extern signed int * __errno_location(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_7, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // asctime_r
 // file /usr/include/time.h line 272
 extern char * asctime_r(struct tm *, char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_7, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // buffer_reject_message
 // file proxsmtpd.c line 871
 static void buffer_reject_message(char *data, char *buf, signed int buflen);

@@ -582,7 +582,7 @@ static signed long int _write(signed int fd, const void *buf, unsigned long int 
 extern void abort(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_31, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -612,7 +612,7 @@ static void * binary_search(void *first, void *last, void *key, unsigned long in
 signed int cmp_object(void *, void *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_31, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // block_sighup
 // file logger.c line 130
 static void block_sighup(void);
@@ -666,7 +666,7 @@ signed int conn_tx_off(struct connection *conn);
 signed int conn_tx_on(struct connection *conn);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_31, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // connect_to
 // file net.c line 137
 signed int connect_to(const char *name, signed int port);
@@ -685,18 +685,18 @@ static void crash_handler_link1(signed int signo_link1);
 // create_listen_ports
 // file ../include/net.h line 51
 signed int create_listen_ports(const char *bindaddr, signed int port, signed int (*callback)(signed int, void *), void *data);
-// create_listen_ports::callback_object
+
 //
-signed int callback_object(signed int, void *);
+
 // create_ordered_work_queue
 // file work.c line 440
 struct work_queue * create_ordered_work_queue(const char *name);
 // create_unix_domain_socket
 // file net.c line 536
 signed int create_unix_domain_socket(const char *unix_path, signed int (*callback)(signed int, void *), void *data);
-// create_unix_domain_socket::callback_object
+
 //
-signed int callback_object(signed int, void *);
+
 // create_work_queue
 // file work.c line 404
 struct work_queue * create_work_queue(const char *name, enum wq_thread_control tc);
@@ -997,15 +997,15 @@ signed int writer_object(unsigned long int, void *, unsigned int, unsigned long 
 // install_crash_handler
 // file ../include/util.h line 112
 signed int install_crash_handler(void (*handler)(signed int));
-// install_crash_handler::handler_object
+
 //
-void handler_object(signed int);
+
 // install_sighandler
 // file ../include/util.h line 111
 signed int install_sighandler(signed int signum, void (*handler)(signed int), _Bool once);
-// install_sighandler::handler_object
+
 //
-void handler_object(signed int);
+
 // is_numeric
 // file util.c line 399
 _Bool is_numeric(const char *s);
@@ -1783,9 +1783,9 @@ signed int writer_object(unsigned long int, void *, unsigned int, unsigned long 
 // traverse_btree
 // file sd_inode.c line 139
 extern void traverse_btree(signed int (*reader)(unsigned long int, void **, unsigned int, unsigned long int), struct sd_inode *inode, void (*fn)(void *, enum btree_node_type, void *), void *arg);
-// traverse_btree::fn_object
+
 //
-void fn_object(void *, enum btree_node_type, void *);
+
 // traverse_btree::reader_object
 //
 signed int reader_object(unsigned long int, void **, unsigned int, unsigned long int);

@@ -207,9 +207,9 @@ struct _SMBCCTX * fusesmb_cache_new_context(struct anonymous_0 *cf);
 // fusesmb_context
 // file smbctx.c line 248
 static struct _SMBCCTX * fusesmb_context(void (*fn)(const char *, const char *, char *, signed int, char *, signed int, char *, signed int));
-// fusesmb_context::fn_object
+
 //
-void fn_object(const char *, const char *, char *, signed int, char *, signed int, char *, signed int);
+
 // fusesmb_new_context
 // file smbctx.c line 276
 struct _SMBCCTX * fusesmb_new_context(struct anonymous_0 *cf, union anonymous *mutex);
@@ -231,12 +231,12 @@ extern unsigned long int hash_count(struct hash_t *hash);
 // hash_create
 // file hash.h line 189
 extern struct hash_t * hash_create(unsigned long int hash_maxcount, signed int (*compfun)(const void *, const void *), unsigned long int (*hashfun)(const void *));
-// hash_create::compfun_object
+
 //
-signed int compfun_object(const void *, const void *);
-// hash_create::hashfun_object
+
+
 //
-unsigned long int hashfun_object(const void *);
+
 // hash_delete
 // file hash.c line 590
 extern struct hnode_t * hash_delete(struct hash_t *hash, struct hnode_t *node);
@@ -258,12 +258,12 @@ static unsigned long int hash_fun_default(const void *hash_key);
 // hash_init
 // file hash.c line 398
 extern struct hash_t * hash_init(struct hash_t *hash, unsigned long int hash_maxcount, signed int (*compfun)(const void *, const void *), unsigned long int (*hashfun)(const void *), struct hnode_t **hash_table, unsigned long int hash_nchains);
-// hash_init::compfun_object
+
 //
-signed int compfun_object(const void *, const void *);
-// hash_init::hashfun_object
+
+
 //
-unsigned long int hashfun_object(const void *);
+
 // hash_insert
 // file hash.c line 518
 extern void hash_insert(struct hash_t *hash, struct hnode_t *node, const void *hash_key);

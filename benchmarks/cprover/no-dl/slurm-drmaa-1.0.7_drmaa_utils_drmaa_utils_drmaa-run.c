@@ -532,9 +532,9 @@ struct fsd_exc_try_block_s * fsd_exc_try(const char *function, signed int lineno
 // fsd_exc_try_except
 // file exception.c line 588
 void * fsd_exc_try_except(void * (*f)(void *), void *data, signed int *error_code, char **error_message);
-// fsd_exc_try_except::f_object
+
 //
-void * f_object(void *);
+
 // fsd_exec_async
 // file exec.c line 95
 void fsd_exec_async(const char *command, char **args, signed int *stdin_desc, signed int *stdout_desc, signed int *stderr_desc, signed int *child_pid);
@@ -760,9 +760,9 @@ static void fsd_template_set_v_attr(struct fsd_template_s *self, const char *nam
 // fsd_thread_create
 // file thread.c line 55
 void fsd_thread_create(unsigned long int *thread, void * (*func)(void *), void *arg);
-// fsd_thread_create::func_object
+
 //
-void * func_object(void *);
+
 // fsd_thread_detach
 // file thread.c line 73
 void fsd_thread_detach(unsigned long int th);

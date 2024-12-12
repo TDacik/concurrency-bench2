@@ -702,7 +702,7 @@ static void common_item_command(unsigned char *data, signed int len);
 extern const char * complete_command(const char *command);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_9, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // create_and_rescale_image_from_data
 // file external.h line 69
 extern signed int create_and_rescale_image_from_data(struct Cache_Entry *, signed int, unsigned char *, signed int, signed int);
@@ -1531,9 +1531,9 @@ void send_reply(const char *text);
 // setTextManager
 // file commands.c line 1224
 void setTextManager(signed int type, void (*callback)(signed int, signed int, signed int, char *));
-// setTextManager::callback_object
+
 //
-void callback_object(signed int, signed int, signed int, char *);
+
 // set_autorepeat
 // file ./external.h line 54
 extern void set_autorepeat(const char *);

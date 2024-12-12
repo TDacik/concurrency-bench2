@@ -344,7 +344,7 @@ static inline signed int buf_get_data(struct buffer *buf, struct buffer *data);
 // buf_get_entries
 // file sshfs.c line 806
 static signed int buf_get_entries(struct buffer *buf, struct fuse_cache_dirhandle *h, signed int (*filler)(struct fuse_cache_dirhandle *, const char *, struct stat *));
-// buf_get_entries::filler_object
+
 //
 signed int filler_object(struct fuse_cache_dirhandle *, const char *, struct stat *);
 // buf_get_mem
@@ -535,7 +535,7 @@ extern signed int close(signed int);
 static void close_conn(void);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // connect_remote
 // file sshfs.c line 1685
 static signed int connect_remote(void);
@@ -902,9 +902,9 @@ extern signed long int read(signed int, void *, unsigned long int);
 // read_id_map
 // file sshfs.c line 3677
 static void read_id_map(char *file, unsigned int * (*map_fn)(char *), const char *name_id, struct _GHashTable **idmap, struct _GHashTable **r_idmap);
-// read_id_map::map_fn_object
+
 //
-unsigned int * map_fn_object(char *);
+
 // read_password
 // file sshfs.c line 3463
 static signed int read_password(void);
@@ -989,12 +989,12 @@ static signed int sftp_request_iov(unsigned char type, struct iovec *iov, unsign
 // sftp_request_send
 // file sshfs.c line 1828
 static signed int sftp_request_send(unsigned char type, struct iovec *iov, unsigned long int count, void (*begin_func)(struct request *), void (*end_func)(struct request *), signed int want_reply, void *data, struct request **reqp);
-// sftp_request_send::begin_func_object
+
 //
-void begin_func_object(struct request *);
-// sftp_request_send::end_func_object
+
+
 //
-void end_func_object(struct request *);
+
 // sftp_request_wait
 // file sshfs.c line 1762
 static signed int sftp_request_wait(struct request *req, unsigned char type, unsigned char expect_type, struct buffer *outbuf);

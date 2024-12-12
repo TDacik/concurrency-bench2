@@ -257,9 +257,9 @@ static signed int FindLargestSplittableBlock(unsigned long int llsize, const uns
 // FindMinimum
 // file zopfli/src/zopfli/blocksplitter.c line 43
 static unsigned long int FindMinimum(double (*f)(unsigned long int, void *), void *context, unsigned long int start, unsigned long int end);
-// FindMinimum::f_object
+
 //
-double f_object(unsigned long int, void *);
+
 // FollowPath
 // file zopfli/src/zopfli/squeeze.c line 334
 static void FollowPath(struct ZopfliBlockState *s, const unsigned char *in, unsigned long int instart, unsigned long int inend, unsigned short int *path, unsigned long int pathsize, struct ZopfliLZ77Store *store);
@@ -728,9 +728,9 @@ void my_free_object(void *);
 // my_malloc
 // file yarn.c line 81
 static void * my_malloc(unsigned long int size);
-// my_malloc_f_object
+
 //
-void * my_malloc_f_object(unsigned long int);
+
 // new_lock
 // file yarn.h line 124
 struct lock_s * new_lock(signed long int initial);

@@ -218,9 +218,9 @@ static void abortsignal(signed int i);
 // add_node_attribute
 // file src/luafuncs.c line 176
 static signed int add_node_attribute(struct lua_State *L, const char *funcname, struct NODE * (*callback)(struct NODE *, const char *));
-// add_node_attribute::callback_object
+
 //
-struct NODE * callback_object(struct NODE *, const char *);
+
 // atoi
 // file /usr/include/stdlib.h line 278
 static inline signed int atoi(const char *__nptr);
@@ -260,9 +260,9 @@ void build_stringlist(struct lua_State *L, struct HEAP *heap, struct STRINGLIST 
 // cache_do_dependency
 // file src/cache.c line 333
 signed int cache_do_dependency(struct CONTEXT *context, struct NODE *node, void (*callback)(struct NODE *, struct CACHENODE *, void *), void *user);
-// cache_do_dependency::callback_object
+
 //
-void callback_object(struct NODE *, struct CACHENODE *, void *);
+
 // cache_find_byhash
 // file src/cache.c line 324
 struct CACHENODE * cache_find_byhash(struct CACHE *cache, unsigned int hashid);
@@ -341,9 +341,9 @@ static void debug_print_lua_value(struct lua_State *L, signed int i);
 // deep_walk
 // file src/luafuncs.c line 83
 static void deep_walk(struct lua_State *L, signed int start, signed int stop, void (*callback)(struct lua_State *, void *), void *user);
-// deep_walk::callback_object
+
 //
-void callback_object(struct lua_State *, void *);
+
 // deep_walk_r
 // file src/luafuncs.c line 58
 static void deep_walk_r(struct lua_State *L, signed int table_index);
@@ -356,9 +356,9 @@ static signed int dependency_cpp_do_run(struct CONTEXT *context, struct DEFERRED
 // dependency_cpp_run
 // file src/dep_cpp.c line 132
 static signed int dependency_cpp_run(struct CONTEXT *context, struct NODE *node, signed int (*callback)(struct NODE *, void *, const char *, signed int), void *userdata);
-// dependency_cpp_run::callback_object
+
 //
-signed int callback_object(struct NODE *, void *, const char *, signed int);
+
 // dlclose
 // file /usr/include/dlfcn.h line 60
 extern signed int dlclose(void *);
@@ -500,9 +500,9 @@ signed int lf_loadfile(struct lua_State *L);
 // lf_loadplugin
 // file src/luafuncs.c line 747
 signed int lf_loadplugin(struct lua_State *L);
-// lf_loadplugin::1::func_object
+
 //
-signed int func_object(struct lua_State *);
+
 // lf_mkdir
 // file src/luafuncs.c line 435
 signed int lf_mkdir(struct lua_State *L);
@@ -560,9 +560,9 @@ signed int lf_update_globalstamp(struct lua_State *L);
 // list_directory
 // file src/support.c line 153
 static void list_directory(const char *path, void (*callback)(const char *, signed int, void *), void *user);
-// list_directory::callback_object
+
 //
-void callback_object(const char *, signed int, void *);
+
 // listdir_callback
 // file src/support.c line 449
 static void listdir_callback(const char *filename, signed int dir, void *user);
@@ -803,9 +803,9 @@ void node_set_pseudo(struct NODE *node);
 // node_walk
 // file src/node.h line 223
 signed int node_walk(struct NODE *node, signed int flags, signed int (*callback)(struct NODEWALK *), void *u);
-// node_walk::callback_object
+
 //
-signed int callback_object(struct NODEWALK *);
+
 // node_walk_do_revisits
 // file src/node.c line 356
 static signed int node_walk_do_revisits(struct NODEWALK *walk);
@@ -986,9 +986,9 @@ static signed int table_deepcopy_r(struct lua_State *L);
 // threads_create
 // file src/support.h line 9
 void * threads_create(void (*threadfunc)(void *), void *u);
-// threads_create::threadfunc_object
+
 //
-void threadfunc_object(void *);
+
 // threads_join
 // file src/support.h line 10
 void threads_join(void *thread);

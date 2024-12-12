@@ -415,7 +415,7 @@ extern signed int atoi(const char *);
 extern struct AUTH * authunix_create_default(void);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_19, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bindtextdomain
 // file /usr/include/libintl.h line 86
 extern char * bindtextdomain(const char *, const char *);

@@ -372,7 +372,7 @@ extern signed int _tunlink(const signed int *address);
 extern void _tunsetenv(const signed int *name);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_31, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // addProperty
 // file property.c line 1122
 extern struct Property * addProperty(struct Properties *properties, const signed int *filename, signed int lineNum, const signed int *propertyName, const signed int *propertyValue, signed int finalValue, signed int quotable, signed int escapable, signed int internal);
@@ -387,7 +387,7 @@ void anchorPoll(unsigned int nowTicks);
 void appExit(signed int exitCode, signed int argc, signed int **argv);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_31, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // buildPrintBuffer
 // file logger.c line 1295
 signed int * buildPrintBuffer(signed int source_id, signed int level, signed int threadId, signed int queued, struct tm *nowTM, signed int nowMillis, signed long int durationMillis, const signed int *format, const signed int *defaultFormat, const signed int *message);
@@ -436,9 +436,9 @@ signed int compareFileNames(const signed int *file1, const signed int *file2);
 // configFileReader
 // file wrapper_file.h line 75
 extern signed int configFileReader(const signed int *filename, signed int fileRequired, signed int (*callback)(void *, const signed int *, signed int, signed int *, signed int), void *callbackParam, signed int enableIncludes, signed int preload, const signed int *argCommand, const signed int *originalWorkingDir, struct anonymous_19 *warnedVarMap, signed int logWarnings, signed int logWarningLogLevel, signed int isDebugging);
-// configFileReader::callback_object
+
 //
-signed int callback_object(void *, const signed int *, signed int, signed int *, signed int);
+
 // configFileReader_Read
 // file wrapper_file.c line 114
 signed int configFileReader_Read(struct ConfigFileReader *reader, const signed int *filename, signed int fileRequired, signed int depth, const signed int *parentFilename, signed int parentLineNumber, const signed int *argCommand, const signed int *originalWorkingDir, struct anonymous_19 *warnedVarMap, signed int logWarnings, signed int logWarningLogLevel, signed int isDebugging);

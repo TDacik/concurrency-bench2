@@ -842,9 +842,9 @@ static signed int abi16_ntfy(struct nouveau_object *obj);
 // abi16_object
 // file ../../nouveau/private.h line 117
 _Bool abi16_object(struct nouveau_object *obj, signed int (**func)(struct nouveau_object *));
-// abi16_object::func_object_object
+
 //
-signed int func_object_object(struct nouveau_object *);
+
 // abi16_sclass
 // file ../../nouveau/private.h line 119
 signed int abi16_sclass(struct nouveau_object *obj, struct nouveau_sclass **psclass);
@@ -1715,9 +1715,9 @@ static void nouveau_object_fini(struct nouveau_object *obj);
 // nouveau_object_init
 // file ../../nouveau/nouveau.c line 235
 static signed int nouveau_object_init(struct nouveau_object *parent, unsigned int handle, signed int oclass, void *data, unsigned int size, struct nouveau_object *obj);
-// nouveau_object_init::1::func_object
+
 //
-signed int func_object(struct nouveau_object *);
+
 // nouveau_object_ioctl
 // file ../../nouveau/nouveau.c line 68
 static signed int nouveau_object_ioctl(struct nouveau_object *obj, void *data, unsigned int size);
@@ -1750,10 +1750,10 @@ void nouveau_pushbuf_data(struct nouveau_pushbuf *push, struct nouveau_bo *bo, u
 void nouveau_pushbuf_del(struct nouveau_pushbuf **ppush);
 // nouveau_pushbuf_kick
 // file ../../nouveau/nouveau.h line 228
-signed int nouveau_pushbuf_kick(struct nouveau_pushbuf *push, struct nouveau_object *chan);
+
 // nouveau_pushbuf_new
 // file ../../nouveau/pushbuf.c line 536
-signed int nouveau_pushbuf_new(struct nouveau_client *client, struct nouveau_object *chan, signed int nr, unsigned int size, _Bool immediate, struct nouveau_pushbuf **ppush);
+
 // nouveau_pushbuf_refd
 // file ../../nouveau/pushbuf.c line 757
 unsigned int nouveau_pushbuf_refd(struct nouveau_pushbuf *push, struct nouveau_bo *bo);
@@ -1828,7 +1828,7 @@ static signed int pushbuf_refn(struct nouveau_pushbuf *push, _Bool retry, struct
 static void pushbuf_refn_fail(struct nouveau_pushbuf *push, signed int sref, signed int srel);
 // pushbuf_submit
 // file ../../nouveau/pushbuf.c line 310
-static signed int pushbuf_submit(struct nouveau_pushbuf *push, struct nouveau_object *chan);
+
 // pushbuf_validate
 // file ../../nouveau/pushbuf.c line 485
 static signed int pushbuf_validate(struct nouveau_pushbuf *push, _Bool retry);
@@ -13885,7 +13885,7 @@ void nouveau_pushbuf_del(struct nouveau_pushbuf **ppush)
 
 // nouveau_pushbuf_kick
 // file ../../nouveau/nouveau.h line 228
-signed int nouveau_pushbuf_kick(struct nouveau_pushbuf *push, struct nouveau_object *chan)
+
 {
   signed int return_value_pushbuf_submit_1;
   if(push->channel == ((struct nouveau_object *)NULL))
@@ -13905,7 +13905,7 @@ signed int nouveau_pushbuf_kick(struct nouveau_pushbuf *push, struct nouveau_obj
 
 // nouveau_pushbuf_new
 // file ../../nouveau/pushbuf.c line 536
-signed int nouveau_pushbuf_new(struct nouveau_client *client, struct nouveau_object *chan, signed int nr, unsigned int size, _Bool immediate, struct nouveau_pushbuf **ppush)
+
 {
   struct nouveau_drm *drm;
   drm=nouveau_drm_link1(&client->device->object);
@@ -14596,7 +14596,7 @@ static void pushbuf_refn_fail(struct nouveau_pushbuf *push, signed int sref, sig
 
 // pushbuf_submit
 // file ../../nouveau/pushbuf.c line 310
-static signed int pushbuf_submit(struct nouveau_pushbuf *push, struct nouveau_object *chan)
+
 {
   struct nouveau_pushbuf_priv *nvpb;
   nvpb=nouveau_pushbuf(push);

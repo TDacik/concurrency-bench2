@@ -328,7 +328,7 @@ extern signed int _IO_putc(signed int, struct _IO_FILE *);
 extern void __assert_fail(const char *, const char *, unsigned int, const char *);
 // __builtin_huge_vall
 // file tcrdb.c line 2525 function tcrdbatof
-signed int __builtin_huge_vall(void);
+signed signed int __builtin_huge_vall();
 // __errno_location
 // file /usr/include/x86_64-linux-gnu/bits/errno.h line 50
 extern signed int * __errno_location(void);
@@ -391,7 +391,7 @@ signed int _tt_dummyfunc(void);
 signed int _tt_dummyfuncv(signed int a, ...);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_15, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // aio_error
 // file /usr/include/aio.h line 156
 extern signed int aio_error(struct aiocb *);
@@ -406,7 +406,7 @@ extern signed int aio_suspend(struct aiocb * const *, signed int, struct timespe
 extern signed int aio_write(struct aiocb *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_15, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // chdir
 // file /usr/include/unistd.h line 497
 extern signed int chdir(const char *);
@@ -415,7 +415,7 @@ extern signed int chdir(const char *);
 extern signed int close(signed int);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_15, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // dup2
 // file /usr/include/unistd.h line 534
 extern signed int dup2(signed int, signed int);

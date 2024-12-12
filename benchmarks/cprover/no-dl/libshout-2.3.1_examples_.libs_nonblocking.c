@@ -349,9 +349,9 @@ static void _mutex_unlock(struct anonymous_31 *mutex);
 // _shout_avl_delete
 // file avl.c line 351
 signed int _shout_avl_delete(struct _avl_tree *tree, void *key, signed int (*free_key_fun)(void *));
-// _shout_avl_delete::free_key_fun_object
+
 //
-signed int free_key_fun_object(void *);
+
 // _shout_avl_get_by_index
 // file avl.c line 299
 signed int _shout_avl_get_by_index(struct _avl_tree *tree, unsigned long int index, void **value_address);
@@ -385,15 +385,15 @@ signed int _shout_avl_insert(struct _avl_tree *ob, void *key);
 // _shout_avl_iterate_index_range
 // file avl.c line 728
 signed int _shout_avl_iterate_index_range(struct _avl_tree *tree, signed int (*iter_fun)(unsigned long int, void *, void *), unsigned long int low, unsigned long int high, void *iter_arg);
-// _shout_avl_iterate_index_range::iter_fun_object
+
 //
-signed int iter_fun_object(unsigned long int, void *, void *);
+
 // _shout_avl_iterate_inorder
 // file avl.c line 652
 signed int _shout_avl_iterate_inorder(struct _avl_tree *tree, signed int (*iter_fun)(void *, void *), void *iter_arg);
-// _shout_avl_iterate_inorder::iter_fun_object
+
 //
-signed int iter_fun_object(void *, void *);
+
 // _shout_avl_node_new
 // file avl.c line 42
 struct avl_node_tag * _shout_avl_node_new(void *key, struct avl_node_tag *parent);
@@ -406,15 +406,15 @@ signed int key_printer_object(char *, void *);
 // _shout_avl_tree_free
 // file avl.c line 107
 void _shout_avl_tree_free(struct _avl_tree *tree, signed int (*free_key_fun)(void *));
-// _shout_avl_tree_free::free_key_fun_object
+
 //
-signed int free_key_fun_object(void *);
+
 // _shout_avl_tree_new
 // file avl.c line 65
 struct _avl_tree * _shout_avl_tree_new(signed int (*compare_fun)(void *, void *, void *), void *compare_arg);
-// _shout_avl_tree_new::compare_fun_object
+
 //
-signed int compare_fun_object(void *, void *, void *);
+
 // _shout_avl_tree_rlock
 // file avl.c line 1164
 void _shout_avl_tree_rlock(struct _avl_tree *tree);
@@ -687,7 +687,7 @@ void * start_routine_object(void *);
 extern void abort(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_14, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // atoi
 // file /usr/include/stdlib.h line 147
 extern signed int atoi(const char *);
@@ -697,15 +697,15 @@ static struct avl_node_tag * avl_get_index_by_key(struct _avl_tree *tree, void *
 // avl_iterate_inorder_helper
 // file avl.c line 627
 static signed int avl_iterate_inorder_helper(struct avl_node_tag *node, signed int (*iter_fun)(void *, void *), void *iter_arg);
-// avl_iterate_inorder_helper::iter_fun_object
+
 //
-signed int iter_fun_object(void *, void *);
+
 // avl_tree_free_helper
 // file avl.c line 90
 static void avl_tree_free_helper(struct avl_node_tag *node, signed int (*free_key_fun)(void *));
-// avl_tree_free_helper::free_key_fun_object
+
 //
-signed int free_key_fun_object(void *);
+
 // avl_verify_balance
 // file avl.c line 995
 static signed long int avl_verify_balance(struct avl_node_tag *node);
@@ -717,7 +717,7 @@ static void avl_verify_parent(struct avl_node_tag *node, struct avl_node_tag *pa
 static signed long int avl_verify_rank(struct avl_node_tag *node);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_14, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -738,7 +738,7 @@ static void close_webm(struct shout *self);
 static signed int collect_queue(struct _shout_buf *queue, char **buf);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_14, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // create_http_request
 // file shout.c line 1111
 static signed int create_http_request(struct shout *self);

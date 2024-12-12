@@ -693,9 +693,9 @@ struct variable_container * VariableContainer_new(signed int variable_num, const
 // VariableContainer_register_callback
 // file variable-container.h line 83
 void VariableContainer_register_callback(struct variable_container *object, void (*callback)(void *, signed int, const char *, const char *, const char *), void *userdata);
-// VariableContainer_register_callback::callback_object
+
 //
-void callback_object(void *, signed int, const char *, const char *, const char *);
+
 // __assert_fail
 // file /usr/include/assert.h line 69
 extern void __assert_fail(const char *, const char *, unsigned int, const char *);
@@ -1152,9 +1152,9 @@ extern void * memcpy(void *, const void *, unsigned long int);
 // memset
 // file /usr/include/string.h line 66
 extern void * memset(void *, signed int, unsigned long int);
-// meta_update_callback__object
+
 //
-void meta_update_callback__object(struct SongMetaData *);
+
 // minimum
 // file webserver.c line 193
 static inline signed int minimum(signed int a, signed int b);
@@ -1203,9 +1203,9 @@ static signed int output_gstreamer_pause(void);
 // output_gstreamer_play
 // file output_gstreamer.c line 183
 static signed int output_gstreamer_play(void (*callback)(enum PlayFeedback));
-// output_gstreamer_play::callback_object
+
 //
-void callback_object(enum PlayFeedback);
+
 // output_gstreamer_seek
 // file output_gstreamer.c line 219
 static signed int output_gstreamer_seek(signed long int position_nanos);
@@ -1218,9 +1218,9 @@ static void output_gstreamer_set_next_uri(const char *uri);
 // output_gstreamer_set_uri
 // file output_gstreamer.c line 174
 static void output_gstreamer_set_uri(const char *uri, void (*meta_cb)(struct SongMetaData *));
-// output_gstreamer_set_uri::meta_cb_object
+
 //
-void meta_cb_object(struct SongMetaData *);
+
 // output_gstreamer_set_volume
 // file output_gstreamer.c line 455
 static signed int output_gstreamer_set_volume(float value);
@@ -1239,9 +1239,9 @@ signed int output_pause(void);
 // output_play
 // file output.h line 51
 signed int output_play(void (*transition_callback)(enum PlayFeedback));
-// output_play::transition_callback_object
+
 //
-void transition_callback_object(enum PlayFeedback);
+
 // output_seek
 // file output.h line 55
 signed int output_seek(signed long int position_nanos);
@@ -1254,9 +1254,9 @@ void output_set_next_uri(const char *uri);
 // output_set_uri
 // file output.h line 48
 void output_set_uri(const char *uri, void (*meta_cb)(struct SongMetaData *));
-// output_set_uri::meta_cb_object
+
 //
-void meta_cb_object(struct SongMetaData *);
+
 // output_set_volume
 // file output.h line 58
 signed int output_set_volume(float value);
@@ -1275,9 +1275,9 @@ extern void perror(const char *);
 // play
 // file upnp_transport.c line 887
 static signed int play(struct action_event *event);
-// play_trans_callback__object
+
 //
-void play_trans_callback__object(enum PlayFeedback);
+
 // prepare_for_connection
 // file upnp_connmgr.c line 318
 static signed int prepare_for_connection(struct action_event *event);
@@ -1446,9 +1446,9 @@ void upnp_control_init(struct upnp_device *device);
 // upnp_control_register_variable_listener
 // file upnp_control.h line 32
 void upnp_control_register_variable_listener(void (*cb)(void *, signed int, const char *, const char *, const char *), void *userdata);
-// upnp_control_register_variable_listener::cb_object
+
 //
-void cb_object(void *, signed int, const char *, const char *, const char *);
+
 // upnp_create_device_desc
 // file upnp_device.h line 80
 char * upnp_create_device_desc(struct upnp_device_descriptor *device_def);
@@ -1494,9 +1494,9 @@ void upnp_transport_init(struct upnp_device *device);
 // upnp_transport_register_variable_listener
 // file upnp_transport.h line 37
 void upnp_transport_register_variable_listener(void (*cb)(void *, signed int, const char *, const char *, const char *), void *userdata);
-// upnp_transport_register_variable_listener::cb_object
+
 //
-void cb_object(void *, signed int, const char *, const char *, const char *);
+
 // usleep
 // file /usr/include/unistd.h line 460
 extern signed int usleep(unsigned int);
@@ -4530,7 +4530,7 @@ signed int VariableContainer_change(struct variable_container *object, signed in
 {
   _Bool tmp_if_expr_1;
   if(var_num >= 0)
-    tmp_if_expr_1 = var_num < object->variable_num ? (_Bool)1 : (_Bool)0;
+
 
   else
     tmp_if_expr_1 = (_Bool)0;
@@ -4550,7 +4550,7 @@ signed int VariableContainer_change(struct variable_container *object, signed in
     char *new_value;
     new_value=strdup(value);
     object->values[(signed long int)var_num] = new_value;
-    struct cb_list *it = object->callbacks;
+
     if(!(it == ((struct cb_list *)NULL)))
     {
       it->callback(it->userdata, var_num, object->variable_names[(signed long int)var_num], old_value, new_value);
@@ -4570,7 +4570,7 @@ void VariableContainer_delete(struct variable_container *object)
   for( ; !(i >= object->variable_num); i = i + 1)
     free((void *)object->values[(signed long int)i]);
   free((void *)object->values);
-  struct cb_list *list = object->callbacks;
+
   while(!(list == ((struct cb_list *)NULL)))
   {
     struct cb_list *next = list->next;
@@ -4589,7 +4589,7 @@ const char * VariableContainer_get(struct variable_container *object, signed int
     tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr_1 = var >= object->variable_num ? (_Bool)1 : (_Bool)0;
+
   char *tmp_if_expr_2;
   if(tmp_if_expr_1)
     return (const char *)(void *)0;
@@ -4601,7 +4601,7 @@ const char * VariableContainer_get(struct variable_container *object, signed int
       *name = varname;
 
     if(!(varname == ((const char *)NULL)))
-      tmp_if_expr_2 = object->values[(signed long int)var];
+
 
     else
       tmp_if_expr_2 = (char *)(void *)0;

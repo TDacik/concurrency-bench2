@@ -212,9 +212,9 @@ const union _Babl * babl_component(const char *name);
 // babl_component_class_for_each
 // file babl-component.c line 145
 void babl_component_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_component_class_for_each::each_fun_object
+
 //
-signed int each_fun_object(union _Babl *, void *);
+
 // babl_component_db
 // file babl-component.h line 25
 struct _BablDb * babl_component_db(void);
@@ -230,9 +230,9 @@ const union _Babl * babl_conversion(const char *name);
 // babl_conversion_class_for_each
 // file babl-conversion.c line 551
 void babl_conversion_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_conversion_class_for_each::each_fun_object
+
 //
-signed int each_fun_object(union _Babl *, void *);
+
 // babl_conversion_cost
 // file babl-conversion.c line 434
 signed long int babl_conversion_cost(struct BablConversion *conversion);
@@ -293,9 +293,9 @@ static signed int babl_db_destroy(void *data);
 // babl_db_each
 // file babl-db.h line 49
 void babl_db_each(struct _BablDb *db, signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_db_each::each_fun_object
+
 //
-signed int each_fun_object(union _Babl *, void *);
+
 // babl_db_exist
 // file babl-db.h line 61
 union _Babl * babl_db_exist(struct _BablDb *db, signed int id, const char *name);
@@ -341,9 +341,9 @@ void destroy_object(void);
 // babl_extension_class_for_each
 // file babl-extension.c line 365
 void babl_extension_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_extension_class_for_each::each_fun_object
+
 //
-signed int each_fun_object(union _Babl *, void *);
+
 // babl_extension_db
 // file babl-extension.h line 25
 struct _BablDb * babl_extension_db(void);
@@ -380,9 +380,9 @@ const union _Babl * babl_fish(const void *source, const void *destination);
 // babl_fish_class_for_each
 // file babl-fish.c line 266
 void babl_fish_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_fish_class_for_each::each_fun_object
+
 //
-signed int each_fun_object(union _Babl *, void *);
+
 // babl_fish_db
 // file babl-fish.h line 25
 struct _BablDb * babl_fish_db(void);
@@ -422,9 +422,9 @@ const union _Babl * babl_format(const char *name);
 // babl_format_class_for_each
 // file babl-format.h line 22
 void babl_format_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_format_class_for_each::each_fun_object
+
 //
-signed int each_fun_object(union _Babl *, void *);
+
 // babl_format_db
 // file babl-format.h line 22
 struct _BablDb * babl_format_db(void);
@@ -530,18 +530,18 @@ static signed int babl_hash_table_destroy(void *data);
 // babl_hash_table_find
 // file babl-hash-table.h line 63
 union _Babl * babl_hash_table_find(struct _BablHashTable *htab, signed int hash, signed int (*find_func)(union _Babl *, void *), void *data);
-// babl_hash_table_find::find_func_object
+
 //
-signed int find_func_object(union _Babl *, void *);
+
 // babl_hash_table_init
 // file babl-hash-table.h line 44
 struct _BablHashTable * babl_hash_table_init(signed int (*hfunc)(struct _BablHashTable *, union _Babl *), signed int (*ffunc)(union _Babl *, void *));
-// babl_hash_table_init::ffunc_object
+
 //
-signed int ffunc_object(union _Babl *, void *);
-// babl_hash_table_init::hfunc_object
+
+
 //
-signed int hfunc_object(struct _BablHashTable *, union _Babl *);
+
 // babl_hash_table_insert
 // file babl-hash-table.h line 59
 signed int babl_hash_table_insert(struct _BablHashTable *htab, union _Babl *item);
@@ -578,9 +578,9 @@ static signed int babl_list_destroy(void *data);
 // babl_list_each
 // file babl-list.h line 59
 void babl_list_each(struct _BablList *list, signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_list_each::each_fun_object
+
 //
-signed int each_fun_object(union _Babl *, void *);
+
 // babl_list_init
 // file babl-list.c line 29
 struct _BablList * babl_list_init(void);
@@ -602,9 +602,9 @@ const union _Babl * babl_model(const char *name);
 // babl_model_class_for_each
 // file babl-model.h line 22
 void babl_model_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_model_class_for_each::each_fun_object
+
 //
-signed int each_fun_object(union _Babl *, void *);
+
 // babl_model_create_name
 // file babl-model.c line 40
 static char * babl_model_create_name(signed int components, struct anonymous_1 **component);
@@ -683,9 +683,9 @@ const union _Babl * babl_sampling(signed int horizontal, signed int vertical);
 // babl_sampling_class_for_each
 // file babl-sampling.h line 22
 void babl_sampling_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_sampling_class_for_each::each_fun_object
+
 //
-signed int each_fun_object(union _Babl *, void *);
+
 // babl_sampling_class_init
 // file babl-sampling.h line 33
 void babl_sampling_class_init(void);
@@ -734,9 +734,9 @@ const union _Babl * babl_type(const char *name);
 // babl_type_class_for_each
 // file babl-type.h line 22
 void babl_type_class_for_each(signed int (*each_fun)(union _Babl *, void *), void *user_data);
-// babl_type_class_for_each::each_fun_object
+
 //
-signed int each_fun_object(union _Babl *, void *);
+
 // babl_type_db
 // file babl-type.h line 22
 struct _BablDb * babl_type_db(void);
@@ -1010,9 +1010,9 @@ extern signed int fprintf(struct _IO_FILE *, const char *, ...);
 // free
 // file /usr/include/stdlib.h line 483
 extern void free(void *);
-// free_f_object
+
 //
-void free_f_object(void *);
+
 // frexp
 // file /usr/include/x86_64-linux-gnu/bits/mathcalls.h line 103
 extern double frexp(double, signed int *);
@@ -1130,9 +1130,9 @@ static struct BablPalette * make_pal(const union _Babl *format, const void *data
 // malloc
 // file /usr/include/stdlib.h line 466
 extern void * malloc(unsigned long int);
-// malloc_f_object
+
 //
-void * malloc_f_object(unsigned long int);
+
 // match_conversion
 // file babl-fish.c line 102
 static signed int match_conversion(union _Babl *conversion, void *inout);

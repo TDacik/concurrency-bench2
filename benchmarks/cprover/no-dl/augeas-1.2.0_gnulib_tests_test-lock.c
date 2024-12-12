@@ -246,9 +246,9 @@ static const char * gl_locale_name_thread_unsafe_link1(signed int category_link1
 // gl_thread_create
 // file glthread/thread.h line 364
 static inline unsigned long int gl_thread_create(void * (*func)(void *), void *arg);
-// gl_thread_create::func_object
+
 //
-void * func_object(void *);
+
 // glthread_once_singlethreaded
 // file glthread/lock.h line 369
 extern signed int glthread_once_singlethreaded(signed int *once_control);

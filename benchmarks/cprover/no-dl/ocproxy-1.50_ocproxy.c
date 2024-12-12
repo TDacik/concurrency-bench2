@@ -557,9 +557,9 @@ void * list_first(struct list *list);
 // list_map
 // file contrib/ports/unix/netif/list.c line 144
 void list_map(struct list *list, void (*func)(void *));
-// list_map::func_object
+
 //
-void func_object(void *);
+
 // list_new
 // file contrib/ports/unix/netif/list.c line 41
 struct list * list_new(signed int size);
@@ -632,10 +632,10 @@ extern void * memset(void *, signed int, unsigned long int);
 // netif_add
 // file lwip/src/core/netif.c line 174
 struct netif * netif_add(struct netif *netif, struct ip_addr *ipaddr, struct ip_addr *netmask, struct ip_addr *gw, void *state, signed char (*init)(struct netif *), signed char (*input)(struct pbuf *, struct netif *));
-// netif_add::init_object
+
 //
 signed char init_object(struct netif *);
-// netif_add::input_object
+
 //
 signed char input_object(struct pbuf *, struct netif *);
 // netif_find
@@ -680,15 +680,15 @@ static void new_conn_cb(struct evconnlistener *listener, signed int fd, struct s
 // new_listener
 // file src/ocproxy.c line 822
 static struct ocp_sock * new_listener(signed int port, void (*cb)(struct evconnlistener *, signed int, struct sockaddr *, signed int, void *));
-// new_listener::cb_object
+
 //
-void cb_object(struct evconnlistener *, signed int, struct sockaddr *, signed int, void *);
+
 // new_periodic_event
 // file src/ocproxy.c line 741
 static void new_periodic_event(void (*cb)(signed int, signed short int, void *), void *arg, signed int timeout_ms);
-// new_periodic_event::cb_object
+
 //
-void cb_object(signed int, signed short int, void *);
+
 // ocp_atoi
 // file src/ocproxy.c line 221
 static signed int ocp_atoi(const char *s);
@@ -698,9 +698,9 @@ static void ocp_sock_del(struct ocp_sock *s);
 // ocp_sock_new
 // file src/ocproxy.c line 230
 static struct ocp_sock * ocp_sock_new(signed int fd, void (*cb)(signed int, signed short int, void *), signed int flags);
-// ocp_sock_new::cb_object
+
 //
-void cb_object(signed int, signed short int, void *);
+
 // pbuf_alloc
 // file ./lwip/src/include/lwip/pbuf.h line 153
 struct pbuf * pbuf_alloc(enum anonymous layer, unsigned short int length, enum anonymous_0 type);
@@ -950,30 +950,30 @@ void function_object(void *);
 // sys_timeout
 // file lwip/src/core/timers.c line 325
 void sys_timeout(unsigned int msecs, void (*handler)(void *), void *arg);
-// sys_timeout::handler_object
+
 //
-void handler_object(void *);
+
 // sys_timeouts_init
 // file ./lwip/src/include/lwip/timers.h line 77
 void sys_timeouts_init(void);
 // sys_timeouts_mbox_fetch
 // file lwip/src/core/timers.c line 498
 void sys_timeouts_mbox_fetch(struct sys_mbox **mbox, void **msg);
-// sys_timeouts_mbox_fetch::1::handler_object
+
 //
-void handler_object(void *);
+
 // sys_untimeout
 // file lwip/src/core/timers.c line 396
 void sys_untimeout(void (*handler)(void *), void *arg);
-// sys_untimeout::handler_object
+
 //
-void handler_object(void *);
+
 // tcp_abandon
 // file lwip/src/core/tcp.c line 360
 void tcp_abandon(struct tcp_pcb *pcb, signed int reset);
-// tcp_abandon::1::errf_object
+
 //
-void errf_object(void *, signed char);
+
 // tcp_abort
 // file ./lwip/src/include/lwip/tcp.h line 375
 void tcp_abort(struct tcp_pcb *pcb);
@@ -1157,9 +1157,9 @@ signed char tcp_shutdown(struct tcp_pcb *pcb, signed int shut_rx, signed int shu
 // tcp_slowtmr
 // file lwip/src/core/tcp.c line 835
 void tcp_slowtmr(void);
-// tcp_slowtmr::1::2::14::err_fn_object
+
 //
-void err_fn_object(void *, signed char);
+
 // tcp_timer_needed
 // file ./lwip/src/include/lwip/tcp_impl.h line 529
 void tcp_timer_needed(void);
@@ -1190,7 +1190,7 @@ void tcpdump_init(void);
 // tcpip_callback_with_block
 // file ./lwip/src/include/lwip/tcpip.h line 154
 signed char tcpip_callback_with_block(void (*function)(void *), void *ctx, unsigned char block);
-// tcpip_callback_with_block::function_object
+
 //
 void function_object(void *);
 // tcpip_callbackmsg_delete
@@ -1205,9 +1205,9 @@ void function_object(void *);
 // tcpip_init
 // file lwip/src/api/tcpip.c line 510
 void tcpip_init(void (*initfunc)(void *), void *arg);
-// tcpip_init::initfunc_object
+
 //
-void initfunc_object(void *);
+
 // tcpip_init_done_object
 //
 void tcpip_init_done_object(void *);

@@ -980,7 +980,7 @@ extern void config_parse(const signed int argc, char ** const argv);
 extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // connect_nb
 // file pound.h line 574
-extern signed int connect_nb(const signed int sockfd, struct addrinfo *serv_addr, const signed int to);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // copy_bin
 // file http.c line 111
 static signed int copy_bin(struct bio_st * const cl, struct bio_st * const be, signed long long int cont, signed long long int *res_bytes, const signed int no_write);

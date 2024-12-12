@@ -557,9 +557,9 @@ extern signed int execvp(const char *, char * const *);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
-// fatal_msg_handler_object
+
 //
-void fatal_msg_handler_object(const char *);
+
 // fcntl
 // file /usr/include/fcntl.h line 137
 extern signed int fcntl(signed int, signed int, ...);
@@ -785,21 +785,21 @@ void iv_fd_set_cloexec(signed int fd);
 // iv_fd_set_handler_err
 // file ../../../src/iv_fd.c line 387
 void iv_fd_set_handler_err(struct iv_fd *_fd, void (*handler_err)(void *));
-// iv_fd_set_handler_err::handler_err_object
+
 //
-void handler_err_object(void *);
+
 // iv_fd_set_handler_in
 // file ../../../src/iv_fd.c line 359
 void iv_fd_set_handler_in(struct iv_fd *_fd, void (*handler_in)(void *));
-// iv_fd_set_handler_in::handler_in_object
+
 //
-void handler_in_object(void *);
+
 // iv_fd_set_handler_out
 // file ../../../src/iv_fd.c line 373
 void iv_fd_set_handler_out(struct iv_fd *_fd, void (*handler_out)(void *));
-// iv_fd_set_handler_out::handler_out_object
+
 //
-void handler_out_object(void *);
+
 // iv_fd_set_nonblock
 // file ../../../src/iv_fd_private.h line 119
 void iv_fd_set_nonblock(signed int fd);
@@ -971,9 +971,9 @@ void iv_run_timers(struct iv_state *st);
 // iv_set_fatal_msg_handler
 // file ../../../src/iv_fatal.c line 60
 void iv_set_fatal_msg_handler(void (*handler)(const char *));
-// iv_set_fatal_msg_handler::handler_object
+
 //
-void handler_object(const char *);
+
 // iv_signal_event
 // file ../../../src/iv_signal.c line 161
 static void iv_signal_event(void *_this);
@@ -1097,9 +1097,9 @@ void iv_wait_interest_register(struct iv_wait_interest *this);
 // iv_wait_interest_register_spawn
 // file ../../../src/include/iv_wait.h line 52
 signed int iv_wait_interest_register_spawn(struct iv_wait_interest *this, void (*fn)(void *), void *cookie);
-// iv_wait_interest_register_spawn::fn_object
+
 //
-void fn_object(void *);
+
 // iv_wait_interest_unregister
 // file ../../../src/include/iv_wait.h line 54
 void iv_wait_interest_unregister(struct iv_wait_interest *this);

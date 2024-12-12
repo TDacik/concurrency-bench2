@@ -263,9 +263,9 @@ signed int _gpgrt_fclose(struct _gpgrt__stream *stream);
 // _gpgrt_fclose_snatch
 // file ../../src/estream.c line 3408
 signed int _gpgrt_fclose_snatch(struct _gpgrt__stream *stream, void **r_buffer, unsigned long int *r_buflen);
-// _gpgrt_fclose_snatch::1::1::func_ioctl_object
+
 //
-signed int func_ioctl_object(void *, signed int, void *, unsigned long int *);
+
 // _gpgrt_fdopen
 // file ../../src/estream.c line 3075
 struct _gpgrt__stream * _gpgrt_fdopen(signed int filedes, const char *mode);
@@ -404,12 +404,12 @@ void * _gpgrt_malloc(unsigned long int n);
 // _gpgrt_mopen
 // file ../../src/estream.c line 2896
 struct _gpgrt__stream * _gpgrt_mopen(void * restrict data, unsigned long int data_n, unsigned long int data_len, unsigned int grow, void * (*func_realloc)(void *, unsigned long int), void (*func_free)(void *), const char * restrict mode);
-// _gpgrt_mopen::func_free_object
+
 //
-void func_free_object(void *);
-// _gpgrt_mopen::func_realloc_object
+
+
 //
-void * func_realloc_object(void *, unsigned long int);
+
 // _gpgrt_onclose
 // file ../../src/estream.c line 3478
 signed int _gpgrt_onclose(struct _gpgrt__stream *stream, signed int mode, void (*fnc)(struct _gpgrt__stream *, void *), void *fnc_value);
@@ -449,18 +449,18 @@ void _gpgrt_rewind(struct _gpgrt__stream *stream);
 // _gpgrt_set_alloc_func
 // file ../../src/init.c line 161
 void _gpgrt_set_alloc_func(void * (*f)(void *, unsigned long int));
-// _gpgrt_set_alloc_func::f_object
+
 //
-void * f_object(void *, unsigned long int);
+
 // _gpgrt_set_binary
 // file ../../src/estream.c line 4394
 void _gpgrt_set_binary(struct _gpgrt__stream *stream);
 // _gpgrt_set_nonblock
 // file ../../src/estream.c line 4440
 signed int _gpgrt_set_nonblock(struct _gpgrt__stream *stream, signed int onoff);
-// _gpgrt_set_nonblock::1::func_ioctl_object
+
 //
-signed int func_ioctl_object(void *, signed int, void *, unsigned long int *);
+
 // _gpgrt_set_std_fd
 // file ../../src/visibility.c line 271
 void _gpgrt_set_std_fd(signed int no, signed int fd);
@@ -530,15 +530,15 @@ static signed int check_pending(struct _gpgrt__stream * restrict stream);
 // check_pending_fbf
 // file ../../src/estream.c line 2125
 static signed int check_pending_fbf(struct _gpgrt__stream * restrict stream);
-// check_pending_fbf::1::func_read_object
+
 //
-signed long int func_read_object(void *, void *, unsigned long int);
+
 // check_pending_nbf
 // file ../../src/estream.c line 2062
 static signed int check_pending_nbf(struct _gpgrt__stream * restrict stream);
-// check_pending_nbf::1::func_read_object
+
 //
-signed long int func_read_object(void *, void *, unsigned long int);
+
 // close
 // file /usr/include/unistd.h line 353
 extern signed int close(signed int);
@@ -620,24 +620,24 @@ static signed int es_create(struct _gpgrt__stream **stream, void *cookie, struct
 // es_deinitialize
 // file ../../src/estream.c line 1878
 static signed int es_deinitialize(struct _gpgrt__stream *stream);
-// es_deinitialize::1::func_close_object
+
 //
-signed int func_close_object(void *);
+
 // es_empty
 // file ../../src/estream.c line 1824
 static void es_empty(struct _gpgrt__stream *stream);
 // es_fill
 // file ../../src/estream.c line 1690
 static signed int es_fill(struct _gpgrt__stream *stream);
-// es_fill::1::2::func_read_object
+
 //
-signed long int func_read_object(void *, void *, unsigned long int);
+
 // es_flush
 // file ../../src/estream.c line 1745
 static signed int es_flush(struct _gpgrt__stream *stream);
-// es_flush::1::func_write_object
+
 //
-signed long int func_write_object(void *, const void *, unsigned long int);
+
 // es_func_fd_destroy
 // file ../../src/estream.c line 1051
 static signed int es_func_fd_destroy(void *cookie);
@@ -701,18 +701,18 @@ static signed int es_read_lbf(struct _gpgrt__stream * restrict stream, unsigned 
 // es_read_nbf
 // file ../../src/estream.c line 2024
 static signed int es_read_nbf(struct _gpgrt__stream * restrict stream, unsigned char * restrict buffer, unsigned long int bytes_to_read, unsigned long int * restrict bytes_read);
-// es_read_nbf::1::func_read_object
+
 //
-signed long int func_read_object(void *, void *, unsigned long int);
+
 // es_readn
 // file ../../src/estream.c line 2161
 static signed int es_readn(struct _gpgrt__stream * restrict stream, void * restrict buffer_arg, unsigned long int bytes_to_read, unsigned long int * restrict bytes_read);
 // es_seek
 // file ../../src/estream.c line 2280
 static signed int es_seek(struct _gpgrt__stream * restrict stream, signed long int offset, signed int whence, signed long int * restrict offset_new);
-// es_seek::1::func_seek_object
+
 //
-signed int func_seek_object(void *, signed long int *, signed int);
+
 // es_set_buffering
 // file ../../src/estream.c line 2746
 static signed int es_set_buffering(struct _gpgrt__stream * restrict stream, char * restrict buffer, signed int mode, unsigned long int size);
@@ -731,9 +731,9 @@ static signed int es_write_lbf(struct _gpgrt__stream * restrict stream, const un
 // es_write_nbf
 // file ../../src/estream.c line 2347
 static signed int es_write_nbf(struct _gpgrt__stream * restrict stream, const unsigned char * restrict buffer, unsigned long int bytes_to_write, unsigned long int * restrict bytes_written);
-// es_write_nbf::1::func_write_object
+
 //
-signed long int func_write_object(void *, const void *, unsigned long int);
+
 // es_writen
 // file ../../src/estream.c line 2473
 static signed int es_writen(struct _gpgrt__stream * restrict stream, const void * restrict buffer, unsigned long int bytes_to_write, unsigned long int * restrict bytes_written);
@@ -794,12 +794,12 @@ static signed int func_fp_create(void **cookie, struct _IO_FILE *fp, unsigned in
 // func_mem_create
 // file ../../src/estream.c line 594
 static signed int func_mem_create(void * restrict * restrict cookie, unsigned char * restrict data, unsigned long int data_n, unsigned long int data_len, unsigned long int block_size, unsigned int grow, void * (*func_realloc)(void *, unsigned long int), void (*func_free)(void *), unsigned int modeflags, unsigned long int memory_limit);
-// func_mem_create::func_free_object
+
 //
-void func_free_object(void *);
-// func_mem_create::func_realloc_object
+
+
 //
-void * func_realloc_object(void *, unsigned long int);
+
 // funlockfile
 // file /usr/include/stdio.h line 919
 extern void funlockfile(struct _IO_FILE *);
@@ -1004,12 +1004,12 @@ enum anonymous_2 gpgrt_lock_unlock(struct anonymous_6 *lockhd);
 // gpgrt_mopen
 // file ../../src/visibility.c line 152
 struct _gpgrt__stream * gpgrt_mopen(void * restrict data, unsigned long int data_n, unsigned long int data_len, unsigned int grow, void * (*func_realloc)(void *, unsigned long int), void (*func_free)(void *), const char * restrict mode);
-// gpgrt_mopen::func_free_object
+
 //
-void func_free_object(void *);
-// gpgrt_mopen::func_realloc_object
+
+
 //
-void * func_realloc_object(void *, unsigned long int);
+
 // gpgrt_onclose
 // file ../../src/visibility.c line 240
 signed int gpgrt_onclose(struct _gpgrt__stream *stream, signed int mode, void (*fnc)(struct _gpgrt__stream *, void *), void *fnc_value);
@@ -1043,9 +1043,9 @@ void gpgrt_rewind(struct _gpgrt__stream *stream);
 // gpgrt_set_alloc_func
 // file ../../src/visibility.c line 100
 void gpgrt_set_alloc_func(void * (*f)(void *, unsigned long int));
-// gpgrt_set_alloc_func::f_object
+
 //
-void * f_object(void *, unsigned long int);
+
 // gpgrt_set_binary
 // file ../../src/visibility.c line 590
 void gpgrt_set_binary(struct _gpgrt__stream *stream);
@@ -1202,9 +1202,9 @@ extern signed int pipe(signed int *);
 // plain_stdio_out
 // file ../../src/estream-printf.c line 1627
 static signed int plain_stdio_out(void *outfncarg, const char *buf, unsigned long int buflen);
-// post_syscall_func_object
+
 //
-void post_syscall_func_object(void);
+
 // pr_bytes_so_far
 // file ../../src/estream-printf.c line 1292
 static signed int pr_bytes_so_far(signed int (*outfnc)(void *, const char *, unsigned long int), void *outfncarg, struct argspec_s *arg, union anonymous_16 value, unsigned long int *nbytes);
@@ -1241,9 +1241,9 @@ static signed int pr_string(signed int (*outfnc)(void *, const char *, unsigned 
 // pr_string::outfnc_object
 //
 signed int outfnc_object(void *, const char *, unsigned long int);
-// pre_syscall_func_object
+
 //
-void pre_syscall_func_object(void);
+
 // print_writer
 // file ../../src/estream.c line 2717
 static signed int print_writer(void *outfncarg, const char *buf, unsigned long int buflen);

@@ -1341,13 +1341,13 @@ _Bool __sync_bool_compare_and_swap();
 extern char * __xpg_basename(char *);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_17, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // asprintf
 // file /usr/include/stdio.h line 405
 extern signed int asprintf(char ** restrict , const char *, ...);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_17, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // chdir
 // file /usr/include/unistd.h line 497
 extern signed int chdir(const char *);
@@ -1408,9 +1408,9 @@ static void cli_file_writef(signed int fd, const char *fmt, ...);
 // cli_find_files
 // file src/cli.c line 730
 static void cli_find_files(const char *path, void (*cb)(char *, struct dirent *));
-// cli_find_files::cb_object
+
 //
-void cb_object(char *, struct dirent *);
+
 // cli_generate_certs
 // file src/cli.c line 767
 static void cli_generate_certs(void);
@@ -1435,9 +1435,9 @@ static void cli_run_kore(void *arg);
 // cli_spawn_proc
 // file src/cli.c line 1001
 static void cli_spawn_proc(void (*cb)(void *), void *arg);
-// cli_spawn_proc::cb_object
+
 //
-void cb_object(void *);
+
 // cli_vasprintf
 // file src/cli.c line 1027
 static signed int cli_vasprintf(char **out, const char *fmt, ...);
@@ -1738,9 +1738,9 @@ void http_process(void);
 // http_process_request
 // file src/http.c line 262
 void http_process_request(struct http_request *req, signed int retry_only);
-// http_process_request::1::cb_object
+
 //
-signed int cb_object(struct http_request *);
+
 // http_request_free
 // file src/http.c line 350
 void http_request_free(struct http_request *req);
@@ -1771,9 +1771,9 @@ static void http_response_spdy(struct http_request *req, struct connection *c, s
 // http_response_stream
 // file src/http.c line 478
 void http_response_stream(struct http_request *req, signed int status, void *base, unsigned long int len, signed int (*cb)(struct netbuf *), void *arg);
-// http_response_stream::cb_object
+
 //
-signed int cb_object(struct netbuf *);
+
 // http_state_run
 // file src/http.c line 1040
 signed int http_state_run(struct http_state *states, unsigned char elm, struct http_request *req);
@@ -2137,9 +2137,9 @@ char * kore_time_to_date(signed long int now);
 // kore_timer_add
 // file src/timer.c line 31
 struct kore_timer * kore_timer_add(void (*cb)(void *, unsigned long int, unsigned long int), unsigned long int interval, void *arg, signed int flags);
-// kore_timer_add::cb_object
+
 //
-void cb_object(void *, unsigned long int, unsigned long int);
+
 // kore_timer_init
 // file src/timer.c line 25
 void kore_timer_init(void);
@@ -2221,9 +2221,9 @@ void kore_worker_wait(signed int final);
 // kore_worker_websocket_broadcast
 // file includes/kore.h line 406
 void kore_worker_websocket_broadcast(struct connection *src, void (*cb)(struct connection *, void *), void *args);
-// kore_worker_websocket_broadcast::cb_object
+
 //
-void cb_object(struct connection *, void *);
+
 // kore_write_kore_pid
 // file src/kore.c line 371
 static void kore_write_kore_pid(void);
@@ -2278,24 +2278,24 @@ signed int net_read_ssl(struct connection *c, signed int *bytes);
 // net_recv_expand
 // file src/net.c line 165
 void net_recv_expand(struct connection *c, unsigned int len, signed int (*cb)(struct netbuf *));
-// net_recv_expand::cb_object
+
 //
-signed int cb_object(struct netbuf *);
+
 // net_recv_flush
 // file includes/kore.h line 534
 signed int net_recv_flush(struct connection *c);
 // net_recv_queue
 // file includes/kore.h line 542
 void net_recv_queue(struct connection *c, unsigned int len, signed int flags, signed int (*cb)(struct netbuf *));
-// net_recv_queue::cb_object
+
 //
-signed int cb_object(struct netbuf *);
+
 // net_recv_reset
 // file includes/kore.h line 539
 void net_recv_reset(struct connection *c, unsigned int len, signed int (*cb)(struct netbuf *));
-// net_recv_reset::cb_object
+
 //
-signed int cb_object(struct netbuf *);
+
 // net_remove_netbuf
 // file src/net.c line 276
 void net_remove_netbuf(struct netbuf_head *list, struct netbuf *nb);
@@ -2311,9 +2311,9 @@ void net_send_queue(struct connection *c, void *data, unsigned int len, struct s
 // net_send_stream
 // file includes/kore.h line 548
 void net_send_stream(struct connection *c, void *data, unsigned int len, struct spdy_stream *s, signed int (*cb)(struct netbuf *), struct netbuf **out);
-// net_send_stream::cb_object
+
 //
-signed int cb_object(struct netbuf *);
+
 // net_write
 // file src/net.c line 358
 signed int net_write(struct connection *c, signed int len, signed int *written);
@@ -2515,9 +2515,9 @@ static void spdy_enable_write(struct connection *c);
 // spdy_frame_recv
 // file includes/kore.h line 567
 signed int spdy_frame_recv(struct netbuf *nb);
-// spdy_frame_recv::1::cb_object
+
 //
-signed int cb_object(struct netbuf *);
+
 // spdy_frame_send
 // file includes/kore.h line 570
 void spdy_frame_send(struct connection *c, unsigned short int type, unsigned char flags, unsigned int len, struct spdy_stream *s, unsigned int misc);

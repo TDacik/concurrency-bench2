@@ -570,9 +570,9 @@ extern void * lt_dlsym(struct lt__handle *, const char *);
 // module_add_config_option
 // file module_utils.h line 214
 struct configoption_t * module_add_config_option(struct configoption_t *options, signed int *num_options, char *name, signed int type, const char * (*callback)(struct command_t *, void *), void *info, unsigned long int context);
-// module_add_config_option::callback_object
+
 //
-const char * callback_object(struct command_t *, void *);
+
 // module_audio_init
 // file module_utils.c line 947
 signed int module_audio_init(char **status_info);
@@ -792,9 +792,9 @@ const char * spd_audio_get_playcmd(struct anonymous_1 *id);
 // spd_audio_open
 // file spd_audio.c line 93
 struct anonymous_1 * spd_audio_open(char *name, void **pars, char **error);
-// spd_audio_open::1::fn_object
+
 //
-struct spd_audio_plugin * fn_object(void);
+
 // spd_audio_play
 // file spd_audio.c line 174
 signed int spd_audio_play(struct anonymous_1 *id, struct anonymous_6 track, enum anonymous_7 format);

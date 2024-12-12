@@ -1037,7 +1037,7 @@ extern void _exit(signed int);
 extern void abort(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_2, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // acceptCheck
 // file stone.c line 4279
 signed int acceptCheck(struct _Pair *pair1);
@@ -1085,7 +1085,7 @@ signed int baseEncode(unsigned char *buf, signed int len, signed int max);
 extern void bcopy(const void *, void *, unsigned long int);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_2, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bzero
 // file /usr/include/string.h line 458
 extern void bzero(void *, unsigned long int);
@@ -1115,7 +1115,7 @@ signed int commOutput(struct _Pair *pair, char *fmt, ...);
 static char * comm_match(char *buf, char *str);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_2, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // connected
 // file stone.c line 3699
 void connected(struct _Pair *pair);
@@ -1304,7 +1304,7 @@ signed int getident(char *str, struct sockaddr *sa, unsigned int salen, signed i
 extern signed int getnameinfo(struct sockaddr *, unsigned int, char *, unsigned int, char *, unsigned int, signed int);
 // getpeername
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 141
-extern signed int getpeername(signed int, union anonymous_2, unsigned int *);
+extern signed int getpeername(signed int, struct sockaddr *, unsigned int *);
 // getpid
 // file /usr/include/unistd.h line 628
 extern signed int getpid(void);
@@ -1316,7 +1316,7 @@ signed int getport(struct sockaddr *sa);
 extern signed int getpwuid_r(unsigned int, struct passwd *, char *, unsigned long int, struct passwd ** restrict );
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous_2, unsigned int *);
+extern signed int getsockname(signed int, struct sockaddr *, unsigned int *);
 // getsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 219
 extern signed int getsockopt(signed int, signed int, signed int, void *, unsigned int *);
@@ -1610,7 +1610,7 @@ void recvStoneUDP(struct _Stone *stone);
 struct _PktBuf * recvUDP(struct _Stone *stone);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous_2, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // regcomp
 // file /usr/include/regex.h line 562
 extern signed int regcomp(struct re_pattern_buffer *, const char *, signed int);
@@ -1682,7 +1682,7 @@ static signed int sendPairUDPbuf(struct _Stone *stone, struct _Pair *pair, char 
 signed int sendUDP(struct _PktBuf *pb);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_2, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // setbuf
 // file /usr/include/stdio.h line 332
 extern void setbuf(struct _IO_FILE *, char *);

@@ -959,7 +959,7 @@ extern void * realloc(void *, unsigned long int);
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
 extern signed int select(signed int, struct anonymous_10 *, struct anonymous_10 *, struct anonymous_10 *, struct timeval *);
@@ -971,7 +971,7 @@ extern signed long int send(signed int, const void *, unsigned long int, signed 
 static signed int send_data(struct _lo_address *a, struct _lo_server *from, char *data, const unsigned long int data_len);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // setsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 226
 extern signed int setsockopt(signed int, signed int, signed int, const void *, unsigned int);

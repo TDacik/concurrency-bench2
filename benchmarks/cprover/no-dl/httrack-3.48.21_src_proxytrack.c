@@ -354,9 +354,9 @@ void PT_Element_Delete(struct _PT_Element **pentry);
 // PT_EnumCache
 // file proxy/store.c line 624
 signed int PT_EnumCache(struct _PT_Indexes *indexes, signed int (*callback)(void *, const char *, struct _PT_Element *), void *arg);
-// PT_EnumCache::callback_object
+
 //
-signed int callback_object(void *, const char *, struct _PT_Element *);
+
 // PT_Enumerate
 // file proxy/store.h line 98
 char ** PT_Enumerate(struct _PT_Indexes *indexes, const char *url, signed int subtree);
@@ -1023,12 +1023,12 @@ extern signed int getpid(void);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
 extern signed int getsockname(signed int, struct sockaddr *, unsigned int *);
-// global_assert_handler_object
+
 //
-void global_assert_handler_object(void *, const char *, const char *, signed int);
-// global_log_handler_object
+
+
 //
-void global_log_handler_object(void *, enum coucal_loglevel, const char *, void **);
+
 // gmtime
 // file /usr/include/time.h line 239
 extern struct tm * gmtime(const signed long int *);
@@ -1196,7 +1196,7 @@ extern void * realloc(void *, unsigned long int);
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // remove
 // file /usr/include/stdio.h line 178
 extern signed int remove(const char *);
@@ -1211,7 +1211,7 @@ extern signed int select(signed int, struct anonymous_12 *, struct anonymous_12 
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // set_filetime
 // file proxy/proxytrack.h line 378
 static signed int set_filetime(const char *file, struct tm *tm_time);

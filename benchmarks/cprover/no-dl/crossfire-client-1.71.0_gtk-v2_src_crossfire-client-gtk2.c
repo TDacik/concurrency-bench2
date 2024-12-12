@@ -1729,7 +1729,7 @@ extern void config_init(struct _GtkWidget *window_root);
 static void configure_keys(unsigned int keysym);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_48, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // create_and_rescale_image_from_data
 // file image.c line 293
 extern signed int create_and_rescale_image_from_data(struct Cache_Entry *ce, signed int pixmap_num, unsigned char *rgba_data, signed int width, signed int height);
@@ -4202,9 +4202,9 @@ void send_reply(const char *text);
 // setTextManager
 // file ../../common/proto.h line 16
 void setTextManager(signed int type, void (*callback)(signed int, signed int, signed int, char *));
-// setTextManager::callback_object
+
 //
-void callback_object(signed int, signed int, signed int, char *);
+
 // set_autorepeat
 // file info.c line 1309
 extern void set_autorepeat(const char *s);
@@ -23928,7 +23928,7 @@ extern void inventory_get_styles(void)
     if(!(tmp_style == ((struct _GtkStyle *)NULL)))
     {
       void *return_value_g_object_ref_2;
-      return_value_g_object_ref_2=g_object_ref((void *)tmp_style);
+
       inv_styles[(signed long int)i] = (struct _GtkStyle *)return_value_g_object_ref_2;
     }
 
@@ -39503,7 +39503,7 @@ extern void spell_get_styles(void)
     if(!(tmp_style == ((struct _GtkStyle *)NULL)))
     {
       void *return_value_g_object_ref_2;
-      return_value_g_object_ref_2=g_object_ref((void *)tmp_style);
+
       spell_styles[(signed long int)i] = (struct _GtkStyle *)return_value_g_object_ref_2;
     }
 

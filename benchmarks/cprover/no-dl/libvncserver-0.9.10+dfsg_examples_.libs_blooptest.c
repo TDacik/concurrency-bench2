@@ -1318,9 +1318,9 @@ void gnutls_transport_set_ptr(struct gnutls_session_int *, void *);
 // handleMessage
 // file tightvnc-filetransfer/rfbtightserver.c line 373
 static signed char handleMessage(struct _rfbClientRec *cl, const char *messageName, void (*handler)(struct _rfbClientRec *, struct _rfbTightClientRec *));
-// handleMessage::handler_object
+
 //
-void handler_object(struct _rfbClientRec *, struct _rfbTightClientRec *);
+
 // htonl
 // file /usr/include/netinet/in.h line 377
 extern unsigned int htonl(unsigned int);
@@ -1569,7 +1569,7 @@ static signed char rectSwapIfLEAndClip(unsigned short int *x, unsigned short int
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // rename
 // file /usr/include/stdio.h line 180
 extern signed int rename(const char *, const char *);

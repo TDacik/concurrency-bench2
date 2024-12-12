@@ -509,9 +509,9 @@ void ipv4_print(struct IPv4Route *route, void *f);
 // ipv4_traverse
 // file ocatipv4route.c line 120
 void ipv4_traverse(struct IPv4Route *route, void (*func)(struct IPv4Route *, void *), void *p);
-// ipv4_traverse::func_object
+
 //
-void func_object(struct IPv4Route *, void *);
+
 // ipv6_add_route
 // file ocatipv6route.c line 83
 signed int ipv6_add_route(const struct IPv6Route *route);
@@ -731,9 +731,9 @@ signed int action_accept_object(signed int);
 // run_ocat_thread
 // file ocat.h line 586
 signed int run_ocat_thread(const char *name, void * (*thfunc)(void *), void *parm);
-// run_ocat_thread::thfunc_object
+
 //
-void * thfunc_object(void *);
+
 // search_peer
 // file ocat.h line 610
 struct OcatPeer * search_peer(struct in6_addr *addr);

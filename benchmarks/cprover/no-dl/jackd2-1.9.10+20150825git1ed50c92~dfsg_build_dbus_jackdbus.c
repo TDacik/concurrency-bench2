@@ -1041,9 +1041,9 @@ signed int jack_disconnect(struct _jack_client *, const char *, const char *);
 // jack_error
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/control.h line 597
 void jack_error(const char *, ...);
-// jack_error_callback_object
+
 //
-void jack_error_callback_object(const char *);
+
 // jack_get_buffer_size
 // file /srv/jenkins-slave/workspace/sid-goto-cc-jackd2/jackd2-1.9.10+20150825git1ed50c92~dfsg/common/jack/jack.h line 683
 unsigned int jack_get_buffer_size(struct _jack_client *);
@@ -1098,15 +1098,15 @@ _Bool jack_params_is_leaf_container(struct _jack_params *params, const char * co
 // jack_params_iterate_container
 // file ../dbus/params.c line 599
 _Bool jack_params_iterate_container(struct _jack_params *params, const char * const *address, _Bool (*callback)(void *, const char *), void *context);
-// jack_params_iterate_container::callback_object
+
 //
-_Bool callback_object(void *, const char *);
+
 // jack_params_iterate_params
 // file ../dbus/params.c line 637
 _Bool jack_params_iterate_params(struct _jack_params *params, const char * const *address, _Bool (*callback)(void *, struct jack_parameter *), void *context);
-// jack_params_iterate_params::callback_object
+
 //
-_Bool callback_object(void *, struct jack_parameter *);
+
 // jack_params_set_driver
 // file ../dbus/params.h line 87
 _Bool jack_params_set_driver(struct _jack_params *params, const char *name);
@@ -1425,9 +1425,9 @@ extern signed int pthread_mutexattr_settype(union anonymous_6 *, signed int);
 // rd_acquire
 // file ../dbus/reserve.h line 57
 signed int rd_acquire(struct rd_device **_d, struct DBusConnection *connection, const char *device_name, const char *application_name, signed int priority, signed int (*request_cb)(struct rd_device *, signed int), struct DBusError *error);
-// rd_acquire::request_cb_object
+
 //
-signed int request_cb_object(struct rd_device *, signed int);
+
 // rd_get_userdata
 // file ../dbus/reserve.c line 670
 void * rd_get_userdata(struct rd_device *d);

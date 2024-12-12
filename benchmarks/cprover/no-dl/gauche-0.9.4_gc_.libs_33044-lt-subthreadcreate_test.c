@@ -788,9 +788,9 @@ void GC_default_push_other_roots(void);
 // GC_default_same_obj_print_proc
 // file ptr_chck.c line 21
 void GC_default_same_obj_print_proc(void *p, void *q);
-// GC_default_stop_func_object
+
 //
-signed int GC_default_stop_func_object(void);
+
 // GC_default_warn_proc
 // file misc.c line 1590
 void GC_default_warn_proc(char *msg, unsigned long int arg);
@@ -1118,9 +1118,9 @@ extern void (*GC_get_start_callback(void))(void);
 // GC_get_stop_func
 // file alloc.c line 158
 extern signed int (*GC_get_stop_func(void))(void);
-// GC_get_stop_func::1::stop_func_object
+
 //
-signed int stop_func_object(void);
+
 // GC_get_suspend_signal
 // file ./include/private/../gc.h line 1259
 extern signed int GC_get_suspend_signal(void);
@@ -1445,12 +1445,12 @@ void GC_null_finalize_mark_proc(char *p);
 // GC_number_stack_black_listed
 // file blacklst.c line 262
 unsigned long int GC_number_stack_black_listed(struct hblk *start, struct hblk *endp1);
-// GC_old_bus_handler_object
+
 //
-void GC_old_bus_handler_object(signed int, struct anonymous_10 *, void *);
-// GC_old_segv_handler_object
+
+
 //
-void GC_old_segv_handler_object(signed int, struct anonymous_10 *, void *);
+
 // GC_on_abort_object
 //
 void GC_on_abort_object(const char *);
@@ -1643,9 +1643,9 @@ void GC_rebuild_root_index(void);
 // GC_reclaim_all
 // file ./include/private/gc_priv.h line 1790
 signed int GC_reclaim_all(signed int (*stop_func)(void), signed int ignore_old);
-// GC_reclaim_all::stop_func_object
+
 //
-signed int stop_func_object(void);
+
 // GC_reclaim_block
 // file reclaim.c line 374
 void GC_reclaim_block(struct hblk *hbp, unsigned long int report_if_found);
@@ -1709,9 +1709,9 @@ signed int GC_register_dynamic_libraries_dl_iterate_phdr(void);
 // GC_register_dynlib_callback
 // file dyn_load.c line 469
 signed int GC_register_dynlib_callback(struct dl_phdr_info *info, unsigned long int size, void *ptr);
-// GC_register_dynlib_callback::1::1::1::1::2::callback_object
+
 //
-signed int callback_object(const char *, void *, unsigned long int);
+
 // GC_register_finalizer
 // file ./include/private/../gc.h line 914
 extern void GC_register_finalizer(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
@@ -1766,9 +1766,9 @@ extern void GC_register_finalizer_unreachable(void *obj, void (*fn)(void *, void
 // GC_register_has_static_roots_callback
 // file dyn_load.c line 1503
 extern void GC_register_has_static_roots_callback(signed int (*callback)(const char *, void *, unsigned long int));
-// GC_register_has_static_roots_callback::callback_object
+
 //
-signed int callback_object(const char *, void *, unsigned long int);
+
 // GC_register_long_link
 // file finalize.c line 267
 extern signed int GC_register_long_link(void **link, const void *obj);
@@ -1946,9 +1946,9 @@ extern void GC_set_start_callback(void (*fn)(void));
 // GC_set_stop_func
 // file alloc.c line 149
 extern void GC_set_stop_func(signed int (*stop_func)(void));
-// GC_set_stop_func::stop_func_object
+
 //
-signed int stop_func_object(void);
+
 // GC_set_suspend_signal
 // file pthread_stop_world.c line 153
 extern void GC_set_suspend_signal(signed int sig);
@@ -2024,9 +2024,9 @@ void GC_stop_world(void);
 // GC_stopped_mark
 // file alloc.c line 586
 signed int GC_stopped_mark(signed int (*stop_func)(void));
-// GC_stopped_mark::stop_func_object
+
 //
-signed int stop_func_object(void);
+
 // GC_store_debug_info
 // file dbg_mlc.c line 279
 char * GC_store_debug_info(char *p, unsigned long int sz, const char *string, signed int linenum);
@@ -2063,21 +2063,21 @@ signed int GC_timeout_stop_func(void);
 // GC_try_to_collect
 // file alloc.c line 1000
 extern signed int GC_try_to_collect(signed int (*stop_func)(void));
-// GC_try_to_collect::stop_func_object
+
 //
-signed int stop_func_object(void);
+
 // GC_try_to_collect_general
 // file alloc.c line 964
 signed int GC_try_to_collect_general(signed int (*stop_func)(void), signed int force_unmap);
-// GC_try_to_collect_general::stop_func_object
+
 //
-signed int stop_func_object(void);
+
 // GC_try_to_collect_inner
 // file alloc.c line 411
 signed int GC_try_to_collect_inner(signed int (*stop_func)(void));
-// GC_try_to_collect_inner::stop_func_object
+
 //
-signed int stop_func_object(void);
+
 // GC_typed_mark_proc
 // file typd_mlc.c line 381
 struct GC_ms_entry * GC_typed_mark_proc(unsigned long int *addr, struct GC_ms_entry *mark_stack_ptr, struct GC_ms_entry *mark_stack_limit, unsigned long int env);
@@ -2135,9 +2135,9 @@ signed int GC_write(signed int fd, const char *buf, unsigned long int len);
 // GC_write_fault_handler
 // file os_dep.c line 3124
 void GC_write_fault_handler(signed int sig, struct anonymous_10 *si, void *raw_sc);
-// GC_write_fault_handler::1::1::1::old_handler_object
+
 //
-void old_handler_object(signed int, struct anonymous_10 *, void *);
+
 // __assert_fail
 // file /usr/include/assert.h line 69
 extern void __assert_fail(const char *, const char *, unsigned int, const char *);
@@ -2282,12 +2282,12 @@ extern void * mmap(void *, unsigned long int, signed int, signed int, signed int
 // mprotect
 // file /usr/include/x86_64-linux-gnu/sys/mman.h line 81
 extern signed int mprotect(void *, unsigned long int, signed int);
-// old_bus_handler_object
+
 //
-void old_bus_handler_object(signed int);
-// old_segv_handler_object
+
+
 //
-void old_segv_handler_object(signed int);
+
 // open
 // file /usr/include/fcntl.h line 146
 extern signed int open(const char *, signed int, ...);

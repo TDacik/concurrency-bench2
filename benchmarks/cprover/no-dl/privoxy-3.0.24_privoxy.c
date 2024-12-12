@@ -341,7 +341,7 @@ extern signed int abs(signed int);
 extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // accept_connection
 // file jbsockets.c line 1191
-extern signed int accept_connection(struct client_state *csp, signed int *fds);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -401,7 +401,7 @@ extern signed int atoi(const char *);
 extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bind_port
 // file jbsockets.c line 837
-extern signed int bind_port(const char *hostnam, signed int portnum, signed int *pfd);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bind_port_helper
 // file jcc.c line 3772
 static signed int bind_port_helper(const char *haddr, signed int hport);
@@ -689,13 +689,13 @@ static enum privoxy_err compile_url_pattern(struct pattern_spec *url, char *buf)
 extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // connect_port_is_forbidden
 // file filters.c line 521
-extern signed int connect_port_is_forbidden(struct client_state *csp);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // connect_to
 // file jbsockets.h line 45
-extern signed int connect_to(const char *host, signed int portnum, struct client_state *csp);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // connection_destination_matches
 // file gateway.c line 359
-extern signed int connection_destination_matches(struct reusable_connection *connection, struct http_request *http, struct forward_spec *fwd);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // content_filters_enabled
 // file filters.c line 2708
 extern signed int content_filters_enabled(struct current_action_spec *action);
@@ -1557,9 +1557,9 @@ static char * section_target(const unsigned int sectionid);
 // sed
 // file parsers.h line 59
 extern enum privoxy_err sed(struct client_state *csp, signed int filter_server_headers);
-// sed::1::f_object_object
+
 //
-enum privoxy_err f_object_object(struct client_state *);
+
 // select
 // file /usr/include/x86_64-linux-gnu/sys/select.h line 106
 extern signed int select(signed int, struct anonymous_13 *, struct anonymous_13 *, struct anonymous_13 *, struct timeval *);

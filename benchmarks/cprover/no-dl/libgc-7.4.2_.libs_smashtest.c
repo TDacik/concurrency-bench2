@@ -420,9 +420,9 @@ extern void GC_allow_register_threads(void);
 // GC_apply_to_all_blocks
 // file ./include/private/gc_priv.h line 1542
 void GC_apply_to_all_blocks(void (*fn)(struct hblk *, unsigned long int), unsigned long int client_data);
-// GC_apply_to_all_blocks::fn_object
+
 //
-void fn_object(struct hblk *, unsigned long int);
+
 // GC_approx_sp
 // file ./include/private/gc_priv.h line 1538
 char * GC_approx_sp(void);
@@ -474,21 +474,21 @@ char * GC_build_fl_clear4(struct hblk *h, char *ofl);
 // GC_call_with_alloc_lock
 // file misc.c line 1814
 extern void * GC_call_with_alloc_lock(void * (*fn)(void *), void *client_data);
-// GC_call_with_alloc_lock::fn_object
+
 //
-void * fn_object(void *);
+
 // GC_call_with_gc_active
 // file pthread_support.c line 1244
 extern void * GC_call_with_gc_active(void * (*fn)(void *), void *client_data);
-// GC_call_with_gc_active::fn_object
+
 //
-void * fn_object(void *);
+
 // GC_call_with_stack_base
 // file misc.c line 1829
 extern void * GC_call_with_stack_base(void * (*fn)(struct GC_stack_base *, void *), void *arg);
-// GC_call_with_stack_base::fn_object
+
 //
-void * fn_object(struct GC_stack_base *, void *);
+
 // GC_calloc_explicitly_typed
 // file typd_mlc.c line 658
 extern void * GC_calloc_explicitly_typed(unsigned long int n, unsigned long int lb, unsigned long int d);
@@ -579,21 +579,21 @@ void * GC_core_finalized_malloc(unsigned long int lb, struct GC_finalizer_closur
 // GC_core_gcj_malloc
 // file gcj_mlc.c line 159
 void * GC_core_gcj_malloc(unsigned long int lb, void *ptr_to_struct_containing_descr);
-// GC_core_gcj_malloc::1::1::2::1::oom_fn_object
+
 //
-void * oom_fn_object(unsigned long int);
-// GC_core_gcj_malloc::1::2::2::oom_fn_object
+
+
 //
-void * oom_fn_object(unsigned long int);
+
 // GC_core_malloc
 // file malloc.c line 257
 void * GC_core_malloc(unsigned long int lb);
 // GC_core_malloc_atomic
 // file malloc.c line 227
 void * GC_core_malloc_atomic(unsigned long int lb);
-// GC_current_warn_proc_object
+
 //
-void GC_current_warn_proc_object(char *, unsigned long int);
+
 // GC_debug_change_stubborn
 // file dbg_mlc.c line 667
 extern void GC_debug_change_stubborn(const void *p);
@@ -606,9 +606,9 @@ extern void GC_debug_free(void *p);
 // GC_debug_gcj_malloc
 // file gcj_mlc.c line 209
 extern void * GC_debug_gcj_malloc(unsigned long int lb, void *ptr_to_struct_containing_descr, const char *s, signed int i);
-// GC_debug_gcj_malloc::1::2::oom_fn_object
+
 //
-void * oom_fn_object(unsigned long int);
+
 // GC_debug_invoke_finalizer
 // file dbg_mlc.c line 1065
 void GC_debug_invoke_finalizer(void *obj, void *data);
@@ -651,51 +651,51 @@ extern void GC_debug_register_displacement(unsigned long int offset);
 // GC_debug_register_finalizer
 // file dbg_mlc.c line 1098
 extern void GC_debug_register_finalizer(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
-// GC_debug_register_finalizer::1::my_old_fn_object
+
 //
-void my_old_fn_object(void *, void *);
-// GC_debug_register_finalizer::fn_object
+
+
 //
-void fn_object(void *, void *);
-// GC_debug_register_finalizer::ofn_object_object
+
+
 //
-void ofn_object_object(void *, void *);
+
 // GC_debug_register_finalizer_ignore_self
 // file dbg_mlc.c line 1185
 extern void GC_debug_register_finalizer_ignore_self(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
-// GC_debug_register_finalizer_ignore_self::1::my_old_fn_object
+
 //
-void my_old_fn_object(void *, void *);
-// GC_debug_register_finalizer_ignore_self::fn_object
+
+
 //
-void fn_object(void *, void *);
-// GC_debug_register_finalizer_ignore_self::ofn_object_object
+
+
 //
-void ofn_object_object(void *, void *);
+
 // GC_debug_register_finalizer_no_order
 // file dbg_mlc.c line 1127
 extern void GC_debug_register_finalizer_no_order(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
-// GC_debug_register_finalizer_no_order::1::my_old_fn_object
+
 //
-void my_old_fn_object(void *, void *);
-// GC_debug_register_finalizer_no_order::fn_object
+
+
 //
-void fn_object(void *, void *);
-// GC_debug_register_finalizer_no_order::ofn_object_object
+
+
 //
-void ofn_object_object(void *, void *);
+
 // GC_debug_register_finalizer_unreachable
 // file dbg_mlc.c line 1156
 extern void GC_debug_register_finalizer_unreachable(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
-// GC_debug_register_finalizer_unreachable::1::my_old_fn_object
+
 //
-void my_old_fn_object(void *, void *);
-// GC_debug_register_finalizer_unreachable::fn_object
+
+
 //
-void fn_object(void *, void *);
-// GC_debug_register_finalizer_unreachable::ofn_object_object
+
+
 //
-void ofn_object_object(void *, void *);
+
 // GC_debug_strdup
 // file dbg_mlc.c line 691
 extern char * GC_debug_strdup(const char *str, const char *s, signed int i);
@@ -723,9 +723,9 @@ void GC_default_push_other_roots(void);
 // GC_default_same_obj_print_proc
 // file ptr_chck.c line 21
 void GC_default_same_obj_print_proc(void *p, void *q);
-// GC_default_stop_func_object
+
 //
-signed int GC_default_stop_func_object(void);
+
 // GC_default_warn_proc
 // file misc.c line 1590
 void GC_default_warn_proc(char *msg, unsigned long int arg);
@@ -762,9 +762,9 @@ extern void * GC_dlopen(const char *path, signed int mode);
 // GC_do_blocking
 // file misc.c line 1940
 extern void * GC_do_blocking(void * (*fn)(void *), void *client_data);
-// GC_do_blocking::fn_object
+
 //
-void * fn_object(void *);
+
 // GC_do_blocking_inner
 // file ./include/private/gc_priv.h line 2271
 void GC_do_blocking_inner(char *data, void *context);
@@ -843,9 +843,9 @@ signed int GC_finalized_disclaim(void *obj);
 // GC_finalized_malloc
 // file fnlz_mlc.c line 130
 extern void * GC_finalized_malloc(unsigned long int client_lb, struct GC_finalizer_closure *fclos);
-// GC_finalized_malloc::_tmp::return_value_GC_get_oom_fn_3_object
+
 //
-void * return_value_GC_get_oom_fn_3_object(unsigned long int);
+
 // GC_finalizer_notifier_object
 //
 void GC_finalizer_notifier_object(void);
@@ -879,18 +879,18 @@ struct GC_ms_entry * GC_gcj_fake_mark_proc(unsigned long int *addr, struct GC_ms
 // GC_gcj_malloc
 // file thread_local_alloc.c line 240
 extern void * GC_gcj_malloc(unsigned long int bytes, void *ptr_to_struct_containing_descr);
-// GC_gcj_malloc::_tmp::return_value_GC_get_oom_fn_2_object
+
 //
-void * return_value_GC_get_oom_fn_2_object(unsigned long int);
+
 // GC_gcj_malloc_ignore_off_page
 // file gcj_mlc.c line 237
 extern void * GC_gcj_malloc_ignore_off_page(unsigned long int lb, void *ptr_to_struct_containing_descr);
-// GC_gcj_malloc_ignore_off_page::1::1::2::1::oom_fn_object
+
 //
-void * oom_fn_object(unsigned long int);
-// GC_gcj_malloc_ignore_off_page::1::2::2::oom_fn_object
+
+
 //
-void * oom_fn_object(unsigned long int);
+
 // GC_gcollect
 // file ./include/gc.h line 542
 extern void GC_gcollect(void);
@@ -906,21 +906,21 @@ void GC_generic_lock(union anonymous *lock);
 // GC_generic_malloc
 // file malloc.c line 171
 extern void * GC_generic_malloc(unsigned long int lb, signed int k);
-// GC_generic_malloc::_tmp::return_value_GC_get_oom_fn_2_object
+
 //
-void * return_value_GC_get_oom_fn_2_object(unsigned long int);
-// GC_generic_malloc::_tmp::return_value_GC_get_oom_fn_5_object
+
+
 //
-void * return_value_GC_get_oom_fn_5_object(unsigned long int);
+
 // GC_generic_malloc_ignore_off_page
 // file mallocx.c line 170
 extern void * GC_generic_malloc_ignore_off_page(unsigned long int lb, signed int k);
-// GC_generic_malloc_ignore_off_page::_tmp::return_value_GC_get_oom_fn_2_object
+
 //
-void * return_value_GC_get_oom_fn_2_object(unsigned long int);
-// GC_generic_malloc_ignore_off_page::1::3::oom_fn_object
+
+
 //
-void * oom_fn_object(unsigned long int);
+
 // GC_generic_malloc_inner
 // file ./include/private/gc_priv.h line 1828
 void * GC_generic_malloc_inner(unsigned long int lb, signed int k);
@@ -936,9 +936,9 @@ void * GC_generic_or_special_malloc(unsigned long int lb, signed int knd);
 // GC_get_abort_func
 // file misc.c line 1704
 extern void (*GC_get_abort_func(void))(const char *);
-// GC_get_abort_func::1::fn_object
+
 //
-void fn_object(const char *);
+
 // GC_get_all_interior_pointers
 // file misc.c line 2078
 extern signed int GC_get_all_interior_pointers(void);
@@ -960,9 +960,9 @@ extern signed int GC_get_finalize_on_demand(void);
 // GC_get_finalizer_notifier
 // file misc.c line 2033
 extern void (*GC_get_finalizer_notifier(void))(void);
-// GC_get_finalizer_notifier::1::fn_object
+
 //
-void fn_object(void);
+
 // GC_get_find_leak
 // file misc.c line 2056
 extern signed int GC_get_find_leak(void);
@@ -1017,15 +1017,15 @@ signed int GC_get_nprocs(void);
 // GC_get_on_heap_resize
 // file misc.c line 2014
 extern void (*GC_get_on_heap_resize(void))(unsigned long int);
-// GC_get_on_heap_resize::1::fn_object
+
 //
-void fn_object(unsigned long int);
+
 // GC_get_oom_fn
 // file ./include/private/../gc.h line 120
 extern void * (*GC_get_oom_fn(void))(unsigned long int);
-// GC_get_oom_fn::1::fn_object
+
 //
-void * fn_object(unsigned long int);
+
 // GC_get_pages_executable
 // file os_dep.c line 4446
 extern signed int GC_get_pages_executable(void);
@@ -1047,15 +1047,15 @@ extern signed int GC_get_stack_base(struct GC_stack_base *b);
 // GC_get_start_callback
 // file alloc.c line 324
 extern void (*GC_get_start_callback(void))(void);
-// GC_get_start_callback::1::fn_object
+
 //
-void fn_object(void);
+
 // GC_get_stop_func
 // file alloc.c line 158
 extern signed int (*GC_get_stop_func(void))(void);
-// GC_get_stop_func::1::stop_func_object
+
 //
-signed int stop_func_object(void);
+
 // GC_get_suspend_signal
 // file ./include/private/../gc.h line 1259
 extern signed int GC_get_suspend_signal(void);
@@ -1182,15 +1182,15 @@ extern signed int GC_is_marked(const void *p);
 // GC_is_valid_displacement
 // file ptr_chck.c line 117
 extern void * GC_is_valid_displacement(void *p);
-// GC_is_valid_displacement_print_proc_object
+
 //
-void GC_is_valid_displacement_print_proc_object(void *);
+
 // GC_is_visible
 // file ptr_chck.c line 187
 extern void * GC_is_visible(void *p);
-// GC_is_visible_print_proc_object
+
 //
-void GC_is_visible_print_proc_object(void *);
+
 // GC_linux_main_stack_base
 // file os_dep.c line 1071
 char * GC_linux_main_stack_base(void);
@@ -1209,9 +1209,9 @@ signed int GC_make_array_descriptor(unsigned long int nelements, unsigned long i
 // GC_make_closure
 // file dbg_mlc.c line 1047
 void * GC_make_closure(void (*fn)(void *, void *), void *data);
-// GC_make_closure::fn_object
+
 //
-void fn_object(void *, void *);
+
 // GC_make_descriptor
 // file typd_mlc.c line 534
 extern unsigned long int GC_make_descriptor(const unsigned long int *bm, unsigned long int len);
@@ -1224,15 +1224,15 @@ union ComplexDescriptor * GC_make_sequence_descriptor(union ComplexDescriptor *f
 // GC_malloc
 // file ./include/private/../gc.h line 412
 extern void * GC_malloc(unsigned long int bytes);
-// GC_malloc::_tmp::return_value_GC_get_oom_fn_2_object
+
 //
-void * return_value_GC_get_oom_fn_2_object(unsigned long int);
+
 // GC_malloc_atomic
 // file ./include/private/../gc.h line 414
 extern void * GC_malloc_atomic(unsigned long int bytes);
-// GC_malloc_atomic::_tmp::return_value_GC_get_oom_fn_2_object
+
 //
-void * return_value_GC_get_oom_fn_2_object(unsigned long int);
+
 // GC_malloc_atomic_ignore_off_page
 // file ./include/private/../gc.h line 745
 extern void * GC_malloc_atomic_ignore_off_page(unsigned long int lb);
@@ -1293,9 +1293,9 @@ void GC_maybe_gc(void);
 // GC_memalign
 // file mallocx.c line 451
 extern void * GC_memalign(unsigned long int align, unsigned long int lb);
-// GC_memalign::_tmp::return_value_GC_get_oom_fn_2_object
+
 //
-void * return_value_GC_get_oom_fn_2_object(unsigned long int);
+
 // GC_min
 // file alloc.c line 1137
 static inline unsigned long int GC_min(unsigned long int x, unsigned long int y);
@@ -1332,15 +1332,15 @@ extern unsigned int GC_new_kind_inner(void **fl, unsigned long int descr, signed
 // GC_new_proc
 // file misc.c line 1804
 extern unsigned int GC_new_proc(struct GC_ms_entry * (*proc)(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int));
-// GC_new_proc::proc_object
+
 //
-struct GC_ms_entry * proc_object(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int);
+
 // GC_new_proc_inner
 // file misc.c line 1791
 extern unsigned int GC_new_proc_inner(struct GC_ms_entry * (*proc)(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int));
-// GC_new_proc_inner::proc_object
+
 //
-struct GC_ms_entry * proc_object(unsigned long int *, struct GC_ms_entry *, struct GC_ms_entry *, unsigned long int);
+
 // GC_new_thread
 // file pthread_support.c line 489
 struct GC_Thread_Rep * GC_new_thread(unsigned long int id);
@@ -1371,30 +1371,30 @@ static inline void GC_notify_full_gc(void);
 // GC_notify_or_invoke_finalizers
 // file ./include/private/gc_priv.h line 254
 void GC_notify_or_invoke_finalizers(void);
-// GC_notify_or_invoke_finalizers::1::notifier_fn_object
+
 //
-void notifier_fn_object(void);
+
 // GC_null_finalize_mark_proc
 // file finalize.c line 413
 void GC_null_finalize_mark_proc(char *p);
 // GC_number_stack_black_listed
 // file blacklst.c line 262
 unsigned long int GC_number_stack_black_listed(struct hblk *start, struct hblk *endp1);
-// GC_old_bus_handler_object
+
 //
-void GC_old_bus_handler_object(signed int, struct anonymous_11 *, void *);
-// GC_old_segv_handler_object
+
+
 //
-void GC_old_segv_handler_object(signed int, struct anonymous_11 *, void *);
+
 // GC_on_abort_object
 //
 void GC_on_abort_object(const char *);
 // GC_on_heap_resize_object
 //
 void GC_on_heap_resize_object(unsigned long int);
-// GC_oom_fn_object
+
 //
-void * GC_oom_fn_object(unsigned long int);
+
 // GC_page_was_dirty
 // file ./include/private/gc_priv.h line 2031
 signed int GC_page_was_dirty(struct hblk *h);
@@ -1473,9 +1473,9 @@ extern signed int GC_pthread_cancel(unsigned long int thread);
 // GC_pthread_create
 // file pthread_support.c line 1661
 extern signed int GC_pthread_create(unsigned long int *new_thread, const union pthread_attr_t *attr, void * (*start_routine)(void *), void *arg);
-// GC_pthread_create::_tmp::return_value_GC_get_oom_fn_3_object
+
 //
-void * return_value_GC_get_oom_fn_3_object(unsigned long int);
+
 // GC_pthread_create::start_routine_object
 //
 void * start_routine_object(void *);
@@ -1551,9 +1551,9 @@ void GC_push_roots(signed int all, char *cold_gc_frame);
 // GC_push_selected
 // file mark.c line 1281
 void GC_push_selected(char *bottom, char *top, signed int (*dirty_fn)(struct hblk *));
-// GC_push_selected::dirty_fn_object
+
 //
-signed int dirty_fn_object(struct hblk *);
+
 // GC_push_thread_structures
 // file ./include/private/gc_priv.h line 1612
 void GC_push_thread_structures(void);
@@ -1578,9 +1578,9 @@ void GC_rebuild_root_index(void);
 // GC_reclaim_all
 // file ./include/private/gc_priv.h line 1790
 signed int GC_reclaim_all(signed int (*stop_func)(void), signed int ignore_old);
-// GC_reclaim_all::stop_func_object
+
 //
-signed int stop_func_object(void);
+
 // GC_reclaim_block
 // file reclaim.c line 374
 void GC_reclaim_block(struct hblk *hbp, unsigned long int report_if_found);
@@ -1611,24 +1611,24 @@ void GC_register_data_segments(void);
 // GC_register_describe_type_fn
 // file dbg_mlc.c line 318
 extern void GC_register_describe_type_fn(signed int kind, void (*fn)(void *, char *));
-// GC_register_describe_type_fn::fn_object
+
 //
-void fn_object(void *, char *);
+
 // GC_register_disappearing_link
 // file finalize.c line 137
 extern signed int GC_register_disappearing_link(void **link);
 // GC_register_disappearing_link_inner
 // file finalize.c line 147
 signed int GC_register_disappearing_link_inner(struct dl_hashtbl_s *dl_hashtbl, void **link, const void *obj);
-// GC_register_disappearing_link_inner::1::4::oom_fn_object
+
 //
-void * oom_fn_object(unsigned long int);
+
 // GC_register_disclaim_proc
 // file fnlz_mlc.c line 76
 extern void GC_register_disclaim_proc(signed int kind, signed int (*proc)(void *), signed int mark_unconditionally);
-// GC_register_disclaim_proc::proc_object
+
 //
-signed int proc_object(void *);
+
 // GC_register_displacement
 // file ./include/private/../gc.h line 535
 extern void GC_register_displacement(unsigned long int offset);
@@ -1644,66 +1644,66 @@ signed int GC_register_dynamic_libraries_dl_iterate_phdr(void);
 // GC_register_dynlib_callback
 // file dyn_load.c line 469
 signed int GC_register_dynlib_callback(struct dl_phdr_info *info, unsigned long int size, void *ptr);
-// GC_register_dynlib_callback::1::1::1::1::2::callback_object
+
 //
-signed int callback_object(const char *, void *, unsigned long int);
+
 // GC_register_finalizer
 // file ./include/private/../gc.h line 914
 extern void GC_register_finalizer(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
-// GC_register_finalizer::fn_object
+
 //
-void fn_object(void *, void *);
-// GC_register_finalizer::ofn_object_object
+
+
 //
-void ofn_object_object(void *, void *);
+
 // GC_register_finalizer_ignore_self
 // file ./include/private/../gc.h line 970
 extern void GC_register_finalizer_ignore_self(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
-// GC_register_finalizer_ignore_self::fn_object
+
 //
-void fn_object(void *, void *);
-// GC_register_finalizer_ignore_self::ofn_object_object
+
+
 //
-void ofn_object_object(void *, void *);
+
 // GC_register_finalizer_inner
 // file finalize.c line 433
 void GC_register_finalizer_inner(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd, void (*mp)(char *));
-// GC_register_finalizer_inner::1::oom_fn_object
+
 //
-void * oom_fn_object(unsigned long int);
-// GC_register_finalizer_inner::fn_object
+
+
 //
-void fn_object(void *, void *);
+
 // GC_register_finalizer_inner::mp_object
 //
 void mp_object(char *);
-// GC_register_finalizer_inner::ofn_object_object
+
 //
-void ofn_object_object(void *, void *);
+
 // GC_register_finalizer_no_order
 // file ./include/private/../gc.h line 983
 extern void GC_register_finalizer_no_order(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
-// GC_register_finalizer_no_order::fn_object
+
 //
-void fn_object(void *, void *);
-// GC_register_finalizer_no_order::ofn_object_object
+
+
 //
-void ofn_object_object(void *, void *);
+
 // GC_register_finalizer_unreachable
 // file ./include/private/../gc.h line 1008
 extern void GC_register_finalizer_unreachable(void *obj, void (*fn)(void *, void *), void *cd, void (**ofn)(void *, void *), void **ocd);
-// GC_register_finalizer_unreachable::fn_object
+
 //
-void fn_object(void *, void *);
-// GC_register_finalizer_unreachable::ofn_object_object
+
+
 //
-void ofn_object_object(void *, void *);
+
 // GC_register_has_static_roots_callback
 // file dyn_load.c line 1503
 extern void GC_register_has_static_roots_callback(signed int (*callback)(const char *, void *, unsigned long int));
-// GC_register_has_static_roots_callback::callback_object
+
 //
-signed int callback_object(const char *, void *, unsigned long int);
+
 // GC_register_long_link
 // file finalize.c line 267
 extern signed int GC_register_long_link(void **link, const void *obj);
@@ -1776,18 +1776,18 @@ void * GC_roots_present(char *b);
 // GC_same_obj
 // file ptr_chck.c line 39
 extern void * GC_same_obj(void *p, void *q);
-// GC_same_obj_print_proc_object
+
 //
-void GC_same_obj_print_proc_object(void *, void *);
+
 // GC_scratch_alloc
 // file ./include/private/gc_priv.h line 1728
 char * GC_scratch_alloc(unsigned long int bytes);
 // GC_set_abort_func
 // file misc.c line 1695
 extern void GC_set_abort_func(void (*fn)(const char *));
-// GC_set_abort_func::fn_object
+
 //
-void fn_object(const char *);
+
 // GC_set_all_interior_pointers
 // file misc.c line 2061
 extern void GC_set_all_interior_pointers(signed int value);
@@ -1809,9 +1809,9 @@ extern void GC_set_finalize_on_demand(signed int value);
 // GC_set_finalizer_notifier
 // file misc.c line 2024
 extern void GC_set_finalizer_notifier(void (*fn)(void));
-// GC_set_finalizer_notifier::fn_object
+
 //
-void fn_object(void);
+
 // GC_set_find_leak
 // file misc.c line 2050
 extern void GC_set_find_leak(signed int value);
@@ -1854,36 +1854,36 @@ extern void GC_set_non_gc_bytes(unsigned long int value);
 // GC_set_on_heap_resize
 // file misc.c line 2005
 extern void GC_set_on_heap_resize(void (*fn)(unsigned long int));
-// GC_set_on_heap_resize::fn_object
+
 //
-void fn_object(unsigned long int);
+
 // GC_set_oom_fn
 // file misc.c line 1986
 extern void GC_set_oom_fn(void * (*fn)(unsigned long int));
-// GC_set_oom_fn::fn_object
+
 //
-void * fn_object(unsigned long int);
+
 // GC_set_pages_executable
 // file os_dep.c line 4435
 extern void GC_set_pages_executable(signed int value);
 // GC_set_push_other_roots
 // file os_dep.c line 2610
 extern void GC_set_push_other_roots(void (*fn)(void));
-// GC_set_push_other_roots::fn_object
+
 //
-void fn_object(void);
+
 // GC_set_start_callback
 // file alloc.c line 316
 extern void GC_set_start_callback(void (*fn)(void));
-// GC_set_start_callback::fn_object
+
 //
-void fn_object(void);
+
 // GC_set_stop_func
 // file alloc.c line 149
 extern void GC_set_stop_func(signed int (*stop_func)(void));
-// GC_set_stop_func::stop_func_object
+
 //
-signed int stop_func_object(void);
+
 // GC_set_suspend_signal
 // file pthread_stop_world.c line 153
 extern void GC_set_suspend_signal(signed int sig);
@@ -1959,9 +1959,9 @@ void GC_stop_world(void);
 // GC_stopped_mark
 // file alloc.c line 586
 signed int GC_stopped_mark(signed int (*stop_func)(void));
-// GC_stopped_mark::stop_func_object
+
 //
-signed int stop_func_object(void);
+
 // GC_store_debug_info
 // file dbg_mlc.c line 279
 char * GC_store_debug_info(char *p, unsigned long int sz, const char *string, signed int linenum);
@@ -1998,21 +1998,21 @@ signed int GC_timeout_stop_func(void);
 // GC_try_to_collect
 // file alloc.c line 1000
 extern signed int GC_try_to_collect(signed int (*stop_func)(void));
-// GC_try_to_collect::stop_func_object
+
 //
-signed int stop_func_object(void);
+
 // GC_try_to_collect_general
 // file alloc.c line 964
 signed int GC_try_to_collect_general(signed int (*stop_func)(void), signed int force_unmap);
-// GC_try_to_collect_general::stop_func_object
+
 //
-signed int stop_func_object(void);
+
 // GC_try_to_collect_inner
 // file alloc.c line 411
 signed int GC_try_to_collect_inner(signed int (*stop_func)(void));
-// GC_try_to_collect_inner::stop_func_object
+
 //
-signed int stop_func_object(void);
+
 // GC_typed_mark_proc
 // file typd_mlc.c line 381
 struct GC_ms_entry * GC_typed_mark_proc(unsigned long int *addr, struct GC_ms_entry *mark_stack_ptr, struct GC_ms_entry *mark_stack_limit, unsigned long int env);
@@ -2061,18 +2061,18 @@ void GC_wait_marker(void);
 // GC_with_callee_saves_pushed
 // file mach_dep.c line 213
 void GC_with_callee_saves_pushed(void (*fn)(char *, void *), char *arg);
-// GC_with_callee_saves_pushed::fn_object
+
 //
-void fn_object(char *, void *);
+
 // GC_write
 // file misc.c line 1456
 signed int GC_write(signed int fd, const char *buf, unsigned long int len);
 // GC_write_fault_handler
 // file os_dep.c line 3124
 void GC_write_fault_handler(signed int sig, struct anonymous_11 *si, void *raw_sc);
-// GC_write_fault_handler::1::1::1::old_handler_object
+
 //
-void old_handler_object(signed int, struct anonymous_11 *, void *);
+
 // __assert_fail
 // file /usr/include/assert.h line 69
 extern void __assert_fail(const char *, const char *, unsigned int, const char *);
@@ -2205,12 +2205,12 @@ extern void * mmap(void *, unsigned long int, signed int, signed int, signed int
 // mprotect
 // file /usr/include/x86_64-linux-gnu/sys/mman.h line 81
 extern signed int mprotect(void *, unsigned long int, signed int);
-// old_bus_handler_object
+
 //
-void old_bus_handler_object(signed int);
-// old_segv_handler_object
+
+
 //
-void old_segv_handler_object(signed int);
+
 // open
 // file /usr/include/fcntl.h line 156
 extern signed int open(const char *, signed int, ...);
@@ -2340,12 +2340,12 @@ extern signed int sigsuspend(const struct anonymous_0 *);
 // store_old
 // file dbg_mlc.c line 1075
 static void store_old(void *obj, void (*my_old_fn)(void *, void *), struct closure *my_old_cd, void (**ofn)(void *, void *), void **ocd);
-// store_old::my_old_fn_object
+
 //
-void my_old_fn_object(void *, void *);
-// store_old::ofn_object_object
+
+
 //
-void ofn_object_object(void *, void *);
+
 // strlen
 // file /usr/include/string.h line 394
 extern unsigned long int strlen(const char *);

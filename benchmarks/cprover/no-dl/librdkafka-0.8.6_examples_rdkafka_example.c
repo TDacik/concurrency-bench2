@@ -580,7 +580,7 @@ static inline signed int compress(struct snappy_env *env, struct source *reader,
 static char * compress_fragment(const char * const input, const unsigned long int input_size, char *op, unsigned short int *table, const unsigned int table_size);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_63, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // crc32
 // file /usr/include/zlib.h line 1600
 extern unsigned long int crc32(unsigned long int, const unsigned char *, unsigned int);
@@ -980,12 +980,12 @@ static void rd_kafka_broker_buf_enq0(struct rd_kafka_broker_s *rkb, struct rd_ka
 // rd_kafka_broker_buf_enq1
 // file rdkafka_broker.c line 613
 static void rd_kafka_broker_buf_enq1(struct rd_kafka_broker_s *rkb, signed short int ApiKey, struct rd_kafka_buf_s *rkbuf, void (*reply_cb)(struct rd_kafka_broker_s *, enum anonymous_3, struct rd_kafka_buf_s *, struct rd_kafka_buf_s *, void *), void *opaque);
-// rd_kafka_broker_buf_enq1::reply_cb_object
+
 //
-void reply_cb_object(struct rd_kafka_broker_s *, enum anonymous_3, struct rd_kafka_buf_s *, struct rd_kafka_buf_s *, void *);
-// rd_kafka_broker_buf_enq::reply_cb_object
+
+
 //
-void reply_cb_object(struct rd_kafka_broker_s *, signed int, struct rd_kafka_buf_s *, struct rd_kafka_buf_s *, void *);
+
 // rd_kafka_broker_buf_retry
 // file rdkafka_broker.c line 1759
 static void rd_kafka_broker_buf_retry(struct rd_kafka_broker_s *rkb, struct rd_kafka_buf_s *rkbuf);
@@ -1142,48 +1142,48 @@ enum anonymous_4 rd_kafka_conf_set(struct rd_kafka_conf_s *conf, const char *nam
 // rd_kafka_conf_set_dr_cb
 // file ../src/rdkafka.h line 300
 void rd_kafka_conf_set_dr_cb(struct rd_kafka_conf_s *conf, void (*dr_cb)(struct rd_kafka_s *, void *, unsigned long int, enum anonymous_3, void *, void *));
-// rd_kafka_conf_set_dr_cb::dr_cb_object
+
 //
-void dr_cb_object(struct rd_kafka_s *, void *, unsigned long int, enum anonymous_3, void *, void *);
+
 // rd_kafka_conf_set_dr_msg_cb
 // file ../src/rdkafka.h line 310
 void rd_kafka_conf_set_dr_msg_cb(struct rd_kafka_conf_s *conf, void (*dr_msg_cb)(struct rd_kafka_s *, const struct rd_kafka_message_s *, void *));
-// rd_kafka_conf_set_dr_msg_cb::dr_msg_cb_object
+
 //
-void dr_msg_cb_object(struct rd_kafka_s *, const struct rd_kafka_message_s *, void *);
+
 // rd_kafka_conf_set_error_cb
 // file rdkafka_defaultconf.c line 827
 void rd_kafka_conf_set_error_cb(struct rd_kafka_conf_s *conf, void (*error_cb)(struct rd_kafka_s *, signed int, const char *, void *));
-// rd_kafka_conf_set_error_cb::error_cb_object
+
 //
-void error_cb_object(struct rd_kafka_s *, signed int, const char *, void *);
+
 // rd_kafka_conf_set_log_cb
 // file rdkafka_defaultconf.c line 835
 void rd_kafka_conf_set_log_cb(struct rd_kafka_conf_s *conf, void (*log_cb)(const struct rd_kafka_s *, signed int, const char *, const char *));
-// rd_kafka_conf_set_log_cb::log_cb_object
+
 //
-void log_cb_object(const struct rd_kafka_s *, signed int, const char *, const char *);
+
 // rd_kafka_conf_set_opaque
 // file rdkafka_defaultconf.c line 865
 void rd_kafka_conf_set_opaque(struct rd_kafka_conf_s *conf, void *opaque);
 // rd_kafka_conf_set_open_cb
 // file rdkafka_defaultconf.c line 858
 void rd_kafka_conf_set_open_cb(struct rd_kafka_conf_s *conf, signed int (*open_cb)(const char *, signed int, unsigned int, void *));
-// rd_kafka_conf_set_open_cb::open_cb_object
+
 //
-signed int open_cb_object(const char *, signed int, unsigned int, void *);
+
 // rd_kafka_conf_set_socket_cb
 // file rdkafka_defaultconf.c line 850
 void rd_kafka_conf_set_socket_cb(struct rd_kafka_conf_s *conf, signed int (*socket_cb)(signed int, signed int, signed int, void *));
-// rd_kafka_conf_set_socket_cb::socket_cb_object
+
 //
-signed int socket_cb_object(signed int, signed int, signed int, void *);
+
 // rd_kafka_conf_set_stats_cb
 // file rdkafka_defaultconf.c line 842
 void rd_kafka_conf_set_stats_cb(struct rd_kafka_conf_s *conf, signed int (*stats_cb)(struct rd_kafka_s *, char *, unsigned long int, void *));
-// rd_kafka_conf_set_stats_cb::stats_cb_object
+
 //
-signed int stats_cb_object(struct rd_kafka_s *, char *, unsigned long int, void *);
+
 // rd_kafka_consume
 // file ../src/rdkafka.h line 748
 struct rd_kafka_message_s * rd_kafka_consume(struct rd_kafka_topic_s *rkt, signed int partition, signed int timeout_ms);
@@ -1205,18 +1205,18 @@ signed int rd_kafka_consume_callback(struct rd_kafka_topic_s *rkt, signed int pa
 // rd_kafka_consume_callback0
 // file rdkafka.c line 1519
 static signed int rd_kafka_consume_callback0(struct rd_kafka_q_s *rkq, signed int timeout_ms, void (*consume_cb)(struct rd_kafka_message_s *, void *), void *opaque);
-// rd_kafka_consume_callback0::consume_cb_object
+
 //
-void consume_cb_object(struct rd_kafka_message_s *, void *);
-// rd_kafka_consume_callback::consume_cb_object
+
+
 //
-void consume_cb_object(struct rd_kafka_message_s *, void *);
+
 // rd_kafka_consume_callback_queue
 // file rdkafka.c line 1563
 signed int rd_kafka_consume_callback_queue(struct rd_kafka_queue_s *rkqu, signed int timeout_ms, void (*consume_cb)(struct rd_kafka_message_s *, void *), void *opaque);
-// rd_kafka_consume_callback_queue::consume_cb_object
+
 //
-void consume_cb_object(struct rd_kafka_message_s *, void *);
+
 // rd_kafka_consume_cb
 // file rdkafka.c line 1506
 static void rd_kafka_consume_cb(struct rd_kafka_op_s *rko, void *opaque);
@@ -1532,9 +1532,9 @@ void rd_kafka_q_purge(struct rd_kafka_q_s *rkq);
 // rd_kafka_q_serve
 // file rdkafka.c line 418
 signed int rd_kafka_q_serve(struct rd_kafka_q_s *rkq, signed int timeout_ms, void (*callback)(struct rd_kafka_op_s *, void *), void *opaque);
-// rd_kafka_q_serve::callback_object
+
 //
-void callback_object(struct rd_kafka_op_s *, void *);
+
 // rd_kafka_q_serve_rkmessages
 // file rdkafka.c line 512
 static signed int rd_kafka_q_serve_rkmessages(struct rd_kafka_q_s *rkq, signed int timeout_ms, struct rd_kafka_message_s **rkmessages, unsigned long int rkmessages_size);
@@ -1565,9 +1565,9 @@ void rd_kafka_set_log_level(struct rd_kafka_s *rk, signed int level);
 // rd_kafka_set_logger
 // file ../src/rdkafka.h line 1102
 void rd_kafka_set_logger(struct rd_kafka_s *rk, void (*func)(const struct rd_kafka_s *, signed int, const char *, const char *));
-// rd_kafka_set_logger::func_object
+
 //
-void func_object(const struct rd_kafka_s *, signed int, const char *, const char *);
+
 // rd_kafka_snappy_java_decompress
 // file rdkafka_broker.c line 2618
 static char * rd_kafka_snappy_java_decompress(struct rd_kafka_broker_s *rkb, signed long int Offset, const char *inbuf, unsigned long int inlen, unsigned long int *outlenp);
@@ -1604,9 +1604,9 @@ static void rd_kafka_timer_schedule(struct rd_kafka_s *rk, struct rd_kafka_timer
 // rd_kafka_timer_start
 // file rdkafka_timer.h line 46
 void rd_kafka_timer_start(struct rd_kafka_s *rk, struct rd_kafka_timer_s *rtmr, signed int interval, void (*callback)(struct rd_kafka_s *, void *), void *arg);
-// rd_kafka_timer_start::callback_object
+
 //
-void callback_object(struct rd_kafka_s *, void *);
+
 // rd_kafka_timer_started
 // file rdkafka_timer.c line 39
 static inline signed int rd_kafka_timer_started(const struct rd_kafka_timer_s *rtmr);
@@ -1646,7 +1646,7 @@ void rd_kafka_topic_conf_set_opaque(struct rd_kafka_topic_conf_s *topic_conf, vo
 // rd_kafka_topic_conf_set_partitioner_cb
 // file rdkafka_defaultconf.c line 872
 void rd_kafka_topic_conf_set_partitioner_cb(struct rd_kafka_topic_conf_s *topic_conf, signed int (*partitioner)(const struct rd_kafka_topic_s *, const void *, unsigned long int, signed int, void *, void *));
-// rd_kafka_topic_conf_set_partitioner_cb::partitioner_object
+
 //
 signed int partitioner_object(const struct rd_kafka_topic_s *, const void *, unsigned long int, signed int, void *, void *);
 // rd_kafka_topic_destroy
@@ -1763,9 +1763,9 @@ static void rd_kafka_toppar_offset_reply(struct rd_kafka_broker_s *rkb, enum ano
 // rd_kafka_toppar_offset_reply_handle
 // file rdkafka_broker.c line 3532
 static enum anonymous_3 rd_kafka_toppar_offset_reply_handle(struct rd_kafka_broker_s *rkb, struct rd_kafka_buf_s *request, struct rd_kafka_buf_s *rkbuf, struct rd_kafka_toppar_s *rktp);
-// rd_kafka_toppar_offset_reply_handle::1::2::1::3::1::6::hndcb_object
+
 //
-void hndcb_object(struct rd_kafka_toppar_s *, signed long int, void *);
+
 // rd_kafka_toppar_offset_request
 // file rdkafka_broker.c line 3866
 static void rd_kafka_toppar_offset_request(struct rd_kafka_broker_s *rkb, struct rd_kafka_toppar_s *rktp);

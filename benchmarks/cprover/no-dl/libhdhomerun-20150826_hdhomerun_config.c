@@ -995,25 +995,25 @@ extern void * realloc(void *, unsigned long int);
 extern signed long int recv(signed int, void *, unsigned long int, signed int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // register_signal_handlers
 // file hdhomerun_config.c line 206
 static void register_signal_handlers(void (*sigpipe_handler)(signed int), void (*sigint_handler)(signed int), void (*siginfo_handler)(signed int));
-// register_signal_handlers::siginfo_handler_object
+
 //
-void siginfo_handler_object(signed int);
-// register_signal_handlers::sigint_handler_object
+
+
 //
-void sigint_handler_object(signed int);
-// register_signal_handlers::sigpipe_handler_object
+
+
 //
-void sigpipe_handler_object(signed int);
+
 // send
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 149
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // setsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 226
 extern signed int setsockopt(signed int, signed int, signed int, const void *, unsigned int);

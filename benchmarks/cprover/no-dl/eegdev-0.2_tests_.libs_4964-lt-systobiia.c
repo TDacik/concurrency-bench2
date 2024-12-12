@@ -258,7 +258,7 @@ extern signed int * __errno_location(void);
 extern void abort(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_11, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // add_sensor_type
 // file sensortypes.c line 42
 static signed int add_sensor_type(const char *sname, struct sensor_type *start);
@@ -276,7 +276,7 @@ extern signed int atexit(void (*)(void));
 extern signed int atoi(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_11, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -658,12 +658,12 @@ struct selected_channels * egdi_alloc_input_groups(struct devmodule *mdev, unsig
 // egdi_create_eegdev
 // file core.c line 277
 struct eegdev * egdi_create_eegdev(struct egdi_plugin_info *info);
-// egdi_create_eegdev::_tmp::tmp_if_expr_10_object
+
 //
-signed int tmp_if_expr_10_object(struct devmodule *);
-// egdi_create_eegdev::_tmp::tmp_if_expr_11_object
+
+
 //
-signed int tmp_if_expr_11_object(struct devmodule *);
+
 // egdi_free_config
 // file configuration.h line 35
 void egdi_free_config(struct egdi_config *cf);

@@ -505,9 +505,9 @@ static signed int alist_hash(signed int nbuckets, void *arg);
 // alist_iter
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/alist.c line 155
 signed int alist_iter(struct alist *alist, signed int (*func)(void *, void *, void *), void *private);
-// alist_iter::func_object
+
 //
-signed int func_object(void *, void *, void *);
+
 // alist_iter_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/alist.c line 147
 static signed int alist_iter_cb(void *arg1, void *arg2);
@@ -526,12 +526,12 @@ void alist_stats(struct alist *alist, signed int verbose);
 // alist_xnew
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/alist.c line 72
 struct alist * alist_xnew(signed int nbuckets, void (*namefree)(void *), void (*valfree)(void *), signed int (*hashfn)(signed int, void *), signed int (*cmpfn)(void *, void *));
-// alist_xnew::cmpfn_object
+
 //
-signed int cmpfn_object(void *, void *);
-// alist_xnew::hashfn_object
+
+
 //
-signed int hashfn_object(signed int, void *);
+
 // alist_xnew::namefree_object
 //
 void namefree_object(void *);
@@ -775,9 +775,9 @@ extern struct ctf_dtdef * ctf_dtd_lookup(struct ctf_file *fp, signed long int ty
 // ctf_enum_iter
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/sys/cddl/contrib/opensolaris/uts/common/sys/ctf_api.h line 203
 extern signed int ctf_enum_iter(struct ctf_file *fp, signed long int type, signed int (*func)(const char *, signed int, void *), void *arg);
-// ctf_enum_iter::func_object
+
 //
-signed int func_object(const char *, signed int, void *);
+
 // ctf_enum_name
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_types.c line 705
 extern const char * ctf_enum_name(struct ctf_file *fp, signed long int type, signed int value);
@@ -844,9 +844,9 @@ extern signed int ctf_label_info(struct ctf_file *fp, const char *lname, struct 
 // ctf_label_iter
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_labels.c line 80
 extern signed int ctf_label_iter(struct ctf_file *fp, signed int (*func)(const char *, const struct ctf_lblinfo *, void *), void *arg);
-// ctf_label_iter::func_object
+
 //
-signed int func_object(const char *, const struct ctf_lblinfo *, void *);
+
 // ctf_label_topmost
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_labels.c line 55
 extern const char * ctf_label_topmost(struct ctf_file *fp);
@@ -877,9 +877,9 @@ extern signed int ctf_member_info(struct ctf_file *fp, signed long int type, con
 // ctf_member_iter
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/sys/cddl/contrib/opensolaris/uts/common/sys/ctf_api.h line 202
 extern signed int ctf_member_iter(struct ctf_file *fp, signed long int type, signed int (*func)(const char *, signed long int, unsigned long int, void *), void *arg);
-// ctf_member_iter::func_object
+
 //
-signed int func_object(const char *, signed long int, unsigned long int, void *);
+
 // ctf_open
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/lib/libctf/../../../cddl/contrib/opensolaris/lib/libctf/common/ctf_lib.c line 441
 extern struct ctf_file * ctf_open(const char *filename, signed int *errp);
@@ -940,9 +940,9 @@ extern signed int ctf_type_encoding(struct ctf_file *fp, signed long int type, s
 // ctf_type_iter
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_types.c line 147
 extern signed int ctf_type_iter(struct ctf_file *fp, signed int (*func)(signed long int, void *), void *arg);
-// ctf_type_iter::func_object
+
 //
-signed int func_object(signed long int, void *);
+
 // ctf_type_kind
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/sys/cddl/contrib/opensolaris/uts/common/sys/ctf_api.h line 184
 extern signed int ctf_type_kind(struct ctf_file *fp, signed long int type);
@@ -964,18 +964,18 @@ extern signed long int ctf_type_resolve(struct ctf_file *fp, signed long int typ
 // ctf_type_rvisit
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_types.c line 785
 static signed int ctf_type_rvisit(struct ctf_file *fp, signed long int type, signed int (*func)(const char *, signed long int, unsigned long int, signed int, void *), void *arg, const char *name, unsigned long int offset, signed int depth);
-// ctf_type_rvisit::func_object
+
 //
-signed int func_object(const char *, signed long int, unsigned long int, signed int, void *);
+
 // ctf_type_size
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/sys/cddl/contrib/opensolaris/uts/common/sys/ctf_api.h line 182
 extern signed long int ctf_type_size(struct ctf_file *fp, signed long int type);
 // ctf_type_visit
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_types.c line 842
 extern signed int ctf_type_visit(struct ctf_file *fp, signed long int type, signed int (*func)(const char *, signed long int, unsigned long int, signed int, void *), void *arg);
-// ctf_type_visit::func_object
+
 //
-signed int func_object(const char *, signed long int, unsigned long int, signed int, void *);
+
 // ctf_update
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_create.c line 185
 extern signed int ctf_update(struct ctf_file *fp);
@@ -1114,9 +1114,9 @@ extern signed int fifo_empty(struct fifo *f);
 // fifo_free
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/fifo.h line 45
 extern void fifo_free(struct fifo *f, void (*freefn)(void *));
-// fifo_free::freefn_object
+
 //
-void freefn_object(void *);
+
 // fifo_iter
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/fifo.c line 140
 extern signed int fifo_iter(struct fifo *f, signed int (*iter)(void *, void *), void *arg);
@@ -1270,9 +1270,9 @@ static signed int hash_find_first_cb(void *node, void *arg);
 // hash_find_iter
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/hash.c line 169
 signed int hash_find_iter(struct hash *hash, void *key, signed int (*fun)(void *, void *), void *private);
-// hash_find_iter::fun_object
+
 //
-signed int fun_object(void *, void *);
+
 // hash_find_list_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/hash.c line 153
 static signed int hash_find_list_cb(void *node, void *arg);
@@ -1285,15 +1285,15 @@ void datafree_object(void *, void *);
 // hash_iter
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/hash.h line 48
 signed int hash_iter(struct hash *hash, signed int (*fun)(void *, void *), void *private);
-// hash_iter::fun_object
+
 //
-signed int fun_object(void *, void *);
+
 // hash_match
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/hash.c line 144
 signed int hash_match(struct hash *hash, void *key, signed int (*fun)(void *, void *), void *private);
-// hash_match::fun_object
+
 //
-signed int fun_object(void *, void *);
+
 // hash_merge
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/hash.c line 122
 void hash_merge(struct hash *to, struct hash *from);
@@ -1306,9 +1306,9 @@ struct hash * hash_new(signed int nbuckets, signed int (*hashfn)(signed int, voi
 // hash_new::cmp_object
 //
 signed int cmp_object(void *, void *);
-// hash_new::hashfn_object
+
 //
-signed int hashfn_object(signed int, void *);
+
 // hash_remove
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/hash.c line 135
 void hash_remove(struct hash *hash, void *key);
@@ -1414,9 +1414,9 @@ static signed int isqualifier(const char *s, unsigned long int len);
 // iter_iidescs_by_name
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/iidesc.c line 112
 void iter_iidescs_by_name(struct tdata *td, const char *name, signed int (*func)(void *, void *), void *data);
-// iter_iidescs_by_name::func_object
+
 //
-signed int func_object(void *, void *);
+
 // join_threads
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/ctfmerge.c line 723
 static void join_threads(struct workqueue *wq);
@@ -1459,9 +1459,9 @@ void datafree_object(void *, void *);
 // list_iter
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/contrib/opensolaris/tools/ctf/common/list.h line 48
 signed int list_iter(struct list *list, signed int (*func)(void *, void *), void *private);
-// list_iter::func_object
+
 //
-signed int func_object(void *, void *);
+
 // list_remove
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/contrib/opensolaris/tools/ctf/common/list.h line 44
 void * list_remove(struct list **list, void *data, signed int (*cmp)(void *, void *, void *), void *private);
@@ -1507,9 +1507,9 @@ void merge_into_master(struct tdata *cur, struct tdata *mstr, struct tdata *tgt,
 // merge_type_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/merge.c line 655
 static signed int merge_type_cb(void *data, void *arg);
-// merge_type_cb::_tmp::tmp_if_expr_1_object_object
+
 //
-signed int tmp_if_expr_1_object_object(struct tdesc *, struct tdesc **, void *);
+
 // merge_type_cb::1::post_object_object
 //
 signed int post_object_object(struct tdesc *, struct tdesc **, void *);
@@ -1588,30 +1588,30 @@ static void rbzs_grow(struct resbuf *rb);
 // read_archive
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/input.c line 130
 static signed int read_archive(signed int fd, struct _Elf *elf, char *file, char *label, signed int (*func)(struct tdata *, char *, void *), void *arg, signed int require_ctf);
-// read_archive::func_object
+
 //
-signed int func_object(struct tdata *, char *, void *);
+
 // read_ctf
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/ctftools.h line 376
 signed int read_ctf(char **files, signed int n, char *label, signed int (*func)(struct tdata *, char *, void *), void *private, signed int require_ctf);
-// read_ctf::func_object
+
 //
-signed int func_object(struct tdata *, char *, void *);
+
 // read_ctf_common
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/input.c line 185
 static signed int read_ctf_common(char *file, char *label, signed int (*func)(struct tdata *, char *, void *), void *arg, signed int require_ctf);
-// read_ctf_common::func_object
+
 //
-signed int func_object(struct tdata *, char *, void *);
+
 // read_ctf_save_cb
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/ctftools.h line 378
 signed int read_ctf_save_cb(struct tdata *td, char *name, void *retp);
 // read_file
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/input.c line 87
 static signed int read_file(struct _Elf *elf, char *file, char *label, signed int (*func)(struct tdata *, char *, void *), void *arg, signed int require_ctf);
-// read_file::func_object
+
 //
-signed int func_object(struct tdata *, char *, void *);
+
 // realloc
 // file /usr/include/stdlib.h line 480
 extern void * realloc(void *, unsigned long int);
@@ -1759,9 +1759,9 @@ extern unsigned long int strtab_size(const struct strtab *sp);
 // strtab_write
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/strtab.h line 61
 extern signed long int strtab_write(const struct strtab *sp, signed long int (*func)(void *, unsigned long int, void *), void *priv);
-// strtab_write::func_object
+
 //
-signed long int func_object(void *, unsigned long int, void *);
+
 // sym_to_gelf
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/lib/libctf/../../../cddl/contrib/opensolaris/common/ctf/ctf_open.c line 92
 static struct anonymous_5 * sym_to_gelf(const struct anonymous_24 *src, struct anonymous_5 *dst);
@@ -1870,22 +1870,22 @@ static signed int tdtrav_func(struct tdesc *this, struct tdtrav_data *tdtd);
 // tdtrav_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/traverse.h line 55
 void tdtrav_init(struct tdtrav_data *tdtd, signed int *vgenp, signed int (**firstops)(struct tdesc *, struct tdesc **, void *), signed int (**preops)(struct tdesc *, struct tdesc **, void *), signed int (**postops)(struct tdesc *, struct tdesc **, void *), void *private);
-// tdtrav_init::_tmp::tmp_if_expr_1_object_object
+
 //
-signed int tmp_if_expr_1_object_object(struct tdesc *, struct tdesc **, void *);
-// tdtrav_init::_tmp::tmp_if_expr_2_object_object
+
+
 //
-signed int tmp_if_expr_2_object_object(struct tdesc *, struct tdesc **, void *);
-// tdtrav_init::_tmp::tmp_if_expr_3_object_object
+
+
 //
-signed int tmp_if_expr_3_object_object(struct tdesc *, struct tdesc **, void *);
-// tdtrav_init::firstops_object_object
+
+
 //
 signed int firstops_object_object(struct tdesc *, struct tdesc **, void *);
-// tdtrav_init::postops_object_object
+
 //
 signed int postops_object_object(struct tdesc *, struct tdesc **, void *);
-// tdtrav_init::preops_object_object
+
 //
 signed int preops_object_object(struct tdesc *, struct tdesc **, void *);
 // tdtrav_plain
@@ -1900,9 +1900,9 @@ signed int tdtraverse(struct tdesc *this, struct tdesc **thisp, struct tdtrav_da
 // tdtraverse::1::descender_object
 //
 signed int descender_object(struct tdesc *, struct tdtrav_data *);
-// tdtraverse::1::travcb_object
+
 //
-signed int travcb_object(struct tdesc *, struct tdesc **, void *);
+
 // terminate
 // file /srv/jenkins-slave/workspace/sid-goto-cc-ctfutils/ctfutils-9.2/cddl/usr.bin/ctfmerge/../../../cddl/contrib/opensolaris/tools/ctf/cvt/ctftools.h line 437
 void terminate(const char *format, ...);

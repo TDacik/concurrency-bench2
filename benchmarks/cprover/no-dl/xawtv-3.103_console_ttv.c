@@ -687,7 +687,7 @@ extern signed int close(signed int);
 extern signed int closedir(struct __dirstream *);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // ctrlc
 // file console/ttv.c line 143
 static void ctrlc(signed int signal);
@@ -1138,9 +1138,9 @@ struct ng_attribute * ng_mix_init(char *device, char *channel);
 // ng_packed_frame
 // file libng/color_common.c line 22
 void ng_packed_frame(void *handle, struct ng_video_buf *out, struct ng_video_buf *in);
-// ng_packed_frame::1::func_object
+
 //
-signed int func_object(unsigned char *, unsigned char *, signed int);
+
 // ng_packed_init
 // file libng/color_common.c line 16
 void * ng_packed_init(struct ng_video_fmt *out, void *priv);

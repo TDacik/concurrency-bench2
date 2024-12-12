@@ -164,9 +164,9 @@ extern signed int fflush(struct _IO_FILE *);
 // file_tree_walk
 // file ftw.c line 133
 signed int file_tree_walk(const char *dirname, unsigned int nfds, signed int (*callback)(const char *, struct stat *, void *), void *data);
-// file_tree_walk::callback_object
+
 //
-signed int callback_object(const char *, struct stat *, void *);
+
 // fprintf
 // file /usr/include/stdio.h line 356
 extern signed int fprintf(struct _IO_FILE *, const char *, ...);

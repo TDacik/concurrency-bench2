@@ -821,9 +821,9 @@ static signed int OpenStream_link2(struct PaUtilHostApiRepresentation *hostApi_l
 // OpenStream_link3
 // file src/hostapi/oss/pa_unix_oss.c line 1184
 static signed int OpenStream_link3(struct PaUtilHostApiRepresentation *hostApi_link3, void **s_link3, const struct PaStreamParameters *inputParameters_link3, const struct PaStreamParameters *outputParameters_link3, double sampleRate_link3, unsigned long int framesPerBuffer_link3, unsigned long int streamFlags_link3, signed int (*streamCallback_link2)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData_link3);
-// OpenStream::callback_object
+
 //
-signed int callback_object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
+
 // OpenStream::streamCallback_link1_object
 //
 signed int streamCallback_link1_object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
@@ -893,9 +893,9 @@ static signed int PaAlsaStream_HandleXrun(struct PaAlsaStream *self);
 // PaAlsaStream_Initialize
 // file src/hostapi/alsa/pa_linux_alsa.c line 2137
 static signed int PaAlsaStream_Initialize(struct PaAlsaStream *self, struct PaAlsaHostApiRepresentation *alsaApi, const struct PaStreamParameters *inParams, const struct PaStreamParameters *outParams, double sampleRate, unsigned long int framesPerUserBuffer, signed int (*callback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), unsigned long int streamFlags, void *userData);
-// PaAlsaStream_Initialize::callback_object
+
 //
-signed int callback_object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
+
 // PaAlsaStream_SetUpBuffers
 // file src/hostapi/alsa/pa_linux_alsa.c line 4062
 static signed int PaAlsaStream_SetUpBuffers(struct PaAlsaStream *self, unsigned long int *numFrames, signed int *xrunOccurred);
@@ -998,9 +998,9 @@ static signed int PaOssStream_Configure(struct PaOssStream *stream, double sampl
 // PaOssStream_Initialize
 // file src/hostapi/oss/pa_unix_oss.c line 852
 static signed int PaOssStream_Initialize(struct PaOssStream *stream, const struct PaStreamParameters *inputParameters, const struct PaStreamParameters *outputParameters, signed int (*callback)(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *), void *userData, unsigned long int streamFlags, struct anonymous_16 *ossApi);
-// PaOssStream_Initialize::callback_object
+
 //
-signed int callback_object(const void *, void *, unsigned long int, const struct PaStreamCallbackTimeInfo *, unsigned long int, void *);
+
 // PaOssStream_Prepare
 // file src/hostapi/oss/pa_unix_oss.c line 1461
 static signed int PaOssStream_Prepare(struct PaOssStream *stream);
@@ -1274,9 +1274,9 @@ void PaUtil_Set2ndOutputFrameCount(struct anonymous_9 *bp, unsigned long int fra
 // PaUtil_SetDebugPrintFunction
 // file src/common/pa_debugprint.c line 68
 void PaUtil_SetDebugPrintFunction(void (*cb)(const char *));
-// PaUtil_SetDebugPrintFunction::cb_object
+
 //
-void cb_object(const char *);
+
 // PaUtil_SetInputChannel
 // file src/common/pa_process.c line 461
 void PaUtil_SetInputChannel(struct anonymous_9 *bp, unsigned int channel, void *data, unsigned int stride);
@@ -1670,9 +1670,9 @@ const char * alsa_snd_ctl_card_info_get_name_object(const struct _snd_ctl_card_i
 // alsa_snd_ctl_card_info_malloc_object
 //
 signed int alsa_snd_ctl_card_info_malloc_object(struct _snd_ctl_card_info **);
-// alsa_snd_ctl_card_info_sizeof_object
+
 //
-unsigned long int alsa_snd_ctl_card_info_sizeof_object(void);
+
 // alsa_snd_ctl_close_object
 //
 signed int alsa_snd_ctl_close_object(struct _snd_ctl *);
@@ -1802,9 +1802,9 @@ signed int alsa_snd_pcm_hw_params_set_rate_near_object(struct _snd_pcm *, struct
 // alsa_snd_pcm_hw_params_set_rate_resample_object
 //
 signed int alsa_snd_pcm_hw_params_set_rate_resample_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, unsigned int);
-// alsa_snd_pcm_hw_params_sizeof_object
+
 //
-unsigned long int alsa_snd_pcm_hw_params_sizeof_object(void);
+
 // alsa_snd_pcm_hw_params_test_access_object
 //
 signed int alsa_snd_pcm_hw_params_test_access_object(struct _snd_pcm *, struct _snd_pcm_hw_params *, enum _snd_pcm_access);
@@ -1838,9 +1838,9 @@ void alsa_snd_pcm_info_set_stream_object(struct _snd_pcm_info *, enum _snd_pcm_s
 // alsa_snd_pcm_info_set_subdevice_object
 //
 void alsa_snd_pcm_info_set_subdevice_object(struct _snd_pcm_info *, unsigned int);
-// alsa_snd_pcm_info_sizeof_object
+
 //
-unsigned long int alsa_snd_pcm_info_sizeof_object(void);
+
 // alsa_snd_pcm_link_object
 //
 signed int alsa_snd_pcm_link_object(struct _snd_pcm *, struct _snd_pcm *);
@@ -1901,9 +1901,9 @@ void alsa_snd_pcm_status_get_trigger_tstamp_object(const struct _snd_pcm_status 
 // alsa_snd_pcm_status_get_tstamp_object
 //
 void alsa_snd_pcm_status_get_tstamp_object(const struct _snd_pcm_status *, struct timeval *);
-// alsa_snd_pcm_status_sizeof_object
+
 //
-unsigned long int alsa_snd_pcm_status_sizeof_object(void);
+
 // alsa_snd_pcm_sw_params_object
 //
 signed int alsa_snd_pcm_sw_params_object(struct _snd_pcm *, struct _snd_pcm_sw_params *);
@@ -1940,9 +1940,9 @@ signed int alsa_snd_pcm_sw_params_set_tstamp_mode_object(struct _snd_pcm *, stru
 // alsa_snd_pcm_sw_params_set_xfer_align_object
 //
 signed int alsa_snd_pcm_sw_params_set_xfer_align_object(struct _snd_pcm *, struct _snd_pcm_sw_params *, unsigned long int);
-// alsa_snd_pcm_sw_params_sizeof_object
+
 //
-unsigned long int alsa_snd_pcm_sw_params_sizeof_object(void);
+
 // alsa_snd_pcm_wait_object
 //
 signed int alsa_snd_pcm_wait_object(struct _snd_pcm *, signed int);

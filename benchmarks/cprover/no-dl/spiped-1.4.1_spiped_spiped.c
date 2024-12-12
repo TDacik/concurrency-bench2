@@ -401,9 +401,9 @@ static signed int callback_resolveagain(void *cookie);
 // callback_resolveone
 // file ../lib/dnsthread/dnsthread.c line 303
 static signed int callback_resolveone(void *cookie);
-// callback_resolveone::1::callback_object
+
 //
-signed int callback_object(void *, struct sock_addr **);
+
 // callback_timeo
 // file ../libcperciva/network/network_connect.c line 100
 static signed int callback_timeo(void *cookie);
@@ -500,15 +500,15 @@ signed int dnsthread_kill(struct dnsthread_internal *T);
 // dnsthread_resolve
 // file ../lib/dnsthread/dnsthread.c line 414
 signed int dnsthread_resolve(const char *addr, signed int (*callback)(void *, struct sock_addr **), void *cookie);
-// dnsthread_resolve::callback_object
+
 //
-signed int callback_object(void *, struct sock_addr **);
+
 // dnsthread_resolveone
 // file ../lib/dnsthread/dnsthread.h line 26
 signed int dnsthread_resolveone(struct dnsthread_internal *T, const char *addr, signed int (*callback)(void *, struct sock_addr **), void *cookie);
-// dnsthread_resolveone::callback_object
+
 //
-signed int callback_object(void *, struct sock_addr **);
+
 // dnsthread_spawn
 // file ../lib/dnsthread/dnsthread.h line 15
 struct dnsthread_internal * dnsthread_spawn(void);
@@ -578,15 +578,15 @@ struct eventrec * events_immediate_get(void);
 // events_immediate_register
 // file ../libcperciva/events/events_immediate.c line 41
 void * events_immediate_register(signed int (*func)(void *), void *cookie, signed int prio);
-// events_immediate_register::func_object
+
 //
-signed int func_object(void *);
+
 // events_mkrec
 // file ../libcperciva/events/events_internal.h line 13
 struct eventrec * events_mkrec(signed int (*func)(void *), void *cookie);
-// events_mkrec::func_object
+
 //
-signed int func_object(void *);
+
 // events_network_cancel
 // file ../libcperciva/events/events_network.c line 160
 signed int events_network_cancel(signed int s, signed int op);
@@ -596,9 +596,9 @@ struct eventrec * events_network_get(void);
 // events_network_register
 // file ../libcperciva/events/events.h line 34
 signed int events_network_register(signed int (*func)(void *), void *cookie, signed int s, signed int op);
-// events_network_register::func_object
+
 //
-signed int func_object(void *);
+
 // events_network_select
 // file ../libcperciva/events/events_network.c line 234
 signed int events_network_select(struct timeval *tv);
@@ -638,15 +638,15 @@ signed int events_timer_min(struct timeval **timeo);
 // events_timer_register
 // file ../libcperciva/events/events_timer.c line 47
 void * events_timer_register(signed int (*func)(void *), void *cookie, struct timeval *timeo);
-// events_timer_register::func_object
+
 //
-signed int func_object(void *);
+
 // events_timer_register_double
 // file ../libcperciva/events/events.h line 63
 void * events_timer_register_double(signed int (*func)(void *), void *cookie, double timeo);
-// events_timer_register_double::func_object
+
 //
-signed int func_object(void *);
+
 // events_timer_reset
 // file ../libcperciva/events/events_timer.c line 133
 signed int events_timer_reset(void *cookie);
@@ -872,42 +872,42 @@ static inline struct eventrec * mpool_eventrec_malloc(void);
 // network_accept
 // file ../libcperciva/network/network.h line 21
 void * network_accept(signed int fd, signed int (*callback)(void *, signed int), void *cookie);
-// network_accept::callback_object
+
 //
-signed int callback_object(void *, signed int);
+
 // network_accept_cancel
 // file ../libcperciva/network/network_accept.c line 94
 void network_accept_cancel(void *cookie);
 // network_connect
 // file ../libcperciva/network/network.h line 39
 void * network_connect(struct sock_addr * const *sas, signed int (*callback)(void *, signed int), void *cookie);
-// network_connect::callback_object
+
 //
-signed int callback_object(void *, signed int);
+
 // network_connect_cancel
 // file ../libcperciva/network/network.h line 55
 void network_connect_cancel(void *cookie);
 // network_connect_timeo
 // file ../libcperciva/network/network_connect.c line 192
 void * network_connect_timeo(struct sock_addr * const *sas, struct timeval *timeo, signed int (*callback)(void *, signed int), void *cookie);
-// network_connect_timeo::callback_object
+
 //
-signed int callback_object(void *, signed int);
+
 // network_read
 // file ../libcperciva/network/network.h line 66
 void * network_read(signed int fd, unsigned char *buf, unsigned long int buflen, unsigned long int minread, signed int (*callback)(void *, signed long int), void *cookie);
-// network_read::callback_object
+
 //
-signed int callback_object(void *, signed long int);
+
 // network_read_cancel
 // file ../libcperciva/network/network.h line 74
 void network_read_cancel(void *cookie);
 // network_write
 // file ../libcperciva/network/network.h line 85
 void * network_write(signed int fd, const unsigned char *buf, unsigned long int buflen, unsigned long int minwrite, signed int (*callback)(void *, signed long int), void *cookie);
-// network_write::callback_object
+
 //
-signed int callback_object(void *, signed long int);
+
 // network_write_cancel
 // file ../libcperciva/network/network.h line 93
 void network_write_cancel(void *cookie);
@@ -935,9 +935,9 @@ static char * prettyprint_unix(struct sockaddr_un *name);
 // proto_conn_create
 // file ../proto/proto_conn.h line 22
 signed int proto_conn_create(signed int s, struct sock_addr **sas, signed int decr, signed int nofps, signed int requirefps, signed int nokeepalive, struct proto_secret *K, double timeo, signed int (*callback_dead)(void *), void *cookie);
-// proto_conn_create::callback_dead_object
+
 //
-signed int callback_dead_object(void *);
+
 // proto_crypt_dec
 // file ../proto/proto_crypt.c line 342
 signed long int proto_crypt_dec(unsigned char *ibuf, unsigned char *obuf, struct proto_keys *k);
@@ -965,18 +965,18 @@ struct proto_secret * proto_crypt_secret(const char *filename);
 // proto_handshake
 // file ../proto/proto_handshake.h line 21
 void * proto_handshake(signed int s, signed int decr, signed int nofps, signed int requirefps, struct proto_secret *K, signed int (*callback)(void *, struct proto_keys *, struct proto_keys *), void *cookie);
-// proto_handshake::callback_object
+
 //
-signed int callback_object(void *, struct proto_keys *, struct proto_keys *);
+
 // proto_handshake_cancel
 // file ../proto/proto_handshake.h line 28
 void proto_handshake_cancel(void *cookie);
 // proto_pipe
 // file ../proto/proto_pipe.h line 14
 void * proto_pipe(signed int s_in, signed int s_out, signed int decr, struct proto_keys *k, signed int *status, signed int (*callback)(void *), void *cookie);
-// proto_pipe::callback_object
+
 //
-signed int callback_object(void *);
+
 // proto_pipe_cancel
 // file ../proto/proto_pipe.h line 21
 void proto_pipe_cancel(void *cookie);

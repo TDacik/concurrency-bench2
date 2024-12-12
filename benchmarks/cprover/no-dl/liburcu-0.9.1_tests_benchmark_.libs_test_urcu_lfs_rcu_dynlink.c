@@ -252,10 +252,10 @@ static inline _Bool ___cds_lfs_empty_head(struct cds_lfs_head *head);
 static inline void ___cds_lfs_init(struct __cds_lfs_stack *s);
 // ___cds_lfs_pop
 // file urcu/static/lfstack.h line 185
-static inline struct cds_lfs_node * ___cds_lfs_pop(union anonymous_0 u_s);
+static inline struct cds_lfs_node * ___cds_lfs_pop(struct __cds_wfcq_head * u_s);
 // ___cds_lfs_pop_all
 // file urcu/static/lfstack.h line 232
-static inline struct cds_lfs_head * ___cds_lfs_pop_all(union anonymous_0 u_s);
+static inline struct cds_lfs_head * ___cds_lfs_pop_all(struct __cds_wfcq_head * u_s);
 // ___cds_wfcq_append
 // file ./urcu/static/wfcqueue.h line 165
 static inline _Bool ___cds_wfcq_append(union anonymous_3 u_head, struct cds_wfcq_tail *tail, struct cds_wfcq_node *new_head, struct cds_wfcq_node *new_tail);
@@ -486,10 +486,10 @@ static void __cds_lfht_resize_lazy_launch(struct cds_lfht *ht);
 extern void __cds_lfs_init(struct __cds_lfs_stack *s);
 // __cds_lfs_pop
 // file lfstack.c line 78
-extern struct cds_lfs_node * __cds_lfs_pop(union anonymous_0 s);
+extern struct cds_lfs_node * __cds_lfs_pop(struct __cds_wfcq_head * s);
 // __cds_lfs_pop_all
 // file lfstack.c line 83
-extern struct cds_lfs_head * __cds_lfs_pop_all(union anonymous_0 s);
+extern struct cds_lfs_head * __cds_lfs_pop_all(struct __cds_wfcq_head * s);
 // __cds_list_del
 // file ./urcu/list.h line 71
 static inline void __cds_list_del(struct cds_list_head *prev, struct cds_list_head *next);
@@ -693,7 +693,7 @@ void queue_call_rcu_object(struct rcu_head *, void (*)(struct rcu_head *));
 static inline void _cds_lfq_node_init_rcu(struct cds_lfq_node_rcu *node);
 // _cds_lfs_empty
 // file urcu/static/lfstack.h line 102
-static inline _Bool _cds_lfs_empty(union anonymous_0 s);
+static inline _Bool _cds_lfs_empty(struct __cds_wfcq_head * s);
 // _cds_lfs_init
 // file urcu/static/lfstack.h line 72
 static inline void _cds_lfs_init(struct cds_lfs_stack *s);
@@ -723,7 +723,7 @@ static inline struct cds_lfs_node_rcu * _cds_lfs_pop_rcu(struct cds_lfs_stack_rc
 static inline void _cds_lfs_pop_unlock(struct cds_lfs_stack *s);
 // _cds_lfs_push
 // file urcu/static/lfstack.h line 137
-static inline _Bool _cds_lfs_push(union anonymous_0 u_s, struct cds_lfs_node *node);
+static inline _Bool _cds_lfs_push(struct __cds_wfcq_head * u_s, struct cds_lfs_node *node);
 // _cds_lfs_push_rcu
 // file urcu/static/rculfstack.h line 73
 static inline signed int _cds_lfs_push_rcu(struct cds_lfs_stack_rcu *s, struct cds_lfs_node_rcu *node);
@@ -901,9 +901,9 @@ static inline signed int _cds_wfs_push_link2(union anonymous_5 u_stack_link2, st
 // _defer_rcu
 // file urcu-defer-impl.h line 311
 static void _defer_rcu(void (*fct)(void *), void *p);
-// _defer_rcu::fct_object
+
 //
-void fct_object(void *);
+
 // _do_cds_lfht_grow
 // file rculfhash.c line 1856
 static void _do_cds_lfht_grow(struct cds_lfht *ht, unsigned long int old_size, unsigned long int new_size);
@@ -1146,7 +1146,7 @@ void queue_call_rcu_object(struct rcu_head *, void (*)(struct rcu_head *));
 extern void cds_lfq_node_init_rcu(struct cds_lfq_node_rcu *node);
 // cds_lfs_empty
 // file lfstack.c line 48
-extern _Bool cds_lfs_empty(union anonymous_0 s);
+extern _Bool cds_lfs_empty(struct __cds_wfcq_head * s);
 // cds_lfs_init
 // file lfstack.c line 38
 extern void cds_lfs_init(struct cds_lfs_stack *s);
@@ -1176,7 +1176,7 @@ extern struct cds_lfs_node_rcu * cds_lfs_pop_rcu(struct cds_lfs_stack_rcu *s);
 extern void cds_lfs_pop_unlock(struct cds_lfs_stack *s);
 // cds_lfs_push
 // file lfstack.c line 53
-extern _Bool cds_lfs_push(union anonymous_0 s, struct cds_lfs_node *node);
+extern _Bool cds_lfs_push(struct __cds_wfcq_head * s, struct cds_lfs_node *node);
 // cds_lfs_push_rcu
 // file ../../urcu/rculfstack.h line 81
 extern signed int cds_lfs_push_rcu(struct cds_lfs_stack_rcu *s, struct cds_lfs_node_rcu *node);
@@ -1291,9 +1291,9 @@ struct call_rcu_data * create_call_rcu_data_memb(unsigned long int flags, signed
 // defer_rcu_memb
 // file urcu-defer-impl.h line 395
 extern void defer_rcu_memb(void (*fct)(void *), void *p);
-// defer_rcu_memb::fct_object
+
 //
-void fct_object(void *);
+
 // do_resize_cb
 // file rculfhash.c line 1958
 static void do_resize_cb(struct rcu_head *head);
@@ -1465,9 +1465,9 @@ static void mutex_unlock(union anonymous *mutex);
 // partition_resize_helper
 // file rculfhash.c line 1162
 static void partition_resize_helper(struct cds_lfht *ht, unsigned long int i, unsigned long int len, void (*fct)(struct cds_lfht *, unsigned long int, unsigned long int, unsigned long int));
-// partition_resize_helper::fct_object
+
 //
-void fct_object(struct cds_lfht *, unsigned long int, unsigned long int, unsigned long int);
+
 // partition_resize_thread
 // file rculfhash.c line 1151
 static void * partition_resize_thread(void *arg);
@@ -1519,9 +1519,9 @@ extern void rcu_defer_barrier_memb(void);
 // rcu_defer_barrier_queue
 // file urcu-defer-impl.h line 218
 static void rcu_defer_barrier_queue(struct defer_queue *queue, unsigned long int head);
-// rcu_defer_barrier_queue::1::fct_object
+
 //
-void fct_object(void *);
+
 // rcu_defer_barrier_thread_memb
 // file urcu-defer-impl.h line 261
 extern void rcu_defer_barrier_thread_memb(void);
@@ -2759,7 +2759,7 @@ static inline void ___cds_lfs_init(struct __cds_lfs_stack *s)
 
 // ___cds_lfs_pop
 // file urcu/static/lfstack.h line 185
-static inline struct cds_lfs_node * ___cds_lfs_pop(union anonymous_0 u_s)
+static inline struct cds_lfs_node * ___cds_lfs_pop(struct __cds_wfcq_head * u_s)
 {
   struct __cds_lfs_stack *___cds_lfs_pop__1__s = u_s._s;
   struct cds_lfs_head *tmp_statement_expression_2;
@@ -2789,7 +2789,7 @@ static inline struct cds_lfs_node * ___cds_lfs_pop(union anonymous_0 u_s)
 
 // ___cds_lfs_pop_all
 // file urcu/static/lfstack.h line 232
-static inline struct cds_lfs_head * ___cds_lfs_pop_all(union anonymous_0 u_s)
+static inline struct cds_lfs_head * ___cds_lfs_pop_all(struct __cds_wfcq_head * u_s)
 {
   struct __cds_lfs_stack *___cds_lfs_pop_all__1__s = u_s._s;
   unsigned long int return_value___uatomic_exchange_1;
@@ -4204,7 +4204,7 @@ extern void __cds_lfs_init(struct __cds_lfs_stack *s)
 
 // __cds_lfs_pop
 // file lfstack.c line 78
-extern struct cds_lfs_node * __cds_lfs_pop(union anonymous_0 s)
+extern struct cds_lfs_node * __cds_lfs_pop(struct __cds_wfcq_head * s)
 {
   struct cds_lfs_node *return_value____cds_lfs_pop_1;
   return_value____cds_lfs_pop_1=___cds_lfs_pop(s);
@@ -4213,7 +4213,7 @@ extern struct cds_lfs_node * __cds_lfs_pop(union anonymous_0 s)
 
 // __cds_lfs_pop_all
 // file lfstack.c line 83
-extern struct cds_lfs_head * __cds_lfs_pop_all(union anonymous_0 s)
+extern struct cds_lfs_head * __cds_lfs_pop_all(struct __cds_wfcq_head * s)
 {
   struct cds_lfs_head *return_value____cds_lfs_pop_all_1;
   return_value____cds_lfs_pop_all_1=___cds_lfs_pop_all(s);
@@ -6215,7 +6215,7 @@ static inline void _cds_lfq_node_init_rcu(struct cds_lfq_node_rcu *node)
 
 // _cds_lfs_empty
 // file urcu/static/lfstack.h line 102
-static inline _Bool _cds_lfs_empty(union anonymous_0 s)
+static inline _Bool _cds_lfs_empty(struct __cds_wfcq_head * s)
 {
   struct cds_lfs_head * volatile tmp_statement_expression_1;
   asm("" :  :  : "memory");
@@ -6342,7 +6342,7 @@ static inline void _cds_lfs_pop_unlock(struct cds_lfs_stack *s)
 
 // _cds_lfs_push
 // file urcu/static/lfstack.h line 137
-static inline _Bool _cds_lfs_push(union anonymous_0 u_s, struct cds_lfs_node *node)
+static inline _Bool _cds_lfs_push(struct __cds_wfcq_head * u_s, struct cds_lfs_node *node)
 {
   struct __cds_lfs_stack *_cds_lfs_push__1__s = u_s._s;
   struct cds_lfs_head *head = (struct cds_lfs_head *)(void *)0;
@@ -9113,7 +9113,7 @@ extern void cds_lfq_node_init_rcu(struct cds_lfq_node_rcu *node)
 
 // cds_lfs_empty
 // file lfstack.c line 48
-extern _Bool cds_lfs_empty(union anonymous_0 s)
+extern _Bool cds_lfs_empty(struct __cds_wfcq_head * s)
 {
   _Bool return_value__cds_lfs_empty_1;
   return_value__cds_lfs_empty_1=_cds_lfs_empty(s);
@@ -9191,7 +9191,7 @@ extern void cds_lfs_pop_unlock(struct cds_lfs_stack *s)
 
 // cds_lfs_push
 // file lfstack.c line 53
-extern _Bool cds_lfs_push(union anonymous_0 s, struct cds_lfs_node *node)
+extern _Bool cds_lfs_push(struct __cds_wfcq_head * s, struct cds_lfs_node *node)
 {
   _Bool return_value__cds_lfs_push_1;
   return_value__cds_lfs_push_1=_cds_lfs_push(s, node);

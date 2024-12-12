@@ -657,9 +657,9 @@ static struct conn_queue_item * cqi_new();
 // create_worker
 // file thread.c line 217
 static void create_worker(void * (*func)(void *), void *arg);
-// create_worker::func_object
+
 //
-void * func_object(void *);
+
 // daemon
 // file /usr/include/unistd.h line 937
 extern signed int daemon(signed int, signed int);
@@ -947,7 +947,7 @@ extern signed long int read(signed int, void *, unsigned long int);
 extern void * realloc(void *, unsigned long int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // remove_pidfile
 // file memcachedb.c line 2277
 static void remove_pidfile(const char *pid_file);

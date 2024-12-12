@@ -467,9 +467,9 @@ static inline void setup_signal(signed int signum, void (*handler)(signed int));
 // setup_signal::_tmp::return_value_signal_1_object
 //
 void return_value_signal_1_object(signed int);
-// setup_signal::handler_object
+
 //
-void handler_object(signed int);
+
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);

@@ -717,7 +717,7 @@ static void * binary_search(void *first, void *last, void *key, unsigned long in
 signed int cmp_object(void *, void *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_18, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // block_sighup
 // file logger.c line 130
 static void block_sighup(void);
@@ -801,7 +801,7 @@ signed int conn_tx_off(struct connection *conn);
 signed int conn_tx_on(struct connection *conn);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_18, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // connect_to
 // file ../include/net.h line 46
 signed int connect_to(const char *name, signed int port);
@@ -832,9 +832,9 @@ signed int create_http_layout(void);
 // create_listen_ports
 // file net.c line 64
 signed int create_listen_ports(const char *bindaddr, signed int port, signed int (*callback)(signed int, void *), void *data);
-// create_listen_ports::callback_object
+
 //
-signed int callback_object(signed int, void *);
+
 // create_node_layout
 // file sheepfs.h line 88
 signed int create_node_layout(void);
@@ -847,9 +847,9 @@ static signed int create_sheepfs_layout(void);
 // create_unix_domain_socket
 // file net.c line 536
 signed int create_unix_domain_socket(const char *unix_path, signed int (*callback)(signed int, void *), void *data);
-// create_unix_domain_socket::callback_object
+
 //
-signed int callback_object(signed int, void *);
+
 // create_vdi_layout
 // file sheepfs.h line 76
 signed int create_vdi_layout(void);
@@ -1087,9 +1087,9 @@ extern void freeaddrinfo(struct addrinfo *);
 // freeifaddrs
 // file /usr/include/ifaddrs.h line 69
 extern void freeifaddrs(struct ifaddrs *);
-// fs_printf_object
+
 //
-void fs_printf_object(const char *, signed int, const char *, ...);
+
 // ftruncate
 // file /usr/include/unistd.h line 1016
 extern signed int ftruncate(signed int, signed long int);
@@ -1228,15 +1228,15 @@ signed int writer_object(unsigned long int, void *, unsigned int, unsigned long 
 // install_crash_handler
 // file ../include/util.h line 112
 signed int install_crash_handler(void (*handler)(signed int));
-// install_crash_handler::handler_object
+
 //
-void handler_object(signed int);
+
 // install_sighandler
 // file ../include/util.h line 111
 signed int install_sighandler(signed int signum, void (*handler)(signed int), _Bool once);
-// install_sighandler::handler_object
+
 //
-void handler_object(signed int);
+
 // is_data_obj
 // file ../include/sheepdog_proto.h line 405
 static inline _Bool is_data_obj(unsigned long int oid);
@@ -2101,9 +2101,9 @@ signed int writer_object(unsigned long int, void *, unsigned int, unsigned long 
 // traverse_btree
 // file sd_inode.c line 139
 extern void traverse_btree(signed int (*reader)(unsigned long int, void **, unsigned int, unsigned long int), struct sd_inode *inode, void (*fn)(void *, enum btree_node_type, void *), void *arg);
-// traverse_btree::fn_object
+
 //
-void fn_object(void *, enum btree_node_type, void *);
+
 // traverse_btree::reader_object
 //
 signed int reader_object(unsigned long int, void **, unsigned int, unsigned long int);

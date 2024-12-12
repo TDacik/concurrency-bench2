@@ -708,15 +708,15 @@ static signed int evdev_try_add(signed int fd);
 // evloop_add
 // file evloop.h line 41
 signed int evloop_add(signed int fd, unsigned int events, void (*cb)(signed int, unsigned int));
-// evloop_add::cb_object
+
 //
-void cb_object(signed int, unsigned int);
+
 // evloop_add_timer
 // file evloop.c line 218
 signed int evloop_add_timer(signed int timeout, void (*cb)(signed int, unsigned long int));
-// evloop_add_timer::cb_object
+
 //
-void cb_object(signed int, unsigned long int);
+
 // evloop_cleanup
 // file evloop.h line 62
 void evloop_cleanup(void);

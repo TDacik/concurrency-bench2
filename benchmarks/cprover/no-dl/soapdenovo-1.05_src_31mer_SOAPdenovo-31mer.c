@@ -469,7 +469,7 @@ static signed int compareSequences_link1(char *sequence1_link1, char *sequence2_
 char * compl_int_seq(char *seq, signed int len);
 // connectByPE_grad
 // file attachPEinfo.c line 281
-extern signed int connectByPE_grad(struct _IO_FILE *fp, signed int peGrad, char *line);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // connectInRead
 // file bubble.c line 946
 static void connectInRead(struct readinterval *previous, struct readinterval *next);

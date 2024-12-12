@@ -275,7 +275,7 @@ signed int rq_add(struct _ether_arp_frame *req_frame, struct sockaddr_ll *req_if
 void rq_process(struct in_addr ipaddr, signed int ifindex);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // setsid
 // file /usr/include/unistd.h line 667
 extern signed int setsid(void);

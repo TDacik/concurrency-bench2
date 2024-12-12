@@ -237,7 +237,7 @@ void closeConnections(void);
 static void closeTLSSess(signed int i);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_3, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // endTiming
 // file tcpflood.c line 641
 static inline void endTiming(struct timeval *tvStart, struct runstats *stats);
@@ -405,7 +405,7 @@ signed int sendMessages(struct instdata *inst);
 static signed int sendTLS(signed int i, char *buf, signed int lenBuf);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_3, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // setrlimit
 // file /usr/include/x86_64-linux-gnu/sys/resource.h line 69
 extern signed int setrlimit(enum __rlimit_resource, struct rlimit *);

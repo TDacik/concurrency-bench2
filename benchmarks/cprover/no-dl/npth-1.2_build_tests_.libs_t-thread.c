@@ -199,13 +199,13 @@ extern signed int * __errno_location(void);
 static void _sigev_handler(signed int signum);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_17, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // clock_gettime
 // file /usr/include/time.h line 342
 extern signed int clock_gettime(signed int, struct timespec *);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_17, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // enter_npth
 // file ../../src/npth.c line 118
 static void enter_npth(void);

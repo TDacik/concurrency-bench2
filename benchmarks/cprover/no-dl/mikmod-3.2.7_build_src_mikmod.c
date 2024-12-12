@@ -996,9 +996,9 @@ static void freq_hotlist(struct anonymous_25 *freq_data);
 // freq_open
 // file ../../src/mlistedit.c line 874
 void freq_open(const char *title, const char *path, signed int actline, signed int (*func)(signed int, char *, void *), void *data);
-// freq_open::func_object
+
 //
-signed int func_object(signed int, char *, void *);
+
 // freq_readdir
 // file ../../src/mlistedit.c line 412
 static void freq_readdir(const char *path, char ***entries, signed int *cnt, struct anonymous_25 *data);
@@ -1401,9 +1401,9 @@ extern signed int resizeterm(signed int, signed int);
 // scan_dir
 // file ../../src/mlistedit.c line 321
 static void scan_dir(char *path, signed int recursive, signed int links, struct anonymous_25 *freq_data, enum anonymous_26 mode, signed int (*func)(char *, signed int, signed int, void *), void *data, signed int *added, signed int *removed);
-// scan_dir::func_object
+
 //
-signed int func_object(char *, signed int, signed int, void *);
+
 // sched_get_priority_min
 // file /usr/include/sched.h line 71
 extern signed int sched_get_priority_min(signed int);
@@ -1770,21 +1770,21 @@ void win_panel_set_data(signed int _panel, void *data);
 // win_panel_set_handle_key
 // file ../../src/mwindow.h line 95
 void win_panel_set_handle_key(signed int _panel, signed int (*func)(struct MWINDOW *, signed int));
-// win_panel_set_handle_key::func_object
+
 //
-signed int func_object(struct MWINDOW *, signed int);
+
 // win_panel_set_repaint
 // file ../../src/mwindow.h line 92
 void win_panel_set_repaint(signed int _panel, signed int (*func)(struct MWINDOW *));
-// win_panel_set_repaint::func_object
+
 //
-signed int func_object(struct MWINDOW *);
+
 // win_panel_set_resize
 // file ../../src/mwindow.h line 99
 void win_panel_set_resize(signed int _panel, signed int auto_resize, void (*func)(struct MWINDOW *, signed int, signed int));
-// win_panel_set_resize::func_object
+
 //
-void func_object(struct MWINDOW *, signed int, signed int);
+
 // win_print
 // file ../../src/mwindow.h line 134
 void win_print(struct MWINDOW *win, signed int x, signed int y, const char *str);
@@ -1809,21 +1809,21 @@ void win_set_forground(enum anonymous_7 fg);
 // win_set_handle_key
 // file ../../src/mwindow.c line 515
 void win_set_handle_key(signed int (*func)(struct MWINDOW *, signed int));
-// win_set_handle_key::func_object
+
 //
-signed int func_object(struct MWINDOW *, signed int);
+
 // win_set_repaint
 // file ../../src/mwindow.c line 505
 void win_set_repaint(signed int (*func)(struct MWINDOW *));
-// win_set_repaint::func_object
+
 //
-signed int func_object(struct MWINDOW *);
+
 // win_set_resize
 // file ../../src/mwindow.c line 526
 void win_set_resize(signed int auto_resize, void (*func)(struct MWINDOW *, signed int, signed int));
-// win_set_resize::func_object
+
 //
-void func_object(struct MWINDOW *, signed int, signed int);
+
 // win_set_theme
 // file ../../src/mwindow.h line 82
 void win_set_theme(struct anonymous_1 *new_theme);
@@ -1836,9 +1836,9 @@ static void win_status_repaint(void);
 // win_timeout_add
 // file ../../src/mwindow.h line 166
 void win_timeout_add(signed int interval, signed int (*func)(struct MWINDOW *, void *), void *data);
-// win_timeout_add::func_object
+
 //
-signed int func_object(struct MWINDOW *, void *);
+
 // win_timeout_insert
 // file ../../src/mwindow.c line 982
 static void win_timeout_insert(struct TIMEOUT *src);

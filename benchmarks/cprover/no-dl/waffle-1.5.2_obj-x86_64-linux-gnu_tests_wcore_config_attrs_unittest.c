@@ -709,9 +709,9 @@ static _Bool bind_api(struct wegl_platform *plat, signed int waffle_context_api)
 // call_once
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads.h line 147
 void call_once(signed int *flag, void (*func)(void));
-// call_once::func_object
+
 //
-void func_object(void);
+
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -1054,9 +1054,9 @@ static signed int list_empty(const struct ListNode * const head);
 // list_find
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 464
 static signed int list_find(struct ListNode * const head, const void *value, signed int (* const equal_func)(const void *, const void *), struct ListNode **output);
-// list_find::equal_func_object
+
 //
-signed int equal_func_object(const void *, const void *);
+
 // list_first
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/cmocka/src/cmocka.c line 478
 static signed int list_first(struct ListNode * const head, struct ListNode **output);
@@ -1492,9 +1492,9 @@ static void test_wcore_config_attrs_sample_buffers_is_bad(void **state);
 // thrd_create
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 220
 signed int thrd_create(unsigned long int *thr, signed int (*func)(void *), void *arg);
-// thrd_create::func_object
+
 //
-signed int func_object(void *);
+
 // thrd_current
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/third_party/threads/threads_posix.c line 236
 unsigned long int thrd_current(void);
@@ -2011,7 +2011,7 @@ void wegl_emit_error(struct wegl_platform *plat, const char *egl_func_call);
 // wegl_get_proc_address
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/egl/wegl_util.c line 95
 void * wegl_get_proc_address(struct wcore_platform *wc_self, const char *name);
-// wegl_get_proc_address::_tmp::return_value_object
+
 //
 void return_value_object(void);
 // wegl_make_current
@@ -2218,75 +2218,75 @@ static inline void wl_surface_destroy(struct wl_surface *wl_surface);
 // wrapped_XCloseDisplay
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 64
 static inline signed int wrapped_XCloseDisplay(struct _XDisplay *dpy);
-// wrapped_XCloseDisplay::1::old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
+
 // wrapped_XGetXCBConnection
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 73
 static inline struct xcb_connection_t * wrapped_XGetXCBConnection(struct _XDisplay *dpy);
-// wrapped_XGetXCBConnection::1::old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
+
 // wrapped_XOpenDisplay
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_wrappers.h line 55
 static inline struct _XDisplay * wrapped_XOpenDisplay(const char *name);
-// wrapped_XOpenDisplay::1::old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
+
 // wrapped_glXChooseFBConfig
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 48
 static inline struct __GLXFBConfigRec ** wrapped_glXChooseFBConfig(struct glx_platform *platform, struct _XDisplay *dpy, signed int screen, const signed int *attribList, signed int *nitems);
-// wrapped_glXChooseFBConfig::1::old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
+
 // wrapped_glXCreateContextAttribsARB
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 60
 static inline struct __GLXcontextRec * wrapped_glXCreateContextAttribsARB(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXFBConfigRec *config, struct __GLXcontextRec *share_context, signed int direct, const signed int *attrib_list);
-// wrapped_glXCreateContextAttribsARB::1::old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
+
 // wrapped_glXCreateNewContext
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 73
 static inline struct __GLXcontextRec * wrapped_glXCreateNewContext(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXFBConfigRec *config, signed int renderType, struct __GLXcontextRec *shareList, signed int direct);
-// wrapped_glXCreateNewContext::1::old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
+
 // wrapped_glXDestroyContext
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 106
 static inline void wrapped_glXDestroyContext(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXcontextRec *ctx);
-// wrapped_glXDestroyContext::1::old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
+
 // wrapped_glXGetFBConfigAttrib
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 85
 static inline signed int wrapped_glXGetFBConfigAttrib(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXFBConfigRec *config, signed int attribute, signed int *value);
-// wrapped_glXGetFBConfigAttrib::1::old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
+
 // wrapped_glXGetVisualFromFBConfig
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 96
 static inline struct anonymous_4 * wrapped_glXGetVisualFromFBConfig(struct glx_platform *platform, struct _XDisplay *dpy, struct __GLXFBConfigRec *config);
-// wrapped_glXGetVisualFromFBConfig::1::old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
+
 // wrapped_glXMakeCurrent
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 115
 static inline signed int wrapped_glXMakeCurrent(struct glx_platform *platform, struct _XDisplay *dpy, unsigned long int drawable, struct __GLXcontextRec *ctx);
-// wrapped_glXMakeCurrent::1::old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
+
 // wrapped_glXQueryExtensionsString
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 125
 static inline const char * wrapped_glXQueryExtensionsString(struct glx_platform *platform, struct _XDisplay *dpy, signed int screen);
-// wrapped_glXQueryExtensionsString::1::old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
+
 // wrapped_glXSwapBuffers
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/glx/glx_wrappers.h line 135
 static inline void wrapped_glXSwapBuffers(struct glx_platform *platform, struct _XDisplay *dpy, unsigned long int drawable);
-// wrapped_glXSwapBuffers::1::old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous_6 *);
+
 // x11_display_init
 // file /srv/jenkins-slave/workspace/sid-goto-cc-waffle/waffle-1.5.2/src/waffle/x11/x11_display.h line 39
 _Bool x11_display_init(struct x11_display *self, const char *name);
@@ -10219,7 +10219,7 @@ struct waffle_config * waffle_config_choose(struct waffle_display *dpy, const si
     tmp_if_expr_1 = &wc_dpy->api;
 
   else
-    tmp_if_expr_1 = (struct api_object *)(void *)0;
+
   obj_list[0] = tmp_if_expr_1;
   _Bool return_value_api_check_entry_2;
   return_value_api_check_entry_2=api_check_entry(obj_list, 1);
@@ -10260,7 +10260,7 @@ _Bool waffle_config_destroy(struct waffle_config *self)
     tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr_1 = (struct api_object *)(void *)0;
+
   obj_list[0] = tmp_if_expr_1;
   _Bool return_value_api_check_entry_2;
   return_value_api_check_entry_2=api_check_entry(obj_list, 1);
@@ -10287,7 +10287,7 @@ union waffle_native_config * waffle_config_get_native(struct waffle_config *self
     tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr_1 = (struct api_object *)(void *)0;
+
   obj_list[0] = tmp_if_expr_1;
   _Bool return_value_api_check_entry_2;
   return_value_api_check_entry_2=api_check_entry(obj_list, 1);
@@ -10334,7 +10334,7 @@ struct waffle_context * waffle_context_create(struct waffle_config *config, stru
     tmp_if_expr_2 = &wc_config->api;
 
   else
-    tmp_if_expr_2 = (struct api_object *)(void *)0;
+
   obj_list[(signed long int)tmp_post_1] = tmp_if_expr_2;
   signed int tmp_post_3;
   if(!(wc_shared_ctx == ((struct wcore_context *)NULL)))
@@ -10376,7 +10376,7 @@ _Bool waffle_context_destroy(struct waffle_context *self)
     tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr_1 = (struct api_object *)(void *)0;
+
   obj_list[0] = tmp_if_expr_1;
   _Bool return_value_api_check_entry_2;
   return_value_api_check_entry_2=api_check_entry(obj_list, 1);
@@ -10403,7 +10403,7 @@ union waffle_native_context * waffle_context_get_native(struct waffle_context *s
     tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr_1 = (struct api_object *)(void *)0;
+
   obj_list[0] = tmp_if_expr_1;
   _Bool return_value_api_check_entry_2;
   return_value_api_check_entry_2=api_check_entry(obj_list, 1);
@@ -10469,7 +10469,7 @@ _Bool waffle_display_disconnect(struct waffle_display *self)
     tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr_1 = (struct api_object *)(void *)0;
+
   obj_list[0] = tmp_if_expr_1;
   _Bool return_value_api_check_entry_2;
   return_value_api_check_entry_2=api_check_entry(obj_list, 1);
@@ -10496,7 +10496,7 @@ union waffle_native_display * waffle_display_get_native(struct waffle_display *s
     tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr_1 = (struct api_object *)(void *)0;
+
   obj_list[0] = tmp_if_expr_1;
   _Bool return_value_api_check_entry_2;
   return_value_api_check_entry_2=api_check_entry(obj_list, 1);
@@ -10530,7 +10530,7 @@ _Bool waffle_display_supports_context_api(struct waffle_display *self, signed in
     tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr_1 = (struct api_object *)(void *)0;
+
   obj_list[0] = tmp_if_expr_1;
   _Bool return_value_api_check_entry_2;
   return_value_api_check_entry_2=api_check_entry(obj_list, 1);
@@ -10900,7 +10900,7 @@ _Bool waffle_make_current(struct waffle_display *dpy, struct waffle_window *wind
     tmp_if_expr_2 = &wc_dpy->api;
 
   else
-    tmp_if_expr_2 = (struct api_object *)(void *)0;
+
   obj_list[(signed long int)tmp_post_1] = tmp_if_expr_2;
   signed int tmp_post_3;
   if(!(wc_window == ((struct wcore_window *)NULL)))
@@ -10951,7 +10951,7 @@ struct waffle_window * waffle_window_create(struct waffle_config *config, signed
     tmp_if_expr_1 = &wc_config->api;
 
   else
-    tmp_if_expr_1 = (struct api_object *)(void *)0;
+
   obj_list[0] = tmp_if_expr_1;
   _Bool return_value_api_check_entry_2;
   return_value_api_check_entry_2=api_check_entry(obj_list, 1);
@@ -10985,7 +10985,7 @@ _Bool waffle_window_destroy(struct waffle_window *self)
     tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr_1 = (struct api_object *)(void *)0;
+
   obj_list[0] = tmp_if_expr_1;
   _Bool return_value_api_check_entry_2;
   return_value_api_check_entry_2=api_check_entry(obj_list, 1);
@@ -11012,7 +11012,7 @@ union waffle_native_window * waffle_window_get_native(struct waffle_window *self
     tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr_1 = (struct api_object *)(void *)0;
+
   obj_list[0] = tmp_if_expr_1;
   _Bool return_value_api_check_entry_2;
   return_value_api_check_entry_2=api_check_entry(obj_list, 1);
@@ -11046,7 +11046,7 @@ _Bool waffle_window_resize(struct waffle_window *self, signed int width, signed 
     tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr_1 = (struct api_object *)(void *)0;
+
   obj_list[0] = tmp_if_expr_1;
   _Bool return_value_api_check_entry_2;
   return_value_api_check_entry_2=api_check_entry(obj_list, 1);
@@ -11080,7 +11080,7 @@ _Bool waffle_window_show(struct waffle_window *self)
     tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr_1 = (struct api_object *)(void *)0;
+
   obj_list[0] = tmp_if_expr_1;
   _Bool return_value_api_check_entry_2;
   return_value_api_check_entry_2=api_check_entry(obj_list, 1);
@@ -11107,7 +11107,7 @@ _Bool waffle_window_swap_buffers(struct waffle_window *self)
     tmp_if_expr_1 = &wc_self->api;
 
   else
-    tmp_if_expr_1 = (struct api_object *)(void *)0;
+
   obj_list[0] = tmp_if_expr_1;
   _Bool return_value_api_check_entry_2;
   return_value_api_check_entry_2=api_check_entry(obj_list, 1);

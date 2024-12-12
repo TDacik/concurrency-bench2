@@ -847,7 +847,7 @@ extern signed int close(signed int);
 extern signed int closedir(struct __dirstream *);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_10, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // console_switch
 // file console/fbtv.c line 539
 static void console_switch(void);
@@ -1133,9 +1133,9 @@ extern unsigned int getuid(void);
 // gfx_init
 // file console/matrox.h line 1
 extern signed int gfx_init(signed int fd);
-// gfx_scaler_off_object
+
 //
-void gfx_scaler_off_object(void);
+
 // gfx_scaler_on_object
 //
 void gfx_scaler_on_object(signed int, signed int, signed int, signed int, signed int, signed int, signed int, signed int);
@@ -1475,9 +1475,9 @@ struct ng_attribute * ng_mix_init(char *device, char *channel);
 // ng_packed_frame
 // file libng/color_common.c line 22
 void ng_packed_frame(void *handle, struct ng_video_buf *out, struct ng_video_buf *in);
-// ng_packed_frame::1::func_object
+
 //
-signed int func_object(unsigned char *, unsigned char *, signed int);
+
 // ng_packed_init
 // file libng/color_common.c line 16
 void * ng_packed_init(struct ng_video_fmt *out, void *priv);

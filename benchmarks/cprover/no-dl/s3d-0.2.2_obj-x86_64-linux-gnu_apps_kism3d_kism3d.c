@@ -488,12 +488,12 @@ void _s3d_hash_debug(struct hashtable_t *hash);
 // _s3d_hash_delete
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/hash.c line 45
 void _s3d_hash_delete(struct hashtable_t *hash, void (*free_cb)(void *));
-// _s3d_hash_delete::free_cb_link1_object
+
 //
-void free_cb_link1_object(void *);
-// _s3d_hash_delete::free_cb_object
+
+
 //
-void free_cb_object(void *);
+
 // _s3d_hash_destroy
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/hash.c line 71
 void _s3d_hash_destroy(struct hashtable_t *hash);
@@ -515,12 +515,12 @@ signed int choose_link1_object(const void *, signed int);
 // _s3d_hash_new::choose_object
 //
 signed int choose_object(const void *, signed int);
-// _s3d_hash_new::compare_link1_object
+
 //
-signed int compare_link1_object(const void *, const void *);
-// _s3d_hash_new::compare_object
+
+
 //
-signed int compare_object(const void *, const void *);
+
 // _s3d_hash_remove
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/hash.c line 256
 void * _s3d_hash_remove(struct hashtable_t *hash, void *data);
@@ -1061,12 +1061,12 @@ signed int s3d_load_texture(signed int object, unsigned int tex, unsigned short 
 // s3d_mainloop
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3d.h line 155
 signed int s3d_mainloop(void (*f)(void));
-// s3d_mainloop::f_link1_object
+
 //
-void f_link1_object(void);
-// s3d_mainloop::f_object
+
+
 //
-void f_object(void);
+
 // s3d_mcp_focus
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/proto_out.c line 1265
 signed int s3d_mcp_focus(signed int object);
@@ -1139,21 +1139,21 @@ signed int s3d_pop_vertex(signed int object, unsigned int n);
 // s3d_process_stack
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/event.c line 129
 void s3d_process_stack(void);
-// s3d_process_stack::1::cb_link1_object
+
 //
-signed int cb_link1_object(struct s3d_evt *);
-// s3d_process_stack::1::cb_object
+
+
 //
-signed int cb_object(struct s3d_evt *);
+
 // s3d_push_event
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/event.c line 38
 void s3d_push_event(struct s3d_evt *newevt);
-// s3d_push_event::1::cb_link1_object
+
 //
-signed int cb_link1_object(struct s3d_evt *);
-// s3d_push_event::1::cb_object
+
+
 //
-signed int cb_object(struct s3d_evt *);
+
 // s3d_push_line
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/proto_out.c line 381
 signed int s3d_push_line(signed int object, unsigned int v1, unsigned int v2, unsigned int material);
@@ -1202,12 +1202,12 @@ signed int s3d_select_font(const char *path);
 // s3d_set_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3d.h line 243
 void s3d_set_callback(unsigned char event, signed int (*func)(struct s3d_evt *));
-// s3d_set_callback::func_link1_object
+
 //
-signed int func_link1_object(struct s3d_evt *);
-// s3d_set_callback::func_object
+
+
 //
-signed int func_object(struct s3d_evt *);
+
 // s3d_strlen
 // file /srv/jenkins-slave/workspace/sid-goto-cc-s3d/s3d-0.2.2/libs3d/s3d.h line 226
 float s3d_strlen(const char *str);
@@ -9394,7 +9394,7 @@ static signed int model_load_link1(char *file_link1)
       oface_link1 = object_link1->faces;
       if(oface_link1 == ((struct _GSList *)NULL))
       {
-        voff_link1 = voff_link1 + (signed int)object_link1->vertex_count;
+
         oitem_link1 = oitem_link1->next;
       }
 
@@ -9499,7 +9499,7 @@ static signed int model_load_link1(char *file_link1)
 
         }
 
-        voff_link1 = voff_link1 + (signed int)object_link1->vertex_count;
+
         oitem_link1 = oitem_link1->next;
       }
     }
@@ -9606,7 +9606,7 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
       {
         oid=ntohl(*((unsigned int *)buf));
         _queue_new_object(oid);
-        s3dprintf_link1(1, "S3D_P_S_NEWOBJ: new object %d", oid);
+
       }
 
       break;
@@ -9671,13 +9671,13 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
           ntohfb(&mo->trans_x, 4);
           buf[(signed long int)((signed int)length - 1)] = (char)0;
           s3devt->buf = buf;
-          s3dprintf_link1(1, "S3D_P_MCP_OBEJCT: something is happening to object %d, name %s", mo->object, (const void *)mo->name);
+
         }
 
       }
 
       else
-        s3dprintf_link1(3, "wrong length for S3D_P_MCP_OBJECT length %d != %d", length, (signed int)sizeof(struct mcp_object) /*276ul*/ );
+
       break;
     }
     case 32:
@@ -9697,7 +9697,7 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
           ntohfb(&oi->trans_x, 8);
           buf[(signed long int)((signed int)length - 1)] = (char)0;
           s3devt->buf = buf;
-          s3dprintf_link1(1, "S3D_P_S_OINFO: something is happening to object %d, name %s", oi->object, (const void *)oi->name);
+
         }
 
       }
@@ -9724,7 +9724,7 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
         tshm->th=ntohs(tshm->th);
         tshm->w=ntohs(tshm->w);
         tshm->h=ntohs(tshm->h);
-        s3dprintf_link1(3, "S3D_P_S_SHMTEX: texture %d of object %d is available under shmid %d", tshm->tex, tshm->oid, tshm->shmid);
+
         _s3d_handle_texshm(tshm);
         free((void *)buf);
       }
@@ -9745,7 +9745,7 @@ signed int net_prot_in(unsigned char opcode, unsigned short int length, char *bu
           s3devt->event = (unsigned char)33;
           s3devt->length = (signed int)length;
           *((unsigned int *)buf)=ntohl(*((unsigned int *)buf));
-          s3dprintf_link1(3, "S3D_P_MCP_DEL_OBEJCT: deleting object %d", *((unsigned int *)buf));
+
           s3devt->buf = buf;
         }
 
@@ -10522,7 +10522,7 @@ signed int s3d_draw_string(const char *str, float *xlen)
     {
       signed int return_value_s3d_new_object_2;
       return_value_s3d_new_object_2=s3d_new_object();
-      f_oid = (unsigned int)return_value_s3d_new_object_2;
+
       s3d_push_material((signed int)f_oid, (float)1.0, (float)1.0, (float)1.0, (float)1.0, (float)1.0, (float)1.0, (float)1.0, (float)1.0, (float)1.0);
       xoff = (float)0;
       voff = 0;

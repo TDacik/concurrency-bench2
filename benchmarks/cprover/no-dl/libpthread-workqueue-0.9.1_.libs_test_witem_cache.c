@@ -129,9 +129,9 @@ extern void abort(void);
 // additem
 // file testing/witem_cache/test.c line 50
 void additem(void (*func)(void *), void *arg);
-// additem::func_object
+
 //
-void func_object(void *);
+
 // atoi
 // file /usr/include/stdlib.h line 147
 extern signed int atoi(const char *);
@@ -231,9 +231,9 @@ extern struct __dirstream * opendir(const char *);
 // overcommit_worker_main
 // file src/posix/manager.c line 244
 static void * overcommit_worker_main(void *unused);
-// overcommit_worker_main::1::func_object
+
 //
-void func_object(void *);
+
 // pause
 // file /usr/include/unistd.h line 469
 extern signed int pause(void);
@@ -294,9 +294,9 @@ extern signed int pthread_spin_unlock(volatile signed int *);
 // pthread_workqueue_additem_np
 // file ./include/pthread_workqueue.h line 63
 signed int pthread_workqueue_additem_np(struct _pthread_workqueue *workq, void (*workitem_func)(void *), void *workitem_arg, void **itemhandlep, unsigned int *gencountp);
-// pthread_workqueue_additem_np::workitem_func_object
+
 //
-void workitem_func_object(void *);
+
 // pthread_workqueue_attr_destroy_np
 // file src/api.c line 151
 signed int pthread_workqueue_attr_destroy_np(struct anonymous *attr);
@@ -393,9 +393,9 @@ static signed int valid_workq(struct _pthread_workqueue *workq);
 // witem_alloc
 // file src/private.h line 169
 struct work * witem_alloc(void (*func)(void *), void *func_arg);
-// witem_alloc::func_object
+
 //
-void func_object(void *);
+
 // witem_cache_cleanup
 // file src/witem_cache.c line 68
 void witem_cache_cleanup(void *value);

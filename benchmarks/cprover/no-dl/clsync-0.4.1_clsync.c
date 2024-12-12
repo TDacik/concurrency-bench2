@@ -589,9 +589,9 @@ signed int _socket_send(struct clsyncsock *clsyncsock, unsigned long int *cmd_nu
 // _str_splitargs
 // file stringex.c line 27
 static signed int _str_splitargs(char *ptr, char **arg_start_p, signed int quotes, signed int (*handler)(char *, unsigned long int, void *), char *additional_arg);
-// _str_splitargs::handler_object
+
 //
-signed int handler_object(char *, unsigned long int, void *);
+
 // _sync_idle_dosync_collectedevents
 // file sync.c line 2262
 void _sync_idle_dosync_collectedevents(void *fpath_gp, void *evinfo_gp, void *arg_gp);
@@ -612,7 +612,7 @@ static inline signed int _thread_info_unlock(const char * const function_name, s
 extern void _warning(const char * const function_name, const char *fmt, ...);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_17, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -651,7 +651,7 @@ extern char ** backtrace_symbols(void * const *, signed int);
 signed int becomedaemon();
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_17, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // calloc
 // file /usr/include/stdlib.h line 468
 extern void * calloc(unsigned long int, unsigned long int);
@@ -976,18 +976,18 @@ extern unsigned int g_str_hash(const void *);
 // g_tree_dup
 // file glibex.c line 66
 extern struct _GTree * g_tree_dup(struct _GTree *src, signed int (*key_compare_func)(const void *, const void *, void *), void *key_compare_data, void (*key_destroy_func)(void *), void (*value_destroy_func)(void *), void * (*key_dup_funct)(void *), void * (*value_dup_funct)(void *));
-// g_tree_dup::key_compare_func_object
+
 //
-signed int key_compare_func_object(const void *, const void *, void *);
-// g_tree_dup::key_destroy_func_object
+
+
 //
-void key_destroy_func_object(void *);
+
 // g_tree_dup::key_dup_funct_object
 //
 void * key_dup_funct_object(void *);
-// g_tree_dup::value_destroy_func_object
+
 //
-void value_destroy_func_object(void *);
+
 // g_tree_dup::value_dup_funct_object
 //
 void * value_dup_funct_object(void *);
@@ -1426,9 +1426,9 @@ extern signed int setgid(unsigned int);
 // sethandler_sigchld
 // file main.c line 440
 signed int sethandler_sigchld(void (*handler)());
-// sethandler_sigchld::handler_object
+
 //
-void handler_object();
+
 // setmntent
 // file /usr/include/mntent.h line 66
 extern struct _IO_FILE * setmntent(const char *, const char *);
@@ -1561,9 +1561,9 @@ extern signed int socket_send(struct clsyncsock *clsyncsock_p, enum sockcmd_id c
 // socket_send_cb
 // file socket.c line 349
 extern signed int socket_send_cb(struct clsyncsock *clsyncsock_p, enum sockcmd_id cmd_id, signed int (*cb)(struct socket_sockthreaddata *, struct sockcmd *, void *), void *cb_arg, ...);
-// socket_send_cb::cb_object
+
 //
-signed int cb_object(struct socket_sockthreaddata *, struct sockcmd *, void *);
+
 // socket_sendinvalid
 // file socket.c line 609
 extern signed int socket_sendinvalid(struct clsyncsock *clsyncsock_p, struct sockcmd *sockcmd_p);
@@ -1597,9 +1597,9 @@ unsigned int stat_diff(struct stat64 *a, struct stat64 *b);
 // str_splitargs
 // file stringex.c line 72
 signed int str_splitargs(char *_instr, signed int (*handler)(char *, unsigned long int, void *), void *arg);
-// str_splitargs::handler_object
+
 //
-signed int handler_object(char *, unsigned long int, void *);
+
 // strchr
 // file /usr/include/string.h line 235
 extern char * strchr(const char *, signed int);
@@ -1654,15 +1654,15 @@ signed int sync_dump_thread(struct threadinfo *threadinfo_p, void *_arg);
 // sync_exec_argv
 // file sync.c line 1011
 signed int sync_exec_argv(struct ctx *ctx_p, struct indexes *indexes_p, signed int (*callback)(struct ctx *, struct thread_callbackfunct_arg *), struct thread_callbackfunct_arg *callback_arg_p, char **argv);
-// sync_exec_argv::callback_object
+
 //
-signed int callback_object(struct ctx *, struct thread_callbackfunct_arg *);
+
 // sync_exec_argv_thread
 // file sync.c line 1128
 static inline signed int sync_exec_argv_thread(struct ctx *ctx_p, struct indexes *indexes_p, signed int (*callback)(struct ctx *, struct thread_callbackfunct_arg *), struct thread_callbackfunct_arg *callback_arg_p, char **argv);
-// sync_exec_argv_thread::callback_object
+
 //
-signed int callback_object(struct ctx *, struct thread_callbackfunct_arg *);
+
 // sync_idle
 // file sync.c line 3011
 signed int sync_idle(struct ctx *ctx_p, struct indexes *indexes_p);

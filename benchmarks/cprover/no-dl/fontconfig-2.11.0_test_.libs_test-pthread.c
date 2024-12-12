@@ -1221,9 +1221,9 @@ static signed int FcDirCacheOpenFile(const unsigned char *cache_file, struct sta
 // FcDirCacheProcess
 // file fccache.c line 178
 static signed int FcDirCacheProcess(struct _FcConfig *config, const unsigned char *dir, signed int (*callback)(signed int, struct stat *, struct stat *, void *), void *closure, unsigned char **cache_file_ret);
-// FcDirCacheProcess::callback_object
+
 //
-signed int callback_object(signed int, struct stat *, struct stat *, void *);
+
 // FcDirCacheRead
 // file fcaliastail.h line 152
 struct _FcCache * FcDirCacheRead(const unsigned char *, signed int, struct _FcConfig *);
@@ -1599,9 +1599,9 @@ static signed int FcLangSetIndex(const unsigned char *lang);
 // FcLangSetOperate
 // file fclang.c line 1026
 static struct _FcLangSet * FcLangSetOperate(const struct _FcLangSet *a, const struct _FcLangSet *b, signed int (*func)(struct _FcLangSet *, const unsigned char *));
-// FcLangSetOperate::func_object
+
 //
-signed int func_object(struct _FcLangSet *, const unsigned char *);
+
 // FcLangSetPrint
 // file fcdbg.c line 134
 void FcLangSetPrint(const struct _FcLangSet *ls);
@@ -19217,19 +19217,19 @@ static const struct _FcMatcher * FcObjectToMatcher(signed int object, signed int
     tmp_if_expr_1 = (_Bool)1;
 
   else
-    tmp_if_expr_1 = !(_FcMatchers[(signed long int)object].compare != ((double (*)(struct _FcValue *, struct _FcValue *))NULL)) ? (_Bool)1 : (_Bool)0;
+
   _Bool tmp_if_expr_2;
   if(tmp_if_expr_1)
     tmp_if_expr_2 = (_Bool)1;
 
   else
-    tmp_if_expr_2 = _FcMatchers[(signed long int)object].strong == -1 ? (_Bool)1 : (_Bool)0;
+
   _Bool tmp_if_expr_3;
   if(tmp_if_expr_2)
     tmp_if_expr_3 = (_Bool)1;
 
   else
-    tmp_if_expr_3 = _FcMatchers[(signed long int)object].weak == -1 ? (_Bool)1 : (_Bool)0;
+
   if(tmp_if_expr_3)
     return (const struct _FcMatcher *)(void *)0;
 
@@ -28503,13 +28503,13 @@ extern struct _FcPattern * IA__FcFontRenderPrepare(struct _FcConfig *config, str
         tmp_if_expr_1 = (_Bool)1;
 
       else
-        tmp_if_expr_1 = fe->object == 4 ? (_Bool)1 : (_Bool)0;
+
       _Bool tmp_if_expr_2;
       if(tmp_if_expr_1)
         tmp_if_expr_2 = (_Bool)1;
 
       else
-        tmp_if_expr_2 = fe->object == 6 ? (_Bool)1 : (_Bool)0;
+
       if(!tmp_if_expr_2)
       {
         _Bool tmp_if_expr_3;
@@ -28517,13 +28517,13 @@ extern struct _FcPattern * IA__FcFontRenderPrepare(struct _FcConfig *config, str
           tmp_if_expr_3 = (_Bool)1;
 
         else
-          tmp_if_expr_3 = fe->object == 3 ? (_Bool)1 : (_Bool)0;
+
         _Bool tmp_if_expr_4;
         if(tmp_if_expr_3)
           tmp_if_expr_4 = (_Bool)1;
 
         else
-          tmp_if_expr_4 = fe->object == 5 ? (_Bool)1 : (_Bool)0;
+
         if(tmp_if_expr_4)
         {
           fel=FcPatternObjectFindElt(font, fe->object + 1);

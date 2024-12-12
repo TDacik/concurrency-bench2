@@ -385,7 +385,7 @@ static void _hna_global_hash_del(void *data);
 extern signed int abs(signed int);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_20, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // activate_interface
 // file posix/init.c line 859
 static void activate_interface(struct batman_if *batman_if);
@@ -424,7 +424,7 @@ static void bat_wait(signed int T, signed int t);
 signed char batman(void);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_20, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bind_to_iface
 // file linux/kernel.c line 149
 signed char bind_to_iface(signed int sock, char *dev);
@@ -508,7 +508,7 @@ static signed int compare_vip(void *data1, void *data2);
 static signed int compare_wip(void *data1, void *data2);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_20, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // count_real_packets
 // file batman.c line 715
 static unsigned char count_real_packets(struct bat_packet *in, unsigned int neigh, struct batman_if *if_incoming);
@@ -677,9 +677,9 @@ static signed int hash_add_bucket(struct hashtable_t *hash, void *data, struct e
 // hash_delete
 // file hash.c line 41
 void hash_delete(struct hashtable_t *hash, void (*free_cb)(void *));
-// hash_delete::free_cb_object
+
 //
-void free_cb_object(void *);
+
 // hash_destroy
 // file hash.h line 71
 void hash_destroy(struct hashtable_t *hash);
@@ -698,9 +698,9 @@ struct hashtable_t * hash_new(signed int size, signed int (*compare)(void *, voi
 // hash_new::choose_object
 //
 signed int choose_object(void *, signed int);
-// hash_new::compare_object
+
 //
-signed int compare_object(void *, void *);
+
 // hash_remove
 // file hash.c line 262
 void * hash_remove(struct hashtable_t *hash, void *data);
@@ -913,7 +913,7 @@ extern signed long int read(signed int, void *, unsigned long int);
 signed char receive_packet(unsigned char *packet_buff, signed int packet_buff_len, signed short int *packet_len, unsigned int *neigh, unsigned int timeout, struct batman_if **if_incoming);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous_20, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // recvmsg
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 202
 extern signed long int recvmsg(signed int, struct msghdr *, signed int);
@@ -958,7 +958,7 @@ signed char send_udp_packet(unsigned char *packet_buff, signed int packet_buff_l
 static void send_vis_packet(void);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_20, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // set_forwarding
 // file os.h line 76
 void set_forwarding(signed int state);

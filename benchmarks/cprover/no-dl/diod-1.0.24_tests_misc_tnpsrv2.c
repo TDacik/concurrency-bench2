@@ -946,9 +946,9 @@ static void _xlist_append(struct list *l, void *item);
 // _xlist_create
 // file diod_conf.c line 121
 static struct list * _xlist_create(void (*f)(void *));
-// _xlist_create::f_object
+
 //
-void f_object(void *);
+
 // _xstrdup
 // file diod_conf.c line 112
 static char * _xstrdup(char *s);
@@ -960,7 +960,7 @@ static signed int _zero_padded(unsigned long int num, signed int width);
 extern void abort(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -969,7 +969,7 @@ extern signed int access(const char *, signed int);
 signed int aspf(char **sp, signed int *lp, const char *fmt, ...);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // buf_alloc
 // file np.c line 73
 static inline void * buf_alloc(struct cbuf *buf, signed int len);
@@ -1056,7 +1056,7 @@ extern void closelog(void);
 static signed int clunkafid(struct Npfid *afid);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // ctime
 // file /usr/include/time.h line 264
 extern char * ctime(const signed long int *);
@@ -1450,21 +1450,21 @@ signed int hash_count(struct hash *h);
 // hash_create
 // file ../../liblsd/hash.h line 94
 struct hash * hash_create(signed int size, unsigned int (*key_f)(const void *), signed int (*cmp_f)(const void *, const void *), void (*del_f)(void *));
-// hash_create::cmp_f_object
+
 //
-signed int cmp_f_object(const void *, const void *);
-// hash_create::del_f_object
+
+
 //
-void del_f_object(void *);
-// hash_create::key_f_object
+
+
 //
-unsigned int key_f_object(const void *);
+
 // hash_delete_if
 // file hash.c line 309
 signed int hash_delete_if(struct hash *h, signed int (*arg_f)(void *, const void *, void *), void *arg);
-// hash_delete_if::arg_f_object
+
 //
-signed int arg_f_object(void *, const void *, void *);
+
 // hash_destroy
 // file ../../liblsd/hash.h line 110
 void hash_destroy(struct hash *h);
@@ -1474,9 +1474,9 @@ void * hash_find(struct hash *h, const void *key);
 // hash_for_each
 // file ../../liblsd/hash.h line 163
 signed int hash_for_each(struct hash *h, signed int (*arg_f)(void *, const void *, void *), void *arg);
-// hash_for_each::arg_f_object
+
 //
-signed int arg_f_object(void *, const void *, void *);
+
 // hash_insert
 // file ../../liblsd/hash.h line 135
 void * hash_insert(struct hash *h, const void *key, void *data);
@@ -1798,18 +1798,18 @@ signed int list_count(struct list *l);
 // list_create
 // file ../../liblsd/list.h line 97
 struct list * list_create(void (*f)(void *));
-// list_create::f_object
+
 //
-void f_object(void *);
+
 // list_delete
 // file list.c line 640
 signed int list_delete(struct listIterator *i);
 // list_delete_all
 // file ../../liblsd/list.h line 151
 signed int list_delete_all(struct list *l, signed int (*f)(void *, void *), void *key);
-// list_delete_all::f_object
+
 //
-signed int f_object(void *, void *);
+
 // list_dequeue
 // file list.c line 505
 void * list_dequeue(struct list *l);
@@ -1822,21 +1822,21 @@ void * list_enqueue(struct list *l, void *x);
 // list_find
 // file list.c line 611
 void * list_find(struct listIterator *i, signed int (*f)(void *, void *), void *key);
-// list_find::f_object
+
 //
-signed int f_object(void *, void *);
+
 // list_find_first
 // file ../../liblsd/list.h line 141
 void * list_find_first(struct list *l, signed int (*f)(void *, void *), void *key);
-// list_find_first::f_object
+
 //
-signed int f_object(void *, void *);
+
 // list_for_each
 // file list.c line 380
 signed int list_for_each(struct list *l, signed int (*f)(void *, void *), void *arg);
-// list_for_each::f_object
+
 //
-signed int f_object(void *, void *);
+
 // list_free
 // file list.c line 734
 static void list_free(struct list *l);
@@ -1900,9 +1900,9 @@ void * list_remove(struct listIterator *i);
 // list_sort
 // file list.c line 402
 void list_sort(struct list *l, signed int (*f)(void *, void *));
-// list_sort::f_object
+
 //
-signed int f_object(void *, void *);
+
 // listen
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 233
 extern signed int listen(signed int, signed int);
@@ -2269,9 +2269,9 @@ struct Npfile * np_ctl_adddir(struct Npfile *parent, char *name);
 // np_ctl_addfile
 // file ../../libnpfs/npfs.h line 550
 struct Npfile * np_ctl_addfile(struct Npfile *parent, char *name, char * (*getf)(char *, void *), void *arg, signed int flags);
-// np_ctl_addfile::getf_object
+
 //
-char * getf_object(char *, void *);
+
 // np_ctl_attach
 // file npfs.h line 535
 struct Npfcall * np_ctl_attach(struct Npfid *fid, struct Npfid *afid, char *aname);
@@ -2809,9 +2809,9 @@ static void npc_rpc_cb(struct Npcreq *req, void *cba);
 // npc_rpcnb
 // file mtfsys.c line 421
 static signed int npc_rpcnb(struct Npcfsys *fs, struct Npfcall *tc, void (*cb)(struct Npcreq *, void *), void *cba);
-// npc_rpcnb::cb_object
+
 //
-void cb_object(struct Npcreq *, void *);
+
 // npc_seekdir
 // file readdir.c line 146
 void npc_seekdir(struct Npcfid *fid, signed long int offset);

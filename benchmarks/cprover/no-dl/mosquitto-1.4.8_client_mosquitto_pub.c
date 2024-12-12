@@ -1141,7 +1141,7 @@ signed int mosquitto_connect_bind_async(struct mosquitto *mosq, const char *host
 // mosquitto_connect_callback_set
 // file ../lib/mosquitto.h line 1111
 void mosquitto_connect_callback_set(struct mosquitto *mosq, void (*on_connect)(struct mosquitto *, void *, signed int));
-// mosquitto_connect_callback_set::on_connect_object
+
 //
 void on_connect_object(struct mosquitto *, void *, signed int);
 // mosquitto_connect_srv
@@ -1156,7 +1156,7 @@ signed int mosquitto_disconnect(struct mosquitto *mosq);
 // mosquitto_disconnect_callback_set
 // file ../lib/mosquitto.h line 1131
 void mosquitto_disconnect_callback_set(struct mosquitto *mosq, void (*on_disconnect)(struct mosquitto *, void *, signed int));
-// mosquitto_disconnect_callback_set::on_disconnect_object
+
 //
 void on_disconnect_object(struct mosquitto *, void *, signed int);
 // mosquitto_lib_cleanup
@@ -1171,7 +1171,7 @@ signed int mosquitto_lib_version(signed int *major, signed int *minor, signed in
 // mosquitto_log_callback_set
 // file ../lib/mosquitto.h line 1234
 void mosquitto_log_callback_set(struct mosquitto *mosq, void (*on_log)(struct mosquitto *, void *, signed int, const char *));
-// mosquitto_log_callback_set::on_log_object
+
 //
 void on_log_object(struct mosquitto *, void *, signed int, const char *);
 // mosquitto_loop
@@ -1201,7 +1201,7 @@ signed int mosquitto_max_inflight_messages_set(struct mosquitto *mosq, unsigned 
 // mosquitto_message_callback_set
 // file mosquitto.c line 1249
 void mosquitto_message_callback_set(struct mosquitto *mosq, void (*on_message)(struct mosquitto *, void *, struct mosquitto_message *));
-// mosquitto_message_callback_set::on_message_object
+
 //
 void on_message_object(struct mosquitto *, void *, struct mosquitto_message *);
 // mosquitto_message_copy
@@ -1228,7 +1228,7 @@ signed int mosquitto_publish(struct mosquitto *mosq, signed int *mid, const char
 // mosquitto_publish_callback_set
 // file ../lib/mosquitto.h line 1149
 void mosquitto_publish_callback_set(struct mosquitto *mosq, void (*on_publish)(struct mosquitto *, void *, signed int));
-// mosquitto_publish_callback_set::on_publish_object
+
 //
 void on_publish_object(struct mosquitto *, void *, signed int);
 // mosquitto_reconnect
@@ -1267,7 +1267,7 @@ signed int mosquitto_subscribe(struct mosquitto *mosq, signed int *mid, const ch
 // mosquitto_subscribe_callback_set
 // file mosquitto.c line 1256
 void mosquitto_subscribe_callback_set(struct mosquitto *mosq, void (*on_subscribe)(struct mosquitto *, void *, signed int, signed int, const signed int *));
-// mosquitto_subscribe_callback_set::on_subscribe_object
+
 //
 void on_subscribe_object(struct mosquitto *, void *, signed int, signed int, const signed int *);
 // mosquitto_threaded_set
@@ -1288,9 +1288,9 @@ signed int mosquitto_tls_psk_set(struct mosquitto *mosq, const char *psk, const 
 // mosquitto_tls_set
 // file ../lib/mosquitto.h line 996
 signed int mosquitto_tls_set(struct mosquitto *mosq, const char *cafile, const char *capath, const char *certfile, const char *keyfile, signed int (*pw_callback)(char *, signed int, signed int, void *));
-// mosquitto_tls_set::pw_callback_object
+
 //
-signed int pw_callback_object(char *, signed int, signed int, void *);
+
 // mosquitto_topic_matches_sub
 // file util_mosq.c line 220
 signed int mosquitto_topic_matches_sub(const char *sub, const char *topic, _Bool *result);
@@ -1300,7 +1300,7 @@ signed int mosquitto_unsubscribe(struct mosquitto *mosq, signed int *mid, const 
 // mosquitto_unsubscribe_callback_set
 // file mosquitto.c line 1263
 void mosquitto_unsubscribe_callback_set(struct mosquitto *mosq, void (*on_unsubscribe)(struct mosquitto *, void *, signed int));
-// mosquitto_unsubscribe_callback_set::on_unsubscribe_object
+
 //
 void on_unsubscribe_object(struct mosquitto *, void *, signed int);
 // mosquitto_user_data_set

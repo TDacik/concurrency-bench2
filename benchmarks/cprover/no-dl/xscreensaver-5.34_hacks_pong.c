@@ -886,9 +886,9 @@ extern void destroy_xshm_image(struct _XDisplay *dpy, struct _XImage *image, str
 // drawable_window_p
 // file grabclient.c line 64
 static signed int drawable_window_p(struct _XDisplay *dpy, unsigned long int d);
-// drawable_window_p::1::old_handler_object
+
 //
-signed int drawable_window_p__1__old_handler_object(struct _XDisplay *, struct anonymous_62 *);
+
 // dup2
 // file /usr/include/unistd.h line 537
 extern signed int dup2(signed int, signed int);
@@ -934,9 +934,9 @@ extern signed int fork(void);
 // fork_exec_cb
 // file grabclient.c line 328
 static void fork_exec_cb(const char *command, struct anonymous_9 *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous_9 *, unsigned long int, unsigned long int, const char *, struct anonymous_6 *, void *), void *closure);
-// fork_exec_cb::callback_object
+
 //
-void callback_object(struct anonymous_9 *, unsigned long int, unsigned long int, const char *, struct anonymous_6 *, void *);
+
 // fork_exec_wait
 // file grabclient.c line 286
 static void fork_exec_wait(const char *command);
@@ -1075,9 +1075,9 @@ signed int io_thread_return(struct io_thread *self);
 // load_image_async
 // file grabclient.c line 923
 extern void load_image_async(struct anonymous_9 *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous_9 *, unsigned long int, unsigned long int, const char *, struct anonymous_6 *, void *), void *closure);
-// load_image_async::callback_object
+
 //
-void callback_object(struct anonymous_9 *, unsigned long int, unsigned long int, const char *, struct anonymous_6 *, void *);
+
 // load_image_async_simple
 // file grabclient.c line 949
 extern struct async_load_state * load_image_async_simple(struct async_load_state *state, struct anonymous_9 *screen, unsigned long int window, unsigned long int drawable, char **filename_ret, struct anonymous_6 *geometry_ret);
@@ -1087,9 +1087,9 @@ static void load_image_async_simple_cb(struct anonymous_9 *screen, unsigned long
 // load_random_image_1
 // file grabclient.c line 444
 static void load_random_image_1(struct anonymous_9 *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous_9 *, unsigned long int, unsigned long int, const char *, struct anonymous_6 *, void *), void *closure, char **name_ret, struct anonymous_6 *geom_ret);
-// load_random_image_1::callback_object
+
 //
-void callback_object(struct anonymous_9 *, unsigned long int, unsigned long int, const char *, struct anonymous_6 *, void *);
+
 // localtime
 // file /usr/include/time.h line 243
 extern struct tm * localtime(const signed long int *);
@@ -1111,9 +1111,9 @@ static void merge_options(void);
 // new_game
 // file pong.c line 139
 static void new_game(struct state *st);
-// old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous_62 *);
+
 // open
 // file /usr/include/fcntl.h line 156
 extern signed int open(const char *, signed int, ...);
@@ -1246,12 +1246,12 @@ static void rnd_seek_ac(unsigned int *a, unsigned int *c, unsigned int dist);
 // run_screenhack_table
 // file screenhack.c line 536
 static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window, unsigned long int window2, struct xscreensaver_function_table *ft);
-// run_screenhack_table::1::fps_cb_object
+
 //
-void fps_cb_object(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
-// run_screenhack_table::1::init_cb_object
+
+
 //
-void * init_cb_object(struct _XDisplay *, unsigned long int, void *);
+
 // screen_number
 // file visual.c line 475
 extern signed int screen_number(struct anonymous_9 *screen);

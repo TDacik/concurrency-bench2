@@ -167,9 +167,9 @@ static signed int blocks_free(struct pool *pool, unsigned int pool_idx, unsigned
 // blocks_iter
 // file smalloc.c line 103
 static signed int blocks_iter(struct pool *pool, unsigned int pool_idx, unsigned int idx, unsigned long int nr_blocks, signed int (*func)(unsigned int *, unsigned int));
-// blocks_iter::func_object
+
 //
-signed int func_object(unsigned int *, unsigned int);
+
 // calibrate_cpu_clock
 // file gettime.c line 262
 static signed int calibrate_cpu_clock(void);

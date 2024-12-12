@@ -736,9 +736,9 @@ static void DumpContentDescriptor(const void *p_descriptor);
 // DumpDescriptor
 // file libdvbpsi.c line 1591
 static void DumpDescriptor(struct dvbpsi_descriptor_s *p_descriptor);
-// DumpDescriptor::1::dump_dr_fn_object
+
 //
-void dump_dr_fn_object(const void *);
+
 // DumpDescriptors
 // file libdvbpsi.c line 1702
 static void DumpDescriptors(const char *str, struct dvbpsi_descriptor_s *p_descriptor);
@@ -843,7 +843,7 @@ extern void abort(void);
 extern signed int asprintf(char ** restrict , const char *, ...);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_7, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // buffer_free
 // file buffer.h line 43
 void buffer_free(struct buffer_s *buffer);
@@ -864,7 +864,7 @@ extern signed int close(signed int);
 extern void closelog(void);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_7, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // daemon
 // file /usr/include/unistd.h line 937
 extern signed int daemon(signed int, signed int);
@@ -928,9 +928,9 @@ static _Bool dvbpsi_AddSectionVCT(struct dvbpsi_s *p_dvbpsi, struct dvbpsi_atsc_
 // dvbpsi_AttachDemux
 // file ../../src/demux.h line 142
 _Bool dvbpsi_AttachDemux(struct dvbpsi_s *p_dvbpsi, void (*pf_new_cb)(struct dvbpsi_s *, unsigned char, unsigned short int, void *), void *p_new_cb_data);
-// dvbpsi_AttachDemux::pf_new_cb_object
+
 //
-void pf_new_cb_object(struct dvbpsi_s *, unsigned char, unsigned short int, void *);
+
 // dvbpsi_AttachDemuxSubDecoder
 // file demux.c line 203
 void dvbpsi_AttachDemuxSubDecoder(struct dvbpsi_demux_s *p_demux, struct dvbpsi_demux_subdec_s *p_subdec);
@@ -1339,12 +1339,12 @@ _Bool dvbpsi_IsDescriptorDecoded(struct dvbpsi_descriptor_s *p_descriptor);
 // dvbpsi_NewDemuxSubDecoder
 // file demux.c line 161
 struct dvbpsi_demux_subdec_s * dvbpsi_NewDemuxSubDecoder(const unsigned char i_table_id, const unsigned short int i_extension, void (*pf_detach)(struct dvbpsi_s *, unsigned char, unsigned short int), void (*pf_gather)(struct dvbpsi_s *, struct dvbpsi_decoder_s *, struct dvbpsi_psi_section_s *), struct dvbpsi_decoder_s *p_decoder);
-// dvbpsi_NewDemuxSubDecoder::pf_detach_object
+
 //
-void pf_detach_object(struct dvbpsi_s *, unsigned char, unsigned short int);
-// dvbpsi_NewDemuxSubDecoder::pf_gather_object
+
+
 //
-void pf_gather_object(struct dvbpsi_s *, struct dvbpsi_decoder_s *, struct dvbpsi_psi_section_s *);
+
 // dvbpsi_NewDescriptor
 // file descriptor.c line 85
 struct dvbpsi_descriptor_s * dvbpsi_NewDescriptor(unsigned char i_tag, unsigned char i_length, unsigned char *p_data);
@@ -1411,33 +1411,33 @@ static unsigned char dvbpsi_aac_type_to_hex(const enum dvbpsi_aac_type_s type);
 // dvbpsi_atsc_AttachEIT
 // file ../../src/tables/atsc_eit.h line 116
 _Bool dvbpsi_atsc_AttachEIT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_atsc_eit_s *), void *p_cb_data);
-// dvbpsi_atsc_AttachEIT::pf_callback_object
+
 //
-void pf_callback_object(void *, struct dvbpsi_atsc_eit_s *);
+
 // dvbpsi_atsc_AttachETT
 // file ../../src/tables/atsc_ett.h line 103
 _Bool dvbpsi_atsc_AttachETT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_atsc_ett_s *), void *p_cb_data);
-// dvbpsi_atsc_AttachETT::pf_callback_object
+
 //
-void pf_callback_object(void *, struct dvbpsi_atsc_ett_s *);
+
 // dvbpsi_atsc_AttachMGT
 // file ../../src/tables/atsc_mgt.h line 116
 _Bool dvbpsi_atsc_AttachMGT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_atsc_mgt_s *), void *p_cb_data);
-// dvbpsi_atsc_AttachMGT::pf_callback_object
+
 //
-void pf_callback_object(void *, struct dvbpsi_atsc_mgt_s *);
+
 // dvbpsi_atsc_AttachSTT
 // file ../../src/tables/atsc_stt.h line 87
 _Bool dvbpsi_atsc_AttachSTT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_stt_callback)(void *, struct dvbpsi_atsc_stt_s *), void *p_cb_data);
-// dvbpsi_atsc_AttachSTT::pf_stt_callback_object
+
 //
-void pf_stt_callback_object(void *, struct dvbpsi_atsc_stt_s *);
+
 // dvbpsi_atsc_AttachVCT
 // file ../../src/tables/atsc_vct.h line 129
 _Bool dvbpsi_atsc_AttachVCT(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_vct_callback)(void *, struct dvbpsi_atsc_vct_s *), void *p_cb_data);
-// dvbpsi_atsc_AttachVCT::pf_vct_callback_object
+
 //
-void pf_vct_callback_object(void *, struct dvbpsi_atsc_vct_s *);
+
 // dvbpsi_atsc_DecodeEITSections
 // file tables/atsc_eit.c line 493
 static void dvbpsi_atsc_DecodeEITSections(struct dvbpsi_atsc_eit_s *p_eit, struct dvbpsi_psi_section_s *p_section);
@@ -1573,9 +1573,9 @@ static struct dvbpsi_descriptor_s * dvbpsi_atsc_VCTChannelAddDescriptor(struct d
 // dvbpsi_bat_attach
 // file ../../src/tables/bat.h line 128
 _Bool dvbpsi_bat_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_bat_s *), void *p_cb_data);
-// dvbpsi_bat_attach::pf_callback_object
+
 //
-void pf_callback_object(void *, struct dvbpsi_bat_s *);
+
 // dvbpsi_bat_bouquet_descriptor_add
 // file tables/bat.c line 205
 struct dvbpsi_descriptor_s * dvbpsi_bat_bouquet_descriptor_add(struct dvbpsi_bat_s *p_bat, unsigned char i_tag, unsigned char i_length, unsigned char *p_data);
@@ -1612,9 +1612,9 @@ struct dvbpsi_descriptor_s * dvbpsi_bat_ts_descriptor_add(struct dvbpsi_bat_ts_s
 // dvbpsi_cat_attach
 // file ../../src/tables/cat.h line 88
 _Bool dvbpsi_cat_attach(struct dvbpsi_s *p_dvbpsi, void (*pf_callback)(void *, struct dvbpsi_cat_s *), void *p_cb_data);
-// dvbpsi_cat_attach::pf_callback_object
+
 //
-void pf_callback_object(void *, struct dvbpsi_cat_s *);
+
 // dvbpsi_cat_delete
 // file ../../src/tables/cat.h line 147
 void dvbpsi_cat_delete(struct dvbpsi_cat_s *p_cat);
@@ -1648,9 +1648,9 @@ void dvbpsi_decoder_delete(struct dvbpsi_decoder_s *p_decoder);
 // dvbpsi_decoder_new
 // file dvbpsi.c line 79
 void * dvbpsi_decoder_new(void (*pf_gather)(struct dvbpsi_s *, struct dvbpsi_psi_section_s *), const signed int i_section_max_size, const _Bool b_discontinuity, const unsigned long int psi_size);
-// dvbpsi_decoder_new::pf_gather_object
+
 //
-void pf_gather_object(struct dvbpsi_s *, struct dvbpsi_psi_section_s *);
+
 // dvbpsi_decoder_present
 // file ../../src/dvbpsi.h line 351
 _Bool dvbpsi_decoder_present(struct dvbpsi_s *p_dvbpsi);
@@ -1672,9 +1672,9 @@ struct dvbpsi_demux_subdec_s * dvbpsi_demuxGetSubDec(struct dvbpsi_demux_s *p_de
 // dvbpsi_eit_attach
 // file ../../src/tables/eit.h line 127
 _Bool dvbpsi_eit_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_eit_s *), void *p_cb_data);
-// dvbpsi_eit_attach::pf_callback_object
+
 //
-void pf_callback_object(void *, struct dvbpsi_eit_s *);
+
 // dvbpsi_eit_delete
 // file ../../src/tables/eit.h line 211
 void dvbpsi_eit_delete(struct dvbpsi_eit_s *p_eit);
@@ -1723,15 +1723,15 @@ void dvbpsi_message_link1(struct dvbpsi_s *dvbpsi, const enum dvbpsi_msg_level l
 // dvbpsi_new
 // file ../../src/dvbpsi.h line 171
 struct dvbpsi_s * dvbpsi_new(void (*callback)(struct dvbpsi_s *, const enum dvbpsi_msg_level, const char *), enum dvbpsi_msg_level level);
-// dvbpsi_new::callback_object
+
 //
-void callback_object(struct dvbpsi_s *, const enum dvbpsi_msg_level, const char *);
+
 // dvbpsi_nit_attach
 // file ../../src/tables/nit.h line 122
 _Bool dvbpsi_nit_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_nit_s *), void *p_cb_data);
-// dvbpsi_nit_attach::pf_callback_object
+
 //
-void pf_callback_object(void *, struct dvbpsi_nit_s *);
+
 // dvbpsi_nit_delete
 // file ../../src/tables/nit.h line 191
 void dvbpsi_nit_delete(struct dvbpsi_nit_s *p_nit);
@@ -1771,9 +1771,9 @@ _Bool dvbpsi_packet_push(struct dvbpsi_s *p_dvbpsi, unsigned char *p_data);
 // dvbpsi_pat_attach
 // file ../../src/tables/pat.h line 111
 _Bool dvbpsi_pat_attach(struct dvbpsi_s *p_dvbpsi, void (*pf_callback)(void *, struct dvbpsi_pat_s *), void *p_cb_data);
-// dvbpsi_pat_attach::pf_callback_object
+
 //
-void pf_callback_object(void *, struct dvbpsi_pat_s *);
+
 // dvbpsi_pat_delete
 // file ../../src/tables/pat.h line 171
 void dvbpsi_pat_delete(struct dvbpsi_pat_s *p_pat);
@@ -1804,9 +1804,9 @@ struct dvbpsi_psi_section_s * dvbpsi_pat_sections_generate(struct dvbpsi_s *p_dv
 // dvbpsi_pmt_attach
 // file ../../src/tables/pmt.h line 121
 _Bool dvbpsi_pmt_attach(struct dvbpsi_s *p_dvbpsi, unsigned short int i_program_number, void (*pf_callback)(void *, struct dvbpsi_pmt_s *), void *p_cb_data);
-// dvbpsi_pmt_attach::pf_callback_object
+
 //
-void pf_callback_object(void *, struct dvbpsi_pmt_s *);
+
 // dvbpsi_pmt_delete
 // file ../../src/tables/pmt.h line 186
 void dvbpsi_pmt_delete(struct dvbpsi_pmt_s *p_pmt);
@@ -1843,9 +1843,9 @@ struct dvbpsi_psi_section_s * dvbpsi_pmt_sections_generate(struct dvbpsi_s *p_dv
 // dvbpsi_rst_attach
 // file ../../src/tables/rst.h line 109
 _Bool dvbpsi_rst_attach(struct dvbpsi_s *p_dvbpsi, void (*pf_callback)(void *, struct dvbpsi_rst_s *), void *p_cb_data);
-// dvbpsi_rst_attach::pf_callback_object
+
 //
-void pf_callback_object(void *, struct dvbpsi_rst_s *);
+
 // dvbpsi_rst_delete
 // file ../../src/tables/rst.h line 161
 void dvbpsi_rst_delete(struct dvbpsi_rst_s *p_rst);
@@ -1885,9 +1885,9 @@ struct dvbpsi_psi_section_s * dvbpsi_rst_sections_generate(struct dvbpsi_s *p_dv
 // dvbpsi_sdt_attach
 // file ../../src/tables/sdt.h line 128
 _Bool dvbpsi_sdt_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_sdt_s *), void *p_cb_data);
-// dvbpsi_sdt_attach::pf_callback_object
+
 //
-void pf_callback_object(void *, struct dvbpsi_sdt_s *);
+
 // dvbpsi_sdt_delete
 // file ../../src/tables/sdt.h line 194
 void dvbpsi_sdt_delete(struct dvbpsi_sdt_s *p_sdt);
@@ -1921,9 +1921,9 @@ struct dvbpsi_descriptor_s * dvbpsi_sdt_service_descriptor_add(struct dvbpsi_sdt
 // dvbpsi_sis_attach
 // file ../../src/tables/sis.h line 364
 _Bool dvbpsi_sis_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_sis_s *), void *p_cb_data);
-// dvbpsi_sis_attach::pf_callback_object
+
 //
-void pf_callback_object(void *, struct dvbpsi_sis_s *);
+
 // dvbpsi_sis_delete
 // file ../../src/tables/sis.h line 430
 void dvbpsi_sis_delete(struct dvbpsi_sis_s *p_sis);
@@ -1954,9 +1954,9 @@ struct dvbpsi_psi_section_s * dvbpsi_sis_sections_generate(struct dvbpsi_s *p_dv
 // dvbpsi_tot_attach
 // file ../../src/tables/tot.h line 97
 _Bool dvbpsi_tot_attach(struct dvbpsi_s *p_dvbpsi, unsigned char i_table_id, unsigned short int i_extension, void (*pf_callback)(void *, struct dvbpsi_tot_s *), void *p_cb_data);
-// dvbpsi_tot_attach::pf_callback_object
+
 //
-void pf_callback_object(void *, struct dvbpsi_tot_s *);
+
 // dvbpsi_tot_delete
 // file ../../src/tables/tot.h line 163
 void dvbpsi_tot_delete(struct dvbpsi_tot_s *p_tot);
@@ -2104,9 +2104,9 @@ void libdvbpsi_exit(struct ts_stream_t *stream);
 // libdvbpsi_init
 // file libdvbpsi.h line 43
 struct ts_stream_t * libdvbpsi_init(signed int debug, void (*pf_log)(void *, const signed int, const char *, ...), void *cb_data);
-// libdvbpsi_init::pf_log_object
+
 //
-void pf_log_object(void *, const signed int, const char *, ...);
+
 // libdvbpsi_log
 // file dvbinfo.c line 154
 static void libdvbpsi_log(void *data, const signed int level, const char *format, ...);

@@ -777,7 +777,7 @@ extern void clearerr(struct _IO_FILE *);
 extern signed int close(signed int);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // connect_t
 // file /srv/jenkins-slave/workspace/sid-goto-cc-rmilter/rmilter-1.6.3/src/libclamc.c line 94
 static signed int connect_t(signed int s, struct sockaddr *name, unsigned int namelen, signed int timeout);

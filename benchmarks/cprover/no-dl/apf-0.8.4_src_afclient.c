@@ -1868,7 +1868,7 @@ signed int read_message(signed int fd, signed int length, struct anonymous_16 *c
 signed int readn(signed int fd, unsigned char *buf, signed int amount);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // remember_mainthread
 // file thread_management.h line 26
 void remember_mainthread(void);
@@ -1883,7 +1883,7 @@ extern char * rindex(const char *, signed int);
 extern signed int select(signed int, struct anonymous_11 *, struct anonymous_11 *, struct anonymous_11 *, struct timeval *);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // server_long_usage
 // file usage.c line 52
 void server_long_usage(char *info);

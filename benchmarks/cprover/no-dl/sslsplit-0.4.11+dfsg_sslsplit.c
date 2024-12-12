@@ -1220,7 +1220,7 @@ unsigned char * base64_dec(const char *in, unsigned long int insz, unsigned long
 char * base64_enc(const unsigned char *in, unsigned long int insz, unsigned long int *outsz);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_8, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bufferevent_disable
 // file /usr/include/event2/bufferevent.h line 418
 signed int bufferevent_disable(struct bufferevent *, signed short int);
@@ -1278,9 +1278,9 @@ void * cache_get(struct cache *cache, void *key);
 // cache_new
 // file cache.h line 74
 struct cache * cache_new(void (*init_cb)(struct cache *));
-// cache_new::init_cb_object
+
 //
-void init_cb_object(struct cache *);
+
 // cache_reinit
 // file cache.h line 75
 void cache_reinit(struct cache *cache);
@@ -1748,7 +1748,7 @@ extern struct passwd * getpwnam(const char *);
 extern signed int getpwuid_r(unsigned int, struct passwd *, char *, unsigned long int, struct passwd ** restrict );
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous_8, unsigned int *);
+extern signed int getsockname(signed int, struct sockaddr *, unsigned int *);
 // getsockopt
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 219
 extern signed int getsockopt(signed int, signed int, signed int, void *, unsigned int *);
@@ -1923,18 +1923,18 @@ signed int log_init(struct opts *opts);
 // log_preinit
 // file log.h line 67
 signed int log_preinit(struct opts *opts);
-// log_preinit::1::closecb_object
+
 //
-void closecb_object(void *);
-// log_preinit::1::opencb_object
+
+
 //
-signed int opencb_object(void *);
-// log_preinit::1::prepcb_object
+
+
 //
-struct logbuf * prepcb_object(void *, unsigned long int, struct logbuf *);
-// log_preinit::1::writecb_object
+
+
 //
-signed long int writecb_object(void *, const void *, unsigned long int);
+
 // logbuf_free
 // file logbuf.h line 54
 void logbuf_free(struct logbuf *lb);
@@ -1956,9 +1956,9 @@ signed long int logbuf_size(struct logbuf *lb);
 // logbuf_write_free
 // file logbuf.c line 149
 signed long int logbuf_write_free(struct logbuf *lb, signed long int (*writefunc)(void *, const void *, unsigned long int));
-// logbuf_write_free::writefunc_object
+
 //
-signed long int writefunc_object(void *, const void *, unsigned long int);
+
 // logger_clear
 // file logger.c line 59
 static void logger_clear(struct logger *logger);
@@ -1977,18 +1977,18 @@ void logger_leave(struct logger *logger);
 // logger_new
 // file logger.h line 44
 struct logger * logger_new(signed int (*openfunc)(void *), void (*closefunc)(void *), signed long int (*writefunc)(void *, const void *, unsigned long int), struct logbuf * (*prepfunc)(void *, unsigned long int, struct logbuf *));
-// logger_new::closefunc_object
+
 //
-void closefunc_object(void *);
-// logger_new::openfunc_object
+
+
 //
-signed int openfunc_object(void *);
-// logger_new::prepfunc_object
+
+
 //
-struct logbuf * prepfunc_object(void *, unsigned long int, struct logbuf *);
-// logger_new::writefunc_object
+
+
 //
-signed long int writefunc_object(void *, const void *, unsigned long int);
+
 // logger_open
 // file logger.h line 52
 signed int logger_open(struct logger *logger, void *fh);
@@ -2532,9 +2532,9 @@ extern char * strstr(const char *, const char *);
 // sys_dir_eachfile
 // file sys.c line 437
 signed int sys_dir_eachfile(const char *dirname, void (*cb)(const char *, void *), void *arg);
-// sys_dir_eachfile::cb_object
+
 //
-void cb_object(const char *, void *);
+
 // sys_get_cpu_cores
 // file sys.c line 477
 unsigned int sys_get_cpu_cores(void);

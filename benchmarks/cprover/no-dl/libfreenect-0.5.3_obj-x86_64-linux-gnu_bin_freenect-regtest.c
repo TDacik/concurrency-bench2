@@ -372,12 +372,12 @@ signed int fnusb_shutdown(struct anonymous_20 *ctx);
 // fnusb_start_iso
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 88
 signed int fnusb_start_iso(struct anonymous_10 *dev, struct anonymous_11 *strm, void (*cb)(struct _freenect_device *, unsigned char *, signed int), unsigned char endpoint, signed int xfers, signed int pkts, signed int len);
-// fnusb_start_iso::cb_link1_object
+
 //
-void cb_link1_object(struct _freenect_device *, unsigned char *, signed int);
-// fnusb_start_iso::cb_object
+
+
 //
-void cb_object(struct _freenect_device *, unsigned char *, signed int);
+
 // fnusb_stop_iso
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/usb_libusb10.h line 89
 signed int fnusb_stop_iso(struct anonymous_10 *dev, struct anonymous_11 *strm);
@@ -549,42 +549,42 @@ void freenect_select_subdevices(struct _freenect_context *ctx, enum anonymous_22
 // freenect_set_audio_in_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/audio.c line 142
 void freenect_set_audio_in_callback(struct _freenect_device *dev, void (*callback)(struct _freenect_device *, signed int, signed int *, signed int *, signed int *, signed int *, signed short int *, void *));
-// freenect_set_audio_in_callback::callback_link1_object
+
 //
-void callback_link1_object(struct _freenect_device *, signed int, signed int *, signed int *, signed int *, signed int *, signed short int *, void *);
-// freenect_set_audio_in_callback::callback_object
+
+
 //
-void callback_object(struct _freenect_device *, signed int, signed int *, signed int *, signed int *, signed int *, signed short int *, void *);
+
 // freenect_set_audio_out_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/audio.c line 145
 void freenect_set_audio_out_callback(struct _freenect_device *dev, void (*callback)(struct _freenect_device *, struct anonymous_16 *, signed int *));
-// freenect_set_audio_out_callback::callback_link1_object
+
 //
-void callback_link1_object(struct _freenect_device *, struct anonymous_16 *, signed int *);
-// freenect_set_audio_out_callback::callback_object
+
+
 //
-void callback_object(struct _freenect_device *, struct anonymous_16 *, signed int *);
+
 // freenect_set_depth_buffer
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 435
 signed int freenect_set_depth_buffer(struct _freenect_device *dev, void *buf);
 // freenect_set_depth_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 399
 void freenect_set_depth_callback(struct _freenect_device *dev, void (*cb)(struct _freenect_device *, void *, unsigned int));
-// freenect_set_depth_callback::cb_link1_object
+
 //
-void cb_link1_object(struct _freenect_device *, void *, unsigned int);
-// freenect_set_depth_callback::cb_object
+
+
 //
-void cb_object(struct _freenect_device *, void *, unsigned int);
+
 // freenect_set_depth_chunk_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1110
 void freenect_set_depth_chunk_callback(struct _freenect_device *dev, void (*cb)(void *, void *, signed int, signed int, void *));
-// freenect_set_depth_chunk_callback::cb_link1_object
+
 //
-void cb_link1_object(void *, void *, signed int, signed int, void *);
-// freenect_set_depth_chunk_callback::cb_object
+
+
 //
-void cb_object(void *, void *, signed int, signed int, void *);
+
 // freenect_set_depth_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 661
 signed int freenect_set_depth_mode(struct _freenect_device *dev, const struct anonymous_6 mode);
@@ -609,12 +609,12 @@ signed int freenect_set_led_alt(struct _freenect_device *dev, enum anonymous_23 
 // freenect_set_log_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/core.c line 257
 void freenect_set_log_callback(struct _freenect_context *ctx, void (*cb)(struct _freenect_context *, enum anonymous_21, const char *));
-// freenect_set_log_callback::cb_link1_object
+
 //
-void cb_link1_object(struct _freenect_context *, enum anonymous_21, const char *);
-// freenect_set_log_callback::cb_object
+
+
 //
-void cb_object(struct _freenect_context *, enum anonymous_21, const char *);
+
 // freenect_set_log_level
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/core.c line 252
 void freenect_set_log_level(struct _freenect_context *ctx, enum anonymous_21 level);
@@ -633,21 +633,21 @@ signed int freenect_set_video_buffer(struct _freenect_device *dev, void *buf);
 // freenect_set_video_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 407
 void freenect_set_video_callback(struct _freenect_device *dev, void (*cb)(struct _freenect_device *, void *, unsigned int));
-// freenect_set_video_callback::cb_link1_object
+
 //
-void cb_link1_object(struct _freenect_device *, void *, unsigned int);
-// freenect_set_video_callback::cb_object
+
+
 //
-void cb_object(struct _freenect_device *, void *, unsigned int);
+
 // freenect_set_video_chunk_callback
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 1115
 void freenect_set_video_chunk_callback(struct _freenect_device *dev, void (*cb)(void *, void *, signed int, signed int, void *));
-// freenect_set_video_chunk_callback::cb_link1_object
+
 //
-void cb_link1_object(void *, void *, signed int, signed int, void *);
-// freenect_set_video_chunk_callback::cb_object
+
+
 //
-void cb_object(void *, void *, signed int, signed int, void *);
+
 // freenect_set_video_mode
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/include/libfreenect.h line 612
 signed int freenect_set_video_mode(struct _freenect_device *dev, const struct anonymous_6 mode);
@@ -786,12 +786,12 @@ static inline void libusb_fill_iso_transfer(struct libusb_transfer *transfer, st
 // libusb_fill_iso_transfer_link1
 // file /usr/include/libusb-1.0/libusb.h line 1630
 static inline void libusb_fill_iso_transfer_link1(struct libusb_transfer *transfer_link1, struct libusb_device_handle *dev_handle_link1, unsigned char endpoint_link1, unsigned char *buffer_link1, signed int length_link1, signed int num_iso_packets_link1, void (*callback_link1)(struct libusb_transfer *), void *user_data_link1, unsigned int timeout_link1);
-// libusb_fill_iso_transfer::callback_link1_object
+
 //
-void callback_link1_object(struct libusb_transfer *);
-// libusb_fill_iso_transfer::callback_object
+
+
 //
-void callback_object(struct libusb_transfer *);
+
 // libusb_free_config_descriptor
 // file /usr/include/libusb-1.0/libusb.h line 1329
 void libusb_free_config_descriptor(struct libusb_config_descriptor *);
@@ -894,7 +894,7 @@ extern signed int printf(const char *, ...);
 // producer_cb_inner
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/wrappers/c_sync/libfreenect_sync.c line 134
 static void producer_cb_inner(struct _freenect_device *dev, void *data, unsigned int timestamp, struct buffer_ring *buf, signed int (*set_buffer)(struct _freenect_device *, void *));
-// producer_cb_inner::set_buffer_object
+
 //
 signed int set_buffer_object(struct _freenect_device *, void *);
 // pthread_cond_init
@@ -981,12 +981,12 @@ static signed int stream_process(struct _freenect_context *ctx, struct anonymous
 // stream_process_link1
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 87
 static signed int stream_process_link1(struct _freenect_context *ctx_link1, struct anonymous_14 *strm_link1, unsigned char *pkt_link1, signed int len_link1, void (*cb_link1)(void *, void *, signed int, signed int, void *), void *user_data_link1);
-// stream_process::cb_link1_object
+
 //
-void cb_link1_object(void *, void *, signed int, signed int, void *);
-// stream_process::cb_object
+
+
 //
-void cb_object(void *, void *, signed int, signed int, void *);
+
 // stream_setbuf
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libfreenect/libfreenect-0.5.3/src/cameras.c line 272
 static signed int stream_setbuf(struct _freenect_context *ctx, struct anonymous_14 *strm, void *pbuf);

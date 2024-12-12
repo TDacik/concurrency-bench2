@@ -1541,9 +1541,9 @@ char * lw_texture_get_system_name(signed int num);
 // lw_thread_start
 // file thrdgen.h line 53
 signed int lw_thread_start(void (*func)(void *), void *args);
-// lw_thread_start::func_object
+
 //
-void func_object(void *);
+
 // lw_viewport_register_change
 // file viewport.h line 78
 void lw_viewport_register_change(signed int count);
@@ -1688,9 +1688,9 @@ void my_set_palette(void);
 // my_slider_proc
 // file alleg2.h line 72
 signed int my_slider_proc(signed int msg, struct DIALOG *d, signed int c);
-// my_slider_proc::1::proc_object
+
 //
-signed int proc_object(void *, signed int);
+
 // my_text_proc
 // file alleg2.c line 617
 signed int my_text_proc(signed int msg, struct DIALOG *d, signed int c);

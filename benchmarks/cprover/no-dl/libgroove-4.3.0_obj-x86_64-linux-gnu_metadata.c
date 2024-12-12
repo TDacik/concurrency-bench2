@@ -743,9 +743,9 @@ static signed int encoder_write_packet(void *opaque, unsigned char *buf, signed 
 // every_sink
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 493
 static signed int every_sink(struct GroovePlaylist *playlist, signed int (*func)(struct GrooveSink *), signed int default_value);
-// every_sink::func_object
+
 //
-signed int func_object(struct GrooveSink *);
+
 // every_sink_flush
 // file /srv/jenkins-slave/workspace/sid-goto-cc-libgroove/libgroove-4.3.0/groove/playlist.c line 543
 static void every_sink_flush(struct GroovePlaylist *playlist);

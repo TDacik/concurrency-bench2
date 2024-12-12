@@ -1714,9 +1714,9 @@ signed int utfadj(char *buffer, signed int pos);
 // watchfile
 // file see.c line 2458
 void watchfile();
-// watchfile::1::func_object
+
 //
-signed int func_object();
+
 // write
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);

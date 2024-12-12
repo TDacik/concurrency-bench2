@@ -1476,9 +1476,9 @@ void scheduler_pause(struct scheduler_t_ *sched);
 // scheduler_start
 // file scheduler.c line 101
 signed int scheduler_start(struct scheduler_t_ *sched, void * (*fun)(void *), void *arg);
-// scheduler_start::fun_object
+
 //
-void * fun_object(void *);
+
 // scheduler_stop
 // file scheduler.c line 149
 void scheduler_stop(struct scheduler_t_ *sched);

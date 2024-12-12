@@ -632,7 +632,7 @@ extern void abort(void);
 extern signed int abs(signed int);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_19, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -770,7 +770,7 @@ static signed int authority_mode(struct anonymous_35 *xmldata);
 void become_a_nobody(const char *username);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_19, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // build_default_gmond_configuration
 // file libgmond.c line 204
 void build_default_gmond_configuration(struct Ganglia_pool *p);
@@ -962,7 +962,7 @@ static void cmdline_parser_release(struct gengetopt_args_info *args_info);
 signed int cmdline_parser_required(struct gengetopt_args_info *args_info, const char *prog_name);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_19, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // copy_word
 // file dotconf.c line 101
 static void copy_word(char **dest, char **src, signed int max, char term);
@@ -1014,9 +1014,9 @@ static signed int do_root_summary(struct anonymous_7 *key, struct anonymous_7 *v
 // dotconf_callback
 // file dotconf.c line 244
 void dotconf_callback(struct configfile_t *configfile, enum callback_types type, const char * (*callback)(struct command_t *, void *));
-// dotconf_callback::callback_object
+
 //
-const char * callback_object(struct command_t *, void *);
+
 // dotconf_cb_include
 // file dotconf.c line 1298
 static const char * dotconf_cb_include(struct command_t *cmd, void *ctx);
@@ -1280,7 +1280,7 @@ extern struct passwd * getpwnam(const char *);
 extern struct passwd * getpwuid(unsigned int);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous_19, unsigned int *);
+extern signed int getsockname(signed int, struct sockaddr *, unsigned int *);
 // gettimeofday
 // file /usr/include/x86_64-linux-gnu/sys/time.h line 71
 extern signed int gettimeofday(struct timeval *, struct timezone *);
@@ -1308,9 +1308,9 @@ void hash_destroy(struct anonymous_8 *hash);
 // hash_foreach
 // file ../lib/hash.h line 58
 signed int hash_foreach(struct anonymous_8 *hash, signed int (*func)(struct anonymous_7 *, struct anonymous_7 *, void *), void *arg);
-// hash_foreach::func_object
+
 //
-signed int func_object(struct anonymous_7 *, struct anonymous_7 *, void *);
+
 // hash_get_flags
 // file hash.c line 175
 signed int hash_get_flags(struct anonymous_8 *hash);
@@ -1332,9 +1332,9 @@ void hash_set_flags(struct anonymous_8 *hash, signed int flags);
 // hash_walkfrom
 // file ../lib/hash.h line 59
 signed int hash_walkfrom(struct anonymous_8 *hash, unsigned long int from, signed int (*func)(struct anonymous_7 *, struct anonymous_7 *, void *), void *arg);
-// hash_walkfrom::func_object
+
 //
-signed int func_object(struct anonymous_7 *, struct anonymous_7 *, void *);
+
 // hashval
 // file ../lib/hash.h line 64
 unsigned long int hashval(struct anonymous_7 *key, struct anonymous_8 *hash);
@@ -1407,15 +1407,15 @@ signed int llist_remove(struct _llist_entry **llist, struct _llist_entry *e);
 // llist_search
 // file ../lib/llist.h line 34
 signed int llist_search(struct _llist_entry **llist, void *val, signed int (*compare_function)(const char *, const char *), struct _llist_entry **e);
-// llist_search::compare_function_object
+
 //
-signed int compare_function_object(const char *, const char *);
+
 // llist_sort
 // file llist.h line 37
 signed int llist_sort(struct _llist_entry *llist, signed int (*compare_function)(struct _llist_entry *, struct _llist_entry *));
-// llist_sort::compare_function_object
+
 //
-signed int compare_function_object(struct _llist_entry *, struct _llist_entry *);
+
 // llist_strncmp
 // file ../lib/llist.h line 32
 signed int llist_strncmp(const char *s1, const char *s2);
@@ -1607,7 +1607,7 @@ static void safe_skip_whitespace(char **cp, signed int n, char term);
 extern signed int select(signed int, struct anonymous_31 *, struct anonymous_31 *, struct anonymous_31 *, struct timeval *);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_19, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // server_thread
 // file server.c line 598
 void * server_thread(void *arg);

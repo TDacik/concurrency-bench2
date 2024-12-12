@@ -435,7 +435,7 @@ static signed int _write_sectors(struct sync_disk *disk, unsigned long int secto
 static signed int _write_sectors_link1(struct sync_disk *disk_link1, unsigned long int sector_nr_link1, unsigned int sector_count_link1, const char *data_link1, signed int data_len_link1, signed int iobuf_len_link1, struct task *task_link1, const char *blktype_link1);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_2, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // acquire_disk
 // file resource.c line 293
 static signed int acquire_disk(struct task *task, struct token *token, unsigned long int acquire_lver, signed int new_num_hosts, struct leader_record *leader);
@@ -471,7 +471,7 @@ extern signed int atoi(const char *);
 extern signed long long int atoll(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_2, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // blkid_free_probe
 // file /usr/include/blkid/blkid.h line 222
 extern void blkid_free_probe(struct blkid_struct_probe *);
@@ -520,12 +520,12 @@ static signed int clear_dead_shared(struct task *task, struct token *token, sign
 // client_add
 // file main.c line 264
 static signed int client_add(signed int fd, void (*workfn)(signed int), void (*deadfn)(signed int));
-// client_add::deadfn_object
+
 //
-void deadfn_object(signed int);
-// client_add::workfn_object
+
+
 //
-void workfn_object(signed int);
+
 // client_alloc
 // file main.c line 92
 static signed int client_alloc(void);
@@ -624,7 +624,7 @@ static void cmd_restrict(signed int ci, signed int fd, struct sm_header *h_recv)
 static void cmd_status(signed int fd, struct sm_header *h_recv, signed int client_maxi);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_2, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // connect_socket
 // file client.c line 40
 static signed int connect_socket(signed int *sock_fd);
@@ -988,12 +988,12 @@ extern signed long int lseek(signed int, signed long int, signed int);
 // main_loop
 // file main.c line 560
 static signed int main_loop(void);
-// main_loop::1::deadfn_object
+
 //
-void deadfn_object(signed int);
-// main_loop::1::workfn_object
+
+
 //
-void workfn_object(signed int);
+
 // majority_disks
 // file diskio.c line 82
 signed int majority_disks(signed int num_disks, signed int num);
@@ -1126,9 +1126,9 @@ static void process_cmd_thread_unregistered(signed int ci_in, struct sm_header *
 // process_connection
 // file main.c line 967
 static void process_connection(signed int ci);
-// process_connection::1::deadfn_object
+
 //
-void deadfn_object(signed int);
+
 // process_listener
 // file main.c line 1046
 static void process_listener(signed int ci);

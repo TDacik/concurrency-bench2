@@ -545,18 +545,18 @@ signed int openusb_set_configuration(unsigned long int dev, unsigned char cfg);
 // openusb_set_debug
 // file usb.c line 738
 void openusb_set_debug(unsigned long int handle, unsigned int level, unsigned int flags, void (*callback)(unsigned long int, const char *, void **));
-// openusb_set_debug::callback_object
+
 //
-void callback_object(unsigned long int, const char *, void **);
+
 // openusb_set_default_timeout
 // file ../src/openusb.h line 636
 signed int openusb_set_default_timeout(unsigned long int handle, enum openusb_transfer_type type, unsigned int timeout);
 // openusb_set_event_callback
 // file ../src/openusb.h line 579
 signed int openusb_set_event_callback(unsigned long int handle, enum openusb_event type, void (*callback)(unsigned long int, unsigned long int, enum openusb_event, void *), void *arg);
-// openusb_set_event_callback::callback_object
+
 //
-void callback_object(unsigned long int, unsigned long int, enum openusb_event, void *);
+
 // openusb_start
 // file api.c line 1398
 signed int openusb_start(struct openusb_multi_request_handle *handle);
@@ -602,9 +602,9 @@ extern signed int printf(const char *, ...);
 // process_event_callbacks
 // file usb.c line 139
 static void * process_event_callbacks(void *unused);
-// process_event_callbacks::1::1::2::func_object
+
 //
-void func_object(unsigned long int, unsigned long int, enum openusb_event, void *);
+
 // process_multi_request
 // file api.c line 1177
 static signed int process_multi_request(void *arg);

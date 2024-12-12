@@ -598,9 +598,9 @@ void MHD_set_https_callbacks(struct MHD_Connection *connection);
 // MHD_set_panic_func
 // file daemon.c line 4679
 extern void MHD_set_panic_func(void (*cb)(void *, const char *, unsigned int, const char *), void *cls);
-// MHD_set_panic_func::cb_object
+
 //
-void cb_object(void *, const char *, unsigned int, const char *);
+
 // MHD_set_response_options
 // file response.c line 283
 extern signed int MHD_set_response_options(struct MHD_Response *response, enum MHD_ResponseFlags flags, ...);
@@ -654,7 +654,7 @@ extern signed int * __errno_location(void);
 extern void abort(void);
 // accept4
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 251
-extern signed int accept4(signed int, union anonymous_12, unsigned int *, signed int);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // add_response_entry
 // file response.c line 54
 static signed int add_response_entry(struct MHD_Response *response, enum MHD_ValueKind kind, const char *header, const char *content);
@@ -666,7 +666,7 @@ static signed int add_to_fd_set(signed int fd, struct anonymous_1 *set, signed i
 static signed int answer_to_connection(void *cls, struct MHD_Connection *connection, const char *url, const char *method, const char *version, const char *upload_data, unsigned long int *upload_data_size, void **con_cls);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_12, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // build_header_response
 // file connection.c line 642
 static signed int build_header_response(struct MHD_Connection *connection);

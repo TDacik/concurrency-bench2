@@ -1458,7 +1458,7 @@ static inline signed int atoi(const char *__nptr);
 static inline signed int atoi_link1(const char *__nptr_link1);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_85, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bindTexImage_object
 //
 void bindTexImage_object(struct _XDisplay *, unsigned long int, signed int, signed int *);
@@ -1488,7 +1488,7 @@ extern signed int close(signed int);
 static void configure_audio_out(const struct fe_s *this, const char *audio_driver, const char *audio_port);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_85, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // create_windows
 // file xine_sxfe_frontend.c line 1471
 static void create_windows(struct sxfe_s *this);
@@ -1876,9 +1876,9 @@ static void lircd_connect(void);
 // list_plugins_type
 // file xine_frontend.c line 146
 static void list_plugins_type(struct xine_s *xine, const char *msg, const char * const * (*list_func)(struct xine_s *));
-// list_plugins_type::list_func_object
+
 //
-const char * const * list_func_object(struct xine_s *);
+
 // list_xine_plugins
 // file xine_frontend.c line 162
 void list_xine_plugins(struct frontend_s *fe, signed int verbose);
@@ -2175,7 +2175,7 @@ extern signed int sched_get_priority_min(signed int);
 extern signed int select(signed int, struct anonymous_98 *, struct anonymous_98 *, struct anonymous_98 *, struct timeval *);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_85, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // set_above
 // file xine_sxfe_frontend.c line 418
 static void set_above(struct sxfe_s *this, signed int stay_above);
@@ -2458,45 +2458,45 @@ void vo_def_update_frame_format(struct vo_driver_s *self, struct vo_frame_s *img
 // vo_frameoutput_init
 // file xine/vo_frameoutput.c line 61
 struct vo_driver_s * vo_frameoutput_init(void *handle, void (*cb)(void *, struct vo_frame_s *));
-// vo_frameoutput_init::cb_object
+
 //
-void cb_object(void *, struct vo_frame_s *);
+
 // vo_lastpts_init
 // file xine/vo_lastpts.c line 99
 struct vo_driver_s * vo_lastpts_init(void);
 // vo_proxy_hooks_init
 // file xine/vo_hook.c line 99
 static void vo_proxy_hooks_init(struct vo_driver_s *drv, struct vo_driver_s *next_driver);
-// vo_proxy_hooks_init::_tmp::tmp_if_expr_1_object
+
 //
-unsigned int tmp_if_expr_1_object(struct vo_driver_s *);
-// vo_proxy_hooks_init::_tmp::tmp_if_expr_10_object
+
+
 //
-void tmp_if_expr_10_object(struct vo_driver_s *);
-// vo_proxy_hooks_init::_tmp::tmp_if_expr_2_object
+
+
 //
-struct vo_frame_s * tmp_if_expr_2_object(struct vo_driver_s *);
-// vo_proxy_hooks_init::_tmp::tmp_if_expr_3_object
+
+
 //
-void tmp_if_expr_3_object(struct vo_driver_s *, struct vo_frame_s *, unsigned int, unsigned int, double, signed int, signed int);
-// vo_proxy_hooks_init::_tmp::tmp_if_expr_4_object
+
+
 //
-void tmp_if_expr_4_object(struct vo_driver_s *, struct vo_frame_s *);
-// vo_proxy_hooks_init::_tmp::tmp_if_expr_5_object
+
+
 //
-signed int tmp_if_expr_5_object(struct vo_driver_s *, signed int);
-// vo_proxy_hooks_init::_tmp::tmp_if_expr_6_object
+
+
 //
-signed int tmp_if_expr_6_object(struct vo_driver_s *, signed int, signed int);
-// vo_proxy_hooks_init::_tmp::tmp_if_expr_7_object
+
+
 //
-void tmp_if_expr_7_object(struct vo_driver_s *, signed int, signed int *, signed int *);
-// vo_proxy_hooks_init::_tmp::tmp_if_expr_8_object
+
+
 //
-signed int tmp_if_expr_8_object(struct vo_driver_s *, signed int, void *);
-// vo_proxy_hooks_init::_tmp::tmp_if_expr_9_object
+
+
 //
-signed int tmp_if_expr_9_object(struct vo_driver_s *);
+
 // vpplugin_disable_post
 // file xine/post.c line 796
 signed int vpplugin_disable_post(struct post_plugins_s_0 *fe, const char *name);

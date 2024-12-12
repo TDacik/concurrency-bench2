@@ -389,7 +389,7 @@ extern signed int closedir(struct __dirstream *);
 extern struct ldap * connectToLDAP(struct thread_context *tttctx, const char *bufBindDN, const char *bufPasswd, unsigned int mode, unsigned int mod2);
 // connectToServer
 // file ../ldap/servers/slapd/tools/ldclt/ldapfct.c line 888
-extern signed int connectToServer(struct thread_context *tttctx);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // copyVersAttribute
 // file ../ldap/servers/slapd/tools/ldclt/ldclt.c line 131
 signed int copyVersAttribute(struct vers_attribute *srcattr, struct vers_attribute *dstattr);
@@ -720,9 +720,9 @@ extern void ldclt_sleep(signed int nseconds);
 // ldclt_thread_create
 // file ../ldap/servers/slapd/tools/ldclt/port.h line 60
 extern signed int ldclt_thread_create(unsigned long int *tid, void * (*fct)(void *), void *param);
-// ldclt_thread_create::fct_object
+
 //
-void * fct_object(void *);
+
 // ldclt_write_genldif
 // file ../ldap/servers/slapd/tools/ldclt/ldapfct.c line 2557
 void ldclt_write_genldif(char *str, signed int lgth);

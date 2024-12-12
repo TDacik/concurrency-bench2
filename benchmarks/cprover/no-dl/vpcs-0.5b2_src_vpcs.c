@@ -331,7 +331,7 @@ extern signed int * __errno_location(void);
 static signed int _readline(struct rls *rls);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_2, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // access
 // file /usr/include/unistd.h line 287
 extern signed int access(const char *, signed int);
@@ -355,7 +355,7 @@ void autoconf6(void);
 extern void bcopy(const void *, void *, unsigned long int);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_2, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bzero
 // file /usr/include/string.h line 458
 extern void bzero(void *, unsigned long int);
@@ -812,15 +812,15 @@ struct rls * readline_init(signed int histnum, signed int buflen);
 // readline_tab
 // file readline.c line 80
 signed int readline_tab(char ** (*cb)(const char *, const char *), struct rls *rls);
-// readline_tab::cb_object
+
 //
-char ** cb_object(const char *, const char *);
+
 // realpath
 // file /usr/include/stdlib.h line 733
 extern char * realpath(const char *, char *);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // reset_terminal
 // file readline.c line 548
 void reset_terminal(signed int fd, struct termios *stored_settings);
@@ -943,7 +943,7 @@ signed int savehistory(const char *filename, struct rls *rls);
 extern signed int select(signed int, struct anonymous_26 *, struct anonymous_26 *, struct anonymous_26 *, struct timeval *);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // set_dump
 // file command.c line 1484
 static signed int set_dump(signed int argc, char **argv);

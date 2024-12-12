@@ -1132,9 +1132,9 @@ static void lglcpystk(struct LGL *lgl, struct Stk *dst, struct Stk *src);
 // lglctrav
 // file lglib.c line 18746
 void lglctrav(struct LGL *lgl, void *state, void (*trav)(void *, signed int));
-// lglctrav::trav_object
+
 //
-void trav_object(void *, signed int);
+
 // lglcutwidth
 // file lglib.c line 6877
 static signed int lglcutwidth(struct LGL *lgl);
@@ -1342,9 +1342,9 @@ static void lglesetphase(struct LGL *lgl, signed int elit, signed int phase);
 // lgletrav
 // file lglib.c line 18731
 void lgletrav(struct LGL *lgl, void *state, void (*trav)(void *, signed int, signed int));
-// lgletrav::trav_object
+
 //
-void trav_object(void *, signed int, signed int);
+
 // lgleunassignall
 // file lglib.c line 3708
 static void lgleunassignall(struct LGL *lgl);
@@ -1942,9 +1942,9 @@ static unsigned long int lglmnt(signed long int a);
 // lglmosat
 // file lglib.c line 17745
 signed int lglmosat(struct LGL *lgl, void *state, signed int (*f)(void *, signed int, signed int), signed int *targets);
-// lglmosat::f_object
+
 //
-signed int f_object(void *, signed int, signed int);
+
 // lglmsgend
 // file lglib.c line 1199
 static void lglmsgend(struct LGL *lgl);
@@ -2227,15 +2227,15 @@ static signed int lglrandec(struct LGL *lgl);
 // lglrandidxtrav
 // file lglib.c line 3327
 static signed int lglrandidxtrav(struct LGL *lgl, signed int (*fun)(struct LGL *, signed int));
-// lglrandidxtrav::fun_object
+
 //
-signed int fun_object(struct LGL *, signed int);
+
 // lglrandlitrav
 // file lglib.c line 8594
 static signed int lglrandlitrav(struct LGL *lgl, signed int (*fun)(struct LGL *, signed int));
-// lglrandlitrav::fun_object
+
 //
-signed int fun_object(struct LGL *, signed int);
+
 // lglrandomprobe
 // file lglib.c line 13848
 static signed int lglrandomprobe(struct LGL *lgl, struct Stk *outer);
@@ -2380,9 +2380,9 @@ static void lglrszvars(struct LGL *lgl, signed int new_size);
 // lglrtrav
 // file lglib.c line 18813
 void lglrtrav(struct LGL *lgl, void *state, void (*trav)(void *, signed int, signed int));
-// lglrtrav::trav_object
+
 //
-void trav_object(void *, signed int, signed int);
+
 // lgls2fun
 // file lglib.c line 10626
 static void lgls2fun(signed int mlit, unsigned long int *res);
@@ -2422,15 +2422,15 @@ static void lglsetclifflim(struct LGL *lgl);
 // lglsetconsumedunits
 // file lglib.c line 1360
 void lglsetconsumedunits(struct LGL *lgl, void (*fun)(void *, signed int), void *state);
-// lglsetconsumedunits::fun_object
+
 //
-void fun_object(void *, signed int);
+
 // lglsetconsumeunits
 // file lglib.c line 1337
 void lglsetconsumeunits(struct LGL *lgl, void (*fun)(void *, signed int **, signed int **), void *state);
-// lglsetconsumeunits::fun_object
+
 //
-void fun_object(void *, signed int **, signed int **);
+
 // lglsetdom
 // file lglib.c line 2582
 static void lglsetdom(struct LGL *lgl, signed int lit, signed int dom);
@@ -2443,9 +2443,9 @@ static void lglsetelmlim(struct LGL *lgl);
 // lglseterm
 // file lglib.h line 295
 void lglseterm(struct LGL *lgl, signed int (*fun)(void *), void *state);
-// lglseterm::fun_object
+
 //
-signed int fun_object(void *);
+
 // lglseternreslim
 // file lglib.c line 14656
 static void lglseternreslim(struct LGL *lgl);
@@ -2473,9 +2473,9 @@ static void lglsetlim(struct LGL *lgl, struct Lim *lim);
 // lglsetlockeq
 // file lglib.c line 1346
 void lglsetlockeq(struct LGL *lgl, signed int * (*fun)(void *), void *state);
-// lglsetlockeq::fun_object
+
 //
-signed int * fun_object(void *);
+
 // lglsetlrgminrhs
 // file lglib.c line 13056
 static void lglsetlrgminrhs(struct LGL *lgl, struct Gat *g);
@@ -2515,9 +2515,9 @@ void lglsetprefix(struct LGL *lgl, const char *prefix);
 // lglsetproduceunit
 // file lglib.c line 1330
 void lglsetproduceunit(struct LGL *lgl, void (*fun)(void *, signed int), void *state);
-// lglsetproduceunit::fun_object
+
 //
-void fun_object(void *, signed int);
+
 // lglsetrdlim
 // file lglib.c line 14886
 static void lglsetrdlim(struct LGL *lgl);
@@ -2527,9 +2527,9 @@ static void lglsetunhdlim(struct LGL *lgl);
 // lglsetunlockeq
 // file lglib.c line 1353
 void lglsetunlockeq(struct LGL *lgl, void (*fun)(void *, signed int, signed int), void *state);
-// lglsetunlockeq::fun_object
+
 //
-void fun_object(void *, signed int, signed int);
+
 // lglsetup
 // file lglib.c line 17294
 static void lglsetup(struct LGL *lgl);
@@ -2770,9 +2770,9 @@ static void lgltrapi(struct LGL *lgl, const char *msg, ...);
 // lgltravall
 // file lglib.c line 18882
 void lgltravall(struct LGL *lgl, void *state, void (*trav)(void *, signed int));
-// lgltravall::trav_object
+
 //
-void trav_object(void *, signed int);
+
 // lgltravalle
 // file lglib.c line 18872
 static void lgltravalle(void *voidptr, signed int lit, signed int repr);
@@ -2941,9 +2941,9 @@ static void lgluselevel(struct LGL *lgl, signed int level);
 // lglutrav
 // file lglib.c line 18718
 void lglutrav(struct LGL *lgl, void *state, void (*trav)(void *, signed int));
-// lglutrav::trav_object
+
 //
-void trav_object(void *, signed int);
+
 // lglval
 // file lglib.c line 2323
 static signed char lglval(struct LGL *lgl, signed int lit);
@@ -3076,18 +3076,18 @@ static signed int sat(struct Worker *w);
 // setsighandlers
 // file ilingeling.c line 751
 static void setsighandlers(void);
-// sig_abrt_handler_object
+
 //
-void sig_abrt_handler_object(signed int);
-// sig_int_handler_object
+
+
 //
-void sig_int_handler_object(signed int);
-// sig_segv_handler_object
+
+
 //
-void sig_segv_handler_object(signed int);
-// sig_term_handler_object
+
+
 //
-void sig_term_handler_object(signed int);
+
 // signal
 // file /usr/include/signal.h line 102
 extern void (*signal(signed int, void (*)(signed int)))(signed int);

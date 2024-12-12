@@ -867,7 +867,7 @@ static signed int client_func(const struct anonymous_16 *test);
 extern signed int close(signed int);
 // connect
 // file connect.c line 380
-extern signed int connect(signed int socket, struct sockaddr *address, unsigned int address_len);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // debug
 // file connect.c line 274
 static void debug(const char *fmt, ...);
@@ -1459,12 +1459,12 @@ void gg_debug_dump(struct gg_session *gs, signed int level, const char *buf, uns
 // gg_debug_event
 // file debug.c line 311
 const char * gg_debug_event(enum gg_event_t event);
-// gg_debug_handler_object
+
 //
-void gg_debug_handler_object(signed int, const char *, void **);
-// gg_debug_handler_session_object
+
+
 //
-void gg_debug_handler_session_object(struct gg_session *, signed int, const char *, void **);
+
 // gg_debug_session
 // file ../include/libgadu.h line 1595
 void gg_debug_session(struct gg_session *gs, signed int level, const char *format, ...);
@@ -1732,12 +1732,12 @@ unsigned int gg_protobuf_get_uin(struct ProtobufCBinaryData uin_data);
 // gg_protobuf_send_ex
 // file ../include/protobuf.h line 63
 signed int gg_protobuf_send_ex(struct gg_session *gs, struct gg_event *ge, signed int type, void *msg, unsigned long int (*size_cb)(const void *), unsigned long int (*pack_cb)(const void *, unsigned char *));
-// gg_protobuf_send_ex::pack_cb_object
+
 //
-unsigned long int pack_cb_object(const void *, unsigned char *);
-// gg_protobuf_send_ex::size_cb_object
+
+
 //
-unsigned long int size_cb_object(const void *);
+
 // gg_protobuf_set_uin
 // file ../include/protobuf.h line 67
 void gg_protobuf_set_uin(struct ProtobufCBinaryData *dst, unsigned int uin, struct _gg_protobuf_uin_buff *buff);

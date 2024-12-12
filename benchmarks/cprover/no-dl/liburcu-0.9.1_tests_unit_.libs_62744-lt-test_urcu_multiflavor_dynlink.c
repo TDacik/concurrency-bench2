@@ -1718,21 +1718,21 @@ static void _defer_rcu_link3(void (*fct_link3)(void *), void *p_link3);
 // _defer_rcu_link4
 // file urcu-defer-impl.h line 311
 static void _defer_rcu_link4(void (*fct_link4)(void *), void *p_link4);
-// _defer_rcu::fct_link1_object
+
 //
-void fct_link1_object(void *);
-// _defer_rcu::fct_link2_object
+
+
 //
-void fct_link2_object(void *);
-// _defer_rcu::fct_link3_object
+
+
 //
-void fct_link3_object(void *);
-// _defer_rcu::fct_link4_object
+
+
 //
-void fct_link4_object(void *);
-// _defer_rcu::fct_object
+
+
 //
-void fct_object(void *);
+
 // _expected_tests
 // file tap.c line 315
 static void _expected_tests(unsigned int tests);
@@ -1993,19 +1993,19 @@ static void call_rcu_data_init_link3(struct call_rcu_data **crdpp_link3, unsigne
 static void call_rcu_data_init_link4(struct call_rcu_data **crdpp_link4, unsigned long int flags_link4, signed int cpu_affinity_link4);
 // call_rcu_lock
 // file urcu-call-rcu-impl.h line 175
-static void call_rcu_lock(union anonymous_0 *pmp);
+static void call_rcu_lock(struct __cds_wfcq_head * *pmp);
 // call_rcu_lock_link1
 // file urcu-call-rcu-impl.h line 175
-static void call_rcu_lock_link1(union anonymous_0 *pmp_link1);
+static void call_rcu_lock_link1(struct __cds_wfcq_head * *pmp_link1);
 // call_rcu_lock_link2
 // file urcu-call-rcu-impl.h line 175
-static void call_rcu_lock_link2(union anonymous_0 *pmp_link2);
+static void call_rcu_lock_link2(struct __cds_wfcq_head * *pmp_link2);
 // call_rcu_lock_link3
 // file urcu-call-rcu-impl.h line 175
-static void call_rcu_lock_link3(union anonymous_0 *pmp_link3);
+static void call_rcu_lock_link3(struct __cds_wfcq_head * *pmp_link3);
 // call_rcu_lock_link4
 // file urcu-call-rcu-impl.h line 175
-static void call_rcu_lock_link4(union anonymous_0 *pmp_link4);
+static void call_rcu_lock_link4(struct __cds_wfcq_head * *pmp_link4);
 // call_rcu_mb
 // file urcu-call-rcu-impl.h line 705
 void call_rcu_mb(struct rcu_head *head, void (*func)(struct rcu_head *));
@@ -2047,19 +2047,19 @@ static void * call_rcu_thread_link3(void *arg_link3);
 static void * call_rcu_thread_link4(void *arg_link4);
 // call_rcu_unlock
 // file urcu-call-rcu-impl.h line 186
-static void call_rcu_unlock(union anonymous_0 *pmp);
+static void call_rcu_unlock(struct __cds_wfcq_head * *pmp);
 // call_rcu_unlock_link1
 // file urcu-call-rcu-impl.h line 186
-static void call_rcu_unlock_link1(union anonymous_0 *pmp_link1);
+static void call_rcu_unlock_link1(struct __cds_wfcq_head * *pmp_link1);
 // call_rcu_unlock_link2
 // file urcu-call-rcu-impl.h line 186
-static void call_rcu_unlock_link2(union anonymous_0 *pmp_link2);
+static void call_rcu_unlock_link2(struct __cds_wfcq_head * *pmp_link2);
 // call_rcu_unlock_link3
 // file urcu-call-rcu-impl.h line 186
-static void call_rcu_unlock_link3(union anonymous_0 *pmp_link3);
+static void call_rcu_unlock_link3(struct __cds_wfcq_head * *pmp_link3);
 // call_rcu_unlock_link4
 // file urcu-call-rcu-impl.h line 186
-static void call_rcu_unlock_link4(union anonymous_0 *pmp_link4);
+static void call_rcu_unlock_link4(struct __cds_wfcq_head * *pmp_link4);
 // call_rcu_wait
 // file urcu-call-rcu-impl.h line 240
 static void call_rcu_wait(struct call_rcu_data *crdp);
@@ -2288,33 +2288,33 @@ struct call_rcu_data * create_call_rcu_data_sig(unsigned long int flags, signed 
 // defer_rcu_bp
 // file urcu-defer-impl.h line 395
 extern void defer_rcu_bp(void (*fct)(void *), void *p);
-// defer_rcu_bp::fct_object
+
 //
-void fct_object(void *);
+
 // defer_rcu_mb
 // file urcu-defer-impl.h line 395
 extern void defer_rcu_mb(void (*fct)(void *), void *p);
-// defer_rcu_mb::fct_object
+
 //
-void fct_object(void *);
+
 // defer_rcu_memb
 // file urcu-defer-impl.h line 395
 extern void defer_rcu_memb(void (*fct)(void *), void *p);
-// defer_rcu_memb::fct_object
+
 //
-void fct_object(void *);
+
 // defer_rcu_qsbr
 // file urcu-defer-impl.h line 395
 extern void defer_rcu_qsbr(void (*fct)(void *), void *p);
-// defer_rcu_qsbr::fct_object
+
 //
-void fct_object(void *);
+
 // defer_rcu_sig
 // file urcu-defer-impl.h line 395
 extern void defer_rcu_sig(void (*fct)(void *), void *p);
-// defer_rcu_sig::fct_object
+
 //
-void fct_object(void *);
+
 // diag
 // file tap.c line 273
 unsigned int diag(char *fmt, ...);
@@ -2539,49 +2539,49 @@ static void * mremap_wrapper(void *old_address, unsigned long int old_size, unsi
 extern signed int munmap(void *, unsigned long int);
 // mutex_lock
 // file urcu.c line 130
-static void mutex_lock(union anonymous_0 *mutex);
+static void mutex_lock(struct __cds_wfcq_head * *mutex);
 // mutex_lock_link1
 // file urcu.c line 130
-static void mutex_lock_link1(union anonymous_0 *mutex_link1);
+static void mutex_lock_link1(struct __cds_wfcq_head * *mutex_link1);
 // mutex_lock_link2
 // file urcu.c line 130
-static void mutex_lock_link2(union anonymous_0 *mutex_link2);
+static void mutex_lock_link2(struct __cds_wfcq_head * *mutex_link2);
 // mutex_lock_link3
 // file urcu-qsbr.c line 91
-static void mutex_lock_link3(union anonymous_0 *mutex_link3);
+static void mutex_lock_link3(struct __cds_wfcq_head * *mutex_link3);
 // mutex_lock_link4
 // file urcu-bp.c line 166
-static void mutex_lock_link4(union anonymous_0 *mutex_link4);
+static void mutex_lock_link4(struct __cds_wfcq_head * *mutex_link4);
 // mutex_lock_defer
 // file urcu-defer-impl.h line 133
-static void mutex_lock_defer(union anonymous_0 *mutex);
+static void mutex_lock_defer(struct __cds_wfcq_head * *mutex);
 // mutex_lock_defer_link1
 // file urcu-defer-impl.h line 133
-static void mutex_lock_defer_link1(union anonymous_0 *mutex_link1);
+static void mutex_lock_defer_link1(struct __cds_wfcq_head * *mutex_link1);
 // mutex_lock_defer_link2
 // file urcu-defer-impl.h line 133
-static void mutex_lock_defer_link2(union anonymous_0 *mutex_link2);
+static void mutex_lock_defer_link2(struct __cds_wfcq_head * *mutex_link2);
 // mutex_lock_defer_link3
 // file urcu-defer-impl.h line 133
-static void mutex_lock_defer_link3(union anonymous_0 *mutex_link3);
+static void mutex_lock_defer_link3(struct __cds_wfcq_head * *mutex_link3);
 // mutex_lock_defer_link4
 // file urcu-defer-impl.h line 133
-static void mutex_lock_defer_link4(union anonymous_0 *mutex_link4);
+static void mutex_lock_defer_link4(struct __cds_wfcq_head * *mutex_link4);
 // mutex_unlock
 // file urcu.c line 152
-static void mutex_unlock(union anonymous_0 *mutex);
+static void mutex_unlock(struct __cds_wfcq_head * *mutex);
 // mutex_unlock_link1
 // file urcu.c line 152
-static void mutex_unlock_link1(union anonymous_0 *mutex_link1);
+static void mutex_unlock_link1(struct __cds_wfcq_head * *mutex_link1);
 // mutex_unlock_link2
 // file urcu.c line 152
-static void mutex_unlock_link2(union anonymous_0 *mutex_link2);
+static void mutex_unlock_link2(struct __cds_wfcq_head * *mutex_link2);
 // mutex_unlock_link3
 // file urcu-qsbr.c line 108
-static void mutex_unlock_link3(union anonymous_0 *mutex_link3);
+static void mutex_unlock_link3(struct __cds_wfcq_head * *mutex_link3);
 // mutex_unlock_link4
 // file urcu-bp.c line 183
-static void mutex_unlock_link4(union anonymous_0 *mutex_link4);
+static void mutex_unlock_link4(struct __cds_wfcq_head * *mutex_link4);
 // plan_no_plan
 // file tap.c line 191
 signed int plan_no_plan(void);
@@ -2623,13 +2623,13 @@ extern signed int pthread_key_delete(unsigned int);
 extern signed int pthread_kill(unsigned long int, signed int);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous_0 *, const union anonymous_3 *);
+extern signed int pthread_mutex_init(struct __cds_wfcq_head * *, const union anonymous_3 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous_0 *);
+extern signed int pthread_mutex_lock(struct __cds_wfcq_head * *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous_0 *);
+extern signed int pthread_mutex_unlock(struct __cds_wfcq_head * *);
 // pthread_self
 // file /usr/include/pthread.h line 277
 extern unsigned long int pthread_self(void);
@@ -2708,21 +2708,21 @@ static void rcu_defer_barrier_queue_link3(struct defer_queue *queue_link3, unsig
 // rcu_defer_barrier_queue_link4
 // file urcu-defer-impl.h line 218
 static void rcu_defer_barrier_queue_link4(struct defer_queue *queue_link4, unsigned long int head_link4);
-// rcu_defer_barrier_queue::1::fct_link1_object
+
 //
-void fct_link1_object(void *);
-// rcu_defer_barrier_queue::1::fct_link2_object
+
+
 //
-void fct_link2_object(void *);
-// rcu_defer_barrier_queue::1::fct_link3_object
+
+
 //
-void fct_link3_object(void *);
-// rcu_defer_barrier_queue::1::fct_link4_object
+
+
 //
-void fct_link4_object(void *);
-// rcu_defer_barrier_queue::1::fct_object
+
+
 //
-void fct_object(void *);
+
 // rcu_defer_barrier_sig
 // file urcu-defer-impl.h line 281
 extern void rcu_defer_barrier_sig(void);
@@ -15965,7 +15965,7 @@ static void call_rcu_data_init_link4(struct call_rcu_data **crdpp_link4, unsigne
 
 // call_rcu_lock
 // file urcu-call-rcu-impl.h line 175
-static void call_rcu_lock(union anonymous_0 *pmp)
+static void call_rcu_lock(struct __cds_wfcq_head * *pmp)
 {
   signed int ret;
   ret=pthread_mutex_lock(pmp);
@@ -15983,7 +15983,7 @@ static void call_rcu_lock(union anonymous_0 *pmp)
 
 // call_rcu_lock_link1
 // file urcu-call-rcu-impl.h line 175
-static void call_rcu_lock_link1(union anonymous_0 *pmp_link1)
+static void call_rcu_lock_link1(struct __cds_wfcq_head * *pmp_link1)
 {
   signed int ret_link1;
   ret_link1=pthread_mutex_lock(pmp_link1);
@@ -16001,7 +16001,7 @@ static void call_rcu_lock_link1(union anonymous_0 *pmp_link1)
 
 // call_rcu_lock_link2
 // file urcu-call-rcu-impl.h line 175
-static void call_rcu_lock_link2(union anonymous_0 *pmp_link2)
+static void call_rcu_lock_link2(struct __cds_wfcq_head * *pmp_link2)
 {
   signed int ret_link2;
   ret_link2=pthread_mutex_lock(pmp_link2);
@@ -16019,7 +16019,7 @@ static void call_rcu_lock_link2(union anonymous_0 *pmp_link2)
 
 // call_rcu_lock_link3
 // file urcu-call-rcu-impl.h line 175
-static void call_rcu_lock_link3(union anonymous_0 *pmp_link3)
+static void call_rcu_lock_link3(struct __cds_wfcq_head * *pmp_link3)
 {
   signed int ret_link3;
   ret_link3=pthread_mutex_lock(pmp_link3);
@@ -16037,7 +16037,7 @@ static void call_rcu_lock_link3(union anonymous_0 *pmp_link3)
 
 // call_rcu_lock_link4
 // file urcu-call-rcu-impl.h line 175
-static void call_rcu_lock_link4(union anonymous_0 *pmp_link4)
+static void call_rcu_lock_link4(struct __cds_wfcq_head * *pmp_link4)
 {
   signed int ret_link4;
   ret_link4=pthread_mutex_lock(pmp_link4);
@@ -16954,7 +16954,7 @@ static void * call_rcu_thread_link4(void *arg_link4)
 
 // call_rcu_unlock
 // file urcu-call-rcu-impl.h line 186
-static void call_rcu_unlock(union anonymous_0 *pmp)
+static void call_rcu_unlock(struct __cds_wfcq_head * *pmp)
 {
   signed int ret;
   ret=pthread_mutex_unlock(pmp);
@@ -16972,7 +16972,7 @@ static void call_rcu_unlock(union anonymous_0 *pmp)
 
 // call_rcu_unlock_link1
 // file urcu-call-rcu-impl.h line 186
-static void call_rcu_unlock_link1(union anonymous_0 *pmp_link1)
+static void call_rcu_unlock_link1(struct __cds_wfcq_head * *pmp_link1)
 {
   signed int ret_link1;
   ret_link1=pthread_mutex_unlock(pmp_link1);
@@ -16990,7 +16990,7 @@ static void call_rcu_unlock_link1(union anonymous_0 *pmp_link1)
 
 // call_rcu_unlock_link2
 // file urcu-call-rcu-impl.h line 186
-static void call_rcu_unlock_link2(union anonymous_0 *pmp_link2)
+static void call_rcu_unlock_link2(struct __cds_wfcq_head * *pmp_link2)
 {
   signed int ret_link2;
   ret_link2=pthread_mutex_unlock(pmp_link2);
@@ -17008,7 +17008,7 @@ static void call_rcu_unlock_link2(union anonymous_0 *pmp_link2)
 
 // call_rcu_unlock_link3
 // file urcu-call-rcu-impl.h line 186
-static void call_rcu_unlock_link3(union anonymous_0 *pmp_link3)
+static void call_rcu_unlock_link3(struct __cds_wfcq_head * *pmp_link3)
 {
   signed int ret_link3;
   ret_link3=pthread_mutex_unlock(pmp_link3);
@@ -17026,7 +17026,7 @@ static void call_rcu_unlock_link3(union anonymous_0 *pmp_link3)
 
 // call_rcu_unlock_link4
 // file urcu-call-rcu-impl.h line 186
-static void call_rcu_unlock_link4(union anonymous_0 *pmp_link4)
+static void call_rcu_unlock_link4(struct __cds_wfcq_head * *pmp_link4)
 {
   signed int ret_link4;
   ret_link4=pthread_mutex_unlock(pmp_link4);
@@ -19826,7 +19826,7 @@ static void * mremap_wrapper(void *old_address, unsigned long int old_size, unsi
 
 // mutex_lock
 // file urcu.c line 130
-static void mutex_lock(union anonymous_0 *mutex)
+static void mutex_lock(struct __cds_wfcq_head * *mutex)
 {
   signed int ret;
   ret=pthread_mutex_lock(mutex);
@@ -19844,7 +19844,7 @@ static void mutex_lock(union anonymous_0 *mutex)
 
 // mutex_lock_link1
 // file urcu.c line 130
-static void mutex_lock_link1(union anonymous_0 *mutex_link1)
+static void mutex_lock_link1(struct __cds_wfcq_head * *mutex_link1)
 {
   signed int ret_link1;
   ret_link1=pthread_mutex_lock(mutex_link1);
@@ -19862,7 +19862,7 @@ static void mutex_lock_link1(union anonymous_0 *mutex_link1)
 
 // mutex_lock_link2
 // file urcu.c line 130
-static void mutex_lock_link2(union anonymous_0 *mutex_link2)
+static void mutex_lock_link2(struct __cds_wfcq_head * *mutex_link2)
 {
   signed int ret_link2;
   ret_link2=pthread_mutex_lock(mutex_link2);
@@ -19880,7 +19880,7 @@ static void mutex_lock_link2(union anonymous_0 *mutex_link2)
 
 // mutex_lock_link3
 // file urcu-qsbr.c line 91
-static void mutex_lock_link3(union anonymous_0 *mutex_link3)
+static void mutex_lock_link3(struct __cds_wfcq_head * *mutex_link3)
 {
   signed int ret_link3;
   ret_link3=pthread_mutex_lock(mutex_link3);
@@ -19898,7 +19898,7 @@ static void mutex_lock_link3(union anonymous_0 *mutex_link3)
 
 // mutex_lock_link4
 // file urcu-bp.c line 166
-static void mutex_lock_link4(union anonymous_0 *mutex_link4)
+static void mutex_lock_link4(struct __cds_wfcq_head * *mutex_link4)
 {
   signed int ret_link4;
   ret_link4=pthread_mutex_lock(mutex_link4);
@@ -19916,7 +19916,7 @@ static void mutex_lock_link4(union anonymous_0 *mutex_link4)
 
 // mutex_lock_defer
 // file urcu-defer-impl.h line 133
-static void mutex_lock_defer(union anonymous_0 *mutex)
+static void mutex_lock_defer(struct __cds_wfcq_head * *mutex)
 {
   signed int ret;
   ret=pthread_mutex_lock(mutex);
@@ -19934,7 +19934,7 @@ static void mutex_lock_defer(union anonymous_0 *mutex)
 
 // mutex_lock_defer_link1
 // file urcu-defer-impl.h line 133
-static void mutex_lock_defer_link1(union anonymous_0 *mutex_link1)
+static void mutex_lock_defer_link1(struct __cds_wfcq_head * *mutex_link1)
 {
   signed int ret_link1;
   ret_link1=pthread_mutex_lock(mutex_link1);
@@ -19952,7 +19952,7 @@ static void mutex_lock_defer_link1(union anonymous_0 *mutex_link1)
 
 // mutex_lock_defer_link2
 // file urcu-defer-impl.h line 133
-static void mutex_lock_defer_link2(union anonymous_0 *mutex_link2)
+static void mutex_lock_defer_link2(struct __cds_wfcq_head * *mutex_link2)
 {
   signed int ret_link2;
   ret_link2=pthread_mutex_lock(mutex_link2);
@@ -19970,7 +19970,7 @@ static void mutex_lock_defer_link2(union anonymous_0 *mutex_link2)
 
 // mutex_lock_defer_link3
 // file urcu-defer-impl.h line 133
-static void mutex_lock_defer_link3(union anonymous_0 *mutex_link3)
+static void mutex_lock_defer_link3(struct __cds_wfcq_head * *mutex_link3)
 {
   signed int ret_link3;
   ret_link3=pthread_mutex_lock(mutex_link3);
@@ -19988,7 +19988,7 @@ static void mutex_lock_defer_link3(union anonymous_0 *mutex_link3)
 
 // mutex_lock_defer_link4
 // file urcu-defer-impl.h line 133
-static void mutex_lock_defer_link4(union anonymous_0 *mutex_link4)
+static void mutex_lock_defer_link4(struct __cds_wfcq_head * *mutex_link4)
 {
   signed int ret_link4;
   ret_link4=pthread_mutex_lock(mutex_link4);
@@ -20006,7 +20006,7 @@ static void mutex_lock_defer_link4(union anonymous_0 *mutex_link4)
 
 // mutex_unlock
 // file urcu.c line 152
-static void mutex_unlock(union anonymous_0 *mutex)
+static void mutex_unlock(struct __cds_wfcq_head * *mutex)
 {
   signed int ret;
   ret=pthread_mutex_unlock(mutex);
@@ -20024,7 +20024,7 @@ static void mutex_unlock(union anonymous_0 *mutex)
 
 // mutex_unlock_link1
 // file urcu.c line 152
-static void mutex_unlock_link1(union anonymous_0 *mutex_link1)
+static void mutex_unlock_link1(struct __cds_wfcq_head * *mutex_link1)
 {
   signed int ret_link1;
   ret_link1=pthread_mutex_unlock(mutex_link1);
@@ -20042,7 +20042,7 @@ static void mutex_unlock_link1(union anonymous_0 *mutex_link1)
 
 // mutex_unlock_link2
 // file urcu.c line 152
-static void mutex_unlock_link2(union anonymous_0 *mutex_link2)
+static void mutex_unlock_link2(struct __cds_wfcq_head * *mutex_link2)
 {
   signed int ret_link2;
   ret_link2=pthread_mutex_unlock(mutex_link2);
@@ -20060,7 +20060,7 @@ static void mutex_unlock_link2(union anonymous_0 *mutex_link2)
 
 // mutex_unlock_link3
 // file urcu-qsbr.c line 108
-static void mutex_unlock_link3(union anonymous_0 *mutex_link3)
+static void mutex_unlock_link3(struct __cds_wfcq_head * *mutex_link3)
 {
   signed int ret_link3;
   ret_link3=pthread_mutex_unlock(mutex_link3);
@@ -20078,7 +20078,7 @@ static void mutex_unlock_link3(union anonymous_0 *mutex_link3)
 
 // mutex_unlock_link4
 // file urcu-bp.c line 183
-static void mutex_unlock_link4(union anonymous_0 *mutex_link4)
+static void mutex_unlock_link4(struct __cds_wfcq_head * *mutex_link4)
 {
   signed int ret_link4;
   ret_link4=pthread_mutex_unlock(mutex_link4);

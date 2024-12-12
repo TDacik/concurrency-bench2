@@ -482,13 +482,13 @@ extern signed int pthread_create(unsigned long int *, const union pthread_attr_t
 extern signed int pthread_join(unsigned long int, void **);
 // pthread_mutex_init
 // file /usr/include/pthread.h line 751
-extern signed int pthread_mutex_init(union anonymous_0 *, const union anonymous_4 *);
+extern signed int pthread_mutex_init(struct __cds_wfcq_head * *, const union anonymous_4 *);
 // pthread_mutex_lock
 // file /usr/include/pthread.h line 764
-extern signed int pthread_mutex_lock(union anonymous_0 *);
+extern signed int pthread_mutex_lock(struct __cds_wfcq_head * *);
 // pthread_mutex_unlock
 // file /usr/include/pthread.h line 775
-extern signed int pthread_mutex_unlock(union anonymous_0 *);
+extern signed int pthread_mutex_unlock(struct __cds_wfcq_head * *);
 // sched_setaffinity
 // file /usr/include/sched.h line 118
 extern signed int sched_setaffinity(signed int, unsigned long int, const struct anonymous_1 *);

@@ -1045,9 +1045,9 @@ static signed int draw_piece(struct jigsaw_configuration *jc, struct anonymous_2
 // drawable_window_p
 // file grabclient.c line 64
 static signed int drawable_window_p(struct _XDisplay *dpy, unsigned long int d);
-// drawable_window_p::1::old_handler_object
+
 //
-signed int drawable_window_p__1__old_handler_object(struct _XDisplay *, struct anonymous_0 *);
+
 // dup2
 // file /usr/include/unistd.h line 537
 extern signed int dup2(signed int, signed int);
@@ -1093,9 +1093,9 @@ extern signed int fork(void);
 // fork_exec_cb
 // file grabclient.c line 328
 static void fork_exec_cb(const char *command, struct anonymous *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous *, unsigned long int, unsigned long int, const char *, struct anonymous_10 *, void *), void *closure);
-// fork_exec_cb::callback_object
+
 //
-void callback_object(struct anonymous *, unsigned long int, unsigned long int, const char *, struct anonymous_10 *, void *);
+
 // fork_exec_wait
 // file grabclient.c line 286
 static void fork_exec_wait(const char *command);
@@ -1516,9 +1516,9 @@ static void load_image(struct ModeInfo *mi);
 // load_image_async
 // file grabclient.c line 923
 extern void load_image_async(struct anonymous *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous *, unsigned long int, unsigned long int, const char *, struct anonymous_10 *, void *), void *closure);
-// load_image_async::callback_object
+
 //
-void callback_object(struct anonymous *, unsigned long int, unsigned long int, const char *, struct anonymous_10 *, void *);
+
 // load_image_async_simple
 // file grabclient.c line 949
 extern struct async_load_state * load_image_async_simple(struct async_load_state *state, struct anonymous *screen, unsigned long int window, unsigned long int drawable, char **filename_ret, struct anonymous_10 *geometry_ret);
@@ -1528,15 +1528,15 @@ static void load_image_async_simple_cb(struct anonymous *screen, unsigned long i
 // load_random_image_1
 // file grabclient.c line 444
 static void load_random_image_1(struct anonymous *screen, unsigned long int window, unsigned long int drawable, void (*callback)(struct anonymous *, unsigned long int, unsigned long int, const char *, struct anonymous_10 *, void *), void *closure, char **name_ret, struct anonymous_10 *geom_ret);
-// load_random_image_1::callback_object
+
 //
-void callback_object(struct anonymous *, unsigned long int, unsigned long int, const char *, struct anonymous_10 *, void *);
+
 // load_texture_async
 // file grab-ximage.h line 63
 void load_texture_async(struct anonymous *screen, unsigned long int window, struct __GLXcontextRec *glx_context, signed int desired_width, signed int desired_height, signed int mipmap_p, unsigned int texid, void (*callback)(const char *, struct anonymous_10 *, signed int, signed int, signed int, signed int, void *), void *closure);
-// load_texture_async::callback_object
+
 //
-void callback_object(const char *, struct anonymous_10 *, signed int, signed int, signed int, signed int, void *);
+
 // load_texture_async_cb
 // file grab-ximage.c line 712
 static void load_texture_async_cb(struct anonymous *screen, unsigned long int window, unsigned long int drawable, const char *name, struct anonymous_10 *geometry, void *closure);
@@ -1600,15 +1600,15 @@ static void move_one_piece(struct ModeInfo *mi);
 // normalize_quat
 // file trackball.c line 295
 static void normalize_quat(float *q);
-// old_handler_object
+
 //
-signed int old_handler_object(struct _XDisplay *, struct anonymous_0 *);
+
 // open
 // file /usr/include/fcntl.h line 156
 extern signed int open(const char *, signed int, ...);
-// orig_ehandler_object
+
 //
-signed int orig_ehandler_object(struct _XDisplay *, struct anonymous_0 *);
+
 // parse_time
 // file resources.c line 203
 extern signed int parse_time(const char *string, signed int seconds_default_p, signed int silent_p);
@@ -1711,12 +1711,12 @@ extern void rotate_colors(struct anonymous *screen, unsigned long int cmap, stru
 // run_screenhack_table
 // file screenhack.c line 536
 static void run_screenhack_table(struct _XDisplay *dpy, unsigned long int window, unsigned long int window2, struct xscreensaver_function_table *ft);
-// run_screenhack_table::1::fps_cb_object
+
 //
-void fps_cb_object(struct _XDisplay *, unsigned long int, struct fps_state *, void *);
-// run_screenhack_table::1::init_cb_object
+
+
 //
-void * init_cb_object(struct _XDisplay *, unsigned long int, void *);
+
 // same_shape
 // file jigsaw.c line 848
 static signed int same_shape(struct anonymous_26 *p0, struct anonymous_26 *p1, signed int rotated_by);

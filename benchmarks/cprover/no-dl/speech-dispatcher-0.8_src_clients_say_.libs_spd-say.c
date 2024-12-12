@@ -240,7 +240,7 @@ extern char * bindtextdomain(const char *, const char *);
 extern signed int close(signed int);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_16, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // end_of_speech
 // file say.c line 54
 void end_of_speech(unsigned long int msg_id, unsigned long int client_id, enum anonymous_1 type);

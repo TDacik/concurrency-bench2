@@ -952,7 +952,7 @@ extern unsigned int available_blocking_child_slot(void);
 static signed int badopt(const char *mess, signed int ch);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_65, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // block_thread_signals
 // file work_thread.c line 502
 static void block_thread_signals(struct anonymous_8 *pmask);
@@ -1060,7 +1060,7 @@ static inline signed int cmp_tspec(struct timespec a, struct timespec b);
 static char * common_prettydate(struct anonymous_10 *ts, signed int local);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_65, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // convertLFPToRefID
 // file refidsmear.c line 36
 extern unsigned int convertLFPToRefID(struct anonymous_10 num);
@@ -1160,9 +1160,9 @@ extern void exit(signed int);
 // exit_worker
 // file work_thread.c line 72
 extern void exit_worker(signed int exitcode);
-// fatal_callback_object
+
 //
-void fatal_callback_object(const char *, signed int, const char *, void **);
+
 // fclose
 // file /usr/include/stdio.h line 237
 extern signed int fclose(struct _IO_FILE *);
@@ -1283,9 +1283,9 @@ extern signed int getaddrinfo(const char *, const char *, struct addrinfo *, str
 // getaddrinfo_sometime
 // file ntp_intres.c line 235
 extern signed int getaddrinfo_sometime(const char *node, const char *service, struct addrinfo *hints, signed int retry, void (*callback)(signed int, signed int, void *, const char *, const char *, struct addrinfo *, struct addrinfo *), void *context);
-// getaddrinfo_sometime::callback_object
+
 //
-void callback_object(signed int, signed int, void *, const char *, const char *, struct addrinfo *, struct addrinfo *);
+
 // getaddrinfo_sometime_complete
 // file ntp_intres.c line 458
 static void getaddrinfo_sometime_complete(enum blocking_work_req_tag rtype, void *context, unsigned long int respsize, void *resp);
@@ -1310,9 +1310,9 @@ extern signed int getnameinfo(struct sockaddr *, unsigned int, char *, unsigned 
 // getnameinfo_sometime
 // file ntp_intres.c line 623
 extern signed int getnameinfo_sometime(union anonymous_20 *psau, unsigned long int hostoctets, unsigned long int servoctets, signed int flags, void (*callback)(signed int, signed int, union anonymous_20 *, signed int, const char *, const char *, void *), void *context);
-// getnameinfo_sometime::callback_object
+
 //
-void callback_object(signed int, signed int, union anonymous_20 *, signed int, const char *, const char *, void *);
+
 // getnameinfo_sometime_complete
 // file ntp_intres.c line 789
 static void getnameinfo_sometime_complete(enum blocking_work_req_tag rtype, void *context, unsigned long int respsize, void *resp);
@@ -1327,7 +1327,7 @@ extern char * getpass_keytype(signed int keytype);
 extern signed int getpid(void);
 // getsockname
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 127
-extern signed int getsockname(signed int, union anonymous_65, unsigned int *);
+extern signed int getsockname(signed int, struct sockaddr *, unsigned int *);
 // gettimeofday
 // file /usr/include/x86_64-linux-gnu/sys/time.h line 71
 extern signed int gettimeofday(struct timeval *, struct timezone *);
@@ -1649,15 +1649,15 @@ void isc__taskmgr_setmode(struct isc_taskmgr *manager0, enum anonymous_55 mode);
 // isc_assertion_failed
 // file ../lib/isc/include/isc/assertions.h line 45
 void isc_assertion_failed(const char *file, signed int line, enum anonymous_14 type, const char *cond);
-// isc_assertion_failed_cb_object
+
 //
-void isc_assertion_failed_cb_object(const char *, signed int, enum anonymous_14, const char *);
+
 // isc_assertion_setcallback
 // file ./../lib/isc/assertions.c line 64
 void isc_assertion_setcallback(void (*cb)(const char *, signed int, enum anonymous_14, const char *));
-// isc_assertion_setcallback::cb_object
+
 //
-void cb_object(const char *, signed int, enum anonymous_14, const char *);
+
 // isc_assertion_typetotext
 // file ./../lib/isc/assertions.c line 73
 const char * isc_assertion_typetotext(enum anonymous_14 type);
@@ -1733,15 +1733,15 @@ void isc_error_runtimecheck(const char *file, signed int line, const char *expre
 // isc_error_setfatal
 // file ./../lib/isc/error.c line 53
 void isc_error_setfatal(void (*cb)(const char *, signed int, const char *, void **));
-// isc_error_setfatal::cb_object
+
 //
-void cb_object(const char *, signed int, const char *, void **);
+
 // isc_error_setunexpected
 // file ./../lib/isc/error.c line 45
 void isc_error_setunexpected(void (*cb)(const char *, signed int, const char *, void **));
-// isc_error_setunexpected::cb_object
+
 //
-void cb_object(const char *, signed int, const char *, void **);
+
 // isc_error_unexpected
 // file ../lib/isc/include/isc/error.h line 45
 void isc_error_unexpected(const char *file, signed int line, const char *format, ...);
@@ -2192,9 +2192,9 @@ enum anonymous_21 isc_task_exiting(struct isc_task *t);
 // isc_thread_create
 // file ../lib/isc/pthreads/include/isc/thread.h line 39
 unsigned int isc_thread_create(void * (*func)(void *), void *arg, unsigned long int *thread);
-// isc_thread_create::func_object
+
 //
-void * func_object(void *);
+
 // isc_thread_setconcurrency
 // file ../lib/isc/pthreads/include/isc/thread.h line 42
 void isc_thread_setconcurrency(unsigned int level);
@@ -2531,9 +2531,9 @@ extern signed long int (*ntpcal_set_timefunc(signed long int (*nfunc)(signed lon
 // ntpcal_set_timefunc::1::res_object
 //
 signed long int res_object(signed long int *);
-// ntpcal_set_timefunc::nfunc_object
+
 //
-signed long int nfunc_object(signed long int *);
+
 // ntpcal_split_eradays
 // file ../include/ntp_calendar.h line 234
 extern struct anonymous_64 ntpcal_split_eradays(signed int days, signed int *isleapyear);
@@ -2702,9 +2702,9 @@ static inline void push_readyq(struct isc__taskmgr *manager, struct isc__task *t
 // queue_blocking_request
 // file ../include/ntp_worker.h line 111
 extern signed int queue_blocking_request(enum blocking_work_req_tag rtype, void *req, unsigned long int reqsize, void (*done_func)(enum blocking_work_req_tag, void *, unsigned long int, void *), void *context);
-// queue_blocking_request::done_func_object
+
 //
-void done_func_object(enum blocking_work_req_tag, void *, unsigned long int, void *);
+
 // queue_blocking_response
 // file ../include/ntp_worker.h line 114
 extern signed int queue_blocking_response(struct blocking_child_tag *c, struct blocking_pipe_header_tag *resp, unsigned long int respsize, const struct blocking_pipe_header_tag *req);
@@ -2734,7 +2734,7 @@ extern struct blocking_pipe_header_tag * receive_blocking_req_internal(struct bl
 extern struct blocking_pipe_header_tag * receive_blocking_resp_internal(struct blocking_child_tag *c);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, union anonymous_65, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // refid_str
 // file numtoa.c line 38
 extern const char * refid_str(unsigned int refid, signed int stratum);
@@ -2806,16 +2806,16 @@ extern signed int send_blocking_resp_internal(struct blocking_child_tag *c, stru
 static void sendpkt(union anonymous_20 *dest, struct pkt *pkt, signed int len);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, union anonymous_65, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // server_data
 // file ntpdate.c line 927
 static void server_data(struct server *server, signed int d, struct anonymous_10 *c, unsigned int e);
 // set_ctrl_c_hook
 // file syssignal.c line 133
 extern void set_ctrl_c_hook(void (*c_hook)(void));
-// set_ctrl_c_hook::1::handler_object
+
 //
-void handler_object(signed int);
+
 // set_ctrl_c_hook::c_hook_object
 //
 void c_hook_object(void);
@@ -2864,9 +2864,9 @@ void sigint_handler(signed int signum);
 // signal_no_reset
 // file ../include/ntp_stdlib.h line 172
 extern void signal_no_reset(signed int sig, void (*func)(signed int));
-// signal_no_reset::func_object
+
 //
-void func_object(signed int);
+
 // snprintf
 // file /usr/include/stdio.h line 386
 extern signed int snprintf(char *, unsigned long int, const char *, ...);
@@ -2915,9 +2915,9 @@ extern signed int stat(const char *, struct stat *);
 // statustoa
 // file statestr.c line 435
 extern char * statustoa(signed int type, signed int st);
-// step_callback_object
+
 //
-void step_callback_object(void);
+
 // step_systime
 // file ../include/ntp_fp.h line 365
 extern signed int step_systime(double step);
@@ -2993,9 +2993,9 @@ extern signed long int sysconf(signed int);
 // syslog
 // file /usr/include/x86_64-linux-gnu/sys/syslog.h line 190
 extern void syslog(signed int, const char *, ...);
-// systime_func_object
+
 //
-signed long int systime_func_object(signed long int *);
+
 // task_detach
 // file ./../lib/isc/task.c line 476
 static inline enum anonymous_21 task_detach(struct isc__task *task);
@@ -3083,9 +3083,9 @@ static inline signed int uint32_2cpl_to_int32(const unsigned int vu);
 // uint32_saturate
 // file ntp_calendar.c line 222
 static inline unsigned int uint32_saturate(unsigned int vu, unsigned int mu);
-// unexpected_callback_object
+
 //
-void unexpected_callback_object(const char *, signed int, const char *, void **);
+
 // unlink
 // file /usr/include/unistd.h line 826
 extern signed int unlink(const char *);

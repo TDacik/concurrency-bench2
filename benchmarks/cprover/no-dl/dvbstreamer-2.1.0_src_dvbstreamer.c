@@ -2137,9 +2137,9 @@ static void PSIPProcessorFilterEventCallback(void *userArg, struct TSFilterGroup
 // PacketFilterListAddFilter
 // file ts.c line 544
 static struct TSPacketFilter_t * PacketFilterListAddFilter(struct TSReader_t *reader, struct TSFilterGroup_t *group, unsigned short int pid, void (*callback)(void *, struct TSFilterGroup_t *, struct TSPacket_t *), void *userArg);
-// PacketFilterListAddFilter::callback_object
+
 //
-void callback_object(void *, struct TSFilterGroup_t *, struct TSPacket_t *);
+
 // PacketFilterListRemoveFilter
 // file ts.c line 615
 static void PacketFilterListRemoveFilter(struct TSReader_t *reader, struct TSPacketFilter_t *packetFilter);
@@ -2287,9 +2287,9 @@ static struct PropertyPathElements_s * PropertyPathSplitElements(const char *pat
 // RegisterEventListener
 // file events.c line 421
 static void RegisterEventListener(struct List_s *listenerList, void (*callback)(void *, struct Event_s *, void *), void *arg);
-// RegisterEventListener::callback_object
+
 //
-void callback_object(void *, struct Event_s *, void *);
+
 // RemoteInterfaceAcceptCallback
 // file remoteintf.c line 272
 static void RemoteInterfaceAcceptCallback(struct ev_loop *loop, struct ev_io *w, signed int revents);
@@ -2629,9 +2629,9 @@ static void TDTProcessorFilterEventCallback(void *userArg, struct TSFilterGroup_
 // TSFilterGroupAddPacketFilter
 // file ts.c line 394
 _Bool TSFilterGroupAddPacketFilter(struct TSFilterGroup_t *group, unsigned short int pid, void (*callback)(void *, struct TSFilterGroup_t *, struct TSPacket_t *), void *userArg);
-// TSFilterGroupAddPacketFilter::callback_object
+
 //
-void callback_object(void *, struct TSFilterGroup_t *, struct TSPacket_t *);
+
 // TSFilterGroupAddSectionFilter
 // file ts.c line 345
 void TSFilterGroupAddSectionFilter(struct TSFilterGroup_t *group, unsigned short int pid, signed int priority, struct dvbpsi_decoder_s *handle);
@@ -2659,9 +2659,9 @@ struct TSReader_t * TSReaderCreate(struct DVBAdapter_s *adapter);
 // TSReaderCreateFilterGroup
 // file ts.c line 264
 struct TSFilterGroup_t * TSReaderCreateFilterGroup(struct TSReader_t *reader, const char *name, const char *type, void (*callback)(void *, struct TSFilterGroup_t *, enum TSFilterEventType_e, void *), void *userArg);
-// TSReaderCreateFilterGroup::callback_object
+
 //
-void callback_object(void *, struct TSFilterGroup_t *, enum TSFilterEventType_e, void *);
+
 // TSReaderDVRCallback
 // file ts.c line 875
 static void TSReaderDVRCallback(struct ev_loop *loop, struct ev_io *w, signed int revents);
@@ -2698,9 +2698,9 @@ void TSReaderZeroStats(struct TSReader_t *reader);
 // TableEventCallback
 // file pluginmgr.c line 487
 static void TableEventCallback(void *arg, struct Event_s *event, void *details);
-// TableEventCallback::1::callback_object
+
 //
-void callback_object(void *);
+
 // TimeoutWatcher
 // file commands/cmd_scanning.c line 1571
 static void TimeoutWatcher(struct ev_loop *loop, struct ev_timer *w, signed int revents);
@@ -2809,9 +2809,9 @@ signed int UTF8_wc_toutf8(char *dest, unsigned int ch);
 // UnRegisterEventListener
 // file events.c line 432
 static void UnRegisterEventListener(struct List_s *listenerList, void (*callback)(void *, struct Event_s *, void *), void *arg);
-// UnRegisterEventListener::callback_object
+
 //
-void callback_object(void *, struct Event_s *, void *);
+
 // UnRollDescriptors
 // file pids.c line 262
 static struct dvbpsi_descriptor_s * UnRollDescriptors(unsigned char *descriptors, signed int size);
@@ -2850,7 +2850,7 @@ extern const unsigned short int ** __ctype_b_loc(void);
 extern signed int * __errno_location(void);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_0, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // add_history
 // file /usr/include/readline/history.h line 84
 extern void add_history(const char *);
@@ -2862,7 +2862,7 @@ extern signed int asprintf(char ** restrict , const char *, ...);
 extern signed int atoi(const char *);
 // bind
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 123
-extern signed int bind(signed int, union anonymous_0, unsigned int);
+extern signed int bind(signed int, struct sockaddr *, unsigned int);
 // bzero
 // file /usr/include/string.h line 458
 extern void bzero(void *, unsigned long int);

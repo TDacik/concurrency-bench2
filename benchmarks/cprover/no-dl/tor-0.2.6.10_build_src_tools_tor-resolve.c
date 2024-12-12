@@ -684,16 +684,16 @@ extern void abort(void);
 signed int abort_writing_to_file(struct open_file_t *file_data);
 // accept
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 243
-extern signed int accept(signed int, union anonymous_9, unsigned int *);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // accept4
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 251
-extern signed int accept4(signed int, union anonymous_9, unsigned int *, signed int);
+extern signed int accept(signed int, struct sockaddr *, unsigned int *);
 // add_callback_log
 // file ../src/common/log.c line 967
 signed int add_callback_log(const struct log_severity_list_t *severity, void (*cb)(signed int, unsigned int, const char *));
-// add_callback_log::cb_object
+
 //
-void cb_object(signed int, unsigned int, const char *);
+
 // add_file_log
 // file ../src/common/log.c line 1136
 signed int add_file_log(const struct log_severity_list_t *severity, const char *filename, const signed int truncate);
@@ -790,9 +790,9 @@ extern double ceil(double);
 // change_callback_log_severity
 // file ../src/common/log.c line 987
 void change_callback_log_severity(signed int loglevelMin, signed int loglevelMax, void (*cb)(signed int, unsigned int, const char *));
-// change_callback_log_severity::cb_object
+
 //
-void cb_object(signed int, unsigned int, const char *);
+
 // chdir
 // file /usr/include/unistd.h line 497
 extern signed int chdir(const char *);
@@ -1057,9 +1057,9 @@ void dimap_add_entry(struct di_digest256_map_t **map, const unsigned char *key, 
 // dimap_free
 // file ../src/common/di_ops.c line 147
 void dimap_free(struct di_digest256_map_t *map, void (*free_fn)(void *));
-// dimap_free::free_fn_object
+
 //
-void free_fn_object(void *);
+
 // dimap_search
 // file ../src/common/di_ops.c line 188
 void * dimap_search(const struct di_digest256_map_t *map, const unsigned char *key, void *dflt_val);
@@ -2131,9 +2131,9 @@ void set_uint64(void *cp, unsigned long int v);
 // set_waitpid_callback
 // file ../src/common/util_process.h line 19
 struct waitpid_callback_t * set_waitpid_callback(signed int pid, void (*fn)(signed int, void *), void *arg);
-// set_waitpid_callback::fn_object
+
 //
-void fn_object(signed int, void *);
+
 // setegid
 // file /usr/include/unistd.h line 727
 extern signed int setegid(unsigned int);
@@ -2209,15 +2209,15 @@ void smartlist_add_vasprintf(struct smartlist_t *sl, const char *pattern, void *
 // smartlist_bsearch
 // file ../src/common/container.c line 588
 void * smartlist_bsearch(struct smartlist_t *sl, const void *key, signed int (*compare)(const void *, const void **));
-// smartlist_bsearch::compare_object
+
 //
-signed int compare_object(const void *, const void **);
+
 // smartlist_bsearch_idx
 // file ../src/common/container.c line 605
 signed int smartlist_bsearch_idx(const struct smartlist_t *sl, const void *key, signed int (*compare)(const void *, const void **), signed int *found_out);
-// smartlist_bsearch_idx::compare_object
+
 //
-signed int compare_object(const void *, const void **);
+
 // smartlist_clear
 // file ../src/common/container.c line 56
 void smartlist_clear(struct smartlist_t *sl);
@@ -2251,9 +2251,9 @@ void smartlist_free(struct smartlist_t *sl);
 // smartlist_get_most_frequent_
 // file ../src/common/container.c line 525
 void * smartlist_get_most_frequent_(const struct smartlist_t *sl, signed int (*compare)(const void **, const void **), signed int *count_out);
-// smartlist_get_most_frequent_::compare_object
+
 //
-signed int compare_object(const void **, const void **);
+
 // smartlist_get_most_frequent_digest256
 // file ../src/common/container.c line 1011
 char * smartlist_get_most_frequent_digest256(struct smartlist_t *sl);
@@ -2266,9 +2266,9 @@ char * smartlist_get_most_frequent_string_(struct smartlist_t *sl, signed int *c
 // smartlist_heapify
 // file ../src/common/container.c line 848
 static inline void smartlist_heapify(struct smartlist_t *sl, signed int (*compare)(const void *, const void *), signed int idx_field_offset, signed int idx);
-// smartlist_heapify::compare_object
+
 //
-signed int compare_object(const void *, const void *);
+
 // smartlist_insert
 // file ../src/common/container.c line 357
 void smartlist_insert(struct smartlist_t *sl, signed int idx, void *val);
@@ -2296,27 +2296,27 @@ void * smartlist_pop_last(struct smartlist_t *sl);
 // smartlist_pqueue_add
 // file ../src/common/container.c line 887
 void smartlist_pqueue_add(struct smartlist_t *sl, signed int (*compare)(const void *, const void *), signed int idx_field_offset, void *item);
-// smartlist_pqueue_add::compare_object
+
 //
-signed int compare_object(const void *, const void *);
+
 // smartlist_pqueue_assert_ok
 // file ../src/common/container.c line 960
 void smartlist_pqueue_assert_ok(struct smartlist_t *sl, signed int (*compare)(const void *, const void *), signed int idx_field_offset);
-// smartlist_pqueue_assert_ok::compare_object
+
 //
-signed int compare_object(const void *, const void *);
+
 // smartlist_pqueue_pop
 // file ../src/common/container.c line 916
 void * smartlist_pqueue_pop(struct smartlist_t *sl, signed int (*compare)(const void *, const void *), signed int idx_field_offset);
-// smartlist_pqueue_pop::compare_object
+
 //
-signed int compare_object(const void *, const void *);
+
 // smartlist_pqueue_remove
 // file ../src/common/container.c line 938
 void smartlist_pqueue_remove(struct smartlist_t *sl, signed int (*compare)(const void *, const void *), signed int idx_field_offset, void *item);
-// smartlist_pqueue_remove::compare_object
+
 //
-signed int compare_object(const void *, const void *);
+
 // smartlist_remove
 // file ../src/common/container.c line 117
 void smartlist_remove(struct smartlist_t *sl, const void *element);
@@ -2326,9 +2326,9 @@ void smartlist_reverse(struct smartlist_t *sl);
 // smartlist_sort
 // file ../src/common/container.c line 511
 void smartlist_sort(struct smartlist_t *sl, signed int (*compare)(const void **, const void **));
-// smartlist_sort::compare_object
+
 //
-signed int compare_object(const void **, const void **);
+
 // smartlist_sort_digests
 // file ../src/common/container.c line 981
 void smartlist_sort_digests(struct smartlist_t *sl);
@@ -2359,12 +2359,12 @@ void smartlist_subtract(struct smartlist_t *sl1, const struct smartlist_t *sl2);
 // smartlist_uniq
 // file ../src/common/container.c line 567
 void smartlist_uniq(struct smartlist_t *sl, signed int (*compare)(const void **, const void **), void (*free_fn)(void *));
-// smartlist_uniq::compare_object
+
 //
-signed int compare_object(const void **, const void **);
-// smartlist_uniq::free_fn_object
+
+
 //
-void free_fn_object(void *);
+
 // smartlist_uniq_digests
 // file ../src/common/container.c line 989
 void smartlist_uniq_digests(struct smartlist_t *sl);
@@ -2401,9 +2401,9 @@ void spawn_exit(void);
 // spawn_func
 // file ../src/common/compat_threads.h line 25
 signed int spawn_func(void (*func)(void *), void *data);
-// spawn_func::func_object
+
 //
-void func_object(void *);
+
 // sscanf
 // file /usr/include/stdio.h line 433
 extern signed int sscanf(const char *, const char *, ...);
@@ -2620,36 +2620,36 @@ struct replyqueue_s * threadpool_get_replyqueue(struct threadpool_s *tp);
 // threadpool_new
 // file ../src/common/workqueue.c line 399
 struct threadpool_s * threadpool_new(signed int n_threads, struct replyqueue_s *replyqueue, void * (*new_thread_state_fn)(void *), void (*free_thread_state_fn)(void *), void *arg);
-// threadpool_new::free_thread_state_fn_object
+
 //
-void free_thread_state_fn_object(void *);
-// threadpool_new::new_thread_state_fn_object
+
+
 //
-void * new_thread_state_fn_object(void *);
+
 // threadpool_queue_update
 // file ../src/common/workqueue.c line 318
 signed int threadpool_queue_update(struct threadpool_s *pool, void * (*dup_fn)(void *), signed int (*fn)(void *, void *), void (*free_fn)(void *), void *arg);
-// threadpool_queue_update::1::old_args_free_fn_object
+
 //
-void old_args_free_fn_object(void *);
-// threadpool_queue_update::dup_fn_object
+
+
 //
-void * dup_fn_object(void *);
-// threadpool_queue_update::fn_object
+
+
 //
-signed int fn_object(void *, void *);
-// threadpool_queue_update::free_fn_object
+
+
 //
-void free_fn_object(void *);
+
 // threadpool_queue_work
 // file ../src/common/workqueue.c line 282
 struct workqueue_entry_s * threadpool_queue_work(struct threadpool_s *pool, signed int (*fn)(void *, void *), void (*reply_fn)(void *), void *arg);
-// threadpool_queue_work::fn_object
+
 //
-signed int fn_object(void *, void *);
-// threadpool_queue_work::reply_fn_object
+
+
 //
-void reply_fn_object(void *);
+
 // threadpool_start_threads
 // file ../src/common/workqueue.c line 364
 static signed int threadpool_start_threads(struct threadpool_s *pool, signed int n);
@@ -3049,9 +3049,9 @@ void tor_process_handle_destroy(struct process_handle_t *process_handle, signed 
 // tor_pthread_helper_fn
 // file ../src/common/compat_pthreads.c line 28
 static void * tor_pthread_helper_fn(void *_data);
-// tor_pthread_helper_fn::1::func_object
+
 //
-void func_object(void *);
+
 // tor_read_all_from_process_stderr
 // file ../src/common/util.c line 4765
 signed long int tor_read_all_from_process_stderr(const struct process_handle_t *process_handle, char *buf, unsigned long int count);
@@ -3154,9 +3154,9 @@ void * trunnel_dynarray_expand(unsigned long int *allocated_p, void *ptr, unsign
 // trunnel_dynarray_setlen
 // file ../src/ext/trunnel/trunnel.c line 187
 void * trunnel_dynarray_setlen(unsigned long int *allocated_p, unsigned long int *len_p, void *ptr, unsigned long int newlen, unsigned long int eltsize, void (*free_fn)(void *), unsigned char *errcode_ptr);
-// trunnel_dynarray_setlen::free_fn_object
+
 //
-void free_fn_object(void *);
+
 // trunnel_htonll
 // file ../src/ext/trunnel/trunnel.c line 75
 unsigned long int trunnel_htonll(unsigned long int a);
@@ -3217,9 +3217,9 @@ static signed int worker_thread_has_work(struct workerthread_s *thread);
 // worker_thread_main
 // file ../src/common/workqueue.c line 170
 static void worker_thread_main(void *thread_);
-// worker_thread_main::1::1::1::1::update_fn_object
+
 //
-signed int update_fn_object(void *, void *);
+
 // workerthread_new
 // file ../src/common/workqueue.c line 249
 static struct workerthread_s * workerthread_new(void *state, struct threadpool_s *pool, struct replyqueue_s *replyqueue);
@@ -3232,12 +3232,12 @@ static void workqueue_entry_free(struct workqueue_entry_s *ent);
 // workqueue_entry_new
 // file ../src/common/workqueue.c line 99
 static struct workqueue_entry_s * workqueue_entry_new(signed int (*fn)(void *, void *), void (*reply_fn)(void *), void *arg);
-// workqueue_entry_new::fn_object
+
 //
-signed int fn_object(void *, void *);
-// workqueue_entry_new::reply_fn_object
+
+
 //
-void reply_fn_object(void *);
+
 // write
 // file /usr/include/unistd.h line 366
 extern signed long int write(signed int, const void *, unsigned long int);

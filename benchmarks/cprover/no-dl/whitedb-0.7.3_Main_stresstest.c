@@ -14801,7 +14801,7 @@ signed long int wg_free_object(void *db, void *area_header, signed long int obje
         else
         {
           if((3l & nextobjecthead) == 3l)
-            tmp_if_expr_2 = nextobject == freebuckets[(signed long int)(256 + 32)] ? (_Bool)1 : (_Bool)0;
+
 
           else
             tmp_if_expr_2 = (_Bool)0;

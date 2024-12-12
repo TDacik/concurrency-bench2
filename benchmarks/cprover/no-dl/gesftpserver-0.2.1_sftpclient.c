@@ -465,7 +465,7 @@ static signed int cmd_unsupported(signed int ac, char **av);
 static signed int cmd_version(signed int ac, char **av);
 // connect
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 137
-extern signed int connect(signed int, union anonymous_7, unsigned int);
+extern signed int connect(signed int, struct sockaddr *, unsigned int);
 // do_read
 // file utils.h line 35
 signed int do_read(signed int fd, void *buffer, unsigned long int size);
@@ -484,9 +484,9 @@ extern signed int execvp(const char *, char * const *);
 // exit
 // file /usr/include/stdlib.h line 543
 extern void exit(signed int);
-// exitfn_object
+
 //
-void exitfn_object(signed int);
+
 // fatal
 // file utils.h line 185
 void fatal(const char *msg, ...);

@@ -598,9 +598,9 @@ static void init_thread_lock(void);
 // install_spine_signal_handler
 // file error.h line 34
 extern void install_spine_signal_handler(void);
-// install_spine_signal_handler::1::ohandler_object
+
 //
-void ohandler_object(signed int);
+
 // is_hexadecimal
 // file util.c line 858
 extern signed int is_hexadecimal(const char *str, const signed short int ignore_space);
@@ -810,7 +810,7 @@ extern signed int read_spine_config(char *file);
 extern void * realloc(void *, unsigned long int);
 // recvfrom
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 174
-extern signed long int recvfrom(signed int, void *, unsigned long int, signed int, struct sockaddr *, unsigned int *);
+extern signed long int recvfrom(signed int, void *, unsigned long int, signed int,  struct sockaddr *, unsigned int *);
 // remove_tcp_udp_from_hostname
 // file ping.c line 925
 extern char * remove_tcp_udp_from_hostname(char *hostname);
@@ -831,7 +831,7 @@ extern signed int select(signed int, struct anonymous_8 *, struct anonymous_8 *,
 extern signed long int send(signed int, const void *, unsigned long int, signed int);
 // sendto
 // file /usr/include/x86_64-linux-gnu/sys/socket.h line 163
-extern signed long int sendto(signed int, const void *, unsigned long int, signed int, struct sockaddr *, unsigned int);
+extern signed long int sendto(signed int, const void *, unsigned long int, signed int,  struct sockaddr *, unsigned int);
 // set_option
 // file util.h line 48
 extern void set_option(const char *option, const char *value);
@@ -1006,9 +1006,9 @@ extern char * trim(char *str);
 // uninstall_spine_signal_handler
 // file error.h line 35
 extern void uninstall_spine_signal_handler(void);
-// uninstall_spine_signal_handler::1::ohandler_object
+
 //
-void ohandler_object(signed int);
+
 // update_host_status
 // file ping.h line 143
 extern void update_host_status(signed int status, struct host_struct *host, struct ping_results *ping, signed int availability_method);

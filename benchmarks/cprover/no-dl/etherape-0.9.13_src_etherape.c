@@ -2442,9 +2442,9 @@ struct anonymous_28 * links_catalog_find_create(const struct anonymous_16 *key);
 // links_catalog_foreach
 // file links.h line 57
 void links_catalog_foreach(signed int (*func)(void *, void *, void *), void *data);
-// links_catalog_foreach::func_object
+
 //
-signed int func_object(void *, void *, void *);
+
 // links_catalog_insert
 // file links.c line 251
 void links_catalog_insert(struct anonymous_28 *new_link);
@@ -2595,9 +2595,9 @@ struct anonymous_19 * nodes_catalog_find(const struct anonymous_5 *key);
 // nodes_catalog_foreach
 // file node.c line 548
 void nodes_catalog_foreach(signed int (*func)(void *, void *, void *), void *data);
-// nodes_catalog_foreach::func_object
+
 //
-signed int func_object(void *, void *, void *);
+
 // nodes_catalog_new
 // file node.h line 53
 struct anonymous_19 * nodes_catalog_new(const struct anonymous_5 *node_id);
@@ -2646,9 +2646,9 @@ void nodes_wnd_update(void);
 // old_config_file_name
 // file preferences.c line 88
 static char * old_config_file_name(void);
-// old_sighup_handler_object
+
 //
-void old_sighup_handler_object(signed int);
+
 // on_about1_activate
 // file menus.c line 338
 void on_about1_activate(struct _GtkMenuItem *menuitem, void *user_data);
@@ -2967,9 +2967,9 @@ const struct anonymous_26 * protocol_summary_find(unsigned long int level, const
 // protocol_summary_foreach
 // file protocols.c line 550
 void protocol_summary_foreach(unsigned long int level, void (*func)(void *, void *), void *data);
-// protocol_summary_foreach::func_object
+
 //
-void func_object(void *, void *);
+
 // protocol_summary_open
 // file protocols.h line 70
 void protocol_summary_open(void);

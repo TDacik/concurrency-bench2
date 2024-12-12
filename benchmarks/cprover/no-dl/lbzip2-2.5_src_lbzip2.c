@@ -1071,9 +1071,9 @@ void * x2realloc(void *p, unsigned long int *pn);
 // xaction
 // file signals.c line 76
 static void xaction(signed int sig, void (*handler)(signed int));
-// xaction::handler_object
+
 //
-void handler_object(signed int);
+
 // xadd
 // file signals.c line 42
 static void xadd(struct anonymous_11 *set, signed int sig);
