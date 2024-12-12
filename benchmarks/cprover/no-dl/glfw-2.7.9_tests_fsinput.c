@@ -1137,66 +1137,66 @@ void glfwRestoreWindow(void);
 // glfwSetCharCallback
 // file ../include/GL/glfw.h line 464
 void glfwSetCharCallback(void (*cbfun)(signed int, signed int));
-// glfwSetCharCallback::cbfun_object
+
 //
-void cbfun_object(signed int, signed int);
+
 // glfwSetKeyCallback
 // file ../include/GL/glfw.h line 463
 void glfwSetKeyCallback(void (*cbfun)(signed int, signed int));
-// glfwSetKeyCallback::cbfun_object
+
 //
-void cbfun_object(signed int, signed int);
+
 // glfwSetMouseButtonCallback
 // file ../include/GL/glfw.h line 465
 void glfwSetMouseButtonCallback(void (*cbfun)(signed int, signed int));
-// glfwSetMouseButtonCallback::cbfun_object
+
 //
-void cbfun_object(signed int, signed int);
+
 // glfwSetMousePos
 // file ../input.c line 117
 void glfwSetMousePos(signed int xpos, signed int ypos);
 // glfwSetMousePosCallback
 // file ../include/GL/glfw.h line 466
 void glfwSetMousePosCallback(void (*cbfun)(signed int, signed int));
-// glfwSetMousePosCallback::cbfun_object
+
 //
-void cbfun_object(signed int, signed int);
+
 // glfwSetMouseWheel
 // file ../input.c line 165
 void glfwSetMouseWheel(signed int pos);
 // glfwSetMouseWheelCallback
 // file ../include/GL/glfw.h line 467
 void glfwSetMouseWheelCallback(void (*cbfun)(signed int));
-// glfwSetMouseWheelCallback::cbfun_object
+
 //
-void cbfun_object(signed int);
+
 // glfwSetTime
 // file ../include/GL/glfw.h line 476
 void glfwSetTime(double time);
 // glfwSetWindowCloseCallback
 // file ../window.c line 947
 void glfwSetWindowCloseCallback(signed int (*cbfun)(void));
-// glfwSetWindowCloseCallback::cbfun_object
+
 //
-signed int cbfun_object(void);
+
 // glfwSetWindowPos
 // file ../window.c line 758
 void glfwSetWindowPos(signed int x, signed int y);
 // glfwSetWindowRefreshCallback
 // file ../window.c line 963
 void glfwSetWindowRefreshCallback(void (*cbfun)(void));
-// glfwSetWindowRefreshCallback::cbfun_object
+
 //
-void cbfun_object(void);
+
 // glfwSetWindowSize
 // file ../window.c line 732
 void glfwSetWindowSize(signed int width, signed int height);
 // glfwSetWindowSizeCallback
 // file ../include/GL/glfw.h line 446
 void glfwSetWindowSizeCallback(void (*cbfun)(signed int, signed int));
-// glfwSetWindowSizeCallback::cbfun_object
+
 //
-void cbfun_object(signed int, signed int);
+
 // glfwSetWindowTitle
 // file ../include/GL/glfw.h line 437
 void glfwSetWindowTitle(const char *title);
